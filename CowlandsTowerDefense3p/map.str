@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: Build 2.47 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: Build 2.48 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1864,17 +1864,21 @@ GUI:UPGRADE_DISCOUNT_New
 "Upgrade Bonus \n -%d%%"
 END
 //--------------------------------------------------//
-SCRIPT:BonusForWipingArmyCounter
-"Bonus for fast killing wave" // no lo voy a hacer.
+SCRIPT:BonusForWipingArmy_Green
+"Epic Rape win: \n +900 extra resources"
 End
-SCRIPT:BonusForWipingArmy
-"Bonus for wiping off the last remains of this army"
+SCRIPT:BonusForWipingArmy_Yellow
+"Normal Win: \n +600 extra resources"
 End
-SCRIPT:MoneyReductionAdvertence
-"We are beginning to run out of gold incomes..."
+SCRIPT:BonusForWipingArmy_Red
+"Sad win: +300 resources only"
 End
+//WhoCares....
+//SCRIPT:MoneyReductionAdvertence
+//"We are beginning to run out of gold incomes..."
+//End
 SCRIPT:LastIncome
-"This are your last gold incomes, good luck with the cows"
+"This are your last gold incomes and cap of command points: \n Good luck with the cows army."
 End
 SCRIPT:SurvivedToLastWave
 "Congratulations, you have survived untill the last wave..."
@@ -2053,6 +2057,9 @@ SCRIPT:GameTimeMinutes
 End
 SCRIPT:GameTimeSeconds
 "Seconds in game"
+End
+SCRIPT:DebugCounter
+"Seconds transcurridos"
 End
 SCRIPT:CONTADOR_DE_SPAWNS
 "Contador de spawns"
