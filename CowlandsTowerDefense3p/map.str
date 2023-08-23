@@ -118,10 +118,12 @@ CONTROLBAR:LegolasBoostDesc_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ThranduilBoost_New
-"Mirkwood Ranger Specialization"
+"Non-democratic Comunist Leader"
+// "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
+"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats can imply for Mirkwood, gaining a extraordinary +50% range boost and +200 damage. \n Passive ability"
+// "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //--------------------------------------------------------------
 CONTROLBAR:TrainArchers_New
