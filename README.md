@@ -1,6 +1,8 @@
 # Bos Primigenius Taurus: The TW
-## One of the most complete TW in The Battle for The Middle Earth II history.
+https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/image_1.jpg?raw=true
 
+## One of the most complete TW in The Battle for The Middle Earth II history.
+https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo3.PNG?raw=true
 ---
 
 Are you looking for a relaxing and casual gameplay experience? 
@@ -14,7 +16,7 @@ If so, this might not be the map for you.
 ### Game requeriments
 - **Game**: The Lord of the Rings: The Battle for the Middle Earth II
 - **Version**: 1.09v2.00 and 1.09v3.00
-
+https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo1.PNG?raw=true
 ---
 
 ### About the Map
@@ -27,6 +29,7 @@ If so, this might not be the map for you.
 - **Duration**: Aprox 50-60 minutes
 - **Difficult levels**: Easy, Normal and Hardcore.
 - **Development**: Developed by Ecthelion over a span of 5 years since 2018 with constant feedback from players.
+https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo2.PNG?raw=true
 
 ---
 
