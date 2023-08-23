@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 243) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 244) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,6 +77,10 @@ End
 
 
 
+//---------------------------------------------------
+OBJECT:SignalFireDescription09v2
+"Capture it to decrease recharge times for unused spellbooks. \n Reduces special abilities reload time. \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -20% reduction of spells and abilities"
+End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
 "Build a Necromancer Monument (&W)"
@@ -159,12 +163,16 @@ CONTROLBAR:FueltheFires_New
 "Wage Salary"
 End
 CONTROLBAR:ToolTipFueltheFires_New
-"Once upon a time.... a system called capitalism, who eventually figured out it was not only efficient but also practical to apply a wage salary instead of a fixed salary. While the fixed salary dropped to ground the proletarian life quality, the wage salary actually allowed to reduce the minimal obligatory hours. "Why do we have to deal with communist effervescence?" -once a man thought- "When we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manegable syndicates?" Syndicates who by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. \n Raises this Lumber Mill production by +35%."
+"Once upon a time.... there was system called capitalism. He eventually figured out it was not just efficient, but also very practical to apply a wage salary system instead of the usual fixed salary. The outcome was ideal, the old fixed salary had dropped to ground the proletarian life quality and now the wage salary is incredibly allowing to reduce the minimal obligatory hours. \n "Why do we have to deal with communist effervescence?" -once a man thought-  "when we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manageable syndicates?" Such syndicates, by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. I love you 19th century. \n Raises this Lumber Mill production by +35%."
 End
 //---------------------------------------------------
 GUI:STRUCTURE_WALL_DISCOUNT_New
 "Discount: \n Estructuras: %d%%"
 END
+//------------------------------------------------------------
+GUI:SpellBookRefreshReduction09v2
+"Special Abilities \n Spellbook \n reload time: \n %d%%"
+End
 //---------------------------------------------------
 CONTROLBAR:ToolTipFurnace_New
 "Reduces the cost of upgrades.\n  1 Furnace: -16%.\n 2 Furnaces: -32%. \n 3 Furnaces: -28%.\n 4 Furnaces: -64%"
@@ -443,7 +451,7 @@ CONTROLBAR:LoneTowerRangeBonusUpgradeIconDesc_New
 "Requires researching the upgrade at fortress. \n Increases the vision range of the nearby units by +10%"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIconDesc_New
-"Requires researching the upgrade at fortress. \n Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units gain experience 50% faster \n Category: 'Healer' "
+"Requires researching the upgrade at fortress. \n Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well' "
 END
 CONTROLBAR:LoneTowerFireUpgradeIconDesc_New
 //This one is new. Will be used by isen at least.
@@ -1599,11 +1607,11 @@ CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
 END
 //---------------------------------------------------
 CONTROLBAR:MordorFreeTrade_New
-"Free &Trade"
+"Free Trade"
 End
 CONTROLBAR:MordorFreeTradeDesc_New
 //BUNITO_ESSAY//"Behind the romantizacion of the economic freedoom, the oligarchy of Harad has made a deal with the foreign capital, mostly with Mordor but also Gondor. \n Harad will become a enclave dedicated to cattle raising and monoculture. \n The lords of the land will have deals with the goverment, unless this oligarchy is already in charge of the state obviously. \n Increases the fortress and slaughter house incomes by +33.3%"//BUNITO_ESSAY//
-"Raises the fortress and slaughter house incomes by +33.3%"
+"Raises the Fortress and Slaughter House incomes by +60% \n Left click icon then left click on the Fortress to activate"
 End
 //-------------------------------------------------
 CONTROLBAR:ConstructSoyTaxesUpgrade
@@ -1670,7 +1678,7 @@ CONTROLBAR:ToolTipMightyRage_New
 END
 //-------------------------------------------------
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'SpellBook Heal' \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'HealBonus' \n \nLeft click icon then left click on target area"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
@@ -1703,7 +1711,7 @@ CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
-"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n Passive ability "
+"Requires Level 3 \n Faramir and nearby Gondor units gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n Passive ability "
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
