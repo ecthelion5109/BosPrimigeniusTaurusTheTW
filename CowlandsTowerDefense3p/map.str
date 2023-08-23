@@ -50,7 +50,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.83: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.84: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -69,6 +69,18 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
+"Level 2: Allows recruiting Goblin Archers. \n +10% Faster Build Speed"
+END
+//---------------------------------------------------
+CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
+"Level 2: Allows recruiting Uruk Crossbowmen. \n +10% Faster Build Speed"
+End
+//---------------------------------------------------
+CONTROLBAR:ConstructTrollDrum_New
+"Bu&ild a Troll Drum"
+END
 //---------------------------------------------------
 CONTROLBAR:TooltipLumbermillUnpackMordor_New
 "Harvests resources from nearby trees \n Quantity available to build: 1"
@@ -145,16 +157,15 @@ CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade_New
 "Level 3: Allows research of the Elite Training upgrade"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
+"Requires Level 2 Uruk Pit \n Strong vs. Infantry"
+END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
 "Requires Level 2 Goblin Cave \n Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
-"Level 2: +10% Faster Build Speed \n Allows recruiting Goblin Archers."
-END
-//---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources based on available terrain Provides access to the tunnel network \n Quantity available to build: 3"
+"Generates resources based on available terrain Provides access to the tunnel network \n Quantity available to build: 4"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
@@ -321,9 +332,9 @@ TOOLTIP:GenericWellDesc_New
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
 End
 //--------------------------------------------------//
-//TOOLTIP:PoisonBattleTowerDesc_New
-//"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
-//End
+TOOLTIP:PoisonBattleTowerDesc_New
+"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+End
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
 "&Upgrade this tower"
@@ -964,7 +975,7 @@ CONTROLBAR:BrandHotkey_New
 "Principe Bran&d,\n Segnor de Dale"
 END
 CONTROLBAR:GothmogHotkey_New
-"Gothmog, The &Ilustrated Orc" // Elephant
+"Gothmog, The &Romantic Orc" // Elephant //Ilustrated
 END
 OBJECT:BrandToolTip_New
 "Principe Brand"
@@ -1213,7 +1224,7 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Metaphysics and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
