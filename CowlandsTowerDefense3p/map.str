@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.58 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.59 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -1400,13 +1400,13 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n +37% Damage, +37 speed & +75% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n +37% Damage, +37 speed & +75% range for 60 seconds. \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 3 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+"Requires Level 3 \n Lurtz gains a permanent bonus of 300% rate of fire and +150 damage. \n Passive ability"
 END
 CONTROLBAR:LurtzDeadEye_New
 "Dead Eye (&T)"
@@ -1420,11 +1420,17 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 5 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
 CONTROLBAR:SpecialAbilityLurtzCripple_New
-"Cripple Arrow [&V]"
+"Cripple Arrow [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 //"Requires Level 7 \n brom can bluk blakridre, and THIS can bluk brom! \n also bluks mustrs includng truls \n and it have sblish \n btw isen archers do funy damg vs orc \n Left click icon then left click on target"
 "Requires Level 7 \n Pins enemy hero or monster in place. \n In level 10 Lurtz becomes able to shoot 2 cripple arrows at same time. \n Left click icon then left click on target"
+END
+CONTROLBAR:LurtzInspireTerror_New
+"Inspire Terror [&V]"
+END
+CONTROLBAR:LurtzInspireTerrorDesc_New
+"Requires Level 7 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Enemy units are reduced to \n 75% speed, 75% armor and 75% damage \n Category: 'DEBUFF' \n Lasts 12 seconds. \n left click icon to activate"
 END
 CONTROLBAR:LurtzSummonUrukGuard_New
 "Summon Uruk Guard [&B]"
