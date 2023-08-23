@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 240) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 243) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1114,7 +1114,7 @@ CONTROLBAR:MenIceArrowsActive_New
 "Dunedain Ice Arrow Sho&t"
 End
 CONTROLBAR:MenIceArrowsActiveDesc_New
-"This batallion is equiped with Ice Arrows. \n Slows down the enemy \n Deals high amounts of HERO damage"
+"Requires Level 5\n Freezes the enemies, slowing them down. \n Deals high amounts of HERO damage \n Left click icon then left click on target"
 End
 CONTROLBAR:MenIceArrowsPassive_New
 "Dunedain Ice Arrows"
@@ -1127,7 +1127,7 @@ CONTROLBAR:ElvenGoldenArrowsActive_New
 "Golden Arrow Sho&t"
 End
 CONTROLBAR:ElvenGoldenArrowsActiveDesc_New
-"Requires Level 2\n Causes meta impact and high amounts of FLAME and HERO_RANGED damage in area \n Left click icon then left click on target"
+"Requires Level 5 \n Causes meta impact and high amounts of FLAME and HERO_RANGED damage in area \n Left click icon then left click on target"
 End
 CONTROLBAR:ElvenGoldenArrowsPassive_New
 "Golden Arrow"
@@ -1140,7 +1140,7 @@ CONTROLBAR:DwarvenBlackArrowsActive_New
 "Black Arrow Sho&t"
 End
 CONTROLBAR:DwarvenBlackArrowsActiveDesc_New
-"This batallion is equiped with Black Arrows from Dale. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage"
+"Requires Level 2 \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage \n Left click icon then left click on target"
 End
 CONTROLBAR:DwarvenBlackArrowsPassive_New
 "Black Arrows"
@@ -1156,7 +1156,7 @@ CONTROLBAR:GoblinPoisonArrowsActiveDesc_New
 "Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
 End
 CONTROLBAR:GoblinPoisonArrowsPassive_New
-"Poison Arrows (&T)"
+"Poison Arrows"
 End
 CONTROLBAR:GoblinPoisonArrowsPassiveDesc_New
 "Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
@@ -1166,7 +1166,7 @@ CONTROLBAR:IsengardExplosiveBoltsActive_New
 "Explosive Bolt Sho&t"
 End
 CONTROLBAR:IsengardExplosiveBoltsActiveDesc_New
-"This batallion is equiped with Explosive Bolts. \n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage"
+"Requires Level 5\n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage \n Left click icon then left click on target"
 End
 CONTROLBAR:IsengardExplosiveBoltsPassive_New
 "Explosive Bolts"
@@ -1179,7 +1179,7 @@ CONTROLBAR:MordorBarbedArrowsActive_New
 "Barbed Arrow Sho&t"
 End
 CONTROLBAR:MordorBarbedArrowsActiveDesc_New
-"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
+"Requires Level 3 \n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
 CONTROLBAR:MordorBarbedArrowsPassive_New
 "Barbed Arrows"
