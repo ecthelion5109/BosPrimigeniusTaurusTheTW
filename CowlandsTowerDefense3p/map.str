@@ -5,9 +5,10 @@
 Map:CowlandsTowerDefense3p
 "Bos Primigenius Taurus: The TW" // Cowlands: The Tower War //Tower War: The Cow Lands [3p]
 End
+//\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.61: New skin, new faction! \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon. \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.62: All factions available. Goblins unbalanced & Isen design unfinished. \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -21,17 +22,81 @@ End
 //------------------------------------------------------------//
 
 
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------
+CONTROLBAR:GandalfTeleport_New
+"Teleport (&W)"
+End
+CONTROLBAR:SarumanTeleport_New
+"Send to Eat Shit (&W)" // OR TO GULAG XD
+End
+//---------------------------------------------------
+CONTROLBAR:GandalfTeleportDesc_New
+"Requires Level 7 \n Teleport allied units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
+End
+CONTROLBAR:SarumanTeleportDesc_New
+"Requires Level 10 \n Teleport enemy units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
+End
+//---------------------------------------------------
+CONTROLBAR:SharkuBoostDesc_New
+"Requires Level 3\n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n\n Passive ability"
+END
+CONTROLBAR:SharkuBoost_New
+"Bad Boy"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipSharkuManEater_New
+"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% armor \n Left click icon then left click on target enemy"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipGBloodHunt_New
+"Requires Level 4 \n Sharku and nearby wargs gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:SummonWargAllies_New
+"Summon Warg Allies (&B)"
+End
+CONTROLBAR:SummonWargAlliesDesc_New
+"Requires Level 10 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
+"Requires Level 3 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
+"Requires Level 5 \n Lurtz gains +100% Damage and +10% Armor \n Can only use with sword equipped \n Left click to activate"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipLurtzLeadership_New
+"Requires Level 7 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'War Chant'\n \n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:LurtzBoostDesc_New
+"Requires Level 10\n Lurtz gains a permanent bonus of +250% rate of fire. \n\n Passive ability"
+END
+CONTROLBAR:LurtzBoost_New
+"Uruk Bane"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 3 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
-"The Fortress gains a vision bonus and can detect stealthed units \n Player units gain +15% speed \n Category: Unique"
+"The Fortress gains a vision bonus and can detect stealthed units \n Player units in the map gain +15% speed \n Category: 'Bat Cloud'"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
-"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearvy units gain experience 50% faster \n Category:Healer"
+"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Healer'"
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
@@ -46,14 +111,14 @@ CONTROLBAR:AzogCallSomethingDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:AzogLeadershipDesc_New
-"Allies near Azog gain \n +50% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n \n Passive ability"
+"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n \n Passive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 4 \n Targeted player wild units gain \n+35% Damage & +60% range \n Category: Uncategorized \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted player wild units gain \n+35% Damage and +60% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
@@ -78,11 +143,11 @@ CONTROLBAR:TooltipWildShelobInstillTerror_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and win +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
-"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: Non stacky buff \n \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
+"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: 'Land Buff' \n \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipIstariLight_New
@@ -95,33 +160,29 @@ END
 CONTROLBAR:OathWaveDesc_New
 "Requires Level 5 \n Summons a bunch of oathbreakers to kill units on it's walk. \n Left click icon then left click on target area"
 END
-//---------------------------------------------------
-//	CONTROLBAR:TooltipAragornAthelas_New
-//	"Heal nearby units \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Same as spellbook heal \n Left click to activate"
-//	END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearvy units gain experience 50% faster \n Category:Healer"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearby units gain experience 50% faster \n Category: 'Healer'"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing_New
-"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Nearvy units gain experience 50% faster \n Category:Healer \n\n Upgrades summoned Lone Towers"
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Nearby units gain experience 50% faster \n Category: 'Healer' \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs_New
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n\n Category: Healer \n\n Upgrades summoned Lone Towers"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n\n Category: 'Healer' \n\n Upgrades summoned Lone Towers"
 END
 //----------FortressLeadershipButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage and 25% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +35% Damage and earn experience 25% faster \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
-"Provides 35% damage and 25% experience to nearby troops \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides 35% damage and 25% experience to nearby troops \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //-------------------------------------------------
 CONTROLBAR:LoneTowerHealingUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: Healer "
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgrade_New
@@ -157,26 +218,14 @@ CONTROLBAR:TooltipScreechWitchKing_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
-"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n\n Passive ability"
 End
-//---------------------------------------------------
-CONTROLBAR:SpecialAbilityLurtzCarnage_New
-"Carnage"
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 5 \n Lurtz permanently gain +90 damage and a permanent +30% rate of fire boost. \n Passive ability"
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipLurtzLeadership_New
-"Requires Level 2 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n \n Passive ability"
-END
 //---------------------------------------------------
 CONTROLBAR:HeavyArmorUpgrade_New
 "Heavy Armor"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor_New
-"Requires Level 5 \n Upgrades this horde with Heavy Armor, \nsignificantly reducing the amount of damage taken \n Passive ability"
+"Requires Level 5 \n Upgrades this horde with Heavy Armor, \nsignificantly reducing the amount of damage taken \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
@@ -197,19 +246,12 @@ CONTROLBAR:TooltipCrebain_New
 "Requires Level 7 \n Summon a cloud of large crow-like black birds from the Dunlands which significantly reduces enemy Armor and Speed by -33% and -15% respectively. \n Does not stack with another debuff \n\n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:SarumanLeadership_New
-"Dark Istari Leadership"
-End
-CONTROLBAR:SarumanLeadershipDesc_New
-"Requires Level 3 \n Player units near Saruman gain \n +25% range and +25% vision. \n Passive ability \n\n Category: Non stacky leadership"
-End
-//---------------------------------------------------
-CONTROLBAR:CrossbowmenBoost_New
-"Uruk-Hai Veterancy"
-END
-CONTROLBAR:CrossbowmenBoostDesc_New
-"Requires Level 2 \n Crossbowmen permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
-END
+//CONTROLBAR:CrossbowmenBoost_New
+//"Uruk-Hai Veterancy"
+//END
+//CONTROLBAR:CrossbowmenBoostDesc_New
+//"Requires Level 2 \n Crossbowmen permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
+//END
 //---------------------------------------------------
 CONTROLBAR:FaramirKnightRanger_New
 "Knight/Ranger Toggle [&R]"
@@ -219,7 +261,7 @@ CONTROLBAR:ToolTipFaramirMount_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +70% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
+"Requires Level 6 \n Nearby units temporarily gain +70% damage. \n Category: 'War Chant' \n\n Gothmog has to be mounted. \n Left click to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
@@ -236,7 +278,7 @@ CONTROLBAR:BlackRiderLeadership
 "Inspiring Presence"
 END
 CONTROLBAR:BlackRiderLeadershipDesc_New
-"Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
+"Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: 'War Chant' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSlayer_New
@@ -251,16 +293,16 @@ CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
 END
 CONTROLBAR:HaldirBoostDesc_New
-"Requires Level 3 \n Haldir gains +200 damage and a permanent +30% rate of fire boost. \n Passive ability"
+"Requires Level 3 \n Haldir gains +200 damage and a permanent +30% rate of fire boost. \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:LegolasBoost_New
 "Expert Archer"
 END
 CONTROLBAR:LegolasBoostDesc_New
-////"Requires Level 5 \n Legolas gains a permanent bonus of +50 damage and +15% range. \n Passive ability"
+////"Requires Level 5 \n Legolas gains a permanent bonus of +50 damage and +15% range. \n\n Passive ability"
 ////  and +15% range. 
-"Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire. \n Passive ability"
+"Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire. \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:ThranduilBoost_New
@@ -268,15 +310,15 @@ CONTROLBAR:ThranduilBoost_New
 // "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats from Mirkwood can bring, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
-// "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
+"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats from Mirkwood can bring, gaining a extraordinary +50% range boost and +150 damage. \n\n Passive ability"
+// "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:MenArcherHeroeBoost_New
 "Legendary ancestor"
 END
 CONTROLBAR:MenArcherHeroeBoostDesc_New
-"Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
+"Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:TrainArchers_New
@@ -331,7 +373,7 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Left click to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
@@ -352,7 +394,7 @@ CONTROLBAR:OutlawLeadership_New
 "Outlaw Leadership"
 END
 CONTROLBAR:ToolTipOutlawLeadership_New
-"Requires Level 6 \n Nearby player units earn resources per kill \n Passive ability"
+"Requires Level 6 \n Nearby player units earn resources per kill \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:Blight_New
@@ -384,7 +426,7 @@ CONTROLBAR:ArwenRestoreDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:SummonRohanAllies_New
-"Summon Rohan Al&lies"
+"Summon Rohan Allies (&B)"
 End
 CONTROLBAR:ToolTipSummonRohanAllies_New
 "Requires Level 10 \n Summons a group of Rohirrim \n Left click icon then left click on pathable location"
@@ -419,7 +461,7 @@ CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves \n All nearby dwarves gain +15% speed, +10% damage and become resistent to fear or terror \n Always stack \n Passive ability"
+"Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +10% damage and become resistent to fear or terror \n Always stack \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -465,7 +507,7 @@ END
 // Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardBattleTower_New
-"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster\n Category: Healer \n\nStrong vs cavalry"
+"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster\n Category: 'Healer' \n\nStrong vs cavalry"
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
@@ -757,7 +799,7 @@ CONTROLBAR:WildmenOfDunlandHouse
 "Wildmen of D&unland hall"
 END
 CONTROLBAR:WildmenOfDunlandHouseDesc
-"Trains wildmen from Dunland:\n Axe throwers and torch throwers"
+"Trains wildmen from Dunland:\n Axe Throwers and Torch Throwers"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
@@ -769,7 +811,7 @@ CONTROLBAR:ToolTipConstructMenMarketPlace_New
 END
 //-------------------------------------------------
  CONTROLBAR:HordeWildMenOfDunlandAxes
-"Dunland axe throwers (&B)"
+"Dunland Axe Throwers (&B)"
 END
 CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde_New
 "Effective against pikemen, archers and weak heros"
@@ -780,111 +822,111 @@ CONTROLBAR:ToolTipArrowWind_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Allies near the BattleWagon Banner gain +30% Damage, +25% armor and gain experience +25% faster \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+"Allies near the BattleWagon Banner gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
 End
 //-------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+"Allies near the Drummer Troll gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n \nPassive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 5 \n Player units near Undomiel gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+"Requires Level 5 \n Player battallions near Undomiel gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
 "Prince of Mirkwood Leadership"
 End
 CONTROLBAR:LegolasLeadershipDesc_New
-"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +35% faster \n Category: Uncategorized \n \nPassive ability"
+"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain \n +25% Silverthorn damage and earn experience +35% faster \n Category: 'Uncategorized' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:GamlingLeadershipDesc_New
-"Allies near Gamling gain 100% fear inmunity and +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+"Allies near Gamling gain \n 100% fear inmunity, +30% Damage and +25% armor \n Category: 'Uncategorized' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Uncategorized \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 //-------------------------------------------------
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Uncategorized \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'Uncategorized' \n \nLeft click icon then left click on target area"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
-"Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: 'War Chant' \n\n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership_New
-"Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: Non stacky leadership\n \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: 'War Chant'\n \n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
-"Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 25% faster \n Simple leadership kind \n Category: Unique \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 25% faster \n Category: 'Uncategorized' \n Left click icon then left click on target area"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership_New
-"Allies near Theoden gain +50% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n \n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipDamrodLeadership_New
-"Player Men of Dale near the Prince of Dale gain +50% rate of fire, +10% speed & +5% range \n Category: Unique \n \n Passive ability"
-//	"Player Men of Dale near the Prince of Dale gain \n and +10% run speed \n Category: Uncategorized \n \n Passive ability"
+"Player Men of Dale near the Prince of Dale gain \n +50% rate of fire, +10% speed & +5% range \n Category: ''Uncategorized'' \n \n Passive ability"
+//	"Player Men of Dale near the Prince of Dale gain \n and +10% run speed \n Category: 'Uncategorized' \n \n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:HearthWellDescription_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer" // Wells
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: 'Healer'" // Wells
 END
 //-------------------------------------------------
 CONTROLBAR:ElvenHeroicStatueDescription_New
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore. // Statues
+"Allies near the Statue gain \n +25% Damage and earn experience 25% faster \n Category: 'Damage Inspiration'" // \n Reduces the cost of heroes // not anymore. // Statues
 End
 //-------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
-"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Uncategorized \n \n Passive ability "
+"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n \n Passive ability "
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipDainLeadership_New
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
-"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: Non stacky buff \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: 'Land Buff' \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGimliLeadership_New
-"Allies near Gimli gain \n +50% armor \n Category: Non stacky buff \n \n Passive ability"
+"Allies near Gimli gain +50% armor \n Category: 'Land Buff' \n \n Passive ability"
 END
 CONTROLBAR:ToolTipFaramirLeadership_New
-"Requires Level 6 \n Allies near Faramir gain \n +50% Armor\n Category: Non stacky buff \n \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain +50% Armor \n Category: 'Land Buff' \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
-"Targeted allies gain +40% Damage, & +10% speed \n Category: Non stacky leadership \n\n Left click icon then left click on target units"
+"Targeted allies gain +40% Damage and +10% speed. \n Category: 'War Chant' \n\n Left click icon then left click on target units"
 End
 //--------------------------------------------------//
 CONTROLBAR:GothmogLeadership_New
 "Brainless Orc Euphoria"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
-"Targeted allies gain +50% Damage \n Category: Non stacky leadership \n \n Left click icon then left click on target units"
+"Targeted allies gain +50% Damage \n Category: 'War Chant' \n \n Left click icon then left click on target units"
 END
 //--------------------------------------------------//
 CONTROLBAR:LightningTower_New
@@ -953,7 +995,7 @@ OBJECT:StealthDetectorSentryTowerDesc_New
 "Detects nearby enemy stealthed units in a radius of 450"
 END
 OBJECT:GenericWellDesc_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster \n Category: Healer"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster \n Category: 'Healer'"
 End
 OBJECT:RohanElvenWarrior_New
 "Noldor Warriors"
@@ -985,20 +1027,27 @@ END
 
 
 
-
+//---------------------------------------------------
+TOOLTIP:ToolTipElvenStatue_New
+"Allies near the statue gain +25% Damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
+End
+//---------------------------------------------------
+TOOLTIP:ToolTipSarumanLeadership_New
+"Allies near Saruman gain +25% damage and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n \n Passive ability"
+END
 //------------------------------------------------------------//
 TOOLTIP:ToolTipGorkilTotem_New
 "Idiot Totem"
 END
 TOOLTIP:ToolTipGorkilTotemDesc_New
-"Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: Stacky Leadership"
+"Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
 END
 //------------------------------------------------------------//
 TOOLTIP:ToolTipPurchasedUpgradeWagonHearth_New
-"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster \n Category: Healer"
+"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster \n Category: 'Healer'"
 END
 TOOLTIP:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Banner Carrier Upgrade purchased: \n Nearby units gain +30% damage, +25% armor and gain experience +25% faster \n Category: Stacky weapon"
+"Banner Carrier Upgrade purchased: \n Nearby units gain +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration'"
 END
 //------------------------------------------------------------//
 TOOLTIP:LackGondorFireArrows_New
@@ -1012,13 +1061,13 @@ TOOLTIP:LackDwarvenFireArrows_New
 END
 //------------------------------FortressUpgradesTooltips----------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
-"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: Non stacky leadership"
+"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant'"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
-"Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: Healer"
+"Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Healer'"
 END
 TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
-"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: Non stacky leadership \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: Healer"
+"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Healer'"
 END
 TOOLTIP:WildVenomSacs_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
