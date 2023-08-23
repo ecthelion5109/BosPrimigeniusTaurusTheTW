@@ -2,12 +2,12 @@
 
 // ------------Map--------------- //
 Map:CowlandsTowerDefense3p
-"Cowlands Tower Defense"
+"Cowlands: Tower Defense"
 End
 
 ///Stoicism
 Map:CowlandsTowerDefense3p/Desc
-"Made for version 1.09. \n Playable for 1, 2, 3 or 4 players.\n\n If you want to play the 2 players version, spot up on the left side.\n\n Balanced respectively for 2 or 3 players. No need to team up and any spot variation is scripted to be balanced. Any faction shall hypotetically be balanced"
+"Made for version 1.09. \n Playable for 3 and 2 players. \n No need to team up and any spot variation is playable. \n All factions are supposed to be playable"
 End
 
 
