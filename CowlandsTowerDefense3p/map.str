@@ -51,7 +51,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.89: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.90: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -59,16 +59,103 @@ End
 //--------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------//
 
-
-
-
-
-
-
-
-
-
-
+//	ME FALTA CROSSBOW
+//	ME FALTA DUNEDAIN
+//	ME FALTA DALE ELITE
+//	ME FALTA GOB ARCHER
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_SpiderRiderArcherBasic
+"Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10"
+End
+TOOLTIP:DisplayDamage_SpiderRiderArcherFire
+"Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10 \n FLAME damage: 30"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_RohirrimArcherBasic
+"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
+End
+TOOLTIP:DisplayDamage_RohirrimArcherFire
+"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_RangerBasic
+"Damage per unit: \n PIERCE damage: 65"
+End
+TOOLTIP:DisplayDamage_RangerFire
+"Damage per unit: \n PIERCE damage: 90 \n FLAME damage 18"
+End
+TOOLTIP:DisplayDamage_RangerRedArrow
+"Damage per unit: \n HERO_RANGED damage: 50"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_GondorArcherBasic
+"Damage per unit: \n PIERCE damage: 30"
+End
+TOOLTIP:DisplayDamage_GondorArcherFire
+"Damage per unit: \n PIERCE damage: 30 \n FLAME damage 30"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_OrcArcherBasic
+"Damage per unit: \n PIERCE damage: 25"
+End
+TOOLTIP:DisplayDamage_OrcArcherFire
+"Damage per unit: \n PIERCE damage: 25 \n FLAME damage 30"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_HaradrimArcherBasic
+"Damage per unit: \n PIERCE damage: 64"
+End
+TOOLTIP:DisplayDamage_HaradrimArcherFire
+"Damage per unit: \n PIERCE damage: 64 \n FLAME damage 64"
+End
+TOOLTIP:DisplayDamage_HaradrimArcherBarbed
+"Damage per unit: \n PIERCE damage: 64 \n HERO_RANGED damage 20"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_LancerBasic
+"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17"
+End
+TOOLTIP:DisplayDamage_LancerPoison
+"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_AxeThrowerBasic
+"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 15"
+End
+TOOLTIP:DisplayDamage_AxeThrowerForged
+"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 15"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_DaleArcherBasic
+"Damage per unit: \n PIERCE damage: 52"
+End
+TOOLTIP:DisplayDamage_DaleArcherFlame
+"Damage per unit: \n PIERCE damage: 52 \n FLAME damage: 50"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_LorienArcherBasic
+"Damage per unit: \n PIERCE damage: 40"
+End
+TOOLTIP:DisplayDamage_LorienArcherMagic
+"Damage per unit: \n PIERCE damage: 40 \n MAGIC damage: 20"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_ElvenWarriorBasic
+"Damage per unit: \n PIERCE damage: 50"
+End
+TOOLTIP:DisplayDamage_ElvenWarriorFlame
+"Damage per unit: \n PIERCE damage: 50 \n FLAME damage: 20"
+End
+TOOLTIP:DisplayDamage_ElvenWarriorGolden
+"Damage per unit: \n PIERCE damage: 50 \n FLAME damage: 20 \n HERO_RANGED damage: 10"
+End
+//-------------------------------------------------
+TOOLTIP:DisplayDamage_MirkwoodArcherBasic
+"Damage per unit: \n PIERCE damage: 60"
+End
+TOOLTIP:DisplayDamage_MirkwoodArcherMagic
+"Damage per unit: \n PIERCE damage: 60 \n MAGIC damage: 24"
+End
 //-------------------------------------------------
 CONTROLBAR:LoneTowerHealingUpgradeIcon_New
 "Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
@@ -739,7 +826,7 @@ CONTROLBAR:CAH_ArrowBonus_Level1_New
 "Golden Arrows"
 End
 CONTROLBAR:ToolTipCAH_ArrowBonus_Level1_New
-"This batallion is equiped with Golden Arrows from Lindon. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of magic damage"
+"This batallion is equiped with Golden Arrows from Lindon. \n Deals high amounts of FLAME and HERO_RANGED damage in area"
 End
 //---------------------------------------------------
 CONTROLBAR:SummonElvenAllies_New
@@ -1335,8 +1422,8 @@ END
 TOOLTIP:ElvenBarracksDesc_New
 "Allows recruiting Lothlorien Warriors"
 END
-OBJECT:RohanElvenWarrior_New
-"Noldor Warriors"
+OBJECT:NoldorWarrior_New
+"Noldor Warrior"
 END
 OBJECT:RohanElvenWarriors_New
 "Noldor Warriors"
