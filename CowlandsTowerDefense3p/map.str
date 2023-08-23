@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 472 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 473 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -110,9 +110,7 @@ CONTROLBAR:KingsCurse_New
 "King's Curse [&B]"
 END
 CONTROLBAR:KingsCurseDesc_New
-//"Requires Level 10 \n The king of Gondor casts a curse on a target. \n A lightning strike will hit the ground and units upon death will turn into oahbreakers. \n Left click icon then left click on target units"
-"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Lightning strikes the ground and upon death, units turn into members of the Dead Army. \n Left click icon then left click on target units"
-//"Requires Level 10 \n The same way an idiot monarch can release you from your after-life curse after supposedly breaking some retarded oath that isn't even written, a idiot monarch can also arbitrarely curse you again with whatever an absolutist king can use as excuse. \n Left click icon then left click on target units"
+"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:MumakilCharge_New
@@ -1235,7 +1233,7 @@ CONTROLBAR:BloodHunt_New
 "Blood Hunt"
 END
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //-----
 CONTROLBAR:SharkuManEater_New
@@ -1783,7 +1781,7 @@ CONTROLBAR:TooltipLoneTowerMen_New
 END
 //---------------------------------------------------
 CONTROLBAR:OathWave_New
-"Oathbreakers &Wave"
+"Oathbreakers Wave (&C)"
 END
 CONTROLBAR:OathWaveDesc_New
 "Requires Level 5 \n Sends a charge of oathbreakers towards the target location. \n Summons more units at level 7 and even moar at level 9.\n Left click icon then left click on target units"
@@ -1797,7 +1795,7 @@ CONTROLBAR:AxeStormDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership_New
-"Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
@@ -1853,7 +1851,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 4 \n Glorfindel gains +60% speed and 75% Armor when mounted \n left click icon to activate"
 END
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
-"Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Category: 'High-Tier Hero'. \n Left click to activate"
+"Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
@@ -2185,14 +2183,27 @@ CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
-"Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
+END
+//--------------------------------------------------//
+CONTROLBAR:TooltipBladeMaster_New
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
 END
 //--------------------------------------------------//
 CONTROLBAR:AragornAthelasDesc_New
 "Heals the bearby units. \n Grants a bonus of +25% rate of firen, \n and +30% speed. \n Does not affect allies. \n Left click to activate"
 END
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 3 \n Player units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n Player units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
+END
+CONTROLBAR:Elendil_New
+"Elendil [&W]"
+END
+CONTROLBAR:ToolTipElendil_New
+"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
+END
+TOOLTIP:ToolTipAragornLeadership_New
+"\n Leadership: \n Player units near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Type: 'High-Tier Hero' "
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
@@ -2222,7 +2233,7 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
