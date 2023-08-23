@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.68: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.69: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -221,13 +221,6 @@ END
 CONTROLBAR:ToolTipIstariLight_New
 "Requires Level 4 \n Beam of light that damages enemies. \n Bonus against Cavalry and Monsters. \n Left click icon then left click on target"
 END
-//---------------------------------------------------
-CONTROLBAR:OathWave_New
-"Oathbreakers Wave[&R]"
-END
-CONTROLBAR:OathWaveDesc_New
-"Requires Level 5 \n Summons a bunch of oathbreakers to kill units on it's walk. \n Left click icon then left click on target area"
-END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearby units gain experience 50% faster \n Category: 'Healer'"
@@ -383,14 +376,14 @@ CONTROLBAR:ThranduilBoostDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:BrandBoost_New
-"Legendary ancestor"
+"Legendary Ancestor"
 END
 CONTROLBAR:BrandBoostDesc_New
 "Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:LegolasTrainArchers_New
-"Art of the Bow [&B]"
+"Art of the Bow [&T]"
 END
 CONTROLBAR:LegolasTrainArchersDesc_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
@@ -503,11 +496,21 @@ END
 CONTROLBAR:LoneTower_New
 "Summon Lone &Tower"
 END
+CONTROLBAR:LoneTowerMen_New
+"Summon Lone Tower (&C)"
+END
 CONTROLBAR:TooltipLoneTower_New
 "Requires Level 5 \n Summons a defensive tower with 3 garrisonable slots available. \n Provides leadership, healing & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
 END
 CONTROLBAR:TooltipLoneTowerMen_New
 "Requires Level 9 \n Summons a defensive tower. \n Provides leadership, healing, experience & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
+END
+//---------------------------------------------------
+CONTROLBAR:OathWave_New
+"Oathbreakers &Wave"
+END
+CONTROLBAR:OathWaveDesc_New
+"Requires Level 5 \n Summons a bunch of oathbreakers to kill units on it's walk. \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Undermine_New
