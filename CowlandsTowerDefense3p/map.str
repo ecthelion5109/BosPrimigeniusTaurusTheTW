@@ -158,7 +158,7 @@ SCRIPT:NextWaveAnticipador_LastWave
 "A curious last wave arrives in"
 End
 
-SCRIPT:Wave15Finished
+SCRIPT:SurvivedToLastWave
 "Congratulations, you have survived untill the last wave..."
 End
 
@@ -168,9 +168,9 @@ End
 SCRIPT:Hint02
 "We might need anti stealth towers soon..."
 End
-SCRIPT:Hint03
-"I think next wave can be dealt easily with towers..."
-End
+//SCRIPT:Hint03
+//"I think next wave can be dealt easily with towers..."
+//End
 SCRIPT:Hint04
 "Trancos: \n Dunedains, let's adelantarnos. Hide in the entorno! Boromir, cover our back."
 End
@@ -253,10 +253,9 @@ END
 Map:CowlandsTowerDefense3p
 "Cowlands: The Tower War" //Tower War: The Cow Lands [3p]
 End
-
-///Stoicism
-Map:CowlandsTowerDefense3p/Desc
-"Made for version 1.09. Playable for 3 and 2 players. \n Players need to be in same team to get Kill Counter working. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random\n Thorin sucks \n Ring heroes make waves faster (not recommended if you want to win)"
+//\n Players need to be in same team to get Kill Counter working.
+ Map:CowlandsTowerDefense3p/Desc
+"Made for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode.\n Thorin sucks."
 End
 
 
@@ -520,7 +519,7 @@ SCRIPT:GameStart1
 "Thorin sucks, don't enable ring heroes if you are with him"
 End
 SCRIPT:GameStart2
-"Each wave grants CP and a some money. Killing the last remaining of each army group grants another bonus."
+"Each wave grants money and some commandpoints \n Each 4 waves there's a break."
 End
 SCRIPT:GameStarts
 "K then, teh raid of teh Cowlands shall begin"
