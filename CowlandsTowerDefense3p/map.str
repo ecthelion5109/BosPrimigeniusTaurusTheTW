@@ -90,7 +90,10 @@ CONTROLBAR:ElrondToggleDesc_New
 "Requires Level 5 \n After four levels of experience, Elrond resigns himself. He grabs his fuckin bow from The Last Alliance and decides to help his men \n Click to switch between Bow and Melee"
 End
 //--------------------------------------------------------------
-CONTROLBAR:ToolTipBlackRiderLeadership_New
+CONTROLBAR:BlackRiderLeadership
+"Inspiring Presence"
+END
+CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
 END
 //--------------------------------------------------------------
@@ -203,7 +206,7 @@ CONTROLBAR:Blight_New
 "Rape the Land (&B)" // Blight
 End
 CONTROLBAR:BlightDesc_New
-"Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Left click icon then left click on target area"
+"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Left click icon then left click on target area"
 END
 //--------------------------------------------------------------
 CONTROLBAR:Sunflare_New
@@ -318,7 +321,7 @@ CONTROLBAR:CorrodeAllegiance_New
 "Convince Communism is Good [&C]"
 END
 CONTROLBAR:ToolTipCorrodeAllegiance_New
-"Requires Level 8 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
+"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
 END
 //--------------------------------------------------------------
 GUI:CuriousIdiotBonus
@@ -382,7 +385,7 @@ CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
-"Powerful ranged attack \n Effective against units \n Bonus against Monsters and Heroes \n\n Left click icon then left click on target"
+"Powerful ranged attack \n Effective against units \n Bonus against Monsters and Heroes \n *Extreme bonus against Aragorn and Arwen* \n Left click icon then left click on target"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipWoundingArrow_New
@@ -796,10 +799,12 @@ SCRIPT:GameStart1
 "This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
+"Win this map with Thorin and you will gain respect among the cowmmunity."
+///"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
-"The Ladies will show you the route of your enemies"
+//"The Ladies will show you the route of your enemies"
+"Cowhall of Fame: \n LordArionXIV, who saved the cows WITH THORIN. \nThorin, who sucks \n Ecthelion, el enano extraordinario"
 End
 SCRIPT:GameStart3
 "Each wave leaves Resources and increases\n your Command Points Limit"
@@ -808,7 +813,7 @@ SCRIPT:GameStart4
 "Each 4 waves there's a break, \n without counting the following warm-up wave."
 End
 SCRIPT:GameStart5
-"All available units have any sort of utility, \n therefore there's not One manner to win this map"
+"All available units have any sort of utility \n therefore there's not One manner to win this map"
 End
 //--------------------------------------------------------------//
 SCRIPT:RipCounters
