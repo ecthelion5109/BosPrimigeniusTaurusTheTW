@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 221) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 222) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -79,6 +79,13 @@ End
 
 
 //---------------------------------------------------
+OBJECT:ConstructIsengardUpgradeTower_New
+"Tower of Upgrades"
+END
+TOOLTIP:ConstructIsengardUpgradeTowerDesc_New
+"Fires at enemy units. Can be upgraded with: \n -Experience leadership \n -Range Leadership \n -Armor \n -Fire Arrows"
+END
+//---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows_New
 "Equips your Arrow Dens with Fire Arrows"
 END
@@ -97,7 +104,7 @@ CONTROLBAR:FueltheFires_New
 "Wage Salary"
 End
 CONTROLBAR:ToolTipFueltheFires_New
-"Once upon a time.... a system called capitalism, who eventually figured out it was not only efficient but also practical to apply a wage salary instead of a fixed salary. While the fixed salary dropped to ground the proletarian life quality, the wage salary actually allowed to reduce the minimal obligatory hours. "Why do we have to deal with communist effervescence?" -once a man thought- "When we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manegable syndicates?" Syndicates who by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. \n Raises the Lumber Mill production by +65%."
+"Once upon a time.... a system called capitalism, who eventually figured out it was not only efficient but also practical to apply a wage salary instead of a fixed salary. While the fixed salary dropped to ground the proletarian life quality, the wage salary actually allowed to reduce the minimal obligatory hours. "Why do we have to deal with communist effervescence?" -once a man thought- "When we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manegable syndicates?" Syndicates who by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. \n Raises this Lumber Mill production by +35%."
 End
 //---------------------------------------------------
 GUI:STRUCTURE_WALL_DISCOUNT_New
@@ -105,7 +112,7 @@ GUI:STRUCTURE_WALL_DISCOUNT_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipFurnace_New
-"Researches economic upgrades"
+"Reduces the cost of upgrades.\n  1 Furnace: -15%.\n 2 Furnaces: -30%. \n 3 Furnaces: -45%.\n 4 Furnaces: -60%"
 END
 //---------------------------------------------------
 Upgrade:FortressPoisonArrows_New
@@ -402,11 +409,11 @@ CONTROLBAR:ConstructTrollDrum_New
 "Bu&ild a Troll Drum"
 END
 //---------------------------------------------------
-CONTROLBAR:TooltipLumbermillUnpackMordor_New
-"Harvests resources from nearby trees \n Quantity available to build: 1"
-END
+//	CONTROLBAR:TooltipLumbermillUnpackMordor_New
+//	"Harvests resources from nearby trees \n Quantity available to build: 2"
+//	END
 CONTROLBAR:TooltipLumbermillUnpackIsengard_New
-"Harvests resources from nearby trees \n Quantity available to build: 1"
+"Harvests resources from nearby trees \n Quantity available to build: 2"
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorBasicTraining_New
@@ -514,7 +521,7 @@ CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
@@ -624,6 +631,9 @@ TOOLTIP:RankingTroll_New
 "Only thing he can do is to hit things with a tree, shittalk and tell bad jokes. \n Effective against inferior things. \n Slowly EVOLVES into a stronger & smarter troll."
 END
 //---------------------------------------------------
+OBJECT:GarrisonTower_New
+"&Garrisonable Tower"
+END
 TOOLTIP:GenericBattleTowerDesc_New
 "Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Healer' \n\nStrong vs cavalry"
 END
@@ -1246,7 +1256,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 6"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 //---------------------------------------------------
 CONTROLBAR:EomerSpear_New
