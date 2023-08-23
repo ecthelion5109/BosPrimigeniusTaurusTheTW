@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.50 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.51 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -567,7 +567,7 @@ CONTROLBAR:EomerSpear_New
 "Spear Throw [&T]"
 END
 CONTROLBAR:EomerSpearDesc_New
-"Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs.\n\n Left click icon then left click on target"
+"Powerful ranged attack \n Effective against units and heroes. \n Bonus against Mounted units and Orcs.\n\n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynSmite_New
