@@ -50,7 +50,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.80: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.81: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -68,14 +68,48 @@ End
 
 
 
-CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade_New
-"Allows research of Heavy Armor"
-End
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
-CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade_New
-"Allows research of Iron Ore"
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade_New
+"Level 2: Allows research of the Fire Arrows Upgrade"
 End
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade_New
+"Level 3: Allows research of Iron Ore"
+End
+//---------------------------------------------------
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2_New
+"Level 2: Allows research of Mithril Mail and Forged Blades upgrades \n +10% Faster Build Speed \n"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3_New
+"Level 3: Allows research of Dale Elite Training upgrade \n +30% Faster Build Speed \n Adds Defensive Axe Tower \n The structure gain +20% armor against heros, pikemen and cavalry"
+END
+//---------------------------------------------------
+CONTROLBAR:TooltipUpgradeMordorTavernLevel2_New
+"Level 2: Allows research of the Poisoned Spears upgrade \n +10% Faster Build Speed"
+End
+CONTROLBAR:TooltipUpgradeMordorTavernLevel3_New
+"Level 3: Allows research of the Elite Training upgrade \n +25% Faster Build Speed"
+End
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildEregionForgeLevel2_New
+"Level 2: Allows research of the Fire Arrows Upgrade"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade_New
+"Level 2: Allows research of the Fire Arrows upgrade"
+END
+CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade_New
+"Level 3: Allows research of the Elite Training upgrade"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
+"Requires Level 2 Goblin Cave \n Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
+"Level 2: +10% Faster Build Speed \n Allows recruiting Goblin Archers."
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
 "Generates resources based on available terrain Provides access to the tunnel network \n Quantity available to build: 3"
@@ -85,17 +119,45 @@ CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
 "&Poison Arrows"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
-"Upgrades this Tower with Fire Arrows \n Increases damage done by Arrows"
+"Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
 END
 //---------------------------------------------------
+TOOLTIP:LackWildBasicTraining_New
+"Research at Treasure Trove to enable this technique . \n When equipped, increases this horde to level 2 and become able to shoot Poison Arrows permanently."
+END
 CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
-"Requires researching the technique at the Treasure Trove. \n Increased this horde to level 2 and become able to shoot Poison Arrows permanently."
+"Increases this horde to level 2 and becomes able to use Poison Arrows permanently."
+END
+//---------------------------------------------------
+TOOLTIP:LackDwarvenBasicTraining_New
+"Research at Forge Works to enable this technique . \n When equipped, increases this horde to level 2 and become able to use Poison Black permanently."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenTraining_New
-"Requires researching the service at the Forge Works. \n Men of Dale become able to shoot Black Arrows permanently."
+"Increases this horde to level 2 and becomes able to shoot Black Arrows permanently."
 End
+//---------------------------------------------------
+TOOLTIP:LackMordorBasicTraining_New
+"Research upgrade at Tavern to enable this technique \n When equipped, increases this horde to Level 3 and becomes able to use Barbed Arrows permanently."
+END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining_New
-"Requires researching the service at the Tavern. \n The battalion becomes able to shoot Barbed Arrows permanently and ranks up to level 3."
+"Increases this horde to level 3 and becomes able to shoot Barbed Arrows permanently."
+END
+//------------------------------------------------------------//
+TOOLTIP:LackGondorFireArrows_New
+"Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
+END
+TOOLTIP:LegolasTrainedAlliesUpgradeDesc_New
+"Superior Archer Specialization. \n This Horde rate of fire is +100% faster and pre-attack time is only 50%."
+END
+TOOLTIP:LackDwarvenFireArrows_New
+"Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
+END
+//------------------------------------------------------------------------
+TOOLTIP:WildVenomSacs_New
+"Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
+END
+TOOLTIP:LackVenomSacksTechnology_New
+"Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining_New
@@ -217,9 +279,9 @@ TOOLTIP:GenericWellDesc_New
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
 End
 //--------------------------------------------------//
-TOOLTIP:PoisonBattleTowerDesc_New
-"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
-End
+//TOOLTIP:PoisonBattleTowerDesc_New
+//"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+//End
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
 "&Upgrade this tower"
@@ -303,8 +365,19 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 "Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Healer'"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and gain +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
+End
+//---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Provides +65% damage and +25% fast earning experience bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map for a period of time. \n Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'" \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------//
+OBJECT:ToolTipGorkilTotem_New
+"Idiot Totem"
+END
+TOOLTIP:ToolTipGorkilTotemDesc_New
+"Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
 END
 //---------------------------------------------------
 CONTROLBAR:AzogCallSomething_New
@@ -345,10 +418,6 @@ END
 CONTROLBAR:TooltipWildShelobInstillTerror_New
 "Requires Level 5 \n Causes a uncontrollable fear on nearby enemies. \n left click icon to activate"
 END
-//---------------------------------------------------
-CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and gain +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
-End
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: 'Land Buff' \n\n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
@@ -728,7 +797,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n left click icon to activate"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_WithTower_New
+CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTower_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Adds a defensive tower"
 END
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
@@ -755,7 +824,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
 "Allows battalions to purchase the Forged Blades upgrade. \nWhen equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
-"Allows battalions to purchase the Fire Arrows upgrade \n When equipped, significantly increases the damage done by Arrows \n Once purchased, the Osgiliath Veterans receive Fire Arrows and a damage boost."
+"Allows battalions to purchase the Fire Arrows upgrade \n When equipped, significantly increases the damage done by arrows \n Once purchased, the Osgiliath Veterans receive Fire Arrows and a damage boost."
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
@@ -1183,23 +1252,6 @@ END
 TOOLTIP:ToolTipSarumanLeadership_New
 "Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n\n Passive ability"
 END
-//------------------------------------------------------------//
-OBJECT:ToolTipGorkilTotem_New
-"Idiot Totem"
-END
-TOOLTIP:ToolTipGorkilTotemDesc_New
-"Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
-END
-//------------------------------------------------------------//
-TOOLTIP:LackGondorFireArrows_New
-"Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
-END
-TOOLTIP:LegolasTrainedAlliesUpgradeDesc_New
-"Superior Archer Specialization. \n This Horde rate of fire is +100% faster and pre-attack time is only 50%."
-END
-TOOLTIP:LackDwarvenFireArrows_New
-"Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
-END
 //------------------------------FortressUpgradesTooltips----------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
 "Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant'"
@@ -1209,16 +1261,6 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
 END
 TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
 "Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Healer'"
-END
-//------------------------------------------------------------------------
-TOOLTIP:WildVenomSacs_New
-"Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
-END
-TOOLTIP:LackVenomSacksTechnology_New
-"Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
-END
-TOOLTIP:LackMordorBasicTraining_New
-"Research upgrade at Tavern to enable this equipment \n When equipped, increases this horde to Level 2"
 END
 //--------------------------------------------------//
 GUI:CuriousIdiotBonus_New
