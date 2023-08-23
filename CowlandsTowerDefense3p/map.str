@@ -1,18 +1,62 @@
+// AFTER 4 LEVELS OF EXPERIENCE, ELROND RESIGNS HIMSELF TO GRAB A FUCKIN BOW AND HELP HIS MEN. 
 
 
 
+ 
+CONTROLBAR:HaldirBoost_New
+"Lorien Ranger Specialization"
+END
+CONTROLBAR:HaldirBoostDesc_New
+"Requires Level 5 \n Haldir gains a permanent bonus of \n +300% damage and +30% rate of fire. \n Passive ability"
+END
+
+CONTROLBAR:LegolasBoost_New
+"Expert Archer"
+END
+CONTROLBAR:LegolasBoostDesc_New
+"Requires Level 5 \n Legolas gains a permanent bonus of \n +150% rate of fire and +15% range. \n Passive ability"
+END
+
+CONTROLBAR:ThranduilBoost_New
+"Mirkwood Ranger Specialization"
+END
+CONTROLBAR:ThranduilBoostDesc_New
+"Requires Level 5 \n Thranduil gains a permanent bonus  of \n +50% range and +100% damage. \n Passive ability"
+END
 
 
+CONTROLBAR:TrainArchers_New
+"Art of the Bow [&T]"
+END
+CONTROLBAR:ToolTipTrainArchers_New
+"Requires Level 7 \n Legolas decides to share his knowledge with Lorien and Mirkwood archers. \n Targeted archer batallion learns to shoot arrows 50% faster and earn 2 experience ranks. \n Left click icon then left click on target archers"
+END
+CONTROLBAR:TooltipElvenWood_New
+"Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
+END
+CONTROLBAR:ToolTipHaldirGoldenArrow_New
+"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+END
 
+CONTROLBAR:EowynSmite_New
+"Smite [&T]"
+END
+CONTROLBAR:EowynSmiteDesc_New
+"Powerful ranged attack \n Effective against heroes \n Specialy powerful vs Fellbeasts \n\n Left click icon then left click on target"
+END
 
-
-
+CONTROLBAR:Disguise_New
+"Lady of the Kitchen"
+END
+CONTROLBAR:ToolTipDisguise_New
+"We forgive Eowyn for her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster. \n Passive ability"
+END
 CONTROLBAR:ToolTipGloriousCharge_New
 "Requires Level 7 \n Theoden and men gain +999% armor, +100% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
 END
 
 CONTROLBAR:Flood_New
-"Forth, and fear No Darkness [&B]"
+"Forth, and fear no darkness [&B]"
 END
  CONTROLBAR:TooltipFlood_New
 "Requires Level 10 \n Por la muerte y la gloria \n Left click icon then left click on target area"
@@ -65,11 +109,11 @@ CONTROLBAR:ToolTipOutlawLeadership_New
 "Requires Level 6 \n Nearby player units earn resources per kill \n Passive ability"
 END
 
-CONTROLBAR:Taint_New
+CONTROLBAR:Blight_New
 "&Blight"
 End
-CONTROLBAR:ToolTipTaint_New
-"Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, briefly become Wights under your control \n Left click icon then left click on target area"
+CONTROLBAR:BlightDesc_New
+"Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:Sunflare_New
@@ -83,7 +127,7 @@ CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
 END
 CONTROLBAR:TooltipEnshroudingMist_New
-"Requires Level 10 \n Damages anyone who enters into the fog \n\n Left click icon and left click on target area"
+"Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n\n Left click icon and left click on target area"
 END
 CONTROLBAR:ElrondRestoration_New
 "Restore" //E&venstar
@@ -133,7 +177,7 @@ CONTROLBAR:SummonDunedainAllies_New
 End
 
 CONTROLBAR:ToolTipSummonDunedainAllies_New
-"Requires Level 6 \n Calls a group of Dunedain Rangers \n Left click icon then left click on pathable location" 
+"Requires Level 6 \n Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location" 
 END
 
 CONTROLBAR:LightningSword_New
@@ -143,11 +187,11 @@ CONTROLBAR:ToolTipLightningSword_New
 "Requires Level 2 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
 END
 
-CONTROLBAR:TooltipCowSuicide
+CONTROLBAR:Euthanasia_New
 "Euthanasia"
 END
 
-CONTROLBAR:TooltipCowSuicide_Desc
+CONTROLBAR:EuthanasiaDesc_New
 "Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
 END
  
@@ -163,7 +207,7 @@ CONTROLBAR:CorrodeAllegiance_New
 "Convince Communism is Good [&C]"
 END
 CONTROLBAR:ToolTipCorrodeAllegiance_New
-"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
+"Requires Level 8 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
 END
 
 
@@ -201,40 +245,41 @@ END
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33%"
 END
+
 CONTROLBAR:ToolTipThornofVengeance_New
-"Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target"
-END
-
-
-CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades_New
-"Allows battalions to purchase the Forged Blades upgrade \n Equips Dain Royal Guard with Forged Blades \n When equipped, increases the damage done by Melee Weapons and Thrown Axes"
+"Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target" // \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail_New
-"Allows battalions and Demolishers to purchase the Mithril Mail upgrade \n Equips Dain Royal Guard with Mithril Mail\n When equipped, significantly reduces the amount of damage taken"
+"Allows battalions and Demolishers to purchase the Mithril Mail upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, Dain Royal Guard receives it for free and gain Knock-Back and Fear immunity"
 END
 
+CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
+"Allows battalions to purchase the Heavy Armor upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, the Osgiliath veterans receive Heavy Armors and gain Knock-Back and Fear immunity."
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades_New
+"Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons and Thrown Axes\n Once purchased, Dain Royal Guard receives Forged Blades and gain a Meele and Crush-Revenge damage increment"
+END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
-"Equips the Osgiliath Veterans with Forged Blades \n When equipped, increases the damage done by 'em"
-END
-CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
-"Equips the Osgiliath Veterans with Heavy Armor \n Once equipped, significantly reduces the amount of damage taken"
+"Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
 
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
 "Generates resources\n Provides access to the tunnel network \n Quantity available to build: 6"
 END
 
-CONTROLBAR:ToolTipWoundingArrow_New
+ CONTROLBAR:ToolTipWoundingArrow_New
 "Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n\n Left click icon then left click on target"
 END
 
-CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
-"Powerful ranged attack \n Effective against cavalry and orcs\n\n Left click icon then left click on target"
+CONTROLBAR:ToolTipHawkStrike_New
+"Double-arrow attack \n Effective against cavalry and monsters\n Left click icon then left click on target"
 END
-CONTROLBAR:ToolTipSmite_New
-"Powerful ranged attack \n Effective against heroes \n Specialy powerful vs Fellbeasts \n\n Left click icon then left click on target"
+
+CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
+"Powerful ranged attack \n Effective against units and heroes \n Extreme damage against monsters \n\n Left click icon then left click on target"
 END
 
 CONTROLBAR:CalltheHorde_New
@@ -244,22 +289,19 @@ End
 CONTROLBAR:ToolTipCalltheHorde_New
 "Requires Level 8 \n Summons several hordes of orcs fighters to slow down the path of your enemies \n Left click icon then left click on pathable location"
 END
+
 CONTROLBAR:ToolTipCloudBreak_New
 "Requires Level 7 \n Stuns nearby enemy units. \n Turns trolls into stones \n Gandalf cannot move during its duration \n\n Left click to activate"
 END
 
-CONTROLBAR:ToolTipHaldirGoldenArrow_New
-"Requires Level 7 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
-END
-
-
-
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework_New
 "Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Pre-requisite for anti-stealth towers \n Upgrades summoned Lone Towers"
 END
+
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework_New
 "Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult \n Pre-requisite for anti-stealth towers \n\n Upgrades summoned Lone Towers"
 END
+
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery_New
 "Increases Fortress armor \n Pre-requisite for anti-stealth towers \n Pre-requisite to the Gorgoroth Spire"
 END
@@ -480,10 +522,6 @@ END
 
 
 
-CONTROLBAR:TooltipElvenWood_New
-"Requires Level 10 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
-END
-
 
 CONTROLBAR:ConstructSoyTaxesUpgrade
 "Soy &Taxes"
@@ -554,7 +592,7 @@ END
 
 
 CONTROLBAR:ToolTipArrowWind_New
-"Requires Level 7 \n Launch a continuous volley of arrows \n Left click icon then left click on target area"
+"Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
 "Allies near the BattleWagon Banner gain +30% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
@@ -582,7 +620,7 @@ CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Unique \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +40% fire rate & +20 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +35% fire rate on archers & +20 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
 END
 CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
@@ -715,6 +753,9 @@ End
 ////"Build a tower whose overpowered projectiles will slow down by a 50% it's targets"
 ////END
 //
+SCRIPT:GameTime
+"Minutes in game"
+End
 SCRIPT:TestingMode
 "Testing mode Enabled"
 End
