@@ -8,15 +8,26 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.63: \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.64: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
-//---------------------------------------------------
+//------------------------------------------------------------//
+//------------------------------------------------------------//
+//------------------------------------------------------------//
 
 
 
 
 
 
+
+
+//-------------------------------------------------
+TOOLTIP:ToolTipBattleWagonHearthDesc_New
+"Hearth: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+End
+TOOLTIP:ToolTipBattleWagonBannerCarrierDesc_New
+"Banner Carriers: \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Allies near the BattleWagon gain +25% armor, \n earn experience 25% faster, and win +20% damage. \n Category: 'Armor Inspiration'"
+End
 //-------------------------------------------------
 OBJECT:DwarvenLoneTowerDescription_New
 "Fires at nearby enemies. \n Can receive different upgrades from the fortress." //  \n Reveals stealthed enemies.
@@ -30,7 +41,7 @@ CONTROLBAR:ConstructStealthDetectorSentryTower_New
 "Build a Stealth &Detector Tower"
 END
 CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
-"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 450"
+"Requires Fortress Armor Stonework technology \n\n Will reveal any invisible in a radius of 450"
 END
 //--------------------------------------------------//
 OBJECT:StealthDetectorSentryTower_New
@@ -56,7 +67,7 @@ TOOLTIP:GenericWellDesc_New
 End
 //--------------------------------------------------//
 TOOLTIP:PoisonBattleTowerDesc_New
-"Defensive Poison Arrow Tower \n Poison damages over time and slows down the affected units \n \n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+"Defensive Poison Arrow Tower \n Poison damages over time and slows down the affected units \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
 End
 //---------------------------------------------------
 TOOLTIP:GenericBattleTowerDesc_New
@@ -104,7 +115,7 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 4 \n Sharku and nearby wargs gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n Passive ability"
+"Requires Level 4 \n Sharku and nearby wargs gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWargAllies_New
@@ -119,11 +130,11 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 5 \n Lurtz gains +100% Damage and +10% Armor \n Can only use with sword equipped \n Left click to activate"
+"Requires Level 5 \n Lurtz gains +100% Damage and +10% Armor \n Can only use with sword equipped \n Left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership_New
-"Requires Level 7 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'War Chant'\n \n Passive ability"
+"Requires Level 7 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'War Chant' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:LurtzBoostDesc_New
@@ -157,7 +168,7 @@ CONTROLBAR:AzogCallSomethingDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:AzogLeadershipDesc_New
-"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n \n Passive ability"
+"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n\n Passive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:AzogGoblinFury_New
@@ -185,7 +196,7 @@ CONTROLBAR:WildShelobInstillTerror_New
 "Freezeing Screech"
 END
 CONTROLBAR:TooltipWildShelobInstillTerror_New
-"Requires Level 5 \n Causes a uncontrollable fear on nearby enemies. \n Left click to activate"
+"Requires Level 5 \n Causes a uncontrollable fear on nearby enemies. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
@@ -193,7 +204,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
-"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: 'Land Buff' \n \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
+"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: 'Land Buff' \n\n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipIstariLight_New
@@ -260,7 +271,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
@@ -296,7 +307,7 @@ END
 //"Uruk-Hai Veterancy"
 //END
 //CONTROLBAR:CrossbowmenBoostDesc_New
-//"Requires Level 2 \n Crossbowmen permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
+//"Requires Level 2 \n Crossbowmen permanently gain +40 damage and a permanent +30% rate of fire boost. \n\n Passive ability"
 //END
 //---------------------------------------------------
 CONTROLBAR:FaramirKnightRanger_New
@@ -307,7 +318,7 @@ CONTROLBAR:ToolTipFaramirMount_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +70% damage. \n Category: 'War Chant' \n\n Gothmog has to be mounted. \n Left click to activate"
+"Requires Level 6 \n Nearby units temporarily gain +70% damage. \n Category: 'War Chant' \n\n Gothmog has to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
@@ -328,7 +339,7 @@ CONTROLBAR:BlackRiderLeadershipDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSlayer_New
-"Requires Level 5 \n Gimli deals 200% damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
+"Requires Level 7 \n Gimli deals 200% damage, Double Speed, but loses -15% Structural Armor \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
@@ -360,17 +371,17 @@ CONTROLBAR:ThranduilBoostDesc_New
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n\n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:MenArcherHeroeBoost_New
+CONTROLBAR:BrandBoost_New
 "Legendary ancestor"
 END
-CONTROLBAR:MenArcherHeroeBoostDesc_New
+CONTROLBAR:BrandBoostDesc_New
 "Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n\n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:TrainArchers_New
+CONTROLBAR:LegolasTrainArchers_New
 "Art of the Bow [&B]"
 END
-CONTROLBAR:ToolTipTrainArchers_New
+CONTROLBAR:LegolasTrainArchersDesc_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
 //---------------------------------------------------
@@ -393,7 +404,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Flood_New
@@ -419,18 +430,18 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n \n Left click to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n\n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
-"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slowing them down and humans, upon their death, will turn into ring wraiths.\n Requires to be dismounted \n \n Left click icon then left click on area"
+"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slowing them down and humans, upon their death, will turn into ring wraiths.\n Requires to be dismounted \n\n Left click icon then left click on area"
 END
 CONTROLBAR:HourOfTheWitchKing_New
 "Memories of A&ngmar" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
 CONTROLBAR:RainOfMorgul_Desc
-"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n Left click to activate"
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n left click icon to activate"
 END
 CONTROLBAR:RainOfMorgul
 "Rains Of Morg&ul"
@@ -503,11 +514,22 @@ CONTROLBAR:AxeStormDesc_New
 "Requires Level 10 \n Launch a continuous volley of explosive axes \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipDainLeadership_New
+"Allies near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:KingsFavorDain_New
+"King's Favor [&C]"
+END
+CONTROLBAR:KingsFavorDainDesc_New
+"Requires Level 6 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
+END
+//---------------------------------------------------
 CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +10% damage and become resistent to fear or terror \n Always stack \n\n Passive ability"
+"Requires Level 4 \n Gimli reminds nearby dwarves about their superiority to Elves. \n All nearby dwarves gain +15% speed, +10% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -536,7 +558,7 @@ CONTROLBAR:Euthanasia_New
 "Euthanasia"
 END
 CONTROLBAR:EuthanasiaDesc_New
-"Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
+"Requires a human playing God \n\n This cow is sick and needs to be put to sleep immediately."
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipElrondWhirlwind_New
@@ -553,7 +575,7 @@ END
 // Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect
 //---------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelWindRider_New
-"Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_WithTower_New
@@ -601,14 +623,14 @@ CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
-"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n \n Crazy bitch: Deals *EXTREME* damage against other women and all the men she likes. \n Left click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n\n Crazy bitch: Deals *EXTREME* damage against other women and all the men she likes. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:Disguise_New
 "Inspiring Shield Maiden"
 END
 CONTROLBAR:ToolTipDisguise_New
-"Requires Level 5 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n \n Passive ability."
+"Requires Level 5 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n\n Passive ability."
 END
 //We forgive Eowyn for the taste of her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster.
 //---------------------------------------------------
@@ -616,7 +638,7 @@ CONTROLBAR:ShieldMaiden_New
 "Shield Charge [&V]"
 END
 CONTROLBAR:ToolTipShieldMaiden_New
-"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n Left click to activate"
+"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynRestore_New
@@ -645,7 +667,7 @@ CONTROLBAR:CloudBreak_New
 "Cloud Break (&V)"
 End
 CONTROLBAR:ToolTipCloudBreak_New
-"Requires Level 7 \n Stuns nearby enemy units. \n Turns trolls into stones \n Gandalf cannot move during its duration \n\n Left click to activate"
+"Requires Level 7 \n Stuns nearby enemy units. \n Turns trolls into stones \n Gandalf cannot move during its duration \n\n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework_New
@@ -668,7 +690,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipElvenCloak_New
-"Becomes invisible when not attacking \n Left click to activate"
+"Becomes invisible when not attacking \n left click icon to activate"
 END
 //--------------------------------------------------//
 CONTROLBAR:AzogHotkey_New
@@ -700,7 +722,7 @@ CONTROLBAR:SpecialPowerDeadlySniper_New
 "Black Sniper [&V]"
 END
 CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
-"Requires Level 8 \n Temporarily grants an increase to damage and range"
+"Requires Level 8 \n Temporarily grants an increase to damage and range. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:DaleArcherAllies_New
@@ -750,7 +772,7 @@ CONTROLBAR:ToolTipElvenGifts_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPersonalFlood_New
-"Requires Level 7 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click to activate" 
+"Requires Level 7 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon to activate" 
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseElvenEagle_New
@@ -800,7 +822,7 @@ CONTROLBAR:GloinShakeFoundation_New
 "Summon an Earthquake [&V]"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
-"Requires Level 7 \n Creates a small earthquake by doing some shit with it's hammer \n \n Left click icon then left click on target"
+"Requires Level 7 \n Creates a small earthquake by doing some shit with it's hammer \n\n Left click icon then left click on target"
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructSoyTaxesUpgrade
@@ -840,10 +862,6 @@ CONTROLBAR:ToolTipArrowWind_New
 "Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
 //-------------------------------------------------
-CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Allies near the BattleWagon Banner gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
-End
-//-------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
 "Allies near the Drummer Troll gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n \nPassive ability"
 END
@@ -862,9 +880,9 @@ CONTROLBAR:LegolasLeadershipDesc_New
 "Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain \n +25% Silverthorn damage and earn experience +35% faster \n Category: 'Uncategorized' \n \nPassive ability"
 End
 //-------------------------------------------------
-CONTROLBAR:GamlingLeadershipDesc_New
-"Allies near Gamling gain \n 100% fear inmunity, +30% Damage and +25% armor \n Category: 'Uncategorized' \n \nPassive ability"
-End
+//CONTROLBAR:GamlingLeadershipDesc_New
+//"Allies near Gamling gain \n 100% fear inmunity, +30% Damage and +25% armor \n Category: 'Uncategorized' \n \nPassive ability"
+//End
 //-------------------------------------------------
 CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
@@ -887,42 +905,43 @@ CONTROLBAR:ToolTipEyeofSauron_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership_New
-"Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n\n Passive ability"
 END
 //-------------------------------------------------
-CONTROLBAR:ToolTipDamrodLeadership_New
-"Player Men of Dale near the Prince of Dale gain \n +50% rate of fire, +10% speed & +5% range \n Category: ''Uncategorized'' \n \n Passive ability"
-//	"Player Men of Dale near the Prince of Dale gain \n and +10% run speed \n Category: 'Uncategorized' \n \n Passive ability"
+CONTROLBAR:ToolTipTrainArchers_New
+"Requires Level 4 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+END
+CONTROLBAR:BrandLeadership_New
+"Prince of Dale Leadership"
+End
+CONTROLBAR:BrandLeadershipDesc_New
+"Requires Level 2 \n Player Men of Dale near the Prince of Dale gain \n +35% rate of fire, +10% speed & +5% range \n Category: 'Uncategorized' \n\n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
-"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n \n Passive ability "
-END
-//--------------------------------------------------//
-CONTROLBAR:ToolTipDainLeadership_New
-"Allies near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
+"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n\n Passive ability "
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
+"Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
-"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: 'Land Buff' \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: 'Land Buff' \n Light sensitive units become stunned. \n\n Left click icon to activate" 
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGimliLeadership_New
-"Allies near Gimli gain +50% armor \n Category: 'Land Buff' \n \n Passive ability"
+"Allies near Gimli gain +50% armor \n Category: 'Land Buff' \n\n Passive ability"
 END
 CONTROLBAR:ToolTipFaramirLeadership_New
-"Requires Level 6 \n Allies near Faramir gain +50% Armor \n Category: 'Land Buff' \n \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain +50% Armor \n Category: 'Land Buff' \n\n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
@@ -933,11 +952,11 @@ CONTROLBAR:GothmogLeadership_New
 "Brainless Orc Euphoria"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n \n Passive ability"
+"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
-"Targeted allies gain +50% Damage \n Category: 'War Chant' \n \n Left click icon then left click on target units"
+"Targeted allies gain +50% Damage \n Category: 'War Chant' \n\n Left click icon then left click on target units"
 END
 //--------------------------------------------------//
 CONTROLBAR:LightningTower_New
@@ -978,7 +997,7 @@ Upgrade:LegolasTrainedAlliesUpgrade_New
 "Legolas Archery knowledge"
 END
 OBJECT:DwarvenCaptain_New
-"Dwarven Captain"
+"Iron Hills Captain"
 END
 OBJECT:ElvenBarracks_New
 "Elven Farm"
@@ -1012,7 +1031,7 @@ TOOLTIP:StealthDragonDesc_New
 END
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n \n Passive ability"
+"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n\n Passive ability"
 END
 //------------------------------------------------------------//
 OBJECT:ToolTipGorkilTotem_New
@@ -1020,13 +1039,6 @@ OBJECT:ToolTipGorkilTotem_New
 END
 TOOLTIP:ToolTipGorkilTotemDesc_New
 "Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
-END
-//------------------------------------------------------------//
-TOOLTIP:ToolTipPurchasedUpgradeWagonHearth_New
-"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
-END
-TOOLTIP:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Banner Carrier Upgrade purchased: \n Nearby units gain +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration'"
 END
 //------------------------------------------------------------//
 TOOLTIP:LackGondorFireArrows_New
@@ -1048,10 +1060,10 @@ END
 TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
 "Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Healer'"
 END
+//------------------------------------------------------------------------
 TOOLTIP:WildVenomSacs_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
 END
-//------------------------------------------------------------------------
 TOOLTIP:LackVenomSacksTechnology_New
 "Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
 END
@@ -1187,7 +1199,7 @@ SCRIPT:MOO_03
 "I am Stella. \n You see that bitch over there? \n She's Micaela"
 End
 SCRIPT:MOO_04
-"Stella: \n She's not really a cow, she's a balrog or some demon shit. \n \n \nKill her and i will get you 8000 of gold."
+"Stella: \n She's not really a cow, she's a balrog or some demon shit. \n\n \nKill her and i will get you 8000 of gold."
 End
 SCRIPT:INTERACTIVE_LOSE
 "what the fuck man... why did you do that? never trust a cow"
