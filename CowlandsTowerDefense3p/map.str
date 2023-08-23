@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 465 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 466 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -77,6 +77,13 @@ End
 
 
 
+//------------------------------------------------------------
+TOOLTIP:TooltipConstructMordorDrummerTrolls_New
+"Drummer of Mordor: Provides Leadership. \n Player units gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Player units gain +35% earn experience 35% faster. \n Category: 'DrummerTroll'"
+END
+CONTROLBAR:TooltipConstructMordorDrummerTrolls_New
+"Requires Level 2 Troll Cage \n Provides Leadership to player units"
+END
 //------------------------------------------------------------
 CONTROLBAR:KingsCurse_New
 "King's Curse [&B]"
@@ -557,7 +564,8 @@ CONTROLBAR:ConstructFurnace_New
 "Build a guild smelters fa&cility "
 END
 CONTROLBAR:ToolTipFurnace_New
-"Reduces the cost of upgrades.\n  1 Furnace: -33.3%.\n 2 Furnaces: -50%. \n 3 Furnaces: -66.6%."
+"Reduces the cost of upgrades.\n  1 Furnace: -25%.\n 2 Furnaces: -33.3%. \n 3 Furnaces: -50%."
+//"Reduces the cost of upgrades.\n  1 Furnace: -33.3%.\n 2 Furnaces: -50%. \n 3 Furnaces: -66.6%."
 END
 //---------------------------------------------------
 Upgrade:FortressPoisonArrows_New
@@ -1449,7 +1457,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
-"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 50% cheaper"
+"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 35% cheaper"
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
@@ -2067,7 +2075,7 @@ CONTROLBAR:ConstructRohanStable_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
-"Reduces the cost of Units and Fortress upgrades by -50%"
+"Reduces the cost of Units and Fortress upgrades by 35%"
 END
 //-------------------------------------------------
 CONTROLBAR:HordeDunlandAxeThrower_New
