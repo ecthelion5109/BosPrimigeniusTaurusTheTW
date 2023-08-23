@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.83 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.84 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -2335,20 +2335,20 @@ CONTROLBAR:ToolTipWizardBlast_New
 "Large range spell that suck out backward enemy units monsters or heroes. \n Left click icon then left click on target"
 END
 CONTROLBAR:HoraDelMago_New
-"Time Stop (&Y)"
+"Time Stop (&V)"
 End
 CONTROLBAR:HoraDelMagoDesc_New
 "Requires Level 10 \n Saruman does some dance with suck-type FX's. \n Enemies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireballs [&C]"
+"Fireballs [&T]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
 "Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
 // Throws a ball of energy
 END
 CONTROLBAR:ThunderBolt_New
-"Lightning S&torm"
+"Lightning Storm (&C)"
 END
 CONTROLBAR:ToolTipThunderBolt_New
 "Requires Level 5 \n Strikes a series of lightning strikes against the units in the target area. \n Level 7 and level 9 calls even more lightning strikes. \n Left click icon then left click on target location"
