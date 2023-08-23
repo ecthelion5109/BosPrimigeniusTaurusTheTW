@@ -1,11 +1,14 @@
 # Bos Primigenius Taurus: The TW
 ## One of the most complete TW in The Battle for The Middle Earth II history.
 
+---
+
 Are you looking for a relaxing and casual gameplay experience? 
 Do you like teaming up with your friends and winning Tower War maps together? 
 Maybe you're interested in managing heroes and having them level up over time in one place? 
 You hate cows?
 If so, this might not be the map for you.
+
 ---
 
 ### Game requeriments
