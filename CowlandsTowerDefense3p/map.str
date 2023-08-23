@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.34 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.35 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -411,6 +411,12 @@ Upgrade:FortressPoisonArrows_New
 "Poison arrows"
 END
 //---------------------------------------------------
+CONTROLBAR:GrimaEconomyPower_New
+"Employer leadership (&V)"
+END
+CONTROLBAR:GrimaEconomyPowerDesc_New
+"Requires Level 9 \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations. He convincingly explains that everyone could be benefited if the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
+END
 CONTROLBAR:ToolTipVenomousWords09v2_New
 "Requires Level 4 \n The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 30 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Category: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
