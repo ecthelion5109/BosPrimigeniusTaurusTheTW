@@ -50,13 +50,13 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 ---
 
 ### Credits to the BFME2 modding community:
-- **Shark & Gannicus** for gameplay inspiration from their "MADNESS" maps, where i also learned commandButton reuse trick and pathfinding inspiration.
-- **Silverbane** for teaching me the buttonimages trick to be ably to modify commandbutton and for his "Osgiliath" from which i took his OathBreaker wave for inspiration.
-- **BIG[BANG]** for teachin me the DamageSpeed & WeaponSpeed trick on ranged damage nuggets and for prompting me to rewrite my pathfinding scripts.
+- **Shark & Gannicus** for gameplay inspiration from their "MADNESS" maps, where i also learned the commandButton reuse trick.
+- **Silverbane** for teaching me the buttonimages trick to be ably to modify commandbuttons, and for his "Osgiliath" map, from which i took his OathBreaker wave for inspiration.
+- **BIG[BANG]** for teaching me the DamageSpeed & WeaponSpeed trick on ranged damage nuggets and for prompting me to rewrite my pathfinding scripts.
 - **Crusard** for his "Legends" map from which i learned the hiding subobjects trick.
 - **BFME2 ROTWK 2.02** for the Blight ability.
-- **Thorin** for his ideas, such as Theoden's Massive Rohirrim Charge and for setting up a competitive community of "cowboys" in GameRanger.
-- **Guerrilla** for being annoying as shit and continously prompting me to remake pathfinding and hardcoded anti cheats.
+- **Thorin** for his continous feedback and ideas, such as Theoden's "Forth and fear no darkness" ability. And finally, for setting up a competitive community of "cowboys" in GameRanger.
+- **Guerrilla** for being annoying as shit and continously prompting me to remake my pathfinding, as well forcing me to add hardcoded anti cheats.
 
 ### Credits to the cow-players community:
 - Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau, Sauron, Temptation, BlockBuster, Mithrandir, King, Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F and whoever actually ever played this map during its two and half years of develepment.
