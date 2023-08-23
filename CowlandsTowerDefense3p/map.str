@@ -52,11 +52,12 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 245) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 2.46) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players.  \n Two degrees of difficulty available. \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 	// \n Version 2.19: Now compatible with 1.09v2. \n 
+	// \n *Tick ring heroes to enable HARDCORE mode*
 End
 //--------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------//
@@ -79,7 +80,7 @@ End
 
 //---------------------------------------------------
 CONTROLBAR:MenLongShotAbility_New
-"Longshot (&B)"
+"Longsho&t"
 End
 //---------------------------------------------------
 OBJECT:SignalFireDescription09v2
@@ -717,9 +718,6 @@ End
 TOOLTIP:ToolTipBattleWagonHearthDesc_New
 "Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Well'"
 End
-TOOLTIP:ToolTipBattleWagonBannerCarrierDesc_New
-"Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Allies near the BattleWagon gain +80% damage. \n Category: 'War Chant'"
-End
 //-------------------------------------------------
 OBJECT:DwarvenLoneTowerDescription_New
 "Fires at nearby enemies. \n Can receive different upgrades from the fortress." //  \n Reveals stealthed enemies.
@@ -816,7 +814,7 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 3 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 50% faster \n Category: 'Armor_Inspiration' \n Passive ability"
+"Requires Level 3 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
@@ -844,9 +842,6 @@ CONTROLBAR:LurtzBoostDesc_New
 "Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipLurtzLeadership_New
-"Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War Chant' \n Passive ability"
-END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 "Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
@@ -872,7 +867,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 50% faster. \n Category: Armor_Inspiration \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
@@ -893,9 +888,6 @@ CONTROLBAR:AzogCallSomethingDesc_New
 "Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:AzogLeadershipDesc_New
-"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n Passive ability"
-End
 //---------------------------------------------------
 CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury (&T)"
@@ -926,7 +918,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
-"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: 'Land Buff' \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
+"Requires Level 3 \n Cavalry near Eomer gain 50% Armor and earn experience 25% faster.\n Category: 'TaintLand' \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipIstariLight_New
@@ -941,16 +933,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs_New
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n Category: 'Well' \n Upgrades summoned Lone Towers"
-END
-//----------FortressLeadershipButton-----------------------------
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
-END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage and earn experience 25% faster \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
-END
-CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
-"Provides 35% damage and 25% experience to nearby troops \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgrade_New
@@ -1025,9 +1007,6 @@ CONTROLBAR:ToolTipFaramirMount_New
 "Left click to switch between \n mounted and on foot"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War Chant' \n Gothmog has to be mounted. \n left click icon to activate"
-END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
 END
@@ -1041,9 +1020,6 @@ End
 //---------------------------------------------------
 CONTROLBAR:BlackRiderLeadership
 "Inspiring Presence"
-END
-CONTROLBAR:BlackRiderLeadershipDesc_New
-"Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: 'War Chant' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSlayer_New
@@ -1124,7 +1100,7 @@ END
 END
 //---------------------------------------------------
 CONTROLBAR:MenIceArrowsActive_New
-"Dunedain Ice Arrow Sho&t"
+"Use Dunedain Ice Arrow (&V)"
 End
 CONTROLBAR:MenIceArrowsActiveDesc_New
 "Requires Level 5\n Freezes the enemies, slowing them down. \n Deals high amounts of HERO damage \n Left click icon then left click on target"
@@ -1489,7 +1465,7 @@ CONTROLBAR:BalrogHotkey_New
 "&Balrog" //Durin's Bane, the 
 End
 CONTROLBAR:BrandHotkey_New
-"Principe Bran&d,\n Segnor de Dale"
+"Principe &Brand,\n Segnor de Dale"
 END
 CONTROLBAR:GothmogHotkey_New
 "Gothmog, The &Romantic Orc" // Elephant //Ilustrated
@@ -1657,14 +1633,14 @@ CONTROLBAR:ToolTipArrowWind_New
 END
 //-------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain \n +25% armor and earn experience 50% faster \n Category: 'Armor_Inspiration' \n \nPassive ability"
+"Allies near the Drummer Troll gain \n +50% armor and earn experience 25% faster \n Category: 'TaintLand' \n \nPassive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 3 \n Any kind of allied unit near Undomiel gain \n +25% armor and earn experience 50% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
+"Requires Level 3 \n Any kind of allied unit near Undomiel gain \n +25% armor and earn experience 25% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
@@ -1686,21 +1662,11 @@ CONTROLBAR:TooltipHeal_New
 "Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'HealBonus' \n \nLeft click icon then left click on target area"
 END
 //-------------------------------------------------
-CONTROLBAR:ToolTipHaldirLeadership_New
-"Requires Level 4 \n Allies near Haldir gain +35% Damage. \n Category: 'War Chant' \n Passive ability"
-END
-//-------------------------------------------------
-CONTROLBAR:ToolTipBoromirLeadership_New
-"Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: 'War Chant'\n \n Passive ability"
-END
 //-------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
-"Summons the Eye of Sauron \n Any kind of allied affected gain \n +25% armor and earn experience 50% faster. \n Category: 'Armor_Inspiration' \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Any kind of unit affected gain \n +25% armor and earn experience 25% faster. \n Category: 'Armor_Inspiration' \n Left click icon then left click on target area"
 END
 //-------------------------------------------------
-CONTROLBAR:ToolTipTheodenLeadership_New
-"Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War Chant' \n Passive ability"
-END
 //-------------------------------------------------
 CONTROLBAR:ToolTipTrainArchers_New
 "Requires Level 4 \n Targeted archers gain experience \n Left click icon then left click on target archers"
@@ -1716,7 +1682,7 @@ CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
-"Requires Level 3 \n Faramir and nearby Gondor units gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n Passive ability "
+"Requires Level 3 \n Faramir and nearby player Gondor units gain \n +15% range and +10% run speed \n Category: 'Uncategorized' \n Passive ability "
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
@@ -1728,19 +1694,15 @@ CONTROLBAR:ToolTipAragornLeadership_New
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
-"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: 'Land Buff' \n Light sensitive units become stunned. \n Left click icon to activate" 
+"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: 'TaintLand' \n Light sensitive units become stunned. \n Left click icon to activate" 
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGimliLeadership_New
-"Allies near Gimli gain +50% armor \n Category: 'Land Buff' \n Passive ability"
+"Allies near Gimli gain \n +50% armor and earn experience 25% faster. \n Category: 'TaintLand' \n Passive ability"
 END
 CONTROLBAR:ToolTipFaramirLeadership_New
-"Requires Level 6 \n Allies near Faramir gain +50% Armor \n Category: 'Land Buff' \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Passive ability"
 END
-//--------------------------------------------------//
-CONTROLBAR:ToolTipWarChant_New
-"Targeted allies gain +40% Damage and +10% speed. \n Category: 'War Chant' \n Left click icon then left click on target units"
-End
 //--------------------------------------------------//
 CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
@@ -1749,8 +1711,50 @@ CONTROLBAR:ToolTipGothmogLeadership_New
 "Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
+CONTROLBAR:ToolTipWarChant_New
+"Targeted allies gain +40% Damage and +10% speed. \n Category: 'War_Chant' \n Left click icon then left click on target units"
+End
 CONTROLBAR:TooltipRallyingCall_New
-"Targeted allies gain +50% Damage \n Category: 'War Chant' \n Left click icon then left click on target units"
+"Targeted allies gain +50% Damage \n Category: 'War_Chant' \n Left click icon then left click on target units"
+END
+TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
+"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant'"
+END
+TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
+"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Well'"
+END
+TOOLTIP:ToolTipBattleWagonBannerCarrierDesc_New
+"Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Allies near the BattleWagon gain +80% damage. \n Category: 'War_Chant'"
+End
+CONTROLBAR:ToolTipLurtzLeadership_New
+"Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War_Chant' \n Passive ability"
+END
+//	CONTROLBAR:AzogLeadershipDesc_New
+//	"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
+//	End
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
+"Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
+"Allies near Fortress gain \n +35% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
+"Provides 35% damage and 25% experience to nearby troops \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+END
+CONTROLBAR:ToolTipWargRiderHowl_New
+"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War_Chant' \n Gothmog has to be mounted. \n left click icon to activate"
+END
+CONTROLBAR:BlackRiderLeadershipDesc_New
+"Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
+END
+CONTROLBAR:ToolTipHaldirLeadership_New
+"Requires Level 4 \n Allies near Haldir gain +35% Damage. \n Category: 'War_Chant' \n Passive ability"
+END
+CONTROLBAR:ToolTipBoromirLeadership_New
+"Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: 'War_Chant'\n \n Passive ability"
+END
+CONTROLBAR:ToolTipTheodenLeadership_New
+"Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:LightningTower_New
@@ -1845,14 +1849,8 @@ TOOLTIP:ToolTipSarumanLeadership_New
 "Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Statue' \n Passive ability"
 END
 //------------------------------FortressUpgradesTooltips----------------------------
-TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
-"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant'"
-END
 TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
 "Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well'"
-END
-TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
-"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Well'"
 END
 //--------------------------------------------------//
 GUI:CuriousIdiotBonus_New
@@ -1944,7 +1942,10 @@ SCRIPT:UnitRemovedAdvertencia
 End
 //-------------------------------------------//
 SCRIPT:WIN
-"Congratulations. \n You have won the cow map. \n Map by Ecthelion! \n Special thanks to the cow-players: \n Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, \n FarmerLau, Sauron, Temptation, Mithrandir, King, \n Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F \n and whoever actually ever played this map during its two and half years of develepment."
+"Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
+End
+SCRIPT:CREDITS
+"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, TapFire \n and whoever actually ever played this map during its three years of develepment."
 End
 SCRIPT:LOSE
 ";( cows not happy"
@@ -1954,6 +1955,36 @@ End
 SCRIPT:LOSE_TESTINGMODE
 "lel. \n You lost, but this is testing mode."
 End
+//---------------------------------------------------
+OBJECT:Estella
+"Estella, la vaquita"
+END
+TOOLTIP:Estella
+"Enables Easy Mode."
+END
+SCRIPT:EASY
+"EASY MODE HAS BEEN ENABLED. \n Git good noobs"
+End
+//----------------------
+OBJECT:Micaela
+"Micaela, la vaca tonta"
+END
+TOOLTIP:Micaela
+"Can speak."
+END
+SCRIPT:Hi
+"Hi"
+End
+//----------------------
+OBJECT:Carmela
+"Carmen, la vaca fuerte"
+END
+TOOLTIP:Carmela
+"Enables Hardcore Mode."
+END
+SCRIPT:HARD
+"HARDCORE MODE HAS BEEN ENABLED. \n Good luck heroes"
+End
 //-----------------------------flags--------------------------//
 SCRIPT:TestingMode
 "Testing mode Enabled"
@@ -1961,20 +1992,8 @@ End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
 End
-SCRIPT:2PlayersMode_Easy
-"2 Players mode Enabled. \n EASY MODE BEEN ENABLED. \n Good luck"
-End
-SCRIPT:2PlayersMode_Hard
-"2 Players mode Enabled. \n HARDCORE MODE HAS BEEN ENABLED. \n Good luck"
-End
 SCRIPT:4PlayersMode
 "4 Players mode Enabled"
-End
-SCRIPT:EASY
-"EASY MODE HAS BEEN ENABLED \n Use it to git gud and eventually play true game mode."
-End
-SCRIPT:HARDCORE
-"HARDCORE MODE HAS BEEN ENABLED. \n Good luck"
 End
 //-------------------------------------------//
 SCRIPT:MOO_01
