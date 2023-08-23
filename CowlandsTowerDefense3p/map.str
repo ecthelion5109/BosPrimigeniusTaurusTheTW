@@ -1,0 +1,297 @@
+
+
+// ------------Map--------------- //
+Map:CowlandsTowerDefense3p
+"Cowlands Tower Defense"
+End
+
+///Stoicism
+Map:CowlandsTowerDefense3p/Desc
+"Made for version 1.09. \n Playable for 1, 2, 3 or 4 players.\n\n If you want to play the 2 players version, spot up on the left side.\n\n Balanced respectively for 2 or 3 players. No need to team up and any spot variation is scripted to be balanced. Any faction shall hypotetically be balanced"
+End
+
+
+
+SCRIPT:GameStart1
+"Aight, there's no rest between waves. \n Money is granted only when each wave is completly killed off"
+End
+SCRIPT:GameStart2
+"Each killed off wave grants money and 60 cp"
+End
+SCRIPT:GameStarts
+"K, teh raid of teh Cowlands begins in..."
+End
+SCRIPT:PreBossCooldown
+"Pre-boss cooldown"
+End
+//shits i use now
+
+SCRIPT:Wave
+"Wave"
+End
+
+SCRIPT:JUGARDOR1KILL
+"Player1 team kills units"
+End
+
+
+SCRIPT:JUGARDOR2KILL
+"Player2 team kills units"
+End
+
+SCRIPT:JUGARDOR3KILL
+"Player3 team kills units"
+End
+
+
+SCRIPT:JUGARDOR1ZKILLHEROS
+"Player1 team kills heroes"
+End
+SCRIPT:JUGARDOR2ZKILLHEROS
+"Player2 team kills heroes"
+End
+SCRIPT:JUGARDOR3ZKILLHEROS
+"Player3 team kills heroes"
+End
+
+
+
+
+SCRIPT:WAVE4
+"Have a cooldown, boss wave arrives in"
+End
+
+SCRIPT:LightningTower 
+"Lightning Tower"
+End
+CONTROLBAR:LightningTower
+"Lightning Tower"
+End
+CONTROLBAR:WaterTower
+"Water Tower"
+End
+
+
+SCRIPT:Thorin
+"Thorin puto"
+End
+SCRIPT:BlackArrowTower
+"Black arrow tower"
+End
+SCRIPT:PlacerHoldeador12
+"Lightning Tower"
+End
+SCRIPT:PlacerHoldeador13
+"Lightning Tower"
+End
+SCRIPT:lacerHoldeador14
+"Lightning Tower"
+End
+SCRIPT:PlacerHoldeador15
+"Lightning Tower"
+End
+
+// ------------First conditional messages--------------- //
+SCRIPT:BadSpots
+"You gotta be pretty stupid to spot up like this but w/e."
+End
+SCRIPT:HARDCORE
+"You have setted up the HARD dificulty. You will be forced to play quickly and precise now."
+End
+// ------------Messages in order--------------- //
+
+SCRIPT:Instructions02Hobbits
+"This hobbits will show up the path of your enemies."
+End
+
+SCRIPT:Instructions03Inns
+"You can summon units on the Shire local inns, if you want"
+End
+
+SCRIPT:GOBLINS
+"The forces of the gayness have sent Goblins from the mountains"
+End
+SCRIPT:Wave1Congratzs
+"Well done, now prepare quickly your archers that a spider wave is coming"
+End
+
+SCRIPT:Wave2Hint1
+"Consider that spread the archers is the best way to kill weak and fast units, like spiders"
+End
+SCRIPT:Wave2Congratzs
+"Good job, but do not rely... goblins are sending bigger monsters."
+End
+SCRIPT:Wave2RestHint2
+"At least one player should start preparing SilverThorn arrows"
+End
+SCRIPT:Wave3Hints3
+"*Don't let your archers waste arrows and time with spinning trolls! \n *Dead eye is effective against Giants"
+End
+SCRIPT:Wave3Hints3_SilverThorn
+"Don't forget to upgrade your arrows!\nIf money is not enough, one player should send money to the other"
+End
+SCRIPT:Wave3Congratzs
+"Excelent, but now an army of dragons is arriving."
+End
+SCRIPT:Wave4Hints4
+"Prepare SilverThorn projectiles; it is the only way to pierce dragon armors!"
+End
+SCRIPT:Wave4Congratzs
+"Perfect, goblin forces are banished now"
+End
+SCRIPT:BuilderReinforces
+"Reforces from Ithilien and Dale!!"
+End
+SCRIPT:BUILDERS_INFORMATION
+"They bring information... Isengard is coming with artillery!"
+End
+SCRIPT:ObjetiveHints5
+"We should get fire arrows so we can ignite the grassy terrain and burn out the Isengard artillery"
+End
+SCRIPT:ISENGARD
+"Goblins got killed off, but now Saruman hordes came from the south, Isengard"
+End
+
+SCRIPT:Wave5Hint
+"Kill the heroes, that they are providing leadership to it's units"
+End
+SCRIPT:Wave5Congratzs
+"That was a tough one, but do not forget Saruman has already sent the artillery!"
+End
+SCRIPT:Wave6HintPreparation
+"We should prepare fire arrows and find a good flamable spot."
+End
+SCRIPT:Wave6HintPreparationAim
+"Archers: if you plan to burn isengard artillery, do not bombard the grass untill they come!!"
+End
+SCRIPT:Wave6DuringMessage
+"Nice fire you got there, but do not ignore these battering rams"
+End
+SCRIPT:ObjetiveHints6 //desactivated
+"Now, now!! BURN IT ALL NOW! Do not let balistas absorb our arrows"
+End
+SCRIPT:Wave6Congratzs
+"That was smart, well done. But now the crazy-ones are coming at full speed..."
+End
+SCRIPT:Wave7Congratzs
+"Excelent, but don't bow down that the cavalry of the isengard army is on the way"
+End
+SCRIPT:Wave8KillSharkuNoobs
+"Kill the warg leaders"
+End
+SCRIPT:Wave8KillSharkuNoobsReminder
+"Do not let sharku provide armor leadership"
+End
+SCRIPT:Wave8Congratzs
+"Good, Isengard forces have been expulsed from this lands. Now we can breath, by now..."
+End
+SCRIPT:MORDOR
+"Sauron has sent his hordes with trolls!"
+End
+SCRIPT:Wave9Congratzs
+"Dammit, these trolls were some tough cookies"
+End
+SCRIPT:Wave9Hints
+"You should build Heroic Statues."
+End
+SCRIPT:Wave10Started
+"Men from the east have joined to the assault"
+End
+SCRIPT:Wave10Hint
+"These corsairs are very excited and they want to rape our women and our hobbits! do not let them arrive to the shire!"
+End
+
+SCRIPT:Wave11BalrogsAreSlow
+"Balrogs are slow units, you do not need to wait them on towers. Move your archers from corner to corner. Use all your potential!"
+End
+
+SCRIPT:BALROGUITOS
+"Get ready!!! Sauron balrogs are here."
+End
+
+SCRIPT:LastHint01
+"We should expend our remaining money on towers with silverthorn"
+End
+
+SCRIPT:LastHint02
+"Be carefull with Sauron death implosion! Watch up!!"
+End
+
+
+SCRIPT:SAURONSITO
+"Las mierdas!!! GET READY!! Sauron is comming hanging his BBC. GG hobbits"
+End
+
+//------------Timers-----------;;
+
+
+SCRIPT:WAVE1
+"Goblins will come in"
+End
+
+SCRIPT:WAVE2
+"Spiders wave arrive in"
+End
+
+SCRIPT:WAVE3
+"Monsters from the north arrive in"
+End
+
+
+SCRIPT:WAVE5
+"Saruman forces arrive in"
+End
+
+SCRIPT:WAVE6
+"Isengard artillery arrive in"
+End
+
+SCRIPT:WAVE7
+"Isengard beserkers arrive in"
+End
+
+SCRIPT:WAVE8
+"Sharku hordes arrive in"
+End
+
+SCRIPT:WAVE9
+"Mordor arrives in"
+End
+
+SCRIPT:WAVE10
+"Evilmen will come in"
+End
+
+SCRIPT:WAVE11
+"Balrogs of Morgoth will come in"
+End
+
+SCRIPT:WAVE12
+"Sauron himself will come in"
+End
+
+
+//------------Disabled stuff-----------;;
+
+SCRIPT:RALLY
+"Players are able to use Rallying Call power"
+End
+
+SCRIPT:REFORCES
+"The last men of the Middle Earth and the Eagles of the Mountains came to help ya"
+End
+
+
+OBJECT:RohanStatueDescription2 ;;;;=;; DISABLED JUST BECAUSE I CAN'T MAKE IT WORK
+"Grants 20% range and 25% experience to nearby archers"
+End
+
+//------------Win---Lose-----------;;
+
+SCRIPT:LOSE
+"Noobs."
+End
+
+SCRIPT:WIN
+"WP"
+End
