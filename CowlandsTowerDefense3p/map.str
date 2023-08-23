@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.69: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.70: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -20,6 +20,13 @@ End
 
 
 
+//---------------------------------------------------
+OBJECT:EliteDaleArcher_New
+"Archer of Dale"
+END
+OBJECT:EliteDaleArchers_New
+"Elite Men of Dale"
+END
 //---------------------------------------------------
 OBJECT:RankingTroll_New
 "Thorin The Cheap Troll"
@@ -122,7 +129,7 @@ CONTROLBAR:SharkuBoost_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% armor \n Left click icon then left click on target enemy"
+"Requires Level 8 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage and +20% speed. \n Left click icon then left click on target enemy"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
@@ -367,7 +374,7 @@ CONTROLBAR:LegolasBoostDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ThranduilBoost_New
-"Non-democratic Comunist Leader"
+"Non-democratic Communist Leader"
 // "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
@@ -393,7 +400,7 @@ CONTROLBAR:MenWood_New
 "Fanatic pseudo-ecologist [&B]"
 END
 CONTROLBAR:MenWoodDesc_New
-"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n\n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage. \n Allies near the trees gain 99% armor, including Structures. \n Left click icon then left click on target area"
+"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n\n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage. \n Allies near the trees gain 99% armor, including Structures. \n Left click icon then left click on target area" //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:ElvenWood_New
@@ -550,7 +557,7 @@ CONTROLBAR:DwarvenRiches_New
 "Tax Exemption (&B)"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
-"Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes without doubting the exploitation of the soil in hands of foreigners will be responsable and environment caring\n\n Left click icon then left click in the fortress."
+"Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes -without any doubt- the exploitation of the national soil in hands of foreigners will be responsable and environment caring\n\n Left click icon then left click in the fortress." //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:SummonDunedainAllies_New
@@ -843,7 +850,7 @@ CONTROLBAR:ConstructSoyTaxesUpgrade
 "Soy &Taxes"
 END
 CONTROLBAR:ConstructSoyTaxesUpgrade_Desc
-"The harvesting of soybeans over-erosions the terrain of our cowlands. \n Least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n Besides, great part of the soybeans production is addressed to the industry of feed-loot's fodder, which we DO NOT LIKE. \n\n Increases the fortress and market incomes by +33.3%"
+"The harvesting of soybeans over-erosions the terrain of our cowlands. \n Least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n Besides, great part of the soybeans production is addressed to the industry of feed-loot's fodder, which we DO NOT LIKE. \n\n Increases the fortress and market incomes by +33.3%"//BUNITO_ESSAY//
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructRohanStable_New
@@ -862,7 +869,7 @@ CONTROLBAR:ToolTipBuildIronOreUpgrade_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipConstructMenMarketPlace_New
-"Provides resources \n Researches economic upgrades \n Quantity available to build: 1"
+"Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n\n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
 END
 //-------------------------------------------------
  CONTROLBAR:HordeWildMenOfDunlandAxes
@@ -963,10 +970,10 @@ CONTROLBAR:ToolTipWarChant_New
 End
 //--------------------------------------------------//
 CONTROLBAR:GothmogLeadership_New
-"Brainless Orc Euphoria"
+"Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
+"Requires Level 3 \n Sauron is probabbly the best leader of the Middle-Earth and Gothmog represents him in the battlefield. \n **INSERT ESSAY HERE** \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
