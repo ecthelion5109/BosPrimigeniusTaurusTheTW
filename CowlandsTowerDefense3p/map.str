@@ -100,15 +100,17 @@ TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 End
 //--------------------------Done---------------------
 TOOLTIP:DisplayDamage_RohirrimArcherBasic
-"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
+"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8"
+//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
 //"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
 //already x1.9
 End
 TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
-"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
+"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8 \n FLAME damage: 5"
+//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
 //"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
 End
-//-------------------------Done+--------------------
+//---------------------------------------------
 TOOLTIP:DisplayDamage_RangerBasic
 "Damage per unit: \n PIERCE damage: 65"
 End
@@ -119,12 +121,8 @@ TOOLTIP:DisplayDamage_RangerElite
 "Damage per unit: \n PIERCE damage: 90 \n HERO_RANGED damage: 10"
 //"Damage per unit: \n HERO_RANGED damage: 50"
 End
-TOOLTIP:DisplayDamage_RangerElitePoison
-"Damage per unit: \n PIERCE damage: 66 \n POISON damage: 13.2 (for 7 seconds)"  
-// x2.2
-//"Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)"
-// x0.7
-//"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)"
+TOOLTIP:DisplayDamage_RangerEliteSummoned
+"Damage per unit: \n PIERCE damage: 90 \n HERO damage: 10"  
 // x1
 End
 //----------------------------Done+---------------------
@@ -163,13 +161,24 @@ TOOLTIP:DisplayDamage_LancerUpgrade
 //"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
 End
 //--------------------------Done-----------------------
+TOOLTIP:DisplayDamage_DunlandAxeThrowerBasic
+"Damage per unit: \n SLASH damage: 60 \n SIEGE damage 8"
+//x2
+//"Damage per unit: \n SLASH damage: 30 \n SIEGE damage 4"
+End
+TOOLTIP:DisplayDamage_DunlandAxeThrowerUpgrade
+"Damage per unit: \n SLASH damage: 96 \n SIEGE damage 8"
+//x2
+//"Damage per unit: \n SLASH damage: 48 \n SIEGE damage 4"
+End
+//--------------------------Done-----------------------
 TOOLTIP:DisplayDamage_AxeThrowerBasic
-"Damage per unit: \n SLASH damage: 30 \n SIEGE damage 10"
-//"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 15"
+"Damage per unit: \n SLASH damage: 30 \n SIEGE damage 4"
+//"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 8"
 End
 TOOLTIP:DisplayDamage_AxeThrowerUpgrade
-"Damage per unit: \n SLASH damage: 48 \n SIEGE damage 10"
-//"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 15"
+"Damage per unit: \n SLASH damage: 48 \n SIEGE damage 4"
+//"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 8"
 End
 //--------------------------Done-------------------
 TOOLTIP:DisplayDamage_DaleArcherBasic
@@ -1326,11 +1335,11 @@ CONTROLBAR:ToolTipConstructMenMarketPlace_New
 "Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n\n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
 END
 //-------------------------------------------------
- CONTROLBAR:HordeWildMenOfDunlandAxes
+CONTROLBAR:HordeWildMenOfDunlandAxes_New
 "Dunland Axe Throwers (&B)"
 END
 CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde_New
-"Effective against pikemen, archers and weak heros"
+"Requires Level 2 Dunland Hall \n Effective against pikemen, archers and weak heros"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipArrowWind_New
