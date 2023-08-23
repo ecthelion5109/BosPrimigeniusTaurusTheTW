@@ -83,3 +83,6 @@ If not, follow these steps:
 
 #### Discord:
 - [Visit our Discord server, share your thoughts and ask your questions](https://discord.gg/f2xc8nsaRs)
+
+#### CowMap guide by BlockBuster:
+- [CowMap guide in OneDrive](https://onedrive.live.com/view.aspx?resid=539A7922DAEF7B77!4890&ithint=file%2cdocx&authkey=!AJ8wFQF01hP3zKI)
