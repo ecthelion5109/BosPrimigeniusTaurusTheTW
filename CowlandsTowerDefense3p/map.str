@@ -75,7 +75,16 @@ End
 
 
 
-
+//---------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
+"Requires Level 2 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+END
+CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
+"Requires Level 3 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
+END
+CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
+"Requires Level 5 \n Sends five fireball at selected area \n Left click icon then left click on target location"
+END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
 "Boromir el epico"
@@ -232,7 +241,7 @@ CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
-"De&vastation"
+"Devastation (&T)"
 End
 CONTROLBAR:ToolTipDevastation_New
 "Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
@@ -895,7 +904,7 @@ CONTROLBAR:ToolTipSpeechCraft_New
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireball Storm [&V]"
+"Fireball Storm [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
 "Requires Level 6 \n Spells a rain of fireballs. \n Left click icon then left click on target"
