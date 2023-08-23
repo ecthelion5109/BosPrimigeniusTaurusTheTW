@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.69 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.70 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,20 +77,20 @@ End
 
 
 //------------------------------------------------------------
-UPGRADE:GoblinArcherBuff_New
-"Goblin Purification"
+UPGRADE:GoblinGundabadTraining_New
+"Gundabad Training"
 End
-CONTROLBAR:PurchaseTechnologyGoblinPurification_New
-"Research Goblin &Purification"
+CONTROLBAR:PurchaseTechnologyGundabadTraining_New
+"Research Goblin Gundabad Train&ing"
 End
-CONTROLBAR:ToolTipPurchaseTechnologyGoblinPurification_New
-"Requires Level 2 Goblin Cave \n Allows purchasing Purification upgrade on Goblin Archers."
+CONTROLBAR:ToolTipPurchaseTechnologyGundabadTraining_New
+"Requires Level 2 Goblin Cave \n Allows purchasing Gundabad Training upgrade on Goblin Archers."
 End
 //------------------------------------------------------------
-CONTROLBAR:GoblinArcherBuffApply_New
-"Purchase Goblin &Purification"
+CONTROLBAR:GoblinGundabadTrainingApply_New
+"Purchase Gundabad Train&ing"
 End
-CONTROLBAR:GoblinArcherBuffApplyDesc_New
+CONTROLBAR:GoblinGundabadTrainingApplyDesc_New
 "Research upgrade at Goblin Cave to enable this equipment \n When equipped, significantly increases the movement speed, the range of the aim and the damage caused by Arrows"
 End
 //---------------------------------------------------
@@ -200,14 +200,14 @@ CONTROLBAR:ToolTipDrakeLeadership_New
 END
 //--------------
 CONTROLBAR:SpecialAbilityFireDrakeInferno_New
-"Cold Infe&rno"
+"Cold Inferno (&T)"
 END
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
 "Requires Level 7 \n Breathes cold fire over a selected area \n Left click icon then left click on target area"
 END
 //--------------
 CONTROLBAR:GoblinKingSpawnFireDrakes_New
-"Call the nephews [&B]"
+"&Call the nephews"
 END
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
 "Requires Level 8 \n Calls the blessings of her sister and delivers them to charge towards the enemy, while their mother hangs out with her friends at 5 am. \n Left click icon then left click on pathable location"
@@ -376,15 +376,15 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
 End
 //-----
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies nearby the totem are healed and \n replenish one unit per horde each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Well'" \n Left click icon then left click on target area"
 END
 //-----
 OBJECT:ToolTipGorkilTotem_New
-"Idiot Totem"
+"Healing Totem"
 END
-TOOLTIP:ToolTipGorkilTotemDesc_New
-"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
-END
+//	TOOLTIP:ToolTipGorkilTotemDesc_New
+//	"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
+//	END
 //-----
 CONTROLBAR:GoblinKingMount_New
 "Moun&t / Dismount"
@@ -833,7 +833,7 @@ CONTROLBAR:EliteTrainingScienceDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
-"Level 2: Allows researching Purification upgrade. \n +10% Faster Build Speed"
+"Level 2: Allows researching Gundabad Training upgrade. \n +10% Faster Build Speed"
 //"Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
@@ -845,7 +845,7 @@ OBJECT:MordorWell_New
 "Morgul healing pit" 
 END
 CONTROLBAR:ConstructTrollDrum_New
-"Build a troll drum (&W)"
+"Build a troll drum (&B)"
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorBasicTraining_New
@@ -1115,6 +1115,9 @@ END
 TOOLTIP:GenericHeroicStatueDesc_New
 "Allies near the Statue gain +25% Damage \n and earn experience 25% faster. \n Category: 'Statue'"
 End
+TOOLTIP:GenericHeroicStatueDescGoblins_New
+"Allies near the Troll Drum gain +25% Damage \n and earn experience 25% faster. \n Category: 'Statue'"
+End
 //--------------------------------------------------//
 TOOLTIP:GenericWellDesc_New
 "Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Well'"
@@ -1289,13 +1292,13 @@ END
 //	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 //	END
 CONTROLBAR:AzogScavenger_New
-"Scave&nger"
+"S&cavenger"
 End
 CONTROLBAR:AzogScavengerDesc_New
 "Requires Level 6 \n Nearby player unit's kills earn extra resources. \n Earn's 100% of the bounty value instead of 25%. \n Left click to activate"
 END
 CONTROLBAR:AzogGoblinCharge_New
-"Goblin Charge (&W)"
+"Goblin Charge (&T)"
 END
 CONTROLBAR:AzogGoblinChargeDesc_New
 "Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Summons more goblins at level 7 and even moar goblins at level 9. \n Left click icon then left click on target area"
@@ -1763,7 +1766,7 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
-"Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Reduces the cost of the Purification upgrade by 33%\n Adds a defensive tower"
+"Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Reduces the cost of the Gundabad Training upgrade by 33%\n Adds a defensive tower"
 END
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTower_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Adds a defensive tower"
