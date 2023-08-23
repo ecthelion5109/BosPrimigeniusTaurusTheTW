@@ -51,7 +51,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.85: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.86: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -69,7 +69,36 @@ End
 
 
 
-
+//-------------------------------------------------
+CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Tower gains 50% armor."
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Category: 'Damage Inspiration' "
+END
+//---------------------------------------------------
+TOOLTIP:LackLevel3ForgeWorksAndScience_New
+"Requires Level 3 Forge Works and Science from SpellBook."
+END
+TOOLTIP:LackLevel3TavernAndScience_New
+"Requires Level 3 Tavern and Science from SpellBook."
+END
+TOOLTIP:LackLevel3TreasureTroveAndScience_New
+"Requires Level 3 Treasure Trove and Science from SpellBook."
+END
+TOOLTIP:LackLevel3ArmoryAndScience_New
+"Requires Level 3 Armory and Science from SpellBook."
+END
+//---------------------------------------------------
+CONTROLBAR:EliteTrainingScience_New
+"Elite Training"
+End
+CONTROLBAR:EliteTrainingScienceDesc_New
+"Enables the Elite Training research at your Upgrade Production Building. \n Passive power"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
 "Level 2: Allows recruiting Goblin Archers. \n +10% Faster Build Speed"
@@ -259,7 +288,7 @@ CONTROLBAR:RingWraithMode_New
 "Worst &Nightmare"
 END
 CONTROLBAR:RingWraithModeDesc_New
-"Requires Level 10 \n Turns into a ring wraith, dealing supernatural damage. \n Effective against any kind of heroe. \n Heroes upon death become into ring wraiths aswell."
+"Requires Level 7 \n Turns into a ring wraith, dealing supernatural damage. \n Effective against any kind of heroe. \n Heroes upon death become into ring wraiths aswell."
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFellbeastWingBlast_New
@@ -299,10 +328,6 @@ End
 OBJECT:DwarvenLoneTowerDescription_New
 "Fires at nearby enemies. \n Can receive different upgrades from the fortress." //  \n Reveals stealthed enemies.
 End
-//-------------------------------------------------
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Tower gains 99% armor."
-END
 //-------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower_New
 "Build a Stealth Detector Tower(&J)"
@@ -499,10 +524,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
 "Provides 35% damage and 25% experience to nearby troops \n Category: 'War Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-END
-//-------------------------------------------------
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgrade_New
