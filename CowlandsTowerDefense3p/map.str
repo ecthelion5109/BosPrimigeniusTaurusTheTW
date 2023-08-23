@@ -18,7 +18,7 @@ CONTROLBAR:ToolTipWargRiderHowl_New
 "Requires Level 6 \n Nearby units temporally gain +65% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
-"Requires Level 3 \n Left click to switch between \n mounted and on foot"
+"Requires Level 2 \n Left click to switch between \n mounted and on foot"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ElrondToggle_New
@@ -580,8 +580,8 @@ OBJECT:ElvenHeroicStatueDescription_New
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore. // Statues
 End
 //------------------------------------------------------------
-CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New // fortressBanner
-"Allies near the fortress gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
+"Allies near the fortress gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"  // fortressBanner
 END
 //------------------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
@@ -626,11 +626,11 @@ CONTROLBAR:ToolTipWarChant_New
 "Targeted allies gain +40% Damage, & +10% speed \n Category: Non stacky leadership \n\n Left click icon then left click on target units"
 End
 //---------------------------------------------------------------------//
-CONTROLBAR:GothmogLeadership
+CONTROLBAR:GothmogLeadership_New
 "Brainless Orc Euphoria"
 END
-CONTROLBAR:ToolTipGothmogLeadershipNew
-"Requires Level 2 \n Allies near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+CONTROLBAR:ToolTipGothmogLeadership_New
+"Requires Level 3 \n Allies near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
@@ -704,7 +704,7 @@ SCRIPT:Hint07
 "The progeny of Glaurung, that magical chad from the First Age life fucker of Hurin sons, has arrived to our cowlands seeking for delicious milk"
 End
 SCRIPT:Hint08
-"Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent, if a Dragon comes, heroes kill. If ladies moo, life be good".
+"Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent,\n if a Dragon comes, heroes kill. If ladies moo, life be good".
 End
 SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
@@ -714,10 +714,10 @@ SCRIPT:GameStart1
 "This is Bos Primigenius Taurus: The TW \n Objective is to avoid enemies entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Always taking in consideration that Thorin Sucks, your goal is to survive 20 waves."
+"Always taking in consideration that Thorin Sucks,\n your goal is to survive 20 waves."
 End
 SCRIPT:GameStart3
-"Each wave leaves Resources and increases your Command Points"
+"Each wave leaves Resources and increases\n your Command Points Limit"
 End
 SCRIPT:GameStart4
 "Each 4 waves there's a break, \n without counting the following warm-up wave."
@@ -823,5 +823,5 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables COW aspirants friendly mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random.\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
