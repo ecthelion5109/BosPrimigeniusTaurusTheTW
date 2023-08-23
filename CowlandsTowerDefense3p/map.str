@@ -3,6 +3,18 @@
 
 
  
+ 
+ 
+ 
+CONTROLBAR:ToolTipBlackRiderLeadership_New
+"Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
+END
+ 
+ 
+ 
+CONTROLBAR:ToolTipSlayer_New
+"Requires Level 5 \n Gimli deals 300% damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
+END
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
 "Ray of Morgul [&T]"
 END
@@ -33,7 +45,7 @@ CONTROLBAR:TrainArchers_New
 "Art of the Bow [&T]"
 END
 CONTROLBAR:ToolTipTrainArchers_New
-"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Left click icon then left click on target archers"
+"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
@@ -118,7 +130,7 @@ CONTROLBAR:Sunflare_New
 END
 
 CONTROLBAR:TooltipSunflare_New
-"Requires Level 10 \n In honor to the Piano Sonata Nº14, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
+"Requires Level 10 \n In honor to the Piano Sonata 4, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
 END
 CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
@@ -151,10 +163,10 @@ CONTROLBAR:TooltipUndermine_New
 "Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
 END
 CONTROLBAR:AxeStorm_New
-"A&xe Storm"
+"Explosive A&xes"
 END
 CONTROLBAR:AxeStormDesc_New
-"Requires Level 10 \n Launch a continuous volley of axes \n Left click icon then left click on target area"
+"Requires Level 10 \n Launch a continuous volley of explosive axes \n Left click icon then left click on target area"
 END
 CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
@@ -277,11 +289,11 @@ END
 CONTROLBAR:ThrowSpear_New
 "Spear Throw [&T]"
 END
-CONTROLBAR:ThrowSpearDesc_New // EomerSpear
+CONTROLBAR:SpearDesc_New // EomerSpear
 "Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs. \n\n Left click icon then left click on target"
 END
 
- CONTROLBAR:ToolTipWoundingArrow_New
+CONTROLBAR:ToolTipWoundingArrow_New
 "Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n\n Left click icon then left click on target"
 END
 
