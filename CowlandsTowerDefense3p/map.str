@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.08 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.09 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -260,6 +260,12 @@ End
 CONTROLBAR:UpgradeDunlandHallLevel3_New
 "Upgrad&e Dunland Hall to Level 3"
 End
+UPGRADE:IsengardDunlandHallLevel2_New
+"Warg Pit Level 2"
+END
+UPGRADE:IsengardDunlandHallLevel3_New
+"Warg Pit Level 3"
+END
 //---------------------------------------------------
 CONTROLBAR:GandalfMaiarLight_New
 "Light of Maiars (&C)"
@@ -552,6 +558,7 @@ CONTROLBAR:IsengardTrainAllies_New
 "Train the army [&C]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
+//"Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
 "Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //-----
