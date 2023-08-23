@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.29 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.30 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -390,7 +390,7 @@ CONTROLBAR:GoblinKingBattleFrenzy_New
 "Battle Frenzy"
 End
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 3 \n Player units near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
+"Requires Level 3 \n Player units near the Goblin King gain \n +25% armor, +5% range earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
 End
 //-----
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
@@ -2079,7 +2079,7 @@ CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 3 \n Player units near Undomiel gain \n +25% armor and earn experience 25% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
+"Requires Level 3 \n Player units near Undomiel gain \n +25% armor, +5% range earn experience 25% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
@@ -2098,7 +2098,7 @@ CONTROLBAR:TooltipHeal_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
-"Summons the Eye of Sauron \n Allied units gain \n +25% armor and earn experience 25% faster. \n Category: 'Armor_Inspiration' \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Allied units gain \n +25% armor, +5% range earn experience 25% faster. \n Category: 'Armor_Inspiration' \n Left click icon then left click on target area"
 END
 //-------------------------------------------------
 //-------------------------------------------------
@@ -2270,7 +2270,7 @@ CONTROLBAR:TooltipLumbermillUnpackIsengard_New
 "Harvests resources from nearby trees \n Quantity available to build: 2"
 END
 CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 CONTROLBAR:ToolTipConstructMenMarketPlace_New
 "Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
@@ -2371,7 +2371,7 @@ TOOLTIP:StealthDragonDesc_New
 END
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Player units near Saruman gain +25% armor \n and earn experience 25% faster  \n Category: 'Armor_Inspiration' \n Passive ability"
+"Player units near Saruman gain \n +25% armor, +5% range earn experience 25% faster.  \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 CONTROLBAR:WizardBlast_New
 //"Wizard Blast [&R]"
