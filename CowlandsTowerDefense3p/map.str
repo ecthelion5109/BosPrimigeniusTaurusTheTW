@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.67 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.68 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,6 +76,24 @@ End
 
 
 
+//------------------------------------------------------------
+CONTROLBAR:PurchaseSpiderVenomSacks_New
+"Purchase &Venom Sacs"
+END
+
+CONTROLBAR:ToolTipPurchaseSpiderVenomSacks_New
+"Upgrades this horde with Venom Sacs \n Inflicts poison to enemies causing damage over time"
+END
+TOOLTIP:LackVenomSacksTechnology_New
+"Research upgrade at Spider Pit to enable this equipment \n When equipped, inflicts poison to enemies causing damage over time"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseTechnologySpiderVenomSacks_New
+"Research &Venom Sacs"
+END
+CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
+"Allows hordes to purchase the \nVenom Sacs upgrade \n When equipped, causes damage over time to poisoned enemies\n\nStrong vs. cavalry"
+END
 //------------------------------------------------------------
 UPGRADE:GoblinArcherBuff_New
 "Goblin Purification"
@@ -544,7 +562,8 @@ CONTROLBAR:IsengardTrainAlliesDesc_New
 END
 //-----
 CONTROLBAR:GrimaLandThing_New
-"Land of Confussion" // Tainted Land //"Alienating Land (&B)" // Tainted Land
+"Land of Confussion"
+ // Tainted Land //"Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
 "Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
@@ -1917,7 +1936,7 @@ END
 CONTROLBAR:PurchaseTechnologyPoisonedSpears_New
 "Research Poisoned Spears(&V)"
 END
-CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
+CONTROLBAR:ToolTipPurchaseTechnologyPoisonedSpears_New
 "Allows hordes to purchase the Poisoned Spears upgrade \n When equipped, lances cause damage over time and slows down the enemy"
 END
 //---------------------------------------------
