@@ -22,6 +22,7 @@ If so, this might not be the map for you.
 - **Style**: Tower War/Tower Defense
 - **Factions**: All factions are playable
 - **New heroes, abilities and units**: Yes
+- **Players**: Playable for 1, 2 or 3
 - **Waves**: 20
 - **Duration**: Aprox 50-60 minutes
 - **Difficult levels**: Easy, Normal and Hardcore.
@@ -35,7 +36,6 @@ If so, this might not be the map for you.
 - **Easy Mode**: Enabled by placing a beacon on the small cow at the bottom right
 - **Team Play**: If you forget to team up, other players will be allied, but kill-counters won't work
 
----
 
 ### Singleplayer Settings
 - **1p Mode**: Automatically set up on the left side without ticking "RingHeroes"
@@ -49,9 +49,7 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 
 ---
 
-### Credits
-
-#### to BFME2 modding community:
+### Credits to the BFME2 modding community:
 - **BFME2 ROTWK 2.02** for the Blight ability.
 - **Shark & Gannicus** for gameplay inspiration from their "MADNESS" maps, where i also learned commandButton reuse trick and pathfinding inspiration.
 - **Silverbane** for teaching me the buttonimages trick to be ably to modify commandbutton and for his "Osgiliath" from which i took his OathBreaker wave for inspiration.
@@ -60,21 +58,8 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 - **Thorin** for his ideas, such as Theoden's Massive Rohirrim Charge and for setting up a competitive community of "cowboys" in GameRanger.
 - **Guerrilla** for being annoying as shit and continously prompting me to remake pathfinding and hardcoded anti cheats.
 
-#### to the cow-players community:
+### Credits to the cow-players community:
 - Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau, Sauron, Temptation, BlockBuster, Mithrandir, King, Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F and whoever actually ever played this map during its two and half years of develepment.
-
----
-
-### Links
-
-#### Downloads:
-
-#### Heaven Games:
-- [Visit the Heaven Games entry](https://bfme2.heavengames.com/downloads/showfile.php?fileid=1315)
-
-#### Discord:
-- [Visit our Discord server, share your thoughts and ask your questions](https://discord.gg/f2xc8nsaRs)
-
 
 ---
 
@@ -83,7 +68,17 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 If you already have BFME2 version 1.09v3, you will have the latest version available in the official map list. 
 If not, follow these steps:
 
-1. [Go to the releases section](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/releases)
-2. Find the newest "CowlandsTowerDefense3p" .rar file available and click it to start downloading.
-3. Get the "CowlandsTowerDefense3p" .rar from your downloads folder and extract it on C:\Users\%your_user%\AppData\Roaming\My Battle for Middle-earth II Files\maps
+1. Go to the [releases section](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/releases).
+2. Find the newest *CowlandsTowerDefense3p.rar* version available and click it to start downloading.
+3. Extract the downloaded *.rar* archive in *C:\Users\%your_user%\AppData\Roaming\My Battle for Middle-earth II Files\maps*
 4. Open the game and it will show up.
+
+---
+
+### Links
+
+#### Heaven Games:
+- [Visit the Heaven Games entry](https://bfme2.heavengames.com/downloads/showfile.php?fileid=1315)
+
+#### Discord:
+- [Visit our Discord server, share your thoughts and ask your questions](https://discord.gg/f2xc8nsaRs)
