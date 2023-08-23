@@ -1071,14 +1071,14 @@ CONTROLBAR:ToolTipGBloodHunt_New
 END
 //-----
 CONTROLBAR:SharkuManEater_New
-"Man Ea&ter"
+"Man Eater (&C)"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
 "Requires Level 4 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
-"Train Allies [&C]"
+"Train the army [&B]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
 "Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
