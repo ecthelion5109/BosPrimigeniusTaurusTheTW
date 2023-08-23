@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.66 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.67 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,11 +77,28 @@ End
 
 
 //------------------------------------------------------------
-CONTROLBAR:GoblinArcherBuff_New
-"Cucumba? Banana!"
+UPGRADE:GoblinArcherBuff_New
+"Goblin Purification"
 End
-CONTROLBAR:GoblinArcherBuffDesc_New
-"The archers double its fire rate... or something"
+CONTROLBAR:PurchaseTechnologyGoblinPurification_New
+"Research Goblin &Purification"
+End
+CONTROLBAR:ToolTipPurchaseTechnologyGoblinPurification_New
+"Requires Level 2 Goblin Cave \n Allows purchasing Purification upgrade on Goblin Archers."
+End
+//------------------------------------------------------------
+CONTROLBAR:GoblinArcherBuffApply_New
+"Purchase Goblin &Purification"
+End
+CONTROLBAR:GoblinArcherBuffApplyDesc_New
+"Research upgrade at Goblin Cave to enable this equipment \n When equipped, significantly increases the movement speed, the range of the aim and the damage caused by Arrows"
+End
+//---------------------------------------------------
+CONTROLBAR:PurchaseTechnologyIsengardTorches_New
+"Research &Torches"
+End
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches_New
+"Requires Level 2 Hall \n Allows Axe Throwers to use \n and throw explosive fire torches."
 End
 //------------------------------------------------------------
 CONTROLBAR:InnSummonDwarvenMenOfDale_New
@@ -228,13 +245,6 @@ END
 CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
 "Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
 END
-//---------------------------------------------------
-CONTROLBAR:PurchaseTechnologyIsengardTorches_New
-"Research &Torches"
-End
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches_New
-"Requires Level 2 Hall \n Allows Axe Throwers to use \n and throw explosive fire torches."
-End
 //---------------------------------------------------
 CONTROLBAR:UpgradeDunlandHallLevel2_New
 "Upgrad&e Dunland Hall to Level 2"
@@ -1729,6 +1739,9 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
 "Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Category: 'High-Tier Hero'. \n Left click to activate"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
+"Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Reduces the cost of the Purification upgrade by 33%\n Adds a defensive tower"
+END
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTower_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Adds a defensive tower"
 END
