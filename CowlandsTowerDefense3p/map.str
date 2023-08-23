@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.42 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.43 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -123,10 +123,10 @@ TOOLTIP:FortressFireDrake_New
 END
 //--------------
 CONTROLBAR:DragonaLeadership_New
-"Inspiring Hot Lady"
+"Maternal instinct "
 End
 CONTROLBAR:ToolTipDrakeLeadership_New
-"Requires Level 6 \n Player units near la dragona gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Player units near la Dragona gain \n +50% Armor and earn experience 50% faster \n Category: 'TaintLand' \n Passive ability"
 END
 //--------------
 CONTROLBAR:SpecialAbilityFireDrakeInferno_New
@@ -307,6 +307,24 @@ CONTROLBAR:ConstructMordorWell_New
 //Necromancer Monument (&W)
 END
 //---------------------------------------------------
+CONTROLBAR:GoblinKingBattleFrenzy_New
+"Battle Frenzy"
+End
+CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
+"Requires Level 3 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
+End
+//-----
+CONTROLBAR:TooltipGoblinKingSkullTotem_New
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
+END
+//-----
+OBJECT:ToolTipGorkilTotem_New
+"Idiot Totem"
+END
+TOOLTIP:ToolTipGorkilTotemDesc_New
+"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
+END
+//-----
 CONTROLBAR:GoblinKingMount_New
 "Moun&t / Dismount"
 End
@@ -1060,7 +1078,7 @@ CONTROLBAR:SharkuManEater_New
 "Man Ea&ter"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 4 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
+"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
 CONTROLBAR:SharkuWargRiderHowl_New
@@ -1163,21 +1181,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 "Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 3 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
-End
-//---------------------------------------------------
-CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
-END
-//------------------------------------------------------------//
-OBJECT:ToolTipGorkilTotem_New
-"Idiot Totem"
-END
-TOOLTIP:ToolTipGorkilTotemDesc_New
-"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
-END
-//---------------------------------------------------
 //	CONTROLBAR:AzogChildsPrerequisite_New
 //	"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
 //	End
@@ -1206,13 +1209,13 @@ CONTROLBAR:AzogScavenger_New
 "Scavenger"
 End
 CONTROLBAR:AzogScavengerDesc_New
-"Requires Level 4 \n Nearby player unit's kills earn extra resources. \n Left click to activate"
+"Requires Level 6 \n Nearby player unit's kills earn extra resources. \n Earn's 100% of the bounty value instead of 25%. \n Left click to activate"
 END
 CONTROLBAR:AzogGoblinCharge_New
 "Goblin Charge (&W)"
 END
 CONTROLBAR:AzogGoblinChargeDesc_New
-"Requires Level 7 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Left click icon then left click on target area"
+"Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Summons more goblins at level 7 and even moar goblins at level 9. \n Left click icon then left click on target area"
 END
 CONTROLBAR:AzogsAzogTremor_New
 "Tremors (&B)"
@@ -2064,7 +2067,7 @@ CONTROLBAR:ToolTipLurtzLeadership_New
 "Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War_Chant' \n Passive ability"
 END
 CONTROLBAR:AzogLeadershipDesc_New
-"Requires Level 2 \n Allies near Azog gain \n +35% Damage.r \n Category: 'War_Chant' \n Passive ability"
+"Requires Level 2 \n Allies near Azog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High-tier Hero \n Passive ability"
 End
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
 "Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
