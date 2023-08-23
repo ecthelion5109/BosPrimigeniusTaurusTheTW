@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.44 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.45 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -126,7 +126,7 @@ CONTROLBAR:DragonaLeadership_New
 "Maternal instinct "
 End
 CONTROLBAR:ToolTipDrakeLeadership_New
-"Player units near la Dragona gain \n +50% Armor and earn experience 50% faster \n Category: 'TaintLand' \n Passive ability"
+"Player units near la Dragona gain \n +50% Armor and earn experience 25% faster \n Category: 'TaintLand' \n Passive ability"
 END
 //--------------
 CONTROLBAR:SpecialAbilityFireDrakeInferno_New
@@ -158,7 +158,7 @@ CONTROLBAR:SarumanDragonStrikeDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
-"Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
+"Nearby units gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
@@ -1206,7 +1206,7 @@ END
 //	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 //	END
 CONTROLBAR:AzogScavenger_New
-"Scavenger"
+"Scave&nger"
 End
 CONTROLBAR:AzogScavengerDesc_New
 "Requires Level 6 \n Nearby player unit's kills earn extra resources. \n Earn's 100% of the bounty value instead of 25%. \n Left click to activate"
