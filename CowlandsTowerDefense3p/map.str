@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.49 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.50 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -377,7 +377,7 @@ CONTROLBAR:SummonElvenAllies_New
 "Summon Noldor Allies [&V]"
 End
 CONTROLBAR:ToolTipSummonElvenAllies_New
-"Requires Level 7 \n Summons a group of Noldor Warriors \n Left click icon then left click on pathable location"
+"Requires Level 7 \n Summons a group of Noldor Warriors from Lindon. \n Archers are equipped with Golden arrows \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
@@ -480,10 +480,11 @@ CONTROLBAR:TooltipDwarvenRiches_New
 END
 //---------------------------------------------------
 CONTROLBAR:SummonDunedainAllies_New
-"Call Dunedain Allies [&V]"
+"Summon Dunedain Allies [&V]"
 End
 CONTROLBAR:ToolTipSummonDunedainAllies_New
-"Requires Level 7 \n Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location" 
+"Requires Level 7 \nSummons four batallions of Elite Dunedain Rangers from the north. \n Rangers are equiped with Poisoned arrows. \n Left click icon then left click on pathable location"
+//Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location
 END
 //---------------------------------------------------
 CONTROLBAR:LightningSword_New
@@ -667,7 +668,7 @@ CONTROLBAR:DaleArcherAllies_New
 "Summon Dale Elite [&B]"
 END
 CONTROLBAR:DaleArcherAlliesDesc_New
-"Requires Level 10 \n Summons two batallions of Men of Dale elite archers \n Left click icon then left click on pathable location"
+"Requires Level 10 \n Summons two batallions of Elite Archers from Dale. \n Archers are equipped with Black Arrows. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonGamling_New
@@ -676,6 +677,13 @@ END
 CONTROLBAR:SpecialAbilitySummonGamlingDesc_New
 "Requires Level 10 \n Calls to the battle Gamling, the king bodyguard. \n Left click icon then left click on pathable location"
 END
+//---------------------------------------------------
+CONTROLBAR:DunedainPoisonArrows_New
+"Poisoned Arrows"
+End
+CONTROLBAR:DunedainPoisonArrowsDesc_New
+"This batallion is equiped with Poisoned Arrows elaborated by hunters of the north. \n Causes damage over time \ Slows down the enemy"
+End
 //---------------------------------------------------
 CONTROLBAR:BlackArrows_New
 "Black Arrows"
@@ -1004,8 +1012,8 @@ SCRIPT:GameStart2
 ///"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
-//"The Ladies will show you the route of your enemies"
-"Cowhall of Fame: \n LordArionXIV, who saved the cows WITH THORIN. \nThorin, who sucks \n Ecthelion, el enano extraordinario"
+"The Ladies will show you the route of your enemies"
+//"Cowhall of Fame: \n LordArionXIV, who saved the cows WITH THORIN. \nThorin, who sucks \n Ecthelion, el enano extraordinario"
 End
 SCRIPT:GameStart3
 "Each wave leaves Resources and increases\n your Command Points Limit"
