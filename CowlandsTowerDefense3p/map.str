@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.12 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.14 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -2288,13 +2288,28 @@ SCRIPT:EASY
 End
 //----------------------
 OBJECT:Micaela
-"Micaela, la vaca tonta"
+"Mustafaza, la vaca arabe"
 END
 TOOLTIP:Micaela
-"Can speak."
+"Suggests a change for 1.09 Beta"
 END
-SCRIPT:MicaelaSalutes
+SCRIPT:Mustafa01
+"i like ur pitch but i want some more blanced"
+End
+SCRIPT:Mustafa02
+"for exmpl"
+End
+SCRIPT:Mustafa03
 "mos of suron must to be when he atk gob farms or drw farms like grofndal army die if I took it out"
+End
+SCRIPT:Mustafa04
+"or mype"
+End
+SCRIPT:Mustafa05
+"mos of suoron he need to make Red Beam more strong army like mordor cant kill heros mos only way "
+End
+SCRIPT:Mustafa06
+"i gib u 100$ if u make ptch like 1.00"
 End
 //----------------------
 OBJECT:Carmela
@@ -2321,22 +2336,6 @@ SCRIPT:2PlayersMode
 End
 SCRIPT:4PlayersMode
 "4 Players mode Enabled"
-End
-//-------------------------------------------//
-SCRIPT:MOO_01
-"Moo... im just a cow, don't kill me"
-End
-SCRIPT:MOO_02
-"Moo... \n You look smart... i might have a task for you... \n Meet me in a while. \n Moo..."
-End
-SCRIPT:MOO_03
-"I am Stella. \n You see that bitch over there? \n She's Micaela"
-End
-SCRIPT:MOO_04
-"Stella: \n She's not really a cow, she's a balrog or some demon shit. \n \nKill her and i will get you 8000 of gold."
-End
-SCRIPT:INTERACTIVE_LOSE
-"what the fuck man... why did you do that? never trust a cow"
 End
 //------------------Counters-----------------//
 SCRIPT:NextWaveAnticipador
@@ -2392,6 +2391,12 @@ SCRIPT:DebugCounter
 End
 SCRIPT:CONTADOR_DE_SPAWNS
 "Contador de spawns"
+End
+runsub
+"Builder found on road."
+End
+wtfspeak
+"Builder teleported from the road."
 End
 //---------------------------------------------------
 
