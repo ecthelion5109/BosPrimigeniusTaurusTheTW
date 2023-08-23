@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.61 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.62 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,6 +76,60 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ShelobPermanentStinger_New
+"Poisonous Stinger"
+END
+CONTROLBAR:ShelobPermanentStingerDesc_New
+"Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
+END
+//---------------------
+CONTROLBAR:ShelobFreezeingScrech_New
+"Freezeing Sc&reech" 
+END
+CONTROLBAR:TooltipShelobFreezeingScrech_New
+"Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
+END
+//---------------------
+CONTROLBAR:ShelobToxicCumShot_New
+"&Toxic Lady Juice"
+END
+CONTROLBAR:ShelobToxicCumShotDesc_New
+"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+END
+//---------------------
+CONTROLBAR:SpecialAbilityWildShelobTunnel_New
+"Tunnel [&C]"
+END
+CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
+"Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
+END
+//---------------------
+CONTROLBAR:ShelobWebbing_New
+"Ungoliant's mad fruitfulness!"
+End
+CONTROLBAR:ToolTipShelobWebbing_New
+"Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
+End
+//---------------------------------------------------
+CONTROLBAR:BlackRiderMorgulBlade_New
+"Morgul Spell [&C]"
+END
+CONTROLBAR:ToolTipBlackRiderMorgulBlade_New
+"Requires Level 4 \n Targeted enemy becomes crippled and takes poison damage over time. \n Upon death turns into a Ring Wraith. \n Left click icon then left click on target"
+END
+CONTROLBAR:DreadVisage_New
+"Dread Visage"
+END
+CONTROLBAR:ToolTipDreadVisage09v2_New
+"Requires Level 6 \n Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
+End
+CONTROLBAR:ScreechBlackRider_New
+"Deafening Screech [&V]"
+END
+CONTROLBAR:TooltipScreechBlackRider_New
+"Requires Level 10 \n Burst the eardrums of the enemy, causing high dosis of damage. \n Fear prevails over rationality and units temporaly lose their way. \n Left click to activate"
+END
 //---------------------------------------------------
 CONTROLBAR:SlayerArrow
 "Slayer Arrow [&R]"
@@ -131,17 +185,9 @@ CONTROLBAR:RainOfFireDescSaruman_New
 "Requires Level 10 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:GorkilToxicCumShot_New
-"&Toxic cum-shot"
-END
-CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
-END
-//---------------------------------------------------
 CONTROLBAR:GoblinKingMount_New
 "Mount / Dismount [&M]"
 End
-
 CONTROLBAR:ToolTipGoblinKingMount_New
 "Left click to switch between \n mounted and on foot"
 END
@@ -208,7 +254,7 @@ CONTROLBAR:FueltheFires_New
 "Wage Salary"
 End
 CONTROLBAR:ToolTipFueltheFires_New
-"Once upon a time.... there was system called capitalism. He eventually figured out it was not just efficient, but also very practical to apply a wage salary system instead of the usual fixed salary. The outcome was ideal, the old fixed salary had dropped to ground the proletarian life quality and now the wage salary is incredibly allowing to reduce the minimal obligatory hours. \n "Why do we have to deal with communist effervescence?" -once a man thought-  "when we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manageable syndicates?" Such syndicates, by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. I love you 19th century. \n Raises this Lumber Mill production by +35%."
+"Once upon a time.... there was system called capitalism. He eventually figured out it was not just efficient, but also very practical to apply a wage salary system instead of the usual fixed salary. The outcome was ideal, the old fixed salary had dropped to ground the proletarian life quality and now the wage salary is incredibly allowing to reduce the minimal obligatory hours. \n "Why do we have to deal with communist effervescence?" -once a man thought-  "when we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manageable syndicates?" Such syndicates, by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. I love you 19th century. \n Raises this Lumber Mill production by +40%."
 End
 //---------------------------------------------------
 GUI:STRUCTURE_WALL_DISCOUNT_New
@@ -219,6 +265,12 @@ GUI:SpellBookRefreshReduction09v2
 "Powers and Abilities \n Reload bonus: %d%%"
 End
 //---------------------------------------------------
+OBJECT:ConstructFurnace_New
+"Guild Smelters facility"
+END
+CONTROLBAR:ConstructFurnace_New
+"Build a Guild Smelters facility"
+END
 CONTROLBAR:ToolTipFurnace_New
 "Reduces the cost of upgrades.\n  1 Furnace: -16%.\n 2 Furnaces: -32%. \n 3 Furnaces: -28%.\n 4 Furnaces: -64%"
 END
@@ -237,7 +289,7 @@ CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
-"Requires Level 7 \n Taints an area of terrain \n Enemies inside are randomly damaged, debuffed. \n Weak heart enemies are frightened. \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 CONTROLBAR:GrimaLoneTower_New
 "Summon Lone Tower (&U)"
@@ -898,10 +950,6 @@ CONTROLBAR:LurtzSummonUrukGuardDesc_New
 "Requires Level 10 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
-"Requires Level 3 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location"
-END
-//---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
 "The Fortress gains a vision bonus and can detect stealthed units \n Player units in the map gain +15% speed \n Category: 'Bat Cloud'"
 END
@@ -952,13 +1000,6 @@ CONTROLBAR:AwakenWyrm_New
 END
 CONTROLBAR:TooltipAwakenWyrm_New
 "Requires Level 10 \n Summons three subterranean Wyrms under the caster's control \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
-CONTROLBAR:WildShelobInstillTerror_New
-"Freezeing Screech"
-END
-CONTROLBAR:TooltipWildShelobInstillTerror_New
-"Requires Level 5 \n Causes a uncontrollable fear on nearby enemies. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
