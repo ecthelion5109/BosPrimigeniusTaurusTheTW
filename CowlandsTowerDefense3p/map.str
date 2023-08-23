@@ -3,6 +3,12 @@
 
 
 
+CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows_New
+"Silverthorn Munitions"
+END
+CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
+"Upgrade with Silverthorn Munitions all the player towers."
+End
 //--------------------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
 "Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
@@ -12,6 +18,18 @@ CONTROLBAR:ToolTipWitchKingDreadVisage_New
 "Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
 End
 //--------------------------------------------------------------
+OBJECT:StealthDetectorSentryTower_New
+"Stealth Detector Tower"
+END
+OBJECT:StealthDetectorSentryTowerDesc_New
+"Detects nearby enemy stealthed units in a radius of 450"
+END
+OBJECT:GenericWellDesc_New
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units gain experience +50% faster \n Category: Uncategorized"
+End
+OBJECT:RohanElvenWarrior_New
+"Noldor Warriors"
+END
 OBJECT:MaleCow_New
 "Rider of the apocowlipsis"
 END
@@ -617,10 +635,10 @@ CONTROLBAR:ConstructRohanStableNoHotkey
 "Build Rohan Stable (&k)"
 END
 //------------------------------------------------------------
-CONTROLBAR:ConstructStealthDetectorSentryTower
+CONTROLBAR:ConstructStealthDetectorSentryTower_New
 "Build a Stealth Detector Tower"
 END
-CONTROLBAR:ToolTipStealthDetectorSentryTower
+CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
 "Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 450"
 END
 //------------------------------------------------------------
@@ -669,7 +687,7 @@ CONTROLBAR:LegolasLeadership_New
 "Prince of Mirkwood Leadership"
 End
 CONTROLBAR:LegolasLeadershipDesc_New
-"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +35% faster \n Category: Unique \n \nPassive ability"
+"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +35% faster \n Category: Uncategorized \n \nPassive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:GamlingLeadershipDesc_New
@@ -677,11 +695,11 @@ CONTROLBAR:GamlingLeadershipDesc_New
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Unique \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Uncategorized \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Uncategorized \n \nLeft click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
@@ -704,7 +722,7 @@ CONTROLBAR:HearthWellDescription_New
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer" // Wells
 END
 //------------------------------------------------------------
-OBJECT:ElvenHeroicStatueDescription_New
+CONTROLBAR:ElvenHeroicStatueDescription_New
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore. // Statues
 End
 //------------------------------------------------------------
@@ -716,11 +734,11 @@ CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
-"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Unique \n \n Passive ability "
+"Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Uncategorized \n \n Passive ability "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDamrodLeadership_New
-"Player Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
+"Player Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Uncategorized \n \n Passive ability"
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:ToolTipDainLeadership_New
