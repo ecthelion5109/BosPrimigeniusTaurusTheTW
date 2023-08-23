@@ -1,6 +1,16 @@
 // AFTER 4 LEVELS OF EXPERIENCE, ELROND RESIGNS HIMSELF TO GRAB A FUCKIN BOW AND HELP HIS MEN. 
 
 
+
+
+
+//--------------------------------------------------------------
+CONTROLBAR:ElrondToggle_New
+"Toggle Weapon (&R)"
+END
+CONTROLBAR:ElrondToggleDesc_New
+"Requires Level 5 \n After four levels of experience, Elrond resigns himself. He grabs his fuckin bow from The Last Alliance and decides to help his men \n Click to switch between Bow and Melee"
+End
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipBlackRiderLeadership_New
 "Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
@@ -74,7 +84,7 @@ CONTROLBAR:SummonElvenAllies_New
 "Summon Noldor Allies [&V]"
 End
 CONTROLBAR:ToolTipSummonElvenAllies_New
-"Requires Level 10 \n Summons a group of Noldor Warriors \n Left click icon then left click on pathable location"
+"Requires Level 7 \n Summons a group of Noldor Warriors \n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
@@ -213,7 +223,7 @@ CONTROLBAR:TooltipScreechWitchKing_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:TooltipElrondWhirlwind_New
-"Requires Level 7 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+"Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 //--------------------------------------------------------------
 CONTROLBAR:CorrodeAllegiance_New
@@ -546,12 +556,12 @@ CONTROLBAR:ToolTipTheodenLeadership_New
 "Allies near Theoden gain +50% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:HearthWellDescription_New // Wells
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer"
+CONTROLBAR:HearthWellDescription_New
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer" // Wells
 END
 //------------------------------------------------------------
-OBJECT:ElvenHeroicStatueDescription_New // Statues
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore.
+OBJECT:ElvenHeroicStatueDescription_New
+"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore. // Statues
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New // fortressBanner
