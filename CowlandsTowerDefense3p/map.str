@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.69 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.70 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -1716,7 +1716,7 @@ CONTROLBAR:HaldirGoldenArrow_New
 "Golden Arrow [&B]"
 END
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
-"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that causes metaimpact, inflicts siege damage. \n Creates a beam of light that stuns sensitive units in a large radius for 10 seconds. \n The beam of light also stuns any other normal infantry unit in a small radius and during the half of duration. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //---------------------------------------------------
 CONTROLBAR:GloriousCharge_New
