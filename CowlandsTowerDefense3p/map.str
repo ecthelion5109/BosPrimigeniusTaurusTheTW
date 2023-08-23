@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.07: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 2.08: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -690,11 +690,18 @@ CONTROLBAR:SharkuBoost_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 8 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Left click icon then left click on target enemy"
+"Requires Level 6 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Left click icon then left click on target enemy"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
 "Requires Level 4 \n Sharku and nearby wargs gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n\n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:SharkuCrippleStrikeMelee_New
+"&Cripple Strike"
+End
+CONTROLBAR:SharkuCrippleStrikeMeleeDesc_New
+"Requires Level 8 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWargAllies_New
@@ -704,23 +711,30 @@ CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 10 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
-"Requires Level 3 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
+CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
+"Requires Level 4 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 5 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
+CONTROLBAR:LurtzBoost_New
+"Uruk Bane"
+END
+CONTROLBAR:LurtzBoostDesc_New
+"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership_New
-"Requires Level 7 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'War Chant' \n\n Passive ability"
+"Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War Chant' \n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 10\n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n\n Passive ability"
+CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
+"Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
 END
-CONTROLBAR:LurtzBoost_New
-"Uruk Bane"
+//---------------------------------------------------
+CONTROLBAR:LurtzSummonUrukGuard_New
+"Summon Uruk Guard [&B]"
+END
+CONTROLBAR:LurtzSummonUrukGuardDesc_New
+"Requires Level 10 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
@@ -1475,7 +1489,7 @@ CONTROLBAR:TooltipHeal_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
-"Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: 'War Chant' \n\n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain +35% Damage. \n Category: 'War Chant' \n Passive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership_New
