@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.97 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.98 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -280,10 +280,10 @@ CONTROLBAR:ConstructMordorWell_New
 END
 //---------------------------------------------------
 CONTROLBAR:RainOfFireSaruman_New
-"Rain of Fire (&B)"
+"Meteorite (&B)"
 END
 CONTROLBAR:RainOfFireDescSaruman_New
-"Requires Level 10 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+"Requires Level 8 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:GoblinKingMount_New
@@ -316,7 +316,7 @@ CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
-"De&vastation"
+"Devastation (&Y)"
 End
 CONTROLBAR:ToolTipDevastation_New
 "Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
@@ -406,6 +406,9 @@ Upgrade:FortressPoisonArrows_New
 "Poison arrows"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipVenomousWords09v2_New
+"Requires Level 4 \n The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 30 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Category: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+END
 CONTROLBAR:VenomousWords_New
 "False Encou&ragement"
 END
@@ -429,13 +432,6 @@ CONTROLBAR:GrimaLoneTower_New
 END
 CONTROLBAR:GrimaLoneTowerDesc_New
 "Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
-CONTROLBAR:SummonWatcher_New
-"Summon &Watcher"
-END
-CONTROLBAR:TooltipSummonWatcher_New
-"Requires Level 8 \n Summon the Watcher under your control"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitionsFortress_New
@@ -996,7 +992,7 @@ CONTROLBAR:ThunderBolt_New
 "&Thunderbolt"
 END
 CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 4 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
+"Requires Level 6 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:SpeechCraft_New
@@ -1010,8 +1006,21 @@ CONTROLBAR:SpecialAbilitySarumanFireball_New
 "Fireball Storm [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 6 \n Spells a rain of fireballs. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target"
+"Requires Level 4 \n Spells a rain of fireballs. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target"
 // Throws a ball of energy
+END
+//---------------------------------------------------
+CONTROLBAR:SummonWatcher_New
+"Summon &Watcher"
+END
+CONTROLBAR:TooltipSummonWatcher_New
+"Requires Level 8 \n Summon the Watcher under your control"
+END
+CONTROLBAR:SarumanDragonStrike_New
+"Dragon Strike (&V)"
+END
+CONTROLBAR:SarumanDragonStrikeDesc_New
+"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:GandalfTeleportDesc_New
@@ -1074,13 +1083,14 @@ CONTROLBAR:LurtzBoost_New
 "Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 3 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
 END
-CONTROLBAR:LurtzBaneStrike_New
-"Bane S&trike"
+CONTROLBAR:LurtzDeadEye_New
+"Dead Eye (&T)"
 END
-CONTROLBAR:LurtzBaneStrikeDesc_New
-"Requires Level 5 \n Tripple shoot that causes high damage and meta-impact \n Left click icon then left click on target"
+ //Bane S&trike"
+CONTROLBAR:LurtzDeadEyeDesc_New
+"Requires Level 4 \n Tripple shoot that causes high damage and meta-impact \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 5 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
