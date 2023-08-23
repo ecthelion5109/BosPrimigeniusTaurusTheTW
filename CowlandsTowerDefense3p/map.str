@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.62: All factions available. Goblins unbalanced & Isen design unfinished. \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.63: \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -17,20 +17,66 @@ End
 
 
 
-//------------------------------------------------------------//
-//----------------------CONTROLBAR.INI------------------------//
-//------------------------------------------------------------//
-
-
-
-
-
-
-
-
-
-
-
+//-------------------------------------------------
+OBJECT:DwarvenLoneTowerDescription_New
+"Fires at nearby enemies. \n Can receive different upgrades from the fortress." //  \n Reveals stealthed enemies.
+End
+//-------------------------------------------------
+CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Tower gains 99% armor."
+END
+//-------------------------------------------------
+CONTROLBAR:ConstructStealthDetectorSentryTower_New
+"Build a Stealth &Detector Tower"
+END
+CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
+"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 450"
+END
+//--------------------------------------------------//
+OBJECT:StealthDetectorSentryTower_New
+"Stealth Detector Tower"
+END
+TOOLTIP:StealthDetectorSentryTowerDesc_New
+"Detects nearby enemy stealthed units in a radius of 450"
+END
+//--------------------------------------------------//
+CONTROLBAR:ConstructMenStoneMaker_New
+"Build Stoneworker (&F)" // Minas Tirith's
+END
+TOOLTIP:GondorStoneWorkerDesc_New
+"Researches Men of the West structural upgrades. \n Reduces the Cost of Structures.\n  1 Stoneworker: 33%.\n 2 Stoneworkers: 50%. \n 3 Stoneworkers: 75%."
+END
+//--------------------------------------------------//
+TOOLTIP:GenericHeroicStatueDesc_New
+"Allies near the Statue gain +25% Damage \n and earn experience 25% faster. \n Category: 'Damage Inspiration'"
+End
+//--------------------------------------------------//
+TOOLTIP:GenericWellDesc_New
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+End
+//--------------------------------------------------//
+TOOLTIP:PoisonBattleTowerDesc_New
+"Defensive Poison Arrow Tower \n Poison damages over time and slows down the affected units \n \n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+End
+//---------------------------------------------------
+TOOLTIP:GenericBattleTowerDesc_New
+"Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Healer' \n\nStrong vs cavalry"
+END
+//---------------------------------------------------
+CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
+"&Upgrade this tower"
+END
+CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
+"Adds one more garrisonable slot \n Loses current Silverthorn/Fire arrow upgrade"
+END
+//--------------------------------------------------//
+OBJECT:GenericTowerDesc_New
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+End
+//---------------------------------------------------
+CONTROLBAR:ToolTipThunderBolt_New
+"Requires Level 8 \n Strikes powerful lightning bolts against targeted enemy \n Left click icon then left click on target"
+END
 //---------------------------------------------------
 CONTROLBAR:GandalfTeleport_New
 "Teleport (&W)"
@@ -43,7 +89,7 @@ CONTROLBAR:GandalfTeleportDesc_New
 "Requires Level 7 \n Teleport allied units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
 End
 CONTROLBAR:SarumanTeleportDesc_New
-"Requires Level 10 \n Teleport enemy units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
+"Requires Level 10 \n Teleport any non-heroe cavalry, infantry or machine unit from one location on the battlefield, to another. \n Left click icon then left click on pathable location"
 End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoostDesc_New
@@ -143,7 +189,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and win +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and gain +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
@@ -506,17 +552,6 @@ CONTROLBAR:ToolTipCorrodeAllegiance_New
 END
 // Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect
 //---------------------------------------------------
-CONTROLBAR:ToolTipBuildIsengardBattleTower_New
-"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster\n Category: 'Healer' \n\nStrong vs cavalry"
-END
-//---------------------------------------------------
-CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
-"&Upgrade this tower"
-END
-CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
-"Adds one more garrisonable slot \n Loses current Silverthorn/Fire arrow upgrade"
-END
-//---------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n Left click to activate"
 END
@@ -635,31 +670,29 @@ END
 CONTROLBAR:ToolTipElvenCloak_New
 "Becomes invisible when not attacking \n Left click to activate"
 END
-//-------------------------------objects-----------------------
+//--------------------------------------------------//
 CONTROLBAR:AzogHotkey_New
 "&Azog of Moria"
 END
-//---------------------------------------------------
 CONTROLBAR:BalrogHotkey_New
 "&Balrog" //Durin's Bane, the 
 End
-//---------------------------------------------------
-CONTROLBAR:GondorDamrodHotkey_New
+CONTROLBAR:BrandHotkey_New
 "Principe Bran&d,\n Segnor de Dale"
 END
-CONTROLBAR:MordorGothmogHotkey_New
+CONTROLBAR:GothmogHotkey_New
 "&Gothmog, The Elephant Man"
 END
 OBJECT:BrandToolTip_New
-"Principito Brand"
+"Principe Brand"
 End
-CONTROLBAR:BrandToolTipHeroMode_New
+TOOLTIP:BrandHeroModeDesc_New
 "Brand, the sniper"
 End
 OBJECT:Azog_New
 "Azog"
 END
-OBJECT:AzogDesc_New
+TOOLTIP:AzogDesc_New
 "The mighty goblin from Moria"
 END
 //---------------------------------------------------
@@ -777,28 +810,14 @@ CONTROLBAR:ConstructSoyTaxesUpgrade_Desc
 "The harvesting of soybeans over-erosions the terrain of our cowlands. \n Least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n Besides, great part of the soybeans production is addressed to the industry of feed-loot's fodder, which we DO NOT LIKE. \n\n Increases the fortress and market incomes by +33.3%"
 END
 //-------------------------------------------------
-CONTROLBAR:ToolTipConstructMenStoneMakerOfMinasTirith
-"Reduces the Cost of Structures. \n Allows upgrading all player towers"
-END
-CONTROLBAR:ConstructMenStoneMakerOfMinasTirith
-"Build Minas Tirith's Stoneworker (&F)"
-END
-//-------------------------------------------------
 CONTROLBAR:ConstructRohanStable_New
 "Build Rohan S&table"
 END
 //-------------------------------------------------
-CONTROLBAR:ConstructStealthDetectorSentryTower_New
-"Build a Stealth &Detector Tower"
-END
-CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
-"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 450"
-END
-//-------------------------------------------------
-CONTROLBAR:WildmenOfDunlandHouse
+CONTROLBAR:WildmenOfDunlandHouse_New
 "Wildmen of D&unland hall"
 END
-CONTROLBAR:WildmenOfDunlandHouseDesc
+CONTROLBAR:WildmenOfDunlandHouseDesc_New
 "Trains wildmen from Dunland:\n Axe Throwers and Torch Throwers"
 END
 //-------------------------------------------------
@@ -876,14 +895,6 @@ CONTROLBAR:ToolTipDamrodLeadership_New
 //	"Player Men of Dale near the Prince of Dale gain \n and +10% run speed \n Category: 'Uncategorized' \n \n Passive ability"
 END
 //-------------------------------------------------
-CONTROLBAR:HearthWellDescription_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: 'Healer'" // Wells
-END
-//-------------------------------------------------
-CONTROLBAR:ElvenHeroicStatueDescription_New
-"Allies near the Statue gain \n +25% Damage and earn experience 25% faster \n Category: 'Damage Inspiration'" // \n Reduces the cost of heroes // not anymore. // Statues
-End
-//-------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
 "Ithilien's campaign veteran"
 END
@@ -942,12 +953,6 @@ End
 //CONTROLBAR:WaterTowerDesc
 //"Build a tower that's literally gonna shoot water jets and throw to the shit your enemies "
 //End
-//CONTROLBAR:PoisonTower
-//"Poison Tower"
-//End
-//CONTROLBAR:PoisonTowerDesc
-//"Build a tower whose arrows bathed in poison will not only cause damage over time, but will also slow them down"
-//End
 ////CONTROLBAR:FreezeArrowTower
 ////"Freezing Tower"
 ////END
@@ -960,43 +965,27 @@ End
 ////CONTROLBAR:TooltipDebuffTower
 ////"Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses"
 //END
-
-//------------------------------------------------------------//
-//-------------------------UPGRADE.INI------------------------//
-//------------------------------------------------------------//
+//--------------------------------------------------//
 Upgrade:FortressFireArrows_New
 "Battle Tower Fire Arrows"
 END
+//--------------------------------------------------//
 Upgrade:WildVenomSacs_New
 "Poisoned Spears"
 END
+//--------------------------------------------------//
 Upgrade:LegolasTrainedAlliesUpgrade_New
 "Legolas Archery knowledge"
 END
-//------------------------------------------------------------//
-//-------------------------OBJECT.INI--------.----------------//
-//------------------------------------------------------------//
 OBJECT:DwarvenCaptain_New
 "Dwarven Captain"
 END
 OBJECT:ElvenBarracks_New
 "Elven Farm"
 END
-OBJECT:ElvenBarracksDesc_New
+TOOLTIP:ElvenBarracksDesc_New
 "Allows recruiting Lothlorien Warriors"
 END
-OBJECT:GondorStoneworkerDescription_New
-"Reduces the Cost of Structures\n  1 Stoneworker: 33%\n 2 Stoneworkers: 50% \n 3 Stoneworkers: 75%"
-END
-OBJECT:StealthDetectorSentryTower_New
-"Stealth Detector Tower"
-END
-OBJECT:StealthDetectorSentryTowerDesc_New
-"Detects nearby enemy stealthed units in a radius of 450"
-END
-OBJECT:GenericWellDesc_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster \n Category: 'Healer'"
-End
 OBJECT:RohanElvenWarrior_New
 "Noldor Warriors"
 END
@@ -1006,37 +995,27 @@ END
 OBJECT:MaleCow_New
 "Rider of the apocowlipsis"
 END
-OBJECT:MaleCowDesc_New
+TOOLTIP:MaleCowDesc_New
 "Behold"
 END
 OBJECT:LeadingDragon_New
 "Mother of dragons!"
 END
-OBJECT:LeadingDragonDesc_New
+TOOLTIP:LeadingDragonDesc_New
 "Provides leadership to nearby dragons"
 END
 OBJECT:StealthDragon_New
 "Stealth dragon"
 END
-OBJECT:StealthDragonDesc_New
+TOOLTIP:StealthDragonDesc_New
 "Invisible for average humans."
 END
-//------------------------------------------------------------//
-//-------------------------TOOLTIP.INI------------------------//
-//------------------------------------------------------------//
-
-
-
-//---------------------------------------------------
-TOOLTIP:ToolTipElvenStatue_New
-"Allies near the statue gain +25% Damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
-End
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Allies near Saruman gain +25% damage and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n \n Passive ability"
+"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n \n Passive ability"
 END
 //------------------------------------------------------------//
-TOOLTIP:ToolTipGorkilTotem_New
+OBJECT:ToolTipGorkilTotem_New
 "Idiot Totem"
 END
 TOOLTIP:ToolTipGorkilTotemDesc_New
@@ -1044,7 +1023,7 @@ TOOLTIP:ToolTipGorkilTotemDesc_New
 END
 //------------------------------------------------------------//
 TOOLTIP:ToolTipPurchasedUpgradeWagonHearth_New
-"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster \n Category: 'Healer'"
+"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
 END
 TOOLTIP:ToolTipBattleWagonUpgradeBannerCarrier_New
 "Banner Carrier Upgrade purchased: \n Nearby units gain +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration'"
@@ -1079,9 +1058,7 @@ END
 TOOLTIP:LackMordorBasicTraining_New
 "Research upgrade at Tavern to enable this equipment \n When equipped, increases this horde to Level 2"
 END
-//------------------------------------------------------------//
-//---------------------------GUI.INI--------------------------//
-//------------------------------------------------------------//
+//--------------------------------------------------//
 GUI:CuriousIdiotBonus_New
 "Curious idiot bonus: \n   -40%% Production\n  -20%% Experience"
 END
@@ -1092,10 +1069,7 @@ GUI:UPGRADE_DISCOUNT_New
 // Context: used to display the upgrade discount modifier in the palantir
 "Upgrade Bonus \n\n -%d%%"
 END
-
-//------------------------------------------------------------//
-//-------------------------SCRIPT.INI-------------------------//
-//------------------------------------------------------------//
+//--------------------------------------------------//
 SCRIPT:BonusForWipingArmyCounter
 "Bonus for fast killing wave" // no lo voy a hacer.
 End
@@ -1135,6 +1109,7 @@ End
 SCRIPT:Hint08
 "Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent,\n if a Dragon comes, heroes kill. If ladies moo, life be good".
 End
+//--------------------------------------------------//
 SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
