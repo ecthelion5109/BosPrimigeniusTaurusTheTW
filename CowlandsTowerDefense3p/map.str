@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.54 \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want your heroes to actually level up so they can use all their spells? Most, important, do you want to have fun and be happy? Then this is not your map. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon, unless i continue occupying their stuff for Mordor lol\n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.55 \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want your heroes to actually level up so they can use all their spells? Most, important, do you want to have fun and be happy? Then this is not your map. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon, unless i continue occupying their stuff for Mordor lol\n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -43,7 +43,7 @@ OBJECT:ElvenBarracksDesc_New
 "Allows recruiting Lothlorien Warriors"
 END
 OBJECT:GondorStoneworkerDescription_New
-"Reduces the Cost of Defenses\n  1 Stoneworker: 33%\n 2 Stoneworkers: 50% \n 3 Stoneworkers: 75%"
+"Reduces the Cost of Structures\n  1 Stoneworker: 33%\n 2 Stoneworkers: 50% \n 3 Stoneworkers: 75%"
 END
 OBJECT:StealthDetectorSentryTower_New
 "Stealth Detector Tower"
@@ -804,7 +804,7 @@ CONTROLBAR:WildmenOfDunlandHouseDesc
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
-"Reduces the cost of all upgrades by -50%"
+"Reduces the cost of Units and Fortress upgrades by -50%"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipConstructMenMarketPlace_New
