@@ -190,14 +190,14 @@ CONTROLBAR:MenArcherHeroeBoostDesc_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:TrainArchers_New
-"Art of the Bow [&T]"
+"Art of the Bow [&B]"
 END
 CONTROLBAR:ToolTipTrainArchers_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ElvenWood_New
-"Elven Wood [&V]"
+"Elven Wood [&B]"
 END
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
@@ -273,7 +273,7 @@ CONTROLBAR:TooltipSunflare_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:EnshroudingMist_New
-"Poisonous Mist (&V)"
+"Poisonous Mist (&B)"
 END
 CONTROLBAR:TooltipEnshroudingMist_New
 "Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n\n Left click icon and left click on target area"
@@ -294,14 +294,14 @@ CONTROLBAR:ToolTipSummonRohanAllies_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:LoneTower_New
-"Sum&mon Lone Tower"
+"Summon Lone &Tower"
 END
 CONTROLBAR:TooltipLoneTower_New
 "Requires Level 5 \n Summons a defensive tower with 3 garrisonable slots available. \n Provides leadership, healing & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------------------
 CONTROLBAR:Undermine_New
-"Open a T&unnel"
+"Open a &Bunker"
 END
 CONTROLBAR:TooltipUndermine_New
 "Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
@@ -323,7 +323,7 @@ CONTROLBAR:ToolTipDainStubbornPride_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
-"Tax Exem&ption"
+"Tax Exemption (&B)"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
 "Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes without doubting the exploitation of the soil in hands of foreigners will be responsable and environment caring\n\n Left click icon then left click in the fortress."
@@ -392,6 +392,9 @@ CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33%"
 END
 //--------------------------------------------------------------
+CONTROLBAR:ThornofVengeance_New
+"Thorn of Vengeance [&V]"
+END
 CONTROLBAR:ToolTipThornofVengeance_New
 "Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target" // \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move
 END
@@ -511,14 +514,14 @@ CONTROLBAR:BrandToolTipHeroMode_New
 End
 //--------------------------------------------------------------
 CONTROLBAR:SpecialPowerDeadlySniper_New
-"Black Arrow Sniper [&V]"
+"Black Arrow Sniper [&T]"
 END
 CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 "Requires Level 8 \n Temporarily grants an increase to damage and range"
 END
 //--------------------------------------------------------------
 CONTROLBAR:DaleArcherAllies_New
-"Summon Dale Elite [&C]"
+"Summon Dale Elite [&B]"
 END
 CONTROLBAR:DaleArcherAlliesDesc_New
 "Requires Level 10 \n Summons two batallions of Men of Dale elite archers \n Left click icon then left click on pathable location"
@@ -606,7 +609,7 @@ CONTROLBAR:ToolTipDwarvenGloinSlam_New
 END
 //------------------------------------------------------------
 CONTROLBAR:GloinShakeFoundation_New
-"Summon an Earthquake [&T]"
+"Summon an Earthquake [&V]"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
 "Requires Level 7 \n Creates a small earthquake by doing some shit with it's hammer \n \n Left click icon then left click on target"
