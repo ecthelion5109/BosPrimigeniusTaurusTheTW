@@ -2,16 +2,73 @@
 
 
 
+//--------------------------------------------------------------
+CONTROLBAR:SpecialAbilityLurtzCarnage_New
+"Carnage"
+END
+//--------------------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
+"Requires Level 5 \n Lurtz permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
+END
+//--------------------------------------------------------------
+CONTROLBAR:ToolTipLurtzLeadership_New
+"Requires Level 2 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n \n Passive ability"
+END
+//--------------------------------------------------------------
+TOOLTIP:LackGondorFireArrows_New
+"Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage done by Arrows"
+END
 
-
-
-
-
-
-
-
-
-
+ToolTip:LackDwarvenFireArrows_New
+"Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage done by Arrows"
+END
+//--------------------------------------------------------------
+CONTROLBAR:HeavyArmorUpgrade_New
+"Heavy Armor"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor_New
+"Requires Level 5 \n Upgrades this horde with Heavy Armor, \nsignificantly reducing the amount of damage taken \n Passive ability"
+END
+//--------------------------------------------------------------
+TOOLTIP:LackVenomSacksTechnology_New
+"Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
+END
+TOOLTIP:LackMordorBasicTraining_New
+"Research upgrade at Tavern to enable this equipment \n When equipped, increases this horde to Level 2"
+END
+//--------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
+"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 50% cheaper"
+END
+//--------------------------------------------------------------
+CONTROLBAR:ToolTipBuildIsengardBerserker_New
+"Requires Level 3 Uruk Pit \n Strong vs. Infantry \n Can detonate mines"
+END
+CONTROLBAR:ToolTipBuildIsengardUrukHai_New
+"Requires Level 2 Uruk Pit \n Strong vs. Pikemen\n and Resource Buildings"
+END
+//--------------------------------------------------------------
+CONTROLBAR:Crebain_New
+"Summon the Crebain"
+END
+CONTROLBAR:TooltipCrebain_New
+"Requires Level 7 \n Summon a cloud of large crow-like black birds from the Dunlands which significantly reduces enemy Armor and Speed by -33% and -15% respectively. \n Does not stack with another debuff \n\n Left click icon then left click on target area"
+END
+//--------------------------------------------------------------
+CONTROLBAR:SarumanLeadership_New
+"Dark Istari Leadership"
+End
+CONTROLBAR:SarumanLeadershipDesc_New
+"Requires Level 3 \n Player units near Saruman gain \n +25% range and +25% vision. \n Passive ability \n\n Category: Non stacky leadership"
+End
+//--------------------------------------------------------------
+CONTROLBAR:CrossbowmenBoost_New
+"Uruk-Hai Veterancy"
+END
+CONTROLBAR:CrossbowmenBoostDesc_New
+"Requires Level 2 \n Crossbowmen permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
+END
+//--------------------------------------------------------------
 CONTROLBAR:FaramirKnightRanger_New
 "Knight/Ranger Toggle [&R]"
 END
@@ -289,16 +346,16 @@ CONTROLBAR:ToolTipThornofVengeance_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail_New
-"Allows battalions and Demolishers to purchase the Mithril Mail upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, Dain Royal Guard receives it for free and gain Knock-Back and Fear immunity"
+"Allows battalions and Demolishers to purchase the Mithril Mail upgrade. \nWhen equipped, significantly reduces the amount of damage taken \n Once purchased, Dain Royal Guard receives it for free and gain Knock-Back and Fear immunity"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
-"Allows battalions to purchase the Heavy Armor upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, the Osgiliath veterans receive Heavy Armors and gain Knock-Back and Fear immunity."
+"Allows battalions to purchase the Heavy Armor upgrade. \nWhen equipped, significantly reduces the amount of damage taken \n Once purchased, the Osgiliath veterans receive Heavy Armors and gain Knock-Back and Fear immunity."
 END
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades_New
-"Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons and Thrown Axes\n Once purchased, Dain Royal Guard receives Forged Blades and gain a Meele and Crush-Revenge damage increment"
+"Allows battalions to purchase the Forged Blades upgrade. \nWhen equipped, increases the damage done by Melee Weapons and Thrown Axes\n Once purchased, Dain Royal Guard receives Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
-"Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
+"Allows battalions to purchase the Forged Blades upgrade. \nWhen equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
 //--------------------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
@@ -350,6 +407,12 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEncasingVines_New
 "Increases Fortress and Wall armor \n Pre-requisite to Eagles's Nest \n Pre-requisite for anti-stealth towers"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon_New
+"Increases Fortress armor \n Pre-requisite for anti-stealth towers \n Pre-requisite to the Gorgoroth Spire"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating_New
+"Increases Fortress armor \n Pre-requisite for anti-stealth towers \n Pre-requisite to the Gorgoroth Spire"
+END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloak_New
 "Becomes invisible when not attacking \n Left click to activate"
@@ -361,7 +424,7 @@ END
 CONTROLBAR:MordorGothmogHotkey_New
 "&Gothmog, The Elephant Man"
 END
-CONTROLBAR:BrandToolTip_New
+OBJECT:BrandToolTip_New
 "Principito Brand"
 End
 CONTROLBAR:BrandToolTipHeroMode_New
@@ -559,7 +622,7 @@ CONTROLBAR:ToolTipMightyRage_New
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers & +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
@@ -598,7 +661,7 @@ CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDamrodLeadership_New
-"Requires Level 6 \n Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
+"Player Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:ToolTipDainLeadership_New
@@ -643,12 +706,13 @@ CONTROLBAR:TooltipRallyingCall_New
 "Targeted allies gain +50% Damage \n Category: Non stacky leadership \n \n Left click icon then left click on target units"
 END
 //---------------------------------------------------------------------//
-//CONTROLBAR:LightningTower
-//"Lightning Tower"
-//End
-//CONTROLBAR:LightningTowerDesc
-//"Build a bigass tower who's literally summoning fucken thunderbolts in any enemies it catches"
-//End
+CONTROLBAR:LightningTower_New
+"Lightning Tower"
+End
+CONTROLBAR:LightningTowerDesc_New
+"Build a bigass tower which is literally summoning fucken thunderbolts in any enemies it catches"
+End
+//---------------------------------------------------------------------//
 //CONTROLBAR:WaterTower
 //"Water Tower"
 //End
@@ -836,5 +900,5 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random.\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard is on beta mode\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
