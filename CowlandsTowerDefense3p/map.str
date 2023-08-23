@@ -78,6 +78,13 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:VenomousWords_New
+"False Encou&ragement"
+END
+CONTROLBAR:ToolTipVenomousWords_New
+"Requires Level 2 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are halved while their speed is doubled. \n Left click icon then left click on target units"
+END
+//---------------------------------------------------
 CONTROLBAR:ConstructIsengardLumberMill_New
 "Build a lumber mill (&Y)"
 END
@@ -937,7 +944,7 @@ CONTROLBAR:SpeechCraft_New
 "Speech Craft [&C]"
 END
 CONTROLBAR:ToolTipSpeechCraft_New
-"Requires Level 4 \n Give targeted units experience \n Left click icon then left click on target units"
+"Requires Level 4 \n Target units, including heroes, gain experience twice faster for 30 seconds. \n Category: "Unique" \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySarumanFireball_New
@@ -977,7 +984,7 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 4 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
+"Requires Level 4 \n Players units near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
