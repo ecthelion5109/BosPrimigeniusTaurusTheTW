@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.37 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.39 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -424,7 +424,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 4 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, speed is increased to 200%. \n Lasts two minutes. \n Left click icon then left click on target units"
+"Requires Level 4 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 200%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
 END
 CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
@@ -720,13 +720,6 @@ CONTROLBAR:ConstructTrollDrum_New
 "Build a troll drum (&W)"
 END
 //---------------------------------------------------
-//	CONTROLBAR:TooltipLumbermillUnpackMordor_New
-//	"Harvests resources from nearby trees \n Quantity available to build: 2"
-//	END
-CONTROLBAR:TooltipLumbermillUnpackIsengard_New
-"Harvests resources from nearby trees \n Quantity available to build: 2"
-END
-//---------------------------------------------------
 TOOLTIP:LackGondorBasicTraining_New
 "Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 2 and becomes able to shoot Dunedain Ice Arrows"
 END
@@ -829,10 +822,6 @@ CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
 "Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed" 
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
@@ -1032,7 +1021,7 @@ CONTROLBAR:SharkuManEater_New
 "Man Ea&ter"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
+"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -1661,10 +1650,6 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
 "Allows battalions to purchase the Fire Arrows upgrade \n When equipped, significantly increases the damage done by arrows \n Once purchased, the Osgiliath Veterans receive Fire Arrows and a damage boost."
 END
 //---------------------------------------------------
-CONTROLBAR:TooltipConstructDwarvenMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
-END
-//---------------------------------------------------
 CONTROLBAR:EomerSpear_New
 "Spear Throw [&T]"
 END
@@ -1839,17 +1824,6 @@ CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
-CONTROLBAR:ToolTipSlaughterHouse_New
-"Generates products without added-value for the export market. \n Quantity available to build: 1"
-END
-//-------------------------------------------------
-CONTROLBAR:ConstructElvenFarm_New
-"Build a elven &farm"
-END
-CONTROLBAR:ConstructElvenFarmDesc_New
-"Generates resources based on available terrain \n Can train Lothlorien Warriors. \n Quantity available to build: 1"
-END
-//-------------------------------------------------
 CONTROLBAR:GloinSlam_New
 "Slam [&R]"
 END
@@ -1897,10 +1871,6 @@ END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
 "Reduces the cost of Units and Fortress upgrades by -50%"
-END
-//-------------------------------------------------
-CONTROLBAR:ToolTipConstructMenMarketPlace_New
-"Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
 END
 //-------------------------------------------------
 CONTROLBAR:HordeDunlandAxeThrower_New
@@ -2047,7 +2017,7 @@ CONTROLBAR:WargRiderHowl_New
 "Ho&wl"
 END
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
+"Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
@@ -2060,6 +2030,42 @@ CONTROLBAR:ToolTipBoromirLeadership_New
 END
 CONTROLBAR:ToolTipTheodenLeadership_New
 "Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
+END
+//-------------------------------------------------
+CONTROLBAR:ConstructElvenFarm_New
+"Build a Elven &Farm"
+END
+OBJECT:ElvenFarm_New
+"Elven Farm"
+END
+TOOLTIP:ElvenFarmDesc_New
+"Generates resources based on available terrain \n Can train Lothlorien Warriors. \n Quantity available to build: 1"
+END
+//----------------
+OBJECT:DwarvenBunker_New
+"Dwarven Bunker"
+End
+CONTROLBAR:DwarvenBunker_New
+"Build Dwarven Bunker (&M)"
+END
+TOOLTIP:TooltipConstructDwarvenMineShaft_New
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
+END
+//----------------
+//	CONTROLBAR:TooltipLumbermillUnpackMordor_New
+//	"Harvests resources from nearby trees \n Quantity available to build: 2"
+//	END
+CONTROLBAR:TooltipLumbermillUnpackIsengard_New
+"Harvests resources from nearby trees \n Quantity available to build: 2"
+END
+CONTROLBAR:ToolTipConstructWildMineShaft_New
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
+END
+CONTROLBAR:ToolTipConstructMenMarketPlace_New
+"Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
+END
+TOOLTIP:ToolTipSlaughterHouse_New
+"Generates products without added-value for the export market. \n Quantity available to build: 1"
 END
 //--------------------------------------------------//
 OBJECT:LightningTower_New
@@ -2128,12 +2134,6 @@ END
 OBJECT:DwarvenCaptain_New
 "Iron Hills Captain"
 END
-OBJECT:ElvenBarracks_New
-"Elven Farm"
-END
-TOOLTIP:ElvenBarracksDesc_New
-"Allows recruiting Lothlorien Warriors"
-END
 OBJECT:NoldorWarrior_New
 "Noldor Warrior"
 END
@@ -2163,24 +2163,24 @@ TOOLTIP:ToolTipSarumanLeadership_New
 "Allies, including heroes and monsters, near Saruman gain +25% armor \n and earn experience 25% faster  \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 //--------------------
-CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireballs [&C]"
-END
-CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 2 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
-// Throws a ball of energy
-END
 CONTROLBAR:HoraDelMago_New
 "Hora del Mago (&Y)"
 End
 CONTROLBAR:HoraDelMagoDesc_New
-"Requires Level 4 \n Saruman does some dance with suck-type FX's. \n Eenmies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
+"Requires Level 6 \n Saruman does some dance with suck-type FX's. \n Eenmies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
+END
+CONTROLBAR:SpecialAbilitySarumanFireball_New
+"Fireballs [&C]"
+END
+CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
+"Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
+// Throws a ball of energy
 END
 CONTROLBAR:ThunderBolt_New
 "Lightning S&torm"
 END
 CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 6 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
+"Requires Level 5 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
 END
 CONTROLBAR:RainOfFireSaruman_New
 "Meteorites (&B)"
