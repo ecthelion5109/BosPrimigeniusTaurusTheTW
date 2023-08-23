@@ -331,7 +331,7 @@ CONTROLBAR:CalltheHorde_New
 "Call the Hordes (&V)"
 End
 CONTROLBAR:ToolTipCalltheHorde_New
-"Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies \n Left click icon then left click on pathable location"
+"Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies or pikemen orc to setup a wall of pikes against cavalry \n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak_New
