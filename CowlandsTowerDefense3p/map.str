@@ -1307,11 +1307,11 @@ END
 CONTROLBAR:ToolTipMouthOfSauronDoubt_New
 "Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
 END
-CONTROLBAR:Sunflare_New
-"Ray of Barad-dûr (&V)"
+CONTROLBAR:SunflareMoS_New
+"Ray of Barad-dur (&V)"
 END
-CONTROLBAR:TooltipSunflare_New
-"Calls a fiery beam of fire to scorch the battlefield \n Left click icon then left click on target area"
+CONTROLBAR:SunflareMoSDesc_New
+"Requires Level 10 \n Calls a fiery beam of fire to scorch the battlefield \n Left click icon then left click on target area"
 END
 CONTROLBAR:MouthOfSauronSpecialWeapon_New
 "Good luck [&C]"
@@ -1988,6 +1988,17 @@ CONTROLBAR:ToolTipFaramirLeadership_New
 "Requires Level 6 \n Allies near Faramir gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Passive ability"
 END
 //--------------------------------------------------//
+
+CONTROLBAR:GothmogRainOfCorpses_New
+"Rain of Corpses (&V)"
+END
+CONTROLBAR:GothmogRainOfCorpsesDesc_New
+"Requires Level 10 \n Calls down a barrage of corpses on the target area. \n Left click icon then left click on target location"
+END
+
+
+
+
 CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
