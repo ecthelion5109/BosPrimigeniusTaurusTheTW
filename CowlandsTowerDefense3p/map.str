@@ -760,8 +760,11 @@ End
 ////"Build a tower whose overpowered projectiles will slow down by a 50% it's targets"
 ////END
 //
-SCRIPT:GameTime
+SCRIPT:GameTimeMinutes
 "Minutes in game"
+End
+SCRIPT:GameTimeSeconds
+"Seconds in game"
 End
 SCRIPT:TestingMode
 "Testing mode Enabled"
