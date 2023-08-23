@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 486 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 487 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -81,7 +81,7 @@ End
 
 //------------------------------------------------------------
 CONTROLBAR:SummonIronHillZealots_New
-"Summon Iron Hill Zealots (&B)"
+"Summon Iron Hill Zealots (&V)"
 END
 CONTROLBAR:SummonIronHillZealotsDesc_New
 "Requires Level 10 \n Summons three groups of Gimli berserker-cousins from the Iron Hills. \n Left click icon then left click on pathable location"
@@ -1315,7 +1315,7 @@ CONTROLBAR:GimliUniqueLeadership_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipGimliUniqueLeadership_New
-"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves, including gimli, gain \n +15% speed, +15% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
+"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves, including gimli, gain \n +15% speed, +15% damage, +75% armor \n and become immune to fear or terror \n Category: 'Uncategorized' \n Passive ability"
 END
 CONTROLBAR:GimliSlayerAttack_New
 "Berserker-attack (&B)"
@@ -1356,7 +1356,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
@@ -1653,7 +1653,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become immune to desacelerate by trampling, \n become resistant to knockback \n and finally, become immune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -1848,7 +1848,7 @@ CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -1958,7 +1958,7 @@ CONTROLBAR:ShieldMaiden_New
 "Shield Charge [&V]"
 END
 CONTROLBAR:ToolTipShieldMaiden_New
-"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n left click icon to activate"
+"Requires Level 7 \n Eowyn temporarily becomes immune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynRestore_New
@@ -2242,23 +2242,25 @@ CONTROLBAR:TooltipElrondLeadership_New
 "Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
-CONTROLBAR:TooltipBladeMaster_New
-"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Left click to activate"
-END
-//--------------------------------------------------//
 CONTROLBAR:AragornAthelasDesc_New
 "Heals the bearby units. \n Grants a bonus of +25% rate of firen, \n and +30% speed. \n Does not affect allies. \n Left click to activate"
 END
 CONTROLBAR:ToolTipAragornLeadership_New
 "Requires Level 3 \n Player units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
+//--------------------------------------------------//
+CONTROLBAR:TooltipBladeMaster_New
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Left click to activate"
+END
+//--------------------------------------------------//
 CONTROLBAR:Elendil_New
-"Elendil [&W]"
+"Elendil [&T]"
 END
 CONTROLBAR:ToolTipElendil_New
-"Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds and every kind of leadership is removed. \n Category: 'Terrorist King' \n left click icon to activate"
-//"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
+"Requires Level 2 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds and every kind of leadership is removed. \n Category: 'Terrorist King' \n \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n left click icon to activate"
 END
+//"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
+//--------------------------------------------------//
 TOOLTIP:ToolTipAragornLeadership_New
 "\n Leadership: \n Player units near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Type: 'High-Tier Hero' "
 END
@@ -2559,7 +2561,7 @@ SCRIPT:BonusForWipingArmy_Yellow
 "Standard Win: \n +600 extra resources"
 End
 SCRIPT:BonusForWipingArmy_Red
-"Barely won: \n +300 resources only"
+"You took too long: \n +300 resources only"
 End
 //WhoCares....
 //SCRIPT:MoneyReductionAdvertence
