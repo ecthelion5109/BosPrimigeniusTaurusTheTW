@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.70 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.71 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -297,25 +297,25 @@ CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
 END
 CONTROLBAR:ShelobFreezeingScreech_New
-"F&reezeing Screech" 
+"Freezeing Screech (&T)" 
 END
 CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 CONTROLBAR:ShelobToxicCumShot_New
-"Toxic Lady Juice (&V)"
+"Toxic Lady Juice (&C)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
 "Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
-"Tunnel [&C]"
+"Tunnel [&B]"
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"&Ungoliant's mad fruitfulness!"
+"Ungoliant's mad fruitfulness! (&V)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
@@ -411,14 +411,14 @@ CONTROLBAR:GorkilToxicCumShot_New
 "Toxic cum-shot (&C)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 4 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
 "Goblin Roussing Speech [&B]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
-"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n left click icon to activate"
+"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------
 CONTROLBAR:GorkilSummonMarauders_New
@@ -1521,7 +1521,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -1958,29 +1958,35 @@ CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
-CONTROLBAR:GloinSlam_New
-"Slam [&R]"
-END
-CONTROLBAR:ToolTipDwarvenGloinSlam_New
-"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
-END
 CONTROLBAR:GloinShakeFoundation_New
-"Shake enemy boot&y"
+"Shake enemy booty (&R)"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
 "Requires Level 2 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
 END
+CONTROLBAR:GloinSlam_New
+"Slam [&T]"
+END
+CONTROLBAR:ToolTipDwarvenGloinSlam_New
+"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
+END
+CONTROLBAR:Undermine_New
+"Open a Bunker (&C)"
+END
+CONTROLBAR:TooltipUndermine_New
+"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+END
 CONTROLBAR:GloinEarthquake_New
-"Earthquake [&V]"
+"Earthquake [&B]"
 END
 CONTROLBAR:GloinEarthquakeDesc_New
 "Requires Level 9 \n Creates a small earthquake by doing some shit with it's hammer \n Left click icon then left click on target"
 END
-CONTROLBAR:Undermine_New
-"Open a &Bunker"
+CONTROLBAR:GloinSmash_New
+"Shatter Hammer [&V]"
 END
-CONTROLBAR:TooltipUndermine_New
-"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+CONTROLBAR:ToolTipGloinSmash_New
+"Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
 END
 // "with 10 contain slots  " not rlly
 //---------------------------------------------------
