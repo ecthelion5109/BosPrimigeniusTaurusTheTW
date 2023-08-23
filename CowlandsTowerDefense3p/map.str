@@ -3,8 +3,12 @@
 
 
 
-
-
+CONTROLBAR:LightningSword_New
+"Shock of lucidity[&T]"
+END
+CONTROLBAR:ToolTipLightningSword_New
+"Requires Level 2 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
+END
 
 CONTROLBAR:TooltipCowSuicide
 "Euthanasia"
