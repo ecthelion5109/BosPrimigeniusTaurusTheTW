@@ -7,7 +7,17 @@
 
 
 
+CONTROLBAR:ToolTipGloriousCharge_New
+"Requires Level 7 \n Theoden and men gain +999% armor, +100% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+END
 
+CONTROLBAR:Flood_New
+"Forth, and fear No Darkness [&B]"
+END
+ CONTROLBAR:TooltipFlood_New
+"Requires Level 10 \n Por la muerte y la gloria \n Left click icon then left click on target area"
+//"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
+END
 
 
 CONTROLBAR:CAH_ArrowBonus_Level1_New
@@ -68,13 +78,6 @@ END
 
 CONTROLBAR:TooltipSunflare_New
 "Requires Level 10 \n Calls a beam of canalized moonlight energy to scorch the cowlands \n Left click icon then left click on target area"
-END
-CONTROLBAR:Flood_New
-"Flo&od"
-END
-
-CONTROLBAR:TooltipFlood_New
-"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
 CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
@@ -529,21 +532,17 @@ CONTROLBAR:WildmenOfDunlandHouseDesc
 "Trains wildmen from Dunland:\n Axe throwers and torch throwers"
 END
 
-CONTROLBAR:ToolTipBuildIronOreMercadoUpgrade
-"Reduces the cost of fortress and blacksmith upgrades by +33.3%"
+CONTROLBAR:ToolTipBuildIronOreUpgrade_New
+"Reduces the cost of all upgrades by -50%"
 END
-
-
-CONTROLBAR:ToolTipGondorBuildMercado
+ CONTROLBAR:ToolTipConstructMenMarketPlace_New
 "Provides resources \n Researches economic upgrades \n Quantity available to build: 1"
 END
-
-
-CONTROLBAR:HordeWildMenOfDunlandAxes
+ CONTROLBAR:HordeWildMenOfDunlandAxes
 "Dunland axe throwers (&B)"
 END
 
-CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde
+CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde_New
 "Effective against pikemen, archers and weak heros"
 END
 
@@ -597,21 +596,14 @@ CONTROLBAR:ToolTipEyeofSauron_New
 END
 
 CONTROLBAR:ToolTipTheodenLeadership_New
-"Allies near Theoden gain +50% Damage \n Category: Non stacky leadership \n \n Passive ability"
+"Allies near Theoden gain +50% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n \n Passive ability"
 END
 
 CONTROLBAR:HearthWellDescription_New
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer"
 END
-CONTROLBAR:DwarvenStatueStructureDiscount
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of structures // not anymore.
-End
 
-CONTROLBAR:MenStatueStructureDiscount
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" //  \n Reduces the cost of infantry // not anymore.
-End
-
-CONTROLBAR:ElvenStatueStructureDiscount
+OBJECT:ElvenHeroicStatueDescription_New
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore.
 End
 CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
