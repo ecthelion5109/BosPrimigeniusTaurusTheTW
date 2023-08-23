@@ -32,8 +32,6 @@ You hate cows? If so, this might not be the map for you.
 - **Game**: The Lord of the Rings: The Battle for the Middle Earth II
 - **Version**: 1.09v2.00 and 1.09v3.00
 
- <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo1.PNG?raw=true" alt="Image 1">
-
 
 
 <div align="center">
@@ -63,8 +61,9 @@ If not, follow these steps:
 - **Difficult levels**: Easy, Normal and Hardcore.
 - **Development**: Developed by Ecthelion over a span of 5 years since 2018 with constant feedback from players.
 
+<div align="center">
  <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo2.PNG?raw=true" alt="Image 1">
-
+</div>
 ---
 
 <div align="center">
@@ -110,10 +109,14 @@ If not, follow these steps:
 
 <div align="center">
     <h3>And special thanks to the cow-players community:</h3>
+
 </div>
 
 - Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau, Sauron, Temptation, BlockBuster, Mithrandir, King, Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F and whoever actually ever played this map during its two and half years of develepment.
 
+<div align="center">
+ <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo1.PNG?raw=true" alt="Image 1">
+</div>
 
 <div align="center">
     <h2>Links</h2>
