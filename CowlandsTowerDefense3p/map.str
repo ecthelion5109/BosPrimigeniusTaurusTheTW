@@ -5,7 +5,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.41 \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.42 \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //--------------------------------------------------------------
 
@@ -13,10 +13,14 @@ End
 
 
 
+
+
+
 //------------------------------------------------------------
-
-
-
+CONTROLBAR:TooltipAragornAthelas_New
+"Heal nearby units \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Same as spellbook heal \n Left click to activate"
+END
+//------------------------------------------------------------
 TOOLTIP:DoomPyresFortressUpgradeDesc_New
 "Doom Pyres purchased: \n Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n\n Category: Healer"
 END
@@ -26,10 +30,6 @@ END
 TOOLTIP:MysticFortressUpgradeDesc_New
 "Siege Kegs purchased: \n Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n\n Category: Healer"
 END
-
-
-
-
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearvy units gain experience 50% faster \n Category:Healer"
