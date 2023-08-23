@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.16 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.18 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1063,14 +1063,14 @@ CONTROLBAR:ToolTipGBloodHunt_New
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
-"&Cripple Strike"
+"Cripple Strike (&B)"
 End
 CONTROLBAR:SharkuCrippleStrikeMeleeDesc_New
 "Requires Level 8 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWargAllies_New
-"Summon Warg Allies (&B)"
+"Summon Warg Allies (&V)"
 End
 CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 10 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
@@ -2248,7 +2248,7 @@ SCRIPT:GameStart5
 End
 //-------------------------------------------//
 SCRIPT:RipCounters
-"Kill-counters won't work if there's a player of different team."
+"Kill-counters won't work when \n there's a player of different team."
 End
 SCRIPT:Bug
 "A map without bugs is not a bfme2 map"
@@ -2306,7 +2306,7 @@ SCRIPT:Mustafa03
 "mos of suron must to be when he atk gob farms or drw farms like grofndal army die if I took it out"
 End
 SCRIPT:Mustafa04
-"or mype"
+"or mype..."
 End
 SCRIPT:Mustafa05
 "mos of suoron he need to make Red Beam more strong army like mordor cant kill heros mos only way "
@@ -2341,6 +2341,9 @@ SCRIPT:4PlayersMode
 "4 Players mode Enabled"
 End
 //------------------Counters-----------------//
+SCRIPT:VidasRestantes
+"Remaining lives"
+End
 SCRIPT:NextWaveAnticipador
 "Next wave in..."
 End
