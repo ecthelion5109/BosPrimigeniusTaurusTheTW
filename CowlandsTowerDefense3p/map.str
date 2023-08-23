@@ -1,18 +1,62 @@
+//-------------------------------------------------------------------------------//
+//-----------------------#Bunitos 2018 map.STR, si!#-----------------------------//
+//-------------------------------------------------------------------------------//
 
-//------------------------------------------------------------//
-//-------------------------MAP.INI----------------------------//
-//------------------------------------------------------------//
+	//-----,lc'---------------------.'loc,.---------------------------------//
+	//---;kKd.------------------------.c0NO:--------------------------------//
+	//--lNWd.---------------------------,0MNc-------------------------------//
+	//-,0MWo------.,ccccclodddlc,.------.kMMO.------------------------------//
+	//-.kWMXd;..'l0NMMMMMMMMMMMMWO:.---.cXMMO.------------------------------//
+	//--.dXMMWXKNWMMMMMMMMMMMMMMMMWOdooONMMK:-------------------------------//
+	//----;0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMXx'--------------------------------//
+	//----lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.---------------------------------//
+	//----'lxOOKWMMMMMMMMMMMMMMMMMN0OKXKk:----------------------------------//
+	//---------lNMMMMMMMMMMMMMMMMMK:....------------------------------------//
+	//---------.OMMMMMMMMMMMMMMMMMWo.---------------------------------------//
+	//----------:XMMMMMMMMMMMMMMMMMKx;--------------------------------------//
+	//----------'0MMMMMMMMMMMMMMMMMMW0;-------------------------------------//
+	//----------'0MMMMMMMMMMMMMMMMMMMMXl.-----------------------------------//
+	//---------.oNMMMMMMMMMMMMMMMMMMMMMW0c.---------------------------------//
+	//--------.dNMMMMMMMMMMMMMMMMMMMMMMMMWOc.-------------------------------//
+	//-------.oWMMMMMMMMMMMMMMMMMMMMMMMMMMMWKdc,..--------------------------//
+	//-------;KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0kdl:.---------------------//
+	//-------oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXkc.------------------//
+	//------.xMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO,-----------------//
+	//------.xMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:----------------//
+	//-------lWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK;---------------//
+	//-------'0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMk.--------------//
+	//--------cNMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMN:--------------//
+	//--------.dWMMMMMMMMMMMMMMMMMMMMXKMMMMMMMMMMMMMMMMMMMMMMx.-------------//
+	//---------.kWMMMMMMMMMMMMMMMMMMWWWMMMMMMMMMMMMMMMMMMMMMMk.-------------//
+	//----------,0MMMMMMMMMMMMMMMMMNXKNMMMMMMMMMMMMMMMMMMMMMM0'-------------//
+	//-----------,0MMMWNNWMMMMMMMMMX0XWMMMMMMMMMMMMMMMMMMMMMMX:-------------//
+	//------------;KMMMWNXNMMMMMMMN0kOO0NMNXKXWWWNWMMMMMMMMMMNc-------------//
+	//-------------lNMMMMX0NMMMMMWk'..-.,okKNWMMWNXNNMMMMMMMMMd.------------//
+	//-------------.kMMMM0cxWMMMM0,--------'xNMMMMMXxkNMMMMMMMO.------------//
+	//--------------lNMMWo.:XMMMXc----------.dNMMMMX;.dNMMMMMMX:------------//
+	//--------------,KMM0'-'0MMMx.-----------.:0WMMNl-.:kNMMMMWx.-----------//
+	//--------------.OMWo--'0MMMx.-------------.dNMMK,---;0MMMMNc-----------//
+	//--------------;KMX;--:XMMM0'---------------lNMWo----,kWMMMk.----------//
+	//-------------.kWMN:--cNMMWd.---------------.xMM0,----.lXMMK,----------//
+	//-----------.c0WMM0,-.dWMMNc----------------.dWMWd.-----cXMWo----------//
+	//-----------;KWMWNo.-,0MMMNl----------------.dNNKd.-----.xMMXl.--------//
+	//------------':c:'---.oxxo;------------------.''.--------,k00d.--------//
+	//----------------------------------------------------------...---------//
+	
+//-------------------------------------------------------------------------------//
 Map:CowlandsTowerDefense3p
-"Bos Primigenius Taurus: The TW" // Cowlands: The Tower War //Tower War: The Cow Lands [3p]
+"Bos Primigenius Taurus: The TW"
+	// Cowlands: The Tower War 
+	// Tower War: The Cow Lands [3p]
 End
-//\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
-//\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.74: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.80: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
+	// \n Players need to be in same team to get Kill Counter working."
 End
-//------------------------------------------------------------//
-//------------------------------------------------------------//
-//------------------------------------------------------------//
+//--------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------//
 
 
 
@@ -24,6 +68,14 @@ End
 
 
 
+CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade_New
+"Allows research of Heavy Armor"
+End
+// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
+
+CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade_New
+"Allows research of Iron Ore"
+End
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
 "Generates resources based on available terrain Provides access to the tunnel network \n Quantity available to build: 3"
@@ -88,7 +140,7 @@ CONTROLBAR:MordorBarbedArrowsPassiveDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:RingWraithMode_New
-"Worst Nightmare"
+"Worst &Nightmare"
 END
 CONTROLBAR:RingWraithModeDesc_New
 "Requires Level 10 \n Turns into a ring wraith, dealing supernatural damage. \n Effective against any kind of heroe. \n Heroes upon death become into ring wraiths aswell."
@@ -359,7 +411,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror \n left click icon to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
