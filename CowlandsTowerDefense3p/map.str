@@ -1,5 +1,5 @@
 //-------------------------------------------------------------------------------//
-//-----------------------#Bunitos 2018 map.STR, si!#-----------------------------//
+//-----------------------#Bunitos 2018-2022 map.STR, si!#-----------------------------//
 //-------------------------------------------------------------------------------//
 
 	//-----,lc'---------------------.'loc,.---------------------------------//
@@ -2651,6 +2651,25 @@ End
 SCRIPT:GameStart5
 "All available units have any sort of utility \n therefore there's not One manner to win this map"
 End
+//--------------------------------------------------//
+SCRIPT:PigGameStart1
+"This is Sus Scrofa Scrofa: The TW \n If it makes you lag, you re' doing it right."
+End
+SCRIPT:PigGameStart2
+"The objetive is to defend the \n pigs in the center of the map. \n Lose your pigs; lose your life."
+End
+SCRIPT:PigGameStart3
+"Waves are divided in armies. \n Each army has a boss at its 5th wave."
+End
+SCRIPT:PigGameStart4
+"You will be completly responsable for \n your own money and commandpoints."
+End
+SCRIPT:PigGameStart5
+"All available units have any sort of utility \n therefore there's not One manner to win this map"
+End
+SCRIPT:PigGameStart6
+"Good luck. \n Thorin sucks."
+End
 //-------------------------------------------//
 SCRIPT:RipCounters
 "Kill-counters won't work when \n there's a player of different team."
@@ -2686,6 +2705,63 @@ END
 TOOLTIP:LadyCow
 "Brings joy to Middle-Earth"
 END
+//---------------------------------------------------
+OBJECT:Enzo_New
+"Enzo"
+END
+TOOLTIP:Enzo_New
+"Enzo Easy Mode."
+END
+OBJECT:Napoleon_New
+"Napoleon"
+END
+TOOLTIP:Napoleon_New
+"Enables Hard Mode."
+END
+//---------------------------------------------------
+OBJECT:Chorizo_New
+"Chorizo"
+END
+TOOLTIP:Chorizo_New
+"Provides Andy ranting quotes"
+END
+SCRIPT:Andy01
+"ok im doen with ypou motherfucker you r cheater 5000000000000%"
+End
+SCRIPT:Andy02
+"fuck youuu cheater cunt idk what you spam  but my all hero stuck fking cunt "
+End
+SCRIPT:Andy03
+"u was unkillable"
+End
+SCRIPT:Andy04
+"im only cant kill your heroes everythign have 80000 and 50% speed boost like fking heroic mod"
+End
+SCRIPT:Andy05
+"i lost 5 hero they not moving gRAZT enjoy last king time  i played with u "
+End
+SCRIPT:Andy06
+"400% allways with heroes your heroes unkillable mines die 5 sec cant run away cant control enjoy"
+End
+//---------------------------------------------------
+SCRIPT:Mustafa01
+"i like ur pitch but i want some more blanced"
+End
+SCRIPT:Mustafa02
+"for exmpl"
+End
+SCRIPT:Mustafa03
+"mos of suron must to be when he atk gob farms or drw farms like grofndal army die if I took it out"
+End
+SCRIPT:Mustafa04
+"or mype..."
+End
+SCRIPT:Mustafa05
+"mos of suoron he need to make Red Beam more strong army like mordor cant kill heros mos only way "
+End
+SCRIPT:Mustafa06
+"i gib u 100$ if u make ptch like 1.00"
+End
 //---------------------------------------------------
 OBJECT:Estella
 "Estella, la vaquita"
@@ -2782,6 +2858,9 @@ End
 SCRIPT:GameStarts
 "The raid to the Cowlands begin in"
 End
+SCRIPT:PigGameStarts
+"The raid to the Piglands begin in"
+End
 SCRIPT:AliveCreeps
 "Alive creeps"
 End
@@ -2803,8 +2882,17 @@ End
 SCRIPT:JUGARDOR4KILL
 "Player4 killed"
 End
-SCRIPT:JUGARDOR5KILL
-"Player5 killed"
+SCRIPT:Pigplayer1kills
+"Player 1 killed"
+End
+SCRIPT:Pigplayer2kills
+"Player 2 killed"
+End
+SCRIPT:Pigplayer3kills
+"Player 3 killed"
+End
+SCRIPT:Pigplayer4kills
+"Player 4 killed"
 End
 SCRIPT:GameTimeMinutes
 "Minutes in game"
