@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 473 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 474 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -1466,7 +1466,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 12 seconds. \n Category: 'Unique' \n left click icon to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds. \n Category: 'Terrorist King' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
@@ -1851,7 +1851,8 @@ CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 4 \n Glorfindel gains +60% speed and 75% Armor when mounted \n left click icon to activate"
 END
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
-"Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant'. \n Left click to activate"
+//"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
@@ -2187,7 +2188,7 @@ CONTROLBAR:TooltipElrondLeadership_New
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipBladeMaster_New
-"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Left click to activate"
 END
 //--------------------------------------------------//
 CONTROLBAR:AragornAthelasDesc_New
@@ -2200,7 +2201,8 @@ CONTROLBAR:Elendil_New
 "Elendil [&W]"
 END
 CONTROLBAR:ToolTipElendil_New
-"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
+"Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds and every kind of leadership is removed. \n Category: 'Terrorist King' \n left click icon to activate"
+//"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
 END
 TOOLTIP:ToolTipAragornLeadership_New
 "\n Leadership: \n Player units near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Type: 'High-Tier Hero' "
