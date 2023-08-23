@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 469 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 470 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -78,6 +78,9 @@ End
 
 
 
+
+//-----
+//-----
 //-----
 CONTROLBAR:SpecialAbilitySummonedDragonReposition_New
 "Reposition (&C)"
@@ -316,13 +319,22 @@ CONTROLBAR:GandalfMaiarLightDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
-"Requires Level 3 \n Send a tripple fireball at selected targets. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
+"Requires Level 2 \n Send a tripple fireball at selected targets. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
-"Requires Level 5 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
+"Requires Level 4 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
-"Requires Level 7 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+"Requires Level 6 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+END
+CONTROLBAR:ToolTipSpecialAbilityIncinerate_New
+"Requires Level 8 \n Breathes fire over a selected area \n Left click icon then left click on target area"
+END
+CONTROLBAR:GenericMountDrogoth_New
+"Toggle foot mode / fly mode [&V]"
+END
+CONTROLBAR:GenericMountTooltipDrogoth_New
+"Requires Level 10  \n Left click to switch between \n foot and fly-mode"
 END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
