@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.66 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.67 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -148,14 +148,14 @@ END
 //End
 //------------------------------------------------------------
 UPGRADE:RohanMirkRider_New
-"Research MirkRider Ability (&T)"
+"Research MirkRider Ability (&W)"
 END
 UPGRADE:RohanMirkRiderDesc_New
 "Requires Level 2 Stable \n Allows Rohirrim Archers to use the MirkRider ability."
 End
 //-----------
 CONTROLBAR:RohanMirkRider_New
-"MirkRider Ability (&T)"
+"MirkRider Ability (&W)"
 END
 CONTROLBAR:RohanMirkRiderDesc_New
 "Temporary grants a boost of +40% range and +15% rate of fire. \n Lasts 30 seconds. \n Left click to activate"
@@ -683,7 +683,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 45%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 60%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -2697,12 +2697,23 @@ End
 SCRIPT:t_VictoryText00_A2
 "Qualification: *A* \n You are ready to play the next level of difficulty."
 End
+
+
+
+
+
+
 SCRIPT:t_VictoryText00_B
 "Congratulations, you have won the cowmap fair and square."
 End
 SCRIPT:t_VictoryText00_B2
 "Qualification: *B* \n You are not ready for the next level of difficulty."
 End
+
+
+
+
+
 SCRIPT:t_VictoryText00_C
 "Congratulations, you have luckily won the cowmap."
 End
