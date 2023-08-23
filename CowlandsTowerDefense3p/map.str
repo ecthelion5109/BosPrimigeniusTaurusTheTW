@@ -294,10 +294,10 @@ CONTROLBAR:ToolTipDarkness_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
-"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Requires to be dismounted \n \n Left click icon then left click on area"
+"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slowing them down and humans, upon their death, will turn into ring wraiths.\n Requires to be dismounted \n \n Left click icon then left click on area"
 END
 CONTROLBAR:HourOfTheWitchKing_New
-"Memories of A&ngmar" // Hour of the Witch-king
+"Memories of A&ngmar" // Hour of the Witch-king // Curse
 END
 //--------------------------------------------------------------
 CONTROLBAR:RainOfMorgul_Desc
