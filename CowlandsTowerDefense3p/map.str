@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.65 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.66 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,6 +77,23 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:HornofGondorPassive_New
+"Boromir el epico"
+END
+CONTROLBAR:HornofGondorPassiveDesc_New
+"Requires Level 10 \n Boromir's Horn of Gondor becomes able to stun and damage anything. \n Passive ability \n Left click respective icon to activate"
+END
+CONTROLBAR:HornofGondor_New
+"Horn of Gondor [&R]"
+END
+CONTROLBAR:ToolTipHornofGondor_New
+"Requires Level 3 \n Stun enemies with this raging strap-on. \n In level 10 can stun monsters and level 10 units \n Left click to activate"
+END
+//-----------
+CONTROLBAR:ToolTipCaptainofGondorBoromir_New
+"Requires Level 6 \n Give targeted units experience\n Left click icon then left click on target units"
+END
+//---------------------------------------------------
 CONTROLBAR:ShelobPermanentStinger_New
 "Poisonous Stinger"
 END
@@ -88,14 +105,14 @@ CONTROLBAR:ShelobFreezeingScrech_New
 "Freezeing Sc&reech" 
 END
 CONTROLBAR:TooltipShelobFreezeingScrech_New
-"Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
+"Requires Level 6 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 //---------------------
 CONTROLBAR:ShelobToxicCumShot_New
 "&Toxic Lady Juice"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 4 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
@@ -296,7 +313,7 @@ CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
-"Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 CONTROLBAR:GrimaLoneTower_New
 "Summon Lone Tower (&U)"
@@ -322,7 +339,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlatingFortress_New
 "Increases Fortress and Wall armor \n Pre-requisite to Wizard's Tower \n Upgrades Summoned Lone Towers."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrowsFortress_New
-"Increases the vision range of the nearby units by +10% \n Category: 'Uncategorized' \n Upgrades Summoned Lone Towers."
+"Increases the vision range of the nearby units by +10% \n Category: 'Farsight' \n Upgrades Summoned Lone Towers."
 END
 //--------------------UpgradeTowerIcons--------------------//
 CONTROLBAR:UpgradeTowerRangeBonusUpgradeIcon_New
@@ -339,7 +356,7 @@ CONTROLBAR:UpgradeTowerArmorUpgradeIcon_New
 END
 //------
 CONTROLBAR:UpgradeTowerRangeBonusUpgradeIconDesc_New
-"Increases the vision range of the nearby units by +10%. \n Conflicts with local Excavations Upgrade""
+"Increases the vision range of the nearby units by +10%. \n Conflicts with local Excavations Upgrade" \n Category: 'Farsight' "
 END
 CONTROLBAR:UpgradeTowerHealBonusUpgradeDescIcon_New
 "Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well' \n Conflicts with local Murder of Crows Upgrade"
@@ -1166,14 +1183,14 @@ CONTROLBAR:MenWood_New
 "Fanatic pseudo-ecologist [&B]"
 END
 CONTROLBAR:MenWoodDesc_New
-"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
+"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:ElvenWood_New
 "Elven Wood [&B]"
 END
 CONTROLBAR:TooltipElvenWood_New
-"Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied STRUCTURES health points are triplicated whilst its during. \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied STRUCTURES health points are quadruplicated whilst its during. \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
@@ -1306,7 +1323,7 @@ CONTROLBAR:Blight_New
 "Rape the Land (&B)" // Blight
 End
 CONTROLBAR:BlightDesc_New
-"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
@@ -1615,7 +1632,7 @@ CONTROLBAR:SpecialAbilityOsgiliathVeterans_New
 "&Call the Osgiliath Veterans"
 END
 CONTROLBAR:ToolTipSpecialAbilityOsgiliathVeterans_New
-"Requires Level 10 \n Calls to the battle experienced soldiers from Osgiliath. \n Left click icon then left click on pathable location"
+"Requires Level 8 \n Calls to the battle experienced soldiers from Osgiliath. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipElvenGifts_New
