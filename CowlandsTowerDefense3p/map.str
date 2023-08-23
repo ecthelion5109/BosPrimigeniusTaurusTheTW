@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 244) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 245) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -78,12 +78,16 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:MenLongShotAbility_New
+"Longshot (&B)"
+End
+//---------------------------------------------------
 OBJECT:SignalFireDescription09v2
 "Capture it to decrease recharge times for unused spellbooks. \n Reduces special abilities reload time. \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -20% reduction of spells and abilities"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
-"Build a Necromancer Monument (&W)"
+"Build a Healing Morgul Pit" //Necromancer Monument (&W)"
 END
 //---------------------------------------------------
 CONTROLBAR:RainOfFireSaruman_New
@@ -346,11 +350,12 @@ TOOLTIP:DisplayDamage_GondorArcherUpgrade
 "Damage per unit: \n PIERCE damage: 30 \n FLAME damage 30"
 End
 //----------------------Done--------------------------
+//07julio
 TOOLTIP:DisplayDamage_OrcArcherBasic
-"Damage per unit: \n PIERCE damage: 25"
+"Damage per unit: \n PIERCE damage: 33"
 End
 TOOLTIP:DisplayDamage_OrcArcherUpgrade
-"Damage per unit: \n PIERCE damage: 25 \n FLAME damage 30"
+"Damage per unit: \n PIERCE damage: 33 \n FLAME damage 50"
 End
 //------------------------Done----------------------
 TOOLTIP:DisplayDamage_HaradrimArcherBasic
@@ -2005,6 +2010,9 @@ SCRIPT:AliveCreeps
 End
 SCRIPT:Wave
 "Wave"
+End
+SCRIPT:TimeSinceSpawned
+"TimeSinceSpawned"
 End
 SCRIPT:player1kills
 "Northern player killed"
