@@ -1,4 +1,34 @@
 
+
+
+
+
+
+
+
+
+
+
+
+CONTROLBAR:CAH_ArrowBonus_Level1_New
+"Golden Arrows"
+End
+CONTROLBAR:ToolTipCAH_ArrowBonus_Level1_New
+"This batallion is equiped with Golden Arrows from Lindon. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of magic damage"
+End
+
+
+CONTROLBAR:SummonElvenAllies_New
+"Summon Noldor Allies [&V]"
+End
+
+CONTROLBAR:ToolTipSummonElvenAllies_New
+"Requires Level 10 \n Summons a group of Noldor Warriors \n Left click icon then left click on pathable location"
+END
+
+
+
+
 CONTROLBAR:ToolTipDarkness_New
 "Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Requires to be mounted in a Fellbeast \n Left click to activate"
 END
@@ -157,7 +187,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n Left click to activate"
 END
 
-GUI:UNITDiscountNew
+GUI:UNITDiscount_New
 "Local units \n discount: -%d%%"
 END
 
@@ -348,7 +378,7 @@ END
 
 
 CONTROLBAR:ToolTipElvenGifts_New
-"Requires level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore gain +200% damage \n Passive power"
+"Requires Level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore gain +200% damage \n Passive power"
 END
 
 CONTROLBAR:ToolTipPersonalFlood_New
@@ -524,14 +554,26 @@ END
 
 
 
+CONTROLBAR:ToolTipArrowWind_New
+"Requires Level 7 \n Launch a continuous volley of arrows \n Left click icon then left click on target area"
+END
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
 "Allies near the BattleWagon Banner gain +30% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
 End
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
 "Allies near the Drummer Troll gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 END
-CONTROLBAR:LegolasLeadershipDesc
-"Requires Level 5 \n Player units near Legolas gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+CONTROLBAR:ArwenLeadership_New
+"Evenstar Leadership"
+End
+CONTROLBAR:ArwenLeadershipDesc_New
+"Requires Level 5 \n Player units near Undomiel gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+End
+CONTROLBAR:LegolasLeadership_New
+"Prince of Mirkwood Leadership"
+End
+CONTROLBAR:LegolasLeadershipDesc_New
+"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +25% faster \n Category: Unique \n \nPassive ability"
 End
 
 CONTROLBAR:GamlingLeadershipDesc_New
@@ -545,9 +587,6 @@ CONTROLBAR:TooltipHeal_New
 END
 CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
-END
-CONTROLBAR:ToolTipDamrodLeadership_New
-"Requires Level 6 \n Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
 END
 CONTROLBAR:ToolTipBoromirLeadership_New
 "Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: Non stacky leadership\n \n Passive ability"
@@ -580,6 +619,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 "Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Unique \n \n Passive ability "
+END
+CONTROLBAR:ToolTipDamrodLeadership_New
+"Requires Level 6 \n Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
 END
 CONTROLBAR:ToolTipDainLeadership_New
 "Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
