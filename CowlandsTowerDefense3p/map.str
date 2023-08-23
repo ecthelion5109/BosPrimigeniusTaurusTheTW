@@ -159,17 +159,21 @@ CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
 "Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
 END
 //---------------------------------------------------
+CONTROLBAR:PurchaseTechnologyIsengardTorches_New
+"Research &Torches"
+End
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches_New
+"Requires Level 2 Hall \n Allows Axe Throwers to use \n and throw explosive fire torches."
+End
+//---------------------------------------------------
 CONTROLBAR:UpgradeWildmenHallLevel2_New
 "Upgrad&e Wildmen Hall to Level 2"
 End
 CONTROLBAR:UpgradeWildmenHallLevel2Desc_New
-"Allows training of the Wildmen Axe Throwers \n  +10% Faster Build Speed"
+"Allows purchasing the Explosive Fire Torch technology. \n  +10% Faster Build Speed"
 End
 CONTROLBAR:UpgradeWildmenHallLevel3_New
 "Upgrad&e Wildmen Hall to Level 3"
-End
-CONTROLBAR:UpgradeWildmenHallLevel3Desc_New
-"+25% Faster Build Speed"
 End
 //---------------------------------------------------
 CONTROLBAR:GandalfMaiarLight_New
@@ -308,7 +312,7 @@ CONTROLBAR:AxeStormIsengard_New
 "Explosive torches (&T)"
 END
 CONTROLBAR:AxeStormIsengardDesc_New
-"Launch one volley of explosive torches. \n Left click icon then left click on target"
+"Requires respective Technology in the Dunland Hall \n Launch one volley of explosive torches. \n Left click icon then left click on target"
 END
 //Requires Level 2 \n 
 //---------------------------------------------------
@@ -492,7 +496,7 @@ End
 //	End
 //---------------------------------------------------
 CONTROLBAR:DunlandHall_New
-"Build a Dunland hall (&K)"
+"Build a Dunland hall (&R)"
 END
 OBJECT:DunlandHall_New
 "Dunland Hall"
@@ -1059,8 +1063,9 @@ CONTROLBAR:ToolTipSharkuManEater_New
 "Requires Level 6 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Left click icon then left click on target enemy"
 END
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 3 \n Players units near Sharku gain: \n +25% Armor earn experience 25% faster. \n Category: 'Armor_Inspiration' \n Halves the deceleration rate of friendly cavalry. \n Passive ability"
+"Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability" //'Unique SPELL' en realidad est esto pero i lie.
 END
+//Requires Level 3 \n 
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
 "Cripple Strike (&B)"
@@ -1293,8 +1298,14 @@ CONTROLBAR:BlackRiderLeadership
 "Inspiring Presence"
 END
 //---------------------------------------------------
+CONTROLBAR:AxeThrow_New
+"Double Axe Throw [&T]"
+END
+CONTROLBAR:ToolTipAxeThrow_New
+"Powerful ranged attack with splash damage. \n Specially effective to cavalry and flyers. \n Causes meta-impact on the targets. \n Left click icon then left click on target"
+END
 CONTROLBAR:ToolTipSlayer_New
-"Requires Level 7 \n Gimli deals 200% damage, Double Speed, but loses -15% Structural Armor \n left click icon to activate"
+"Requires Level 7 \n Gimli deals 150% damage, Double Speed, \n but loses -15% Structural Armor \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
@@ -1906,10 +1917,10 @@ CONTROLBAR:ToolTipConstructMenMarketPlace_New
 END
 //-------------------------------------------------
 CONTROLBAR:HordeDunlandAxeThrower_New
-"Dunland Axe Throwers (&B)"
+"Dunland &Axe Throwers"
 END
 CONTROLBAR:HordeDunlandAxeThrowerDesc_New
-"Requires Level 2 \n Effective against pikemen, archers and weak heros" //Requires Level 2 Dunland Hall \n 
+"Effective against pikemen, archers and weak heros" // Requires Level 2 \n //Requires Level 2 Dunland Hall \n 
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipArrowWind_New
