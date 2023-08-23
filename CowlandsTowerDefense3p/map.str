@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.71 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.73 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,6 +77,10 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ConstructIsengardLumberMill_New
+"Build a lumber mill (&Y)"
+END
 //---------------------------------------------------
 CONTROLBAR:PurchaseDwarvenBallistaUpgrade_New
 "Install anti-&dragons device"
@@ -229,7 +233,7 @@ OBJECT:SignalFireDescription09v2
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
-"Build a Healing Morgul Pit (&W)" 
+"Build a healing Morgul pit (&W)" 
 //Necromancer Monument (&W)
 END
 //---------------------------------------------------
@@ -285,7 +289,7 @@ CONTROLBAR:ToggleSpiderRiderWeapons_New
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructIsengardUpgradeTower_New
-"Tower of Upgrades (&W)"
+"Build a to&wer of upgrades"
 END
 OBJECT:ConstructIsengardUpgradeTower_New
 "Tower of Upgrades"
@@ -320,21 +324,21 @@ GUI:STRUCTURE_WALL_DISCOUNT_New
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Powers and Abilities \n Reload bonus: %d%%"
+"Powers and abilities: \n Reload bonus: %d%%"
 End
 //---------------------------------------------------
 OBJECT:ConstructFurnace_New
-"Guild Smelters facility"
+"Guild smelters facility"
 END
 CONTROLBAR:ConstructFurnace_New
-"Build a Guild Smelters facility"
+"Build a guild smelters fa&cility "
 END
 CONTROLBAR:ToolTipFurnace_New
 "Reduces the cost of upgrades.\n  1 Furnace: -16%.\n 2 Furnaces: -32%. \n 3 Furnaces: -28%.\n 4 Furnaces: -64%"
 END
 //---------------------------------------------------
 Upgrade:FortressPoisonArrows_New
-"Poison Arrows"
+"Poison arrows"
 END
 //---------------------------------------------------
 CONTROLBAR:GrimaToxicShit_New
@@ -412,15 +416,18 @@ End
 OBJECT:ChieftainOfDunland_New
 "Chieftain of Dunland"
 End
-//	TOOLTIP:WildmenBuildingHouseDesc_New
+//	TOOLTIP:DunlandHallDesc_New
 //	"Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
 //	End
 //---------------------------------------------------
-OBJECT:WildmenBuildingHouse_New
+CONTROLBAR:DunlandHall_New
+"Build a Dunland hall (&K)"
+END
+OBJECT:DunlandHall_New
 "Dunland Hall"
 End
-TOOLTIP:WildmenBuildingHouseDesc_New
-"Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
+TOOLTIP:DunlandHallDesc_New
+"Trains Dunland Axe Throwers"
 End
 //---------------------------------------------------
 OBJECT:HordeDwarvenAxeThrower_New
@@ -636,7 +643,7 @@ CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructTrollDrum_New
-"Build a Troll Drum (&W)"
+"Build a troll drum (&W)"
 END
 //---------------------------------------------------
 //	CONTROLBAR:TooltipLumbermillUnpackMordor_New
@@ -855,7 +862,7 @@ TOOLTIP:RankingTroll_New
 END
 //---------------------------------------------------
 CONTROLBAR:GarrisonTower_New
-"Garrisonable Tower (&D)"
+"Buil&d a garrisonable tower"
 END
 OBJECT:GarrisonTower_New
 "Garrisonable Tower"
@@ -877,10 +884,10 @@ OBJECT:DwarvenLoneTowerDescription_New
 End
 //-------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower_New
-"Build a Stealth Detector Tower(&J)"
+"Build a stealth detector tower (&J)"
 END
 CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
-"Requires Stonework from the Fortress or a Stone Maker. \n Will reveal any invisible in a radius of 450"
+"Reveal any invisible unit in a radius of 450 \n Requires Stonework from the Fortress or a Stone Maker."
 END
 //--------------------------------------------------//
 OBJECT:StealthDetectorSentryTower_New
@@ -1054,11 +1061,18 @@ CONTROLBAR:AzogGoblinFuryDesc_New
 "Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
-CONTROLBAR:WildWave_New
-"Goblin Flood (&B)"
+CONTROLBAR:GoblinCharge_New
+"Goblin Charge (&W)"
 END
-CONTROLBAR:WildWaveDesc_New
+CONTROLBAR:GoblinChargeDesc_New
 "Requires Level 7 \n Summon a wave of rageful wild animals that will crush anything on their pass. \n Left click icon then left click on target area"
+END
+//---------------------------------------------------
+CONTROLBAR:AzogsAzogTremor_New
+"Tremors (&V)"
+End
+CONTROLBAR:AzogsAzogTremorDesc_New
+"Requires Level 10 \n Causes a series of tremors on the selected area. \n Knocks down the enemies and \n slows them down. \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:AwakenWyrm_New
@@ -1722,7 +1736,7 @@ CONTROLBAR:ToolTipSlaughterHouse_New
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructElvenFarm_New
-"Build a Elven &Farm"
+"Build a elven &farm"
 END
 CONTROLBAR:ConstructElvenFarmDesc_New
 "Generates resources based on available terrain \n Can train Lothlorien Warriors. \n Quantity available to build: 1"
@@ -1759,13 +1773,6 @@ END
 //-------------------------------------------------
 CONTROLBAR:ConstructRohanStable_New
 "Build Rohan S&table"
-END
-//-------------------------------------------------
-CONTROLBAR:WildmenOfDunlandHouse_New
-"Wildmen of D&unland hall"
-END
-CONTROLBAR:WildmenOfDunlandHouseDesc_New
-"Trains wildmen from Dunland:\n Axe Throwers and Torch Throwers"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
@@ -1912,11 +1919,17 @@ CONTROLBAR:ToolTipTheodenLeadership_New
 "Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
 END
 //--------------------------------------------------//
+OBJECT:LightningTower_New
+"Lightning tower"
+End
+TOOLTIP:LightningTowerDesc_New
+"Summons fucking thunderbolt against the enemies on the zone."
+End
 CONTROLBAR:LightningTower_New
-"Light&ning Tower"
+"Build a light&ning tower"
 End
 CONTROLBAR:LightningTowerDesc_New
-"Build a bigass tower which is literally summoning fucken thunderbolts in any enemies it catches"
+"Summons fucking thunderbolt against the enemies on the zone. \n Requires Wizard's Tower upgrade from the Fortress."
 End
 //--------------------------------------------------//
 //CONTROLBAR:WaterTower
