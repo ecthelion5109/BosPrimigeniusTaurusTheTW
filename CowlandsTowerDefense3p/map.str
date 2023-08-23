@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.54 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.56 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -78,11 +78,17 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:AzogChildsPrerequisite_New
+"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
+End
 CONTROLBAR:AzogChilds_New
 "Carlitos, Panchito y Miguelito"
 End
 CONTROLBAR:AzogChildsDesc_New
 "Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
+End
+CONTROLBAR:AzogChildsPurchased_New
+"Wow La familia felix"
 End
 //---------------------------------------------------
 OBJECT:InnTavern_New
@@ -117,12 +123,16 @@ CONTROLBAR:RainOfFireDescSaruman_New
 END
 //---------------------------------------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"Toxic cum-shot (&V)"
+"&Toxic cum-shot"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
 "Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------------------------------------
+CONTROLBAR:GoblinKingMount_New
+"Mount / Dismount [&M]"
+End
+
 CONTROLBAR:ToolTipGoblinKingMount_New
 "Left click to switch between \n mounted and on foot"
 END
@@ -1398,7 +1408,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
 END
 //---------------------------------------------------
 CONTROLBAR:EomerSpear_New
@@ -1973,7 +1983,7 @@ SCRIPT:WIN
 "Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
 End
 SCRIPT:CREDITS
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, TapFire \n and whoever actually ever played this map during its three years of develepment."
+"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map during its three years of develepment."
 End
 SCRIPT:LOSE
 ";( cows not happy"
