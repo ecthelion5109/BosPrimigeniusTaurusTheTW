@@ -191,7 +191,7 @@ CONTROLBAR:SummonDunedainAllies_New
 End
 
 CONTROLBAR:ToolTipSummonDunedainAllies_New
-"Requires Level 6 \n Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location" 
+"Requires Level 7 \n Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location" 
 END
 
 CONTROLBAR:LightningSword_New
@@ -383,9 +383,12 @@ End
 SCRIPT:Hint06
 "If Isengard design has TWO dragons from a spellbook,\n you think dragons cannot be invisible?"
 End
-
-
-
+SCRIPT:Hint07
+"The progeny of Glaurung, that magical chad from the First Age life fucker of Hurin sons, has arrived to our cowlands seeking for delicious milk"
+End
+SCRIPT:Hint08
+"Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent, if a Dragon comes, heroes kill. If ladies moo, life be good".
+End
 CONTROLBAR:MordorGothmogHotkey_New
 "&Gothmog, The Elephant Man"
 END
