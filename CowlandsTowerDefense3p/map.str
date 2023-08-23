@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.75 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.77 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -274,7 +274,7 @@ CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
-"Devastation (&T)"
+"De&vastation"
 End
 CONTROLBAR:ToolTipDevastation_New
 "Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
@@ -345,7 +345,7 @@ CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
 END
 CONTROLBAR:GrimaToxicShitDesc_New
-"Requires Level 2 \n Grima fulls the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+"Requires Level 2 \n Grima fills the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
 END
 CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
@@ -927,7 +927,7 @@ CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ThunderBolt_New
-"Thunderbolt [&T]"
+"&Thunderbolt"
 END
 CONTROLBAR:ToolTipThunderBolt_New
 "Requires Level 4 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
@@ -1002,13 +1002,13 @@ CONTROLBAR:LurtzBaneStrike_New
 "Bane S&trike"
 END
 CONTROLBAR:LurtzBaneStrikeDesc_New
-"Requires Level 3 \n Single ranged attack that causes high damage. \n Causes meta-impact \n Left click icon then left click on target"
+"Requires Level 3 \n Tripple shoot that causes high damage and meta-impact \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 4 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
 CONTROLBAR:LurtzBoost_New
-"Saruman's Favorite Uruk"
+"Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
 "Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +200 damage. \n Passive ability"
@@ -1360,7 +1360,7 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n left click icon to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Darkness' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
@@ -2008,7 +2008,7 @@ OBJECT:MaleCow_New
 "Rider of the apocowlipsis"
 END
 TOOLTIP:MaleCowDesc_New
-"Behold"
+"Behold how i heal nearby cows."
 END
 OBJECT:LeadingDragon_New
 "Mother of dragons!"
@@ -2223,13 +2223,13 @@ SCRIPT:AliveCreeps
 "Alive creeps"
 End
 SCRIPT:Wave
-"NormalMode Wave"
+"Normal mode: Wave"
 End
 SCRIPT:WaveEasy
-"EasyMode Wave"
+"Easy mode: Wave"
 End
 SCRIPT:WaveHard
-"HardMode Wave"
+"Hard mode: Wave"
 End
 SCRIPT:TimeSinceSpawned
 "TimeSinceSpawned"
