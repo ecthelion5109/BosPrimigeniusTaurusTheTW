@@ -1,7 +1,6 @@
 
 
 
-
 //--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityLurtzCarnage_New
 "Carnage"
@@ -77,7 +76,7 @@ CONTROLBAR:ToolTipFaramirMount_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporally gain +65% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
+"Requires Level 6 \n Nearby units temporarily gain +65% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
@@ -155,7 +154,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and men gain +999% armor, +100% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Left click to activate"
 END
 //--------------------------------------------------------------
 CONTROLBAR:Flood_New
@@ -232,21 +231,6 @@ END
 CONTROLBAR:ArwenRestoreDesc_New
 "Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
 END
-//--------------------------------------------------------------
-CONTROLBAR:EowynRestore_New
-"Shitty Soup Renovation (&B)"
-END
-CONTROLBAR:EowynRestoreDesc_New
-"Requires Level 10 \n The lady of the kitchen does not decide to cook for the men voluntarily. \n She's told to do her job and feed the Guardians of the Fatherland. \n Special ability timers from feeded player units reload immediately \n Left click icon and left click on target allies"
-END
-//--------------------------------------------------------------
-CONTROLBAR:Disguise_New
-"Inspiring Shield Maiden"
-END
-CONTROLBAR:ToolTipDisguise_New
-"Requires Level 4 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n \n Passive ability."
-END
-//We forgive Eowyn for the taste of her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster.
 //--------------------------------------------------------------
 CONTROLBAR:SummonRohanAllies_New
 "Summon Rohan Al&lies"
@@ -372,6 +356,9 @@ END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
 "Allows battalions to purchase the Forged Blades upgrade. \nWhen equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
+CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
+"Allows battalions to purchase the Fire Arrows upgrade \n When equipped, significantly increases the damage done by Arrows \n Once purchased, the Osgiliath Veterans receive Fire Arrows and a damage boost."
+END
 //--------------------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
 "Generates resources\n Provides access to the tunnel network \n Quantity available to build: 6"
@@ -388,7 +375,29 @@ CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
-"Powerful ranged attack \n Effective against units \n Bonus against Monsters and Heroes \n *Extreme bonus against Aragorn and Arwen* \n Left click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n *EXTREME* bonus against Aragorn and Arwen. \n Left click icon then left click on target"
+END
+//--------------------------------------------------------------
+CONTROLBAR:Disguise_New
+"Inspiring Shield Maiden"
+END
+CONTROLBAR:ToolTipDisguise_New
+"Requires Level 5 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n \n Passive ability."
+END
+//We forgive Eowyn for the taste of her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster.
+//--------------------------------------------------------------
+CONTROLBAR:ShieldMaiden_New
+"Shield Charge [&V]"
+END
+CONTROLBAR:ToolTipShieldMaiden_New
+"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +15% speed. \n Left click to activate"
+END
+//--------------------------------------------------------------
+CONTROLBAR:EowynRestore_New
+"Shitty Soup Renovation (&B)"
+END
+CONTROLBAR:EowynRestoreDesc_New
+"Requires Level 10 \n The lady of the kitchen does not decide to cook for the men voluntarily. She's told to do her job and feed the Guardians of the Fatherland. \n Special ability timers from feeded player units reload immediately \n Left click icon and left click on target allies"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipWoundingArrow_New
