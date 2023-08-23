@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.36 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.37 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1029,14 +1029,14 @@ CONTROLBAR:ToolTipGBloodHunt_New
 END
 //-----
 CONTROLBAR:SharkuManEater_New
-"Man Ea&ter"
+"Man Eater (&C)"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
+"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
-"Train the army [&C]"
+"Train the army [&B]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
 "Requires Level 4 \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -1049,12 +1049,12 @@ CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 8 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
 //-----
-//	CONTROLBAR:SharkuCrippleStrikeMelee_New
-//	"Cripple Strike (&B)"
-//	End
-//	CONTROLBAR:SharkuCrippleStrikeMeleeDesc_New
-//	"Requires Level 6 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
-//	END
+CONTROLBAR:GimliSlayerAttack_New
+"Slayer Attack (&B)"
+End
+CONTROLBAR:GimliSlayerAttackDesc_New
+"Requires Level 10 \n GIMLI DANCES WITH HIS AXE AND PERFORMS FUCKING INSANE DAMAGE ON THE TARGET, ROOTING EM IN PLACE FOR A DECENT DURATION"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGenericPillage_New
 "Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
@@ -1094,7 +1094,7 @@ CONTROLBAR:LurtzBoost_New
 "Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 3 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
 END
 CONTROLBAR:LurtzDeadEye_New
 "Dead Eye (&T)"
@@ -2043,11 +2043,8 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
 "Provides 35% damage and 25% experience to nearby troops \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
-CONTROLBAR:WargRiderHowl_New
-"Ho&wl"
-END
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
+"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
@@ -2167,20 +2164,20 @@ CONTROLBAR:HoraDelMago_New
 "Hora del Mago (&Y)"
 End
 CONTROLBAR:HoraDelMagoDesc_New
-"Requires Level 6 \n Saruman does some dance with suck-type FX's. \n Eenmies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
+"Requires Level 2 \n Saruman does some dance with suck-type FX's. \n Eenmies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilitySarumanFireball_New
 "Fireballs [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
+"Requires Level 4 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
 // Throws a ball of energy
 END
 CONTROLBAR:ThunderBolt_New
 "Lightning S&torm"
 END
 CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 5 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
+"Requires Level 6 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
 END
 CONTROLBAR:RainOfFireSaruman_New
 "Meteorites (&B)"
