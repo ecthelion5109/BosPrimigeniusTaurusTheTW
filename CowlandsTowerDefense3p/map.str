@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.09 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.10 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -992,13 +992,6 @@ CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
 "Adds one more garrisonable slot \n Loses current Silverthorn/Fire arrow upgrade"
 END
 //---------------------------------------------------
-CONTROLBAR:ThunderBolt_New
-"&Thunderbolt"
-END
-CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 6 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
-END
-//---------------------------------------------------
 CONTROLBAR:SpeechCraft_New
 "Speech Craft [&C]"
 END
@@ -1007,11 +1000,17 @@ CONTROLBAR:ToolTipSpeechCraft_New
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireball Storm [&C]"
+"Fireballs [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 4 \n Spells a rain of fireballs. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target"
+"Requires Level 4 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
 // Throws a ball of energy
+END
+CONTROLBAR:ThunderBolt_New
+"Lightning S&torm"
+END
+CONTROLBAR:ToolTipThunderBolt_New
+"Requires Level 6 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWatcher_New
@@ -1497,10 +1496,10 @@ CONTROLBAR:HourOfTheWitchKing_New
 "Memories of Angmar (&B)" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
-CONTROLBAR:RainsOfMorgul_New
+CONTROLBAR:WitchKingRainsOfMorgul_New
 "Rains Of Morgul (&V)"
 END
-CONTROLBAR:RainsOfMorgulDesc_New
+CONTROLBAR:WitchKingRainsOfMorgulDesc_New
 "Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n left click icon to activate"
 END
 //---------------------------------------------------
@@ -1992,10 +1991,10 @@ CONTROLBAR:ToolTipFaramirLeadership_New
 END
 //--------------------------------------------------//
 
-CONTROLBAR:GothmogRainOfCorpses_New
+CONTROLBAR:GothmogCorpsesRains_New
 "Rain of Corpses (&V)"
 END
-CONTROLBAR:GothmogRainOfCorpsesDesc_New
+CONTROLBAR:GothmogCorpsesRainsDesc_New
 "Requires Level 10 \n Calls down a barrage of corpses on the target area. \n Left click icon then left click on target location"
 END
 
