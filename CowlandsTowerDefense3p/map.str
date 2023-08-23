@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 229) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 230) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -78,6 +78,17 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:ConstructTrollDrum_New
+"Build a Necromancer Statue (&W)"
+END
+//---------------------------------------------------
+CONTROLBAR:RainOfFireSaruman_New
+"Rain of Fire (&B)"
+END
+CONTROLBAR:RainOfFireDescSaruman_New
+"Requires Level 10 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+END
+//---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger_New
 "Requires Level 7 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Targeted heroes are paralyzed during 6 seconds.\n Left click icon then left click on target"
 END
@@ -102,7 +113,7 @@ CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
-"Devastation (&B)"
+"De&vastation"
 End
 CONTROLBAR:ToolTipDevastation_New
 "Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
