@@ -491,10 +491,10 @@ CONTROLBAR:ConstructRohanStableNoHotkey
 END
 //------------------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower
-"Build a stealth detector tower"
+"Build a Stealth Detector Tower"
 END
 CONTROLBAR:ToolTipStealthDetectorSentryTower
-"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 500"
+"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 450"
 END
 //------------------------------------------------------------
 CONTROLBAR:WildmenOfDunlandHouse
@@ -582,7 +582,7 @@ OBJECT:ElvenHeroicStatueDescription_New
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
-"Allies near the fortress gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"  // fortressBanner
+"Allies near the fortress gain \n +35% Damage, and +25% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"  // fortressBanner
 END
 //------------------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
@@ -605,7 +605,7 @@ CONTROLBAR:TooltipElrondLeadership_New
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster and move 20% faster \n Category: Unique \n \n Passive ability"
+"Requires Level 4 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:ToolTipEomerLeadership_New
@@ -631,7 +631,7 @@ CONTROLBAR:GothmogLeadership_New
 "Brainless Orc Euphoria"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n Allies near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 3 \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 //---------------------------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
@@ -671,6 +671,9 @@ END
 		//---------------------------------------------------------------------//
 		//--------------------------scripts.ini--------------------------------//
 		//---------------------------------------------------------------------//
+SCRIPT:BonusForWipingArmyCounter
+"Bonus for fast killing wave" // no lo voy a hacer.
+End
 SCRIPT:BonusForWipingArmy
 "Bonus for wiping off the last remains of this army"
 End
@@ -712,10 +715,10 @@ SCRIPT:GameStart1
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
 //Aight, there's just a cooldown each 3 waves
 //"Thorin sucks, don't enable ring heroes if you are with him"
-"This is Bos Primigenius Taurus: The TW \n Objective is to avoid enemies entering top middle tunnel."
+"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Always taking in consideration that Thorin Sucks,\n your goal is to survive 20 waves."
+"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
 End
 SCRIPT:GameStart3
 "Each wave leaves Resources and increases\n your Command Points Limit"
@@ -731,6 +734,18 @@ SCRIPT:RipCounters
 End
 SCRIPT:Bug
 "A map without bugs is not a bfme2 map"
+End
+//--------------------------------------------------------------//
+SCRIPT:WIN
+"WP"
+End
+SCRIPT:LOSE
+";( cows not happy"
+// 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n\n Is thorin playing here or wat"
+//"lol. \nIs thorin playing here or what."
+End
+SCRIPT:LOSE_TESTINGMODE
+"lel. \n You lost, but this is testing mode."
 End
 //-----------------------------flags--------------------------//
 SCRIPT:TestingMode
@@ -767,17 +782,6 @@ End
 SCRIPT:INTERACTIVE_LOSE
 "what the fuck man... why did you do that? never trust a cow"
 End
-//--------------------------------------------------------------//
-SCRIPT:LOSE_TESTINGMODE
-"lel. \n You lost, but this is testing mode."
-End
-SCRIPT:WIN
-"WP"
-End
-SCRIPT:LOSE
-"Enemies have entered the tunnel system and poisoned the \n water supplies of the cows of this lands :/ \n\n Is thorin playing here or wat"
-//"lol. \nIs thorin playing here or what."
-End
 //-----------------------------Counters---------------------------------//
 SCRIPT:NextWaveAnticipador
 "Next wave in..."
@@ -789,7 +793,7 @@ SCRIPT:NextWaveAnticipador_LastWave
 "A curious last wave arrives in"
 End
 SCRIPT:GameStarts
-"K then, teh raid of teh Cowlands shall begin"
+"teh raid of teh Cowlands shall begin"
 End
 SCRIPT:Wave
 "Wave"
