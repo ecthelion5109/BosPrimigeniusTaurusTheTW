@@ -1,4 +1,21 @@
 
+
+
+
+
+
+
+
+CONTROLBAR:TooltipCowSuicide
+"Euthanasia"
+END
+
+CONTROLBAR:TooltipCowSuicide_Desc
+"Requires a human playing God \n \n This cow is sick and needs to be put to sleep inmediatly."
+END
+
+
+
 CONTROLBAR:TooltipScreechWitchKing_New
 "Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
 END
@@ -79,7 +96,7 @@ END
 
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
-"Equips the Osgiliath Veterans with Forged Blades \n When equipped, increases the damage done by the spears"
+"Equips the Osgiliath Veterans with Forged Blades \n When equipped, increases the damage done by 'em"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
 "Equips the Osgiliath Veterans with Heavy Armor \n Once equipped, significantly reduces the amount of damage taken"
@@ -168,11 +185,17 @@ End
 SCRIPT:Hint02
 "We might need anti stealth towers soon..."
 End
-//SCRIPT:Hint03
-//"I think next wave can be dealt easily with towers..."
-//End
+SCRIPT:Hint03
+"I think next wave can be dealt easily with towers..."
+End
 SCRIPT:Hint04
-"Trancos: \n Dunedains, let's adelantarnos. Hide in the entorno! Boromir, cover our back."
+"Trancos: \n Dunedains, let's adelantarnos.\n Hide in the entorno! Boromir, cover our back."
+End
+SCRIPT:Hint05
+"Have you ever heard the legend of the Invisible Berserkers?"
+End
+SCRIPT:Hint06
+"If Isengard design has TWO dragons from a spellbook,\n, you think dragons cannot be invisible?"
 End
 
 
@@ -530,15 +553,15 @@ SCRIPT:Wave
 "Wave"
 End
 
-SCRIPT:JUGARDOR1KILL
+SCRIPT:player1kills
 "Northern player killed"
 End
 
-SCRIPT:JUGARDOR2KILL
+SCRIPT:player2kills
 "Southern player killed"
 End
 
-SCRIPT:JUGARDOR3KILL
+SCRIPT:player3kills
 "Eastern player killed"
 End
 
