@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.56: New skin, new faction! \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon. \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.57: New skin, new faction! \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon. \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -21,6 +21,19 @@ End
 //------------------------------------------------------------//
 
 
+
+//---------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
+"Requires Level 3 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
+"The Fortress gains a vision bonus and can detect stealthed units \n Player units gain +15% speed \n Category: Unique"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
+"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearvy units gain experience 50% faster \n Category:Healer"
+END
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Provides +65% damage and +25% fast earning experience bonus to nearby allies \n Left click icon then left click on target area"
@@ -45,7 +58,7 @@ CONTROLBAR:AzogGoblinFuryDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
-"&Charge of the wildlings"
+"&Goblin Flood"
 END
 CONTROLBAR:WildWaveDesc_New
 "Requires Level 7 \n Summon a wave of rageful wild animals that will crush anything on their pass. \n Left click icon then left click on target area"
@@ -62,7 +75,7 @@ CONTROLBAR:WildShelobInstillTerror_New
 "Freezeing Screech"
 END
 CONTROLBAR:TooltipWildShelobInstillTerror_New
-"Requires Level 5 \n Causes a uncontrollable fear in nearby enemies \n Lasts 20 seconds. \n Left click to activate"
+"Requires Level 5 \n Causes a uncontrollable fear on nearby enemies. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
@@ -582,6 +595,9 @@ CONTROLBAR:ToolTipElvenCloak_New
 "Becomes invisible when not attacking \n Left click to activate"
 END
 //-------------------------------objects-----------------------
+CONTROLBAR:Azog_New
+"&Azog of Moria"
+END
 CONTROLBAR:GondorDamrodHotkey_New
 "Principe Bran&d,\n Segnor de Dale"
 END
@@ -594,6 +610,12 @@ End
 CONTROLBAR:BrandToolTipHeroMode_New
 "Brand, the sniper"
 End
+OBJECT:Azog_New
+"Azog"
+END
+OBJECT:AzogDesc_New
+"The mighty goblin from Moria"
+END
 //---------------------------------------------------
 CONTROLBAR:SpecialPowerDeadlySniper_New
 "Black Sniper [&V]"
@@ -937,12 +959,6 @@ OBJECT:MaleCow_New
 END
 OBJECT:MaleCowDesc_New
 "Behold"
-END
-OBJECT:Azog_New
-"Azog"
-END
-OBJECT:AzogDesc_New
-"The mighty goblin from Moria"
 END
 OBJECT:LeadingDragon_New
 "Mother of dragons!"
