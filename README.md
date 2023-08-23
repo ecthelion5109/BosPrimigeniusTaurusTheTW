@@ -1,31 +1,43 @@
-# Bos Primigenius Taurus: The TW
 
-![Image 1](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/image_1.jpg?raw=true)
 
-## One of the most complete TW in The Battle for The Middle Earth II history.
+<div align="center">
+    <h1>Bos Primigenius Taurus: The TW</h1>
+    <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/image_1.jpg?raw=true" alt="Image 1">
+ <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo5.PNG?raw=true" alt="Image 1">
+</div>
 
-![Image 2](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo3.PNG?raw=true)
+
+
+<div align="center">
+    <h2>One of the most complete TW in BFME2 history.</h2>
+    <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo3.PNG?raw=true" alt="Image 1">
+</div>
 
 ---
 
+<div align="center">
 Are you looking for a relaxing and casual gameplay experience? 
 Do you like teaming up with your friends and winning Tower War maps together? 
 Maybe you're interested in managing heroes and having them level up over time in one place? 
-You hate cows?
-If so, this might not be the map for you.
+You hate cows? If so, this might not be the map for you.
+</div>
 
 ---
 
-### Game Requirements
+<div align="center">
+    <h2>Game Requirements</h2>
+</div>
 
 - **Game**: The Lord of the Rings: The Battle for the Middle Earth II
 - **Version**: 1.09v2.00 and 1.09v3.00
 
-![Image 3](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo1.PNG?raw=true)
+ <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo1.PNG?raw=true" alt="Image 1">
 
 ---
 
-### About the Map
+<div align="center">
+    <h2>About the map</h2>
+</div>
 
 - **Name**: Bos Primigenius Taurus: The TW
 - **Style**: Tower War/Tower Defense
@@ -37,7 +49,7 @@ If so, this might not be the map for you.
 - **Difficult levels**: Easy, Normal and Hardcore.
 - **Development**: Developed by Ecthelion over a span of 5 years since 2018 with constant feedback from players.
 
-![Image 4](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo2.PNG?raw=true)
+ <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo2.PNG?raw=true" alt="Image 1">
 
 ---
 
@@ -89,6 +101,8 @@ If not, follow these steps:
 ---
 
 ### Links
+
+ <img src="https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/blob/main/_misc/_github_images/dibujo5.PNG?raw=true" alt="Image 1">
 
 #### Heaven Games:
 - [Visit the Heaven Games entry](https://bfme2.heavengames.com/downloads/showfile.php?fileid=1315)
