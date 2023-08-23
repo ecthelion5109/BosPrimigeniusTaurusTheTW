@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.27 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.28 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -77,6 +77,13 @@ End
 
 
 
+//------------------------------------------------------------
+CONTROLBAR:MumakilCharge_New
+"Mumakil Charge"
+END
+CONTROLBAR:MumakilChargeDesc_New
+"Summons a charging stampede of mumakils to crush enemy units. \n Left click icon then left click on target area"
+END
 //------------------------------------------------------------
 TOOLTIP:ToolTipBuildGoblinArcherHorde_New
 "Strong vs. Infantry\n Resistant to trample\n Can be upgraded with Gundabad Training"
@@ -460,6 +467,16 @@ END
 //---------------------------------------------------
 CONTROLBAR:ToggleSpiderRiderWeapons_New
 "Alternate &Weapon"
+END
+//---------------------------------------------------
+CONTROLBAR:ConstructRohanUpgradeTower_New
+"Build a Tower Enhancer"
+END
+OBJECT:ConstructRohanUpgradeTower_New
+"Tower Enhancer"
+END
+TOOLTIP:ConstructRohanUpgradeTowerDesc_New
+"Fires at enemy units. \n Provides fire arrows to any nearby tower."
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructIsengardUpgradeTower_New
@@ -1367,6 +1384,16 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 "Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Well'"
+END
+//-------------------------------------------------
+UPGRADE:FlamingMunitionsUpgrade_New
+"Flaming Munitions"
+END
+CONTROLBAR:FlamingMunitionsUpgrade_New
+"&Flaming Munitions"
+END
+CONTROLBAR:FlamingMunitionsUpgradeDesc_New
+"Adds fire damage to any player nearby tower or fortress expansion"
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgrade_New
