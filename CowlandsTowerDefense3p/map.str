@@ -1,9 +1,65 @@
 
+CONTROLBAR:ToolTipDarkness_New
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Requires to be mounted in a Fellbeast \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipHourOfTheWitchKing_New
+"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Requires to be dismounted \n \n Left click icon then left click on area"
+END
+CONTROLBAR:HourOfTheWitchKing_New
+"Memories of A&ngmar" // Hour of the Witch-king
+END
+
+CONTROLBAR:RainOfMorgul_Desc
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n Left click to activate"
+END
+CONTROLBAR:RainOfMorgul
+"Rains Of Morg&ul"
+END
 
 
+CONTROLBAR:OutlawLeadership_New
+"Outlaw Leadership"
+END
+CONTROLBAR:ToolTipOutlawLeadership_New
+"Requires Level 6 \n Nearby player units earn resources per kill \n Passive ability"
+END
 
+CONTROLBAR:Taint_New
+"&Blight"
+End
+CONTROLBAR:ToolTipTaint_New
+"Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, briefly become Wights under your control \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:Sunflare_New
+"S&unflare"
+END
+
+CONTROLBAR:TooltipSunflare_New
+"Requires Level 10 \n Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+END
+CONTROLBAR:Flood_New
+"Flo&od"
+END
+
+CONTROLBAR:TooltipFlood_New
+"Requires Level 10 \n Summons a powerful Flood anywhere on the cowlands to crush enemy units \n Left click icon then left click on target area"
+END
+CONTROLBAR:EnshroudingMist_New
+"Poiso&nous Mist"
+END
+CONTROLBAR:TooltipEnshroudingMist_New
+"Requires Level 10 \n Damages anyone who enters into the fog \n\n Left click icon and left click on target area"
+END
+CONTROLBAR:ElrondRestoration_New
+"Restore" //E&venstar
+END
+CONTROLBAR:ToolTipElrondRestoration_New
+"Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
+END
 CONTROLBAR:SummonRohanAllies_New
-"Summon Rohan Allies"
+"Summon Rohan Al&lies"
 End
 CONTROLBAR:ToolTipSummonRohanAllies_New
 "Requires Level 10 \n Summons a group of Rohirrim \n Left click icon then left click on pathable location"
@@ -36,7 +92,7 @@ END
 "Tax Exem&ption"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
-"Requires Level 8 \n Dain understands the positive effects the mine-shafts have in the unemployment rates. \n Targeted mine will receive a tax exemption therefore raise its production to 250% \n The King mistakenly believes the capital benefits shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish\n\n Left click icon then left click on target resource structure."
+"Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes without doubting the exploitation of the soil in hands of foreigners will be responsable and environment caring\n\n Left click icon then left click in the fortress."
 END
 
 CONTROLBAR:SummonDunedainAllies_New
@@ -48,7 +104,7 @@ CONTROLBAR:ToolTipSummonDunedainAllies_New
 END
 
 CONTROLBAR:LightningSword_New
-"Shock of Lucidity[&T]"
+"Shock of Lucidi&ty"
 END
 CONTROLBAR:ToolTipLightningSword_New
 "Requires Level 2 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
@@ -66,10 +122,6 @@ END
 
 CONTROLBAR:TooltipScreechWitchKing_New
 "Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
-END
-
-CONTROLBAR:ToolTipHourOfTheWitchKing_New
-"Requires Level 6 \n Target Heroes in an AOE have their special ability timers reset \n Left click icon then left click on area"
 END
 
 
@@ -91,18 +143,7 @@ END
 
 
 CONTROLBAR:ToolTipBuildIsengardBattleTower_New
-"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +60% faster\n Category: Healer \n\nStrong vs cavalry"
-END
-
-CONTROLBAR:ToolTipDarkness_New
-"Requires Level 8 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n Left click to activate"
-END
-CONTROLBAR:RainOfMorgul
-"Rain Of Morgul (&B)"
-END
-
-CONTROLBAR:RainOfMorgul_Desc
-"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies"
+"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster\n Category: Healer \n\nStrong vs cavalry"
 END
 
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
@@ -130,7 +171,7 @@ CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33%"
 END
 CONTROLBAR:ToolTipThornofVengeance_New
-"Requires Level 10 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target"
+"Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target"
 END
 
 
@@ -418,7 +459,7 @@ CONTROLBAR:ConstructSoyTaxesUpgrade
 END
 
 CONTROLBAR:ConstructSoyTaxesUpgrade_Desc
-"The harvesting of soybeans over-erosions the terrain of our cowlands. The least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n\n Increases the fortress and market incomes by +33.3%"
+"The harvesting of soybeans over-erosions the terrain of our cowlands. \n Least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n Besides, great part of the soybeans production is addressed to the industry of feed-loot's fodder, which we DO NOT LIKE. \n\n Increases the fortress and market incomes by +33.3%"
 END
 
 
@@ -491,8 +532,8 @@ End
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
 "Allies near the Drummer Troll gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 END
-CONTROLBAR:ArwenLeadershipDesc
-"Requires Level 5 \n Allies near Arwen gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+CONTROLBAR:LegolasLeadershipDesc
+"Requires Level 5 \n Player units near Legolas gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 End
 
 CONTROLBAR:GamlingLeadershipDesc_New
@@ -508,7 +549,7 @@ CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
 END
 CONTROLBAR:ToolTipDamrodLeadership_New
-"Requires Level 6 \n Allies near the Prince of Dale gain \n +25% Damage and earn experience 25% faster \n Category: Stacky leadership \n \n Passive ability"
+"Requires Level 6 \n Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
 END
 CONTROLBAR:ToolTipBoromirLeadership_New
 "Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: Non stacky leadership\n \n Passive ability"
@@ -523,7 +564,7 @@ CONTROLBAR:ToolTipTheodenLeadership_New
 END
 
 CONTROLBAR:HearthWellDescription_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 160% faster.\n Category: Healer"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer"
 END
 CONTROLBAR:DwarvenStatueStructureDiscount
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of structures // not anymore.
@@ -555,7 +596,7 @@ CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: Non stacky buff \n \n Passive ability"
 END
 CONTROLBAR:ToolTipGlorfindelStarlight_New
-"Requires Level 10 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +50% armor \n Category: Non stacky buff \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: Non stacky buff \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
 CONTROLBAR:ToolTipGimliLeadership_New
 "Allies near Gimli gain \n +50% armor \n Category: Non stacky buff \n \n Passive ability"
