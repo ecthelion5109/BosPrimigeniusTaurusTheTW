@@ -983,10 +983,10 @@ CONTROLBAR:ConstructTrollDrum_New
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorEliteTraining_New
-"Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 2 and becomes able to shoot Dunedain Ice Arrows"
+"Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 5 and becomes able to shoot Dunedain Ice Arrows"
 END
 TOOLTIP:LackIsengardEliteTraining_New
-"Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
+"Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 5, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyGondorFireArrows_New
