@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.09: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 2.10: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -263,7 +263,8 @@ TOOLTIP:DisplayDamage_DunlandAxeThrowerBasic
 "Damage per unit: \n SLASH damage: 56"
 End
 TOOLTIP:DisplayDamage_DunlandAxeThrowerUpgrade
-"Damage per unit: \n SLASH damage: 74"
+"Damage per unit: \n SLASH damage: 98"
+//74
 End
 //--------------------------Done-----------------------
 //DwarvenGuardianThrowingAxe
@@ -1001,10 +1002,10 @@ END
 //"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:CAH_ArrowBonus_Level1_New
+CONTROLBAR:GoldenArrowsPassive_New
 "Golden Arrows"
 End
-CONTROLBAR:ToolTipCAH_ArrowBonus_Level1_New
+CONTROLBAR:GoldenArrowsPassiveDesc_New
 "This batallion is equiped with Golden Arrows from Lindon. \n Deals high amounts of FLAME and HERO_RANGED damage in area"
 End
 //---------------------------------------------------
@@ -1447,11 +1448,11 @@ CONTROLBAR:ToolTipConstructMenMarketPlace_New
 "Generates capital and surplus value. \n Yet, even Karl Marx can see in the free market and the capitalist relations of production the motor of progress. \n Carlos, as a good hegelian, understands the history dialectically. This implies the history always elapses by three phases; an affirmation, a negation, and a synthesis. \n If communism is the synthesis, it is primordial for a society to develop a capitalism, as an affirmation. \n Some people said Marx is actually the fan #1 of capitalism. Way or another, in this dialectica, the capitalism is necesary to be let grow first. Class Struggle is just the second step as a negation, then the third step shall consist in the proletariat establishing The Communism over and through the capitalist structure. \n Therefore, let the beautiful capitalism grow up in peace. Inequality generates progress goddmnn, yet we can still fantasy with the utopic communism taking care of it. \n\n Researches economic upgrades. \n Quantity available to build: 1" //BUNITO_ESSAY//
 END
 //-------------------------------------------------
-CONTROLBAR:HordeWildMenOfDunlandAxes_New
+CONTROLBAR:HordeDunlandAxeThrower_New
 "Dunland Axe Throwers (&B)"
 END
-CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde_New
-"Requires Level 2 Dunland Hall \n Effective against pikemen, archers and weak heros"
+CONTROLBAR:HordeDunlandAxeThrowerDesc_New
+"Effective against pikemen, archers and weak heros" //Requires Level 2 Dunland Hall \n 
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipArrowWind_New
