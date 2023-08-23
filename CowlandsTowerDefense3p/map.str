@@ -1,14 +1,50 @@
 
 
 
+CONTROLBAR:CorrodeAllegiance_New
+"Convince communism is good [&C]"
+END
+CONTROLBAR:ToolTipCorrodeAllegiance_New
+"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value \n Target hero joins the cause for 60 seconds \n Hero will return to his capitalists ways of living after the effect\n Left click icon then left click on target"
+END
+
+
+GUI:CuriousIdiotBonus
+"Curious idiot bonus: \n   -40%% Production\n  -20%% Experience"
+END
+
+
+
+CONTROLBAR:ToolTipBuildIsengardBattleTower_New
+"Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +60% faster\n Category: Healer \n\nStrong vs cavalry"
+END
+
+CONTROLBAR:ToolTipDarkness_New
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n Left click to activate"
+END
+CONTROLBAR:RainOfMorgul
+"Ra&in Of Morgul"
+END
+
+CONTROLBAR:RainOfMorgul_Desc
+"Calls down a barrage of rocks from Morgul onto your enemies"
+END
+
+CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
+"&Upgrade this tower"
+END
+
+CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
+"Adds one more garrisonable slot"
+END
 
 
 CONTROLBAR:ToolTipGlorfindelWindRider_New
-"Requires Level 3 \n Glorfindel gains +40% speed and Double Armor when mounted \n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +40% speed and 50% Armor when mounted \n Left click to activate"
 END
 
 GUI:UNITDiscountNew
-"Units discount -%d%%"
+"Local units \n discount: -%d%%"
 END
 
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_WithTower_New
@@ -47,8 +83,8 @@ CONTROLBAR:ToolTipWoundingArrow_New
 "Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n\n Left click icon then left click on target"
 END
 
-CONTROLBAR:ToolTipThrowSpear_New
-"Powerful ranged attack \n Effective against orcs \n\n Left click icon then left click on target"
+CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
+"Powerful ranged attack \n Effective against cavalry and orcs\n\n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipSmite_New
 "Powerful ranged attack \n Effective against heroes \n Specialy powerful vs Fellbeasts \n\n Left click icon then left click on target"
@@ -106,6 +142,14 @@ End
 
 SCRIPT:NextWaveAnticipador_NewGroup
 "An army of new enemies arrive in..."
+End
+
+SCRIPT:NextWaveAnticipador_LastWave
+"A curious last wave arrives in"
+End
+
+SCRIPT:Wave15Finished
+"Congratulations, you have survived untill the last wave..."
 End
 
 SCRIPT:Hint01
@@ -363,25 +407,24 @@ END
 
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Allies near the BattleWagon Banner gain +35% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+"Allies near the BattleWagon Banner gain +30% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+End
+CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
+"Allies near the Drummer Troll gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+END
+CONTROLBAR:ArwenLeadershipDesc
+"Requires Level 5 \n Allies near Arwen gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
+End
+
+CONTROLBAR:GamlingLeadershipDesc_New
+"Allies near Gamling gain 100% fear inmunity and +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 End
 CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Unique \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +30% fire rate & +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +40% fire rate & +20 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
 END
-
-CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain +35% Damage \n Category: Stacky weapon \n \nPassive ability"
-END
-CONTROLBAR:ArwenLeadershipDesc
-"Requires Level 5 \n Allies near Arwen gain +35% Damage \n Category: Stacky weapon \n \nPassive ability"
-End
-
-CONTROLBAR:GamlingLeadershipDesc_New
-"Allies near Gamling gain 100% fear inmunity and +35% Damage \n Category: Stacky weapon \n \nPassive ability"
-End
 CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
 END
@@ -393,7 +436,7 @@ CONTROLBAR:ToolTipBoromirLeadership_New
 END
 
 CONTROLBAR:ToolTipEyeofSauron_New
-"Summons the Eye of Sauron \n Allies gain +25% Damage \n and earn experience 25% faster \n Simple leadership kind \n Category: Stacky leadership \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 50% faster \n Simple leadership kind \n Category: Unique \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipTheodenLeadership_New
@@ -401,7 +444,7 @@ CONTROLBAR:ToolTipTheodenLeadership_New
 END
 
 CONTROLBAR:HearthWellDescription_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 200% faster.\n Category: Unique \n\n Passive ability"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 160% faster.\n Category: Healer"
 END
 CONTROLBAR:DwarvenStatueStructureDiscount
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of structures // not anymore.
@@ -415,7 +458,7 @@ CONTROLBAR:ElvenStatueStructureDiscount
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore.
 End
 CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
-"Allies near fortress or any player tower gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near the fortress gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 "Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Unique \n \n Passive ability "
@@ -430,7 +473,7 @@ CONTROLBAR:ToolTipAragornLeadership_New
 "Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 CONTROLBAR:ToolTipEomerLeadership_New
-"Requires Level 3 \n Cavalry near Eomer gain double Armor \n Category: Non stacky buff \n \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: Non stacky buff \n \n Passive ability"
 END
 CONTROLBAR:ToolTipGlorfindelStarlight_New
 "Requires Level 10 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +50% armor \n Category: Non stacky buff \n Light sensitive units become stunned. \n \n Left click to activate" 
@@ -521,8 +564,11 @@ End
 SCRIPT:TestingMode
 "Testing mode Enabled"
 End
+SCRIPT:2PlayersMode
+"2 Players mode Enabled"
+End
 SCRIPT:HARDCORE
-"You have setted up the HARD dificulty. You will be forced to play quickly and precise now."
+"You have setted up the HARD dificulty. You will be forced to play quick and precise now."
 End
 SCRIPT:LOSE
 "lol. \nIs thorin playing here or what."
