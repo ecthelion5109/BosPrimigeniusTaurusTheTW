@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: Build 2.52 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.53 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,7 +77,10 @@ End
 
 
 
-
+//---------------------------------------------------
+OBJECT:GoblinBunker_New
+"Goblin Bunker"
+End
 //---------------------------------------------------
 CONTROLBAR:MenLongShotAbility_New
 "Longsho&t"
@@ -99,8 +102,11 @@ CONTROLBAR:RainOfFireDescSaruman_New
 "Requires Level 10 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipGoblinKingPoisonedStinger_New
-"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid poison on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+CONTROLBAR:GorkilToxicCumShot_New
+"Toxic cum-shot (&V)"
+END
+CONTROLBAR:GorkilToxicCumShotDesc_New
+"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingMount_New
@@ -142,7 +148,7 @@ CONTROLBAR:ToolTipLurtzPillage_New
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructIsengardUpgradeTower_New
-"Tower of &Upgrades"
+"Tower of Upgrades (&W)"
 END
 OBJECT:ConstructIsengardUpgradeTower_New
 "Tower of Upgrades"
@@ -721,14 +727,14 @@ TOOLTIP:ToolTipBattleWagonHearthDesc_New
 End
 //-------------------------------------------------
 OBJECT:DwarvenLoneTowerDescription_New
-"Fires at nearby enemies. \n Can receive different upgrades from the fortress." //  \n Reveals stealthed enemies.
+"Fires at nearby enemies. \n Can receive different upgrades from the fortress." //
 End
 //-------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower_New
 "Build a Stealth Detector Tower(&J)"
 END
 CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
-"Requires Fortress Armor Stonework technology \n Will reveal any invisible in a radius of 450"
+"Requires Stonework from the Fortress or a Stone Maker. \n Will reveal any invisible in a radius of 450"
 END
 //--------------------------------------------------//
 OBJECT:StealthDetectorSentryTower_New
@@ -739,7 +745,10 @@ TOOLTIP:StealthDetectorSentryTowerDesc_New
 END
 //--------------------------------------------------//
 CONTROLBAR:ConstructMenStoneMaker_New
-"Build Stoneworker (&F)" // Minas Tirith's
+"Build Stone Maker (&F)" // Minas Tirith's
+END
+OBJECT:GondorStoneWorker_New
+"Stone Maker"
 END
 TOOLTIP:GondorStoneWorkerDesc_New
 "Researches Men of the West structural upgrades. \n Reduces the Cost of Structures.\n  1 Stoneworker: -33.3%.\n 2 Stoneworkers: -50%. \n 3 Stoneworkers: -66.6%."
@@ -1101,7 +1110,7 @@ END
 END
 //---------------------------------------------------
 CONTROLBAR:MenIceArrowsActive_New
-"Use Dunedain Ice Arrow (&V)"
+"Use Dunedain Ice Arrows (&J)"
 End
 CONTROLBAR:MenIceArrowsActiveDesc_New
 "Requires Level 5\n Freezes the enemies, slowing them down. \n Deals high amounts of HERO damage \n Left click icon then left click on target"
@@ -2041,6 +2050,12 @@ SCRIPT:AliveCreeps
 End
 SCRIPT:Wave
 "Wave"
+End
+SCRIPT:WaveEasy
+"EasyMode: Wave"
+End
+SCRIPT:WaveHard
+"HardMode: Wave"
 End
 SCRIPT:TimeSinceSpawned
 "TimeSinceSpawned"
