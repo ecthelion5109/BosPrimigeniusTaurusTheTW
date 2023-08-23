@@ -502,7 +502,8 @@ END
 //---------------------------------------------------------------------//
 SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
-"Aight, there's no rest between waves. Only between different army groups"
+//Aight, there's no rest between waves. Only between different army groups
+"Thorin sucks, don't enable ring heroes if you are with him"
 End
 SCRIPT:GameStart2
 "Each wave grants CP and a some money. Killing the last remaining of each army group grants another bonus."
