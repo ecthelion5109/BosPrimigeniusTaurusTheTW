@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 224) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 225) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -79,7 +79,36 @@ End
 
 
 //---------------------------------------------------
-CONTROLBAR:ToolTipLurtzPillage
+CONTROLBAR:AxeStormIsengard_New
+"Explosive torches (&T)"
+END
+CONTROLBAR:AxeStormIsengardDesc_New
+"Requires Level 2 \n Launch one volley of explosive torches. \n Left click icon then left click on target"
+END
+//---------------------------------------------------
+CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades_New
+"Poisoned Axes (&J)"
+End
+CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
+"Requires Level 3 \n Poisons targeted enemies causing damage over time. \n Left click to activate"
+End
+//---------------------------------------------------
+CONTROLBAR:Devastation_New
+"Devastation (&B)"
+End
+CONTROLBAR:ToolTipDevastation_New
+"Requires Level 10 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildDwarvenBattleWagon_New
+"Provides support for the player units. \n Can be upgraded with several useful improvements"
+END
+//---------------------------------------------------
+CONTROLBAR:ToggleSpiderRiderWeapons_New
+"Alternate &Weapon"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipLurtzPillage_New
 "Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
 END
 //---------------------------------------------------
@@ -159,7 +188,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations_New
 "Excavations"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations_New
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Well' "
 END
 CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions_New
 "Orcfire Munitions"
@@ -377,13 +406,13 @@ TOOLTIP:DisplayDamage_MirkwoodArcherUpgrade
 End
 //-------------------------------------------------
 CONTROLBAR:LoneTowerHealingUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n Heals nearby allies and replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n Category: 'Healer' "
+"Requires researching the upgrade at fortress. \n Heals nearby allies and replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n Category: 'Well' "
 END
 CONTROLBAR:LoneTowerArmorUpgradeIcon_New
 "Requires researching the upgrade at fortress. \n Tower gains 50% armor."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n Provides to nearby allies +25% damage and +25% experience \n Category: 'Damage Inspiration' "
+"Requires researching the upgrade at fortress. \n Provides to nearby allies +25% damage and +25% experience \n Category: 'Statue' "
 END
 CONTROLBAR:LoneTowerFireUpgradeIcon_New
 //This one is new. Will be used by isen at least.
@@ -402,11 +431,11 @@ CONTROLBAR:EliteTrainingScienceDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
-"Level 2: Allows recruiting Goblin Archers. \n +10% Faster Build Speed"
+"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
-"Level 2: Allows recruiting Uruk Crossbowmen. \n +10% Faster Build Speed"
+"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructTrollDrum_New
@@ -518,10 +547,10 @@ CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
-"Requires Level 2 Uruk Pit \n Strong vs. Infantry"
+"Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
-"Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed" // Requires Level 2 Goblin Cave \n 
+"Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed" 
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
@@ -529,10 +558,10 @@ CONTROLBAR:ToolTipConstructWildMineShaft_New
 END
 //---------------------------------------------------
 CONTROLBAR:PoisonArrows_New
-"&Poison Arrows"
+"Poison Arrows (&T)"
 End
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
-"&Poison Arrows"
+"Poison Arrows (&T)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
 "Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
@@ -642,7 +671,7 @@ OBJECT:GarrisonTower_New
 "&Garrisonable Tower"
 END
 TOOLTIP:GenericBattleTowerDesc_New
-"Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Healer' \n\nStrong vs cavalry"
+"Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Well' \n\nStrong vs cavalry"
 END
 //-------------------------------------------------
 TOOLTIP:GenericLoneTowerDesc_New
@@ -650,10 +679,10 @@ TOOLTIP:GenericLoneTowerDesc_New
 End
 //-------------------------------------------------
 TOOLTIP:ToolTipBattleWagonHearthDesc_New
-"Hearth: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+"Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Well'"
 End
 TOOLTIP:ToolTipBattleWagonBannerCarrierDesc_New
-"Banner Carriers: \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Allies near the BattleWagon gain +25% armor, \n earn experience 25% faster, and win +20% damage. \n Category: 'Armor Inspiration'"
+"Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Allies near the BattleWagon gain +80% damage. \n Category: 'War Chant'"
 End
 //-------------------------------------------------
 OBJECT:DwarvenLoneTowerDescription_New
@@ -682,15 +711,15 @@ TOOLTIP:GondorStoneWorkerDesc_New
 END
 //--------------------------------------------------//
 TOOLTIP:GenericHeroicStatueDesc_New
-"Allies near the Statue gain +25% Damage \n and earn experience 25% faster. \n Category: 'Damage Inspiration'"
+"Allies near the Statue gain +25% Damage \n and earn experience 25% faster. \n Category: 'Statue'"
 End
 //--------------------------------------------------//
 TOOLTIP:GenericWellDesc_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Well'"
 End
 //--------------------------------------------------//
 TOOLTIP:PoisonBattleTowerDesc_New
-"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Well'"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
@@ -701,7 +730,7 @@ CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
 END
 //--------------------------------------------------//
 OBJECT:GenericTowerDesc_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Well'"
 End
 //---------------------------------------------------
 CONTROLBAR:ThunderBolt_New
@@ -804,22 +833,22 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
-"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Healer'"
+"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor, earn experience 25% faster and gain +20% damage. \n Category: Armor Inspiration \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 50% faster. \n Category: Armor Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Goblin player units, -including heroes- \n near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'" \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Goblin player units, -including heroes- \n near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------//
 OBJECT:ToolTipGorkilTotem_New
 "Idiot Totem"
 END
 TOOLTIP:ToolTipGorkilTotemDesc_New
-"Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'"
+"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
 END
 //---------------------------------------------------
 CONTROLBAR:AzogCallSomething_New
@@ -834,10 +863,10 @@ CONTROLBAR:AzogLeadershipDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:AzogGoblinFury_New
-"Goblin Fury"
+"Goblin Fury (&T)"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 4 \n Targeted player wild units gain \n+35% Damage and +60% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 3 \n Targeted player wild units gain \n+35% Damage and +60% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
@@ -870,13 +899,13 @@ CONTROLBAR:ToolTipIstariLight_New
 END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearby units gain experience 50% faster \n Category: 'Healer'"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing_New
-"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Nearby units gain experience 50% faster \n Category: 'Healer' \n\n Upgrades summoned Lone Towers"
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Nearby units gain experience 50% faster \n Category: 'Well' \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs_New
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n\n Category: 'Healer' \n\n Upgrades summoned Lone Towers"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n\n Category: 'Well' \n\n Upgrades summoned Lone Towers"
 END
 //----------FortressLeadershipButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
@@ -1183,7 +1212,7 @@ CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 4 \n Gimli reminds nearby dwarves about their superiority to Elves. \n All nearby dwarves gain +15% speed, +10% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n\n Passive ability"
+"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +10% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -1434,14 +1463,14 @@ CONTROLBAR:ToolTipPurchaseElvenEagle_New
 END
 //-------------------------------------------------
 CONTROLBAR:PurchaseTechnologyPoisonedSpears_New
-"Research &Poisoned Spears"
+"Research Poisoned Spears(&V)"
 END
 CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
 "Allows hordes to purchase the Poisoned Spears upgrade \n When equipped, lances cause damage over time and slows down the enemy"
 END
 //---------------------------------------------
 CONTROLBAR:PurchaseUpgradePoisonedSpears_New
-"Purchase &Poisoned Spears"
+"Purchase Poisoned Spears (&V)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSpiderVenomSacks_New
 "Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -15%"
@@ -1521,7 +1550,7 @@ CONTROLBAR:HordeDunlandAxeThrower_New
 "Dunland Axe Throwers (&B)"
 END
 CONTROLBAR:HordeDunlandAxeThrowerDesc_New
-"Effective against pikemen, archers and weak heros" //Requires Level 2 Dunland Hall \n 
+"Requires Level 2 \n Effective against pikemen, archers and weak heros" //Requires Level 2 Dunland Hall \n 
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipArrowWind_New
@@ -1529,14 +1558,14 @@ CONTROLBAR:ToolTipArrowWind_New
 END
 //-------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n \nPassive ability"
+"Allies near the Drummer Troll gain \n +25% armor and earn experience 50% faster \n Category: 'Armor Inspiration' \n \nPassive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 5 \n Player battallions near Undomiel gain \n +25% armor, earn experience 25% faster and win +20% damage. \n Category: 'Armor Inspiration' \n \nPassive ability"
+"Requires Level 4 \n Player battallions near Undomiel gain \n +25% armor and earn experience 50% faster. \n Category: 'Armor Inspiration' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
@@ -1714,17 +1743,17 @@ TOOLTIP:StealthDragonDesc_New
 END
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Damage Inspiration' \n\n Passive ability"
+"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Statue' \n\n Passive ability"
 END
 //------------------------------FortressUpgradesTooltips----------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
 "Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant'"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
-"Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Healer'"
+"Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 TOOLTIP:ToolTipPurchasedBothBannerAndHeal_New
-"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Healer'"
+"Banner upgrade purchased: Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War Chant' \n\n Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Well'"
 END
 //--------------------------------------------------//
 GUI:CuriousIdiotBonus_New
