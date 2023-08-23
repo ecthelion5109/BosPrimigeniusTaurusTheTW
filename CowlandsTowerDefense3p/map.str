@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.72: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.73: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -19,7 +19,57 @@ End
 
 
 
-
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
+"Requires researching the technique at the Treasure Trove. \n Increased this horde to level 2 and become able to shoot Poison Arrows permanently."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenTraining_New
+"Requires researching the service at the Forge Works. \n Men of Dale become able to shoot Black Arrows permanently."
+End
+CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining_New
+"Requires researching the service at the Tavern. \n The battalion becomes able to shoot Barbed Arrows permanently and ranks up to level 3."
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining_New
+"Allows battalions of Haradrim Archer to purchase a Elite Training pack service. \n Haradrim archers become able to shoot Barbed Arrows Permanently and level up to rank 3."
+END
+CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining_New
+"Allows hordes to purchase the Banner Carrier upgrade \n Increases a horde to Level 2 \n Goblin archer becomes able to shoot poison arrows permanently."
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining_New
+"Allows battalions of Men of Dale to purchase a Elite Training service. \n Men of dale become able to shoot Black Arrows permanently."
+END
+//---------------------------------------------------
+UPGRADE:EliteTraining_New
+"Elite Training"
+END
+//---------------------------------------------------
+CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
+"Research Goblin Elite Training"
+END
+CONTROLBAR:PurchaseTechnologyMordorBasicTraining_New
+"Research Harad Elite Trai&ning"
+END
+CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining_New
+"Research Dale Elite Trai&ning"
+END
+//---------------------------------------------------
+CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining_New
+"Purchase Elite Trai&ning"
+END
+CONTROLBAR:PurchaseUpgradeMordorBasicTraining_New
+"Purchase Elite Trai&ning"
+END
+CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
+"Purchase E&lite Trai&ning"
+END
+//---------------------------------------------------
+CONTROLBAR:MordorBarbedArrowsPassive_New
+"Barbed Arrows"
+End
+CONTROLBAR:MordorBarbedArrowsPassiveDesc_New
+"This batallion is equiped with Barbed Arrows. \n Adds splash damage and metaimpact. \n Deals high amounts of ranged heroe damage."
+END
 //---------------------------------------------------
 CONTROLBAR:RingWraithMode_New
 "Worst Nightmare"
