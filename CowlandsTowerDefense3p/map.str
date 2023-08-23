@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.74 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.75 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1252,8 +1252,18 @@ CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //---------------------------------------------------
+CONTROLBAR:GorkilRoussingSpeech_New
+"Goblin Roussing Speech [&B]"
+END
+CONTROLBAR:GorkilRoussingSpeechDesc_New
+"Requires Level 7 \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Gorkil must be mounted to use ability \n left click icon to activate"
+END
+//---------------------------------------------------
+CONTROLBAR:GloriousCharge_New
+"Glorious Charge [&V]"
+END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Flood_New
