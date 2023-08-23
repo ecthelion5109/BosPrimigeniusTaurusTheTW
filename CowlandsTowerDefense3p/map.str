@@ -2,10 +2,10 @@
 
 
 
-CONTROLBAR:BrandToolTip
+CONTROLBAR:BrandToolTip_New
 "Principito Brand"
 End
-CONTROLBAR:BrandToolTipHeroMode
+CONTROLBAR:BrandToolTipHeroMode_New
 "Brand, the sniper"
 End
  
