@@ -5,7 +5,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.38 \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.4 \n Made with a lot of love for version 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //--------------------------------------------------------------
 
@@ -20,6 +20,21 @@ End
 
 
 
+Upgrade:FortressFireArrows_New
+"Battle Tower Fire Arrows"
+END
+Upgrade:WildVenomSacs_New
+"Poisoned Spears"
+END
+TOOLTIP:WildVenomSacs_New
+"Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
+END
+Upgrade:LegolasTrainedAlliesUpgrade_New
+"Legolas Archery knowledge"
+END
+TOOLTIP:LegolasTrainedAlliesUpgradeDesc_New
+"Superior Archer Specialization. \n This Horde rate of fire is +100% faster and pre-attack time is only 50%."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs_New
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers \n Nearby units gain experience 50% faster \n\n Category: Healer"
@@ -44,10 +59,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeMordorFortressFireArrows_New
-"&Flaming Munitions"
+"Battle Tower &Fire Arrows"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressFireArrows_New
-"Equips all the player Barricades & Battle towers with Fire Arrows"
+"Equips all the player Battle towers with Fire Arrows"
 END
 //--------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows_New
@@ -102,7 +117,7 @@ OBJECT:LeadingDragon_New
 "Mother of dragons!"
 END
 OBJECT:LeadingDragonDesc_New
-"Proved leadership to nearby dragons"
+"Provides leadership to nearby dragons"
 END
 OBJECT:StealthDragon_New
 "Stealth dragon"
@@ -234,7 +249,7 @@ CONTROLBAR:ThranduilBoost_New
 // "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats from Mirkwood, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
+"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats from Mirkwood can bring, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //--------------------------------------------------------------
@@ -365,7 +380,7 @@ END
 // "with 10 contain slots  " not rlly
 //--------------------------------------------------------------
 CONTROLBAR:AxeStorm_New
-"Explosive A&xes"
+"Explosive Axes (&B)"
 END
 CONTROLBAR:AxeStormDesc_New
 "Requires Level 10 \n Launch a continuous volley of explosive axes \n Left click icon then left click on target area"
@@ -520,7 +535,7 @@ CONTROLBAR:ToolTipHawkStrike_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:CalltheHorde_New
-"Call the Hordes (&V)"
+"Call the Hordes (&B)"
 End
 CONTROLBAR:ToolTipCalltheHorde_New
 "Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies or pikemen orc to setup a wall of pikes against cavalry \n Left click icon then left click on pathable location"
