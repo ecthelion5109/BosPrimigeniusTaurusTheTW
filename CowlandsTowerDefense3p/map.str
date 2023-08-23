@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 466 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 467 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -77,6 +77,19 @@ End
 
 
 
+//-----
+CONTROLBAR:Roar_New
+"&Whiplash"
+End
+CONTROLBAR:TooltipRoar_New
+"Beat the drums and make Terence Fletcher proud. \n Provides +20% range and fear inmunity to player infantry for the duration of the music. \n Left click to activate"
+End
+CONTROLBAR:DrummerTrollTrainAllies_New
+"&Train Allies"
+END
+CONTROLBAR:DrummerTrollTrainAlliesDesc_New
+"Targeted units gain experience. \n Left click icon then left click on target units"
+END
 //------------------------------------------------------------
 TOOLTIP:TooltipConstructMordorDrummerTrolls_New
 "Drummer of Mordor: Provides Leadership. \n Player units gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Player units gain +35% earn experience 35% faster. \n Category: 'DrummerTroll'"
@@ -433,13 +446,6 @@ END
 CONTROLBAR:GorkilsDebuffDesc_New
 "Requires Level 4 \n Can only use on foot. \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
 END
-//-----
-CONTROLBAR:GoblinsTrainAllies_New
-"King of the Goblins Blessing [&V]"
-END
-CONTROLBAR:GoblinsTrainAlliesDesc_New
-"Requires Level 6 \n Targeted units gain experience. \n Left click icon then left click on target units"
-END
 //---------------------
 CONTROLBAR:GorkilPoisonedDart_New
 "Poisoned Dart (&C)"
@@ -655,6 +661,9 @@ CONTROLBAR:UpgradeTowerFireUpgradeIconDesc_New
 END
 CONTROLBAR:UpgradeTowerArmorUpgradeIconDesc_New
 "Tower gains 50% more health points."
+END
+CONTROLBAR:UpgradeTowerArmorUpgradeIconDescLack_New
+"Requires all the previous upgrades."
 END
 //---------------------------------------------------
 CONTROLBAR:ChieftainOfDunlandHotkey_New
@@ -1457,7 +1466,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
-"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 35% cheaper"
+"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 40% cheaper"
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
@@ -2015,8 +2024,11 @@ END
 CONTROLBAR:PurchaseUpgradePoisonedSpears_New
 "Purchase Poisoned Spears (&V)"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeSpiderVenomSacks_New
+CONTROLBAR:PurchaseUpgradePoisonedSpearsDesc_New
 "Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -15%"
+END
+TOOLTIP:PurchaseUpgradePoisonedSpearsDesc_New
+"Research upgrade at Tavern to enable this equipment \n When equipped, inflicts poison to enemies causing damage over time and slowing them down."
 END
 //-------------------------------------------------
 CONTROLBar:ToolTipDominateTrollNew
