@@ -1,4 +1,13 @@
-// AFTER 4 LEVELS OF EXPERIENCE, ELROND RESIGNS HIMSELF TO GRAB A FUCKIN BOW AND HELP HIS MEN. 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6,7 +15,7 @@
 
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporally gain +100% damage and earn experience 50% faster. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
+"Requires Level 6 \n Nearby units temporally gain +65% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 3 \n Left click to switch between \n mounted and on foot"
@@ -701,10 +710,20 @@ SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
 //Aight, there's just a cooldown each 3 waves
-"Thorin sucks, don't enable ring heroes if you are with him"
+//"Thorin sucks, don't enable ring heroes if you are with him"
+"This is Bos Primigenius Taurus: The TW \n Objective is to avoid enemies entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Each wave grants money and some commandpoints \n Each 4 waves there's a break."
+"Always taking in consideration that Thorin Sucks, your goal is to survive 20 waves."
+End
+SCRIPT:GameStart3
+"Each wave leaves Resources and increases your Command Points"
+End
+SCRIPT:GameStart4
+"Each 4 waves there's a break, \n without counting the following warm-up wave."
+End
+SCRIPT:GameStart5
+"All available units have any sort of utility, \n therefore there's not One manner to win this map"
 End
 SCRIPT:RipCounters
 "Kill-counters won't work if there's a player of different team."
@@ -719,8 +738,14 @@ End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
 End
+SCRIPT:2PlayersMode_Easy
+"2 Players mode Enabled in Milkless-Cow mode mode"
+End
 SCRIPT:4PlayersMode
 "4 Players mode Enabled"
+End
+SCRIPT:EASY
+"Ring Heroes enabled\n Milkless cow mode activated \n Use it to git gud and and later on win true game mode."
 End
 SCRIPT:HARDCORE
 "Hard mode enabled \n You will have to think where to put your shit and be as efficient possible."
@@ -798,5 +823,5 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables COW aspirants friendly mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
 End
