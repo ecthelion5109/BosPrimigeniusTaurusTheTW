@@ -167,7 +167,7 @@ CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves \n All nearby dwarves gain +15% speed, +15% damage and become resistent to fear or terror \n Always stack \n Passive ability"
+"Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves \n All nearby dwarves gain +15% speed, +10% damage and become resistent to fear or terror \n Always stack \n Passive ability"
 END
  CONTROLBAR:DwarvenRiches_New
 "Tax Exem&ption"
@@ -624,7 +624,7 @@ CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Unique \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +35% fire rate on archers & +20 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers & +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
 END
 CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
