@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.04 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.06 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1301,6 +1301,24 @@ END
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
 "Ray of Morgul [&T]"
 END
+CONTROLBAR:MouthOfSauronDoubt_New
+"Rape [&C]" // Threaten to rape
+END
+CONTROLBAR:ToolTipMouthOfSauronDoubt_New
+"Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
+END
+CONTROLBAR:Sunflare_New
+"Ray of Barad-dûr (&V)"
+END
+CONTROLBAR:TooltipSunflare_New
+"Calls a fiery beam of fire to scorch the battlefield \n Left click icon then left click on target area"
+END
+CONTROLBAR:MouthOfSauronSpecialWeapon_New
+"Good luck [&C]"
+END
+CONTROLBAR:MouthOfSauronSpecialWeaponDesc_New
+"Requires Level 10 \n Mouth of Sauron wishes good look to his enemies. \n Left click icon then left click on target"
+END
 //---------------------------------------------------
 CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
@@ -1603,13 +1621,6 @@ CONTROLBAR:TooltipElrondWhirlwind_New
 "Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
-CONTROLBAR:MouthOfSauronSpecialWeapon_New
-"Good luck [&C]"
-END
-CONTROLBAR:MouthOfSauronSpecialWeaponDesc_New
-"Requires Level 10 \n Mouth of Sauron wishes good look to his enemies. \n Left click icon then left click on target"
-END
-//---------------------------------------------------
 // Prove Communism is Good [&C]
 // Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero is kill because Si.
 //---------------------------------------------------
@@ -1822,13 +1833,6 @@ CONTROLBAR:PurchaseUpgradePoisonedSpears_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSpiderVenomSacks_New
 "Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -15%"
-END
-//-------------------------------------------------
-CONTROLBAR:MouthOfSauronDoubt_New
-"Rape [&C]" // Threaten to rape
-END
-CONTROLBAR:ToolTipMouthOfSauronDoubt_New
-"Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
 END
 //-------------------------------------------------
 CONTROLBar:ToolTipDominateTrollNew
