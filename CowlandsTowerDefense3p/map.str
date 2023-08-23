@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 225) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 226) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -156,7 +156,7 @@ CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
 END
 CONTROLBAR:GrimaToxicShitDesc_New
-"Requires Level 4 \n Grima fulls the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+"Requires Level 2 \n Grima fulls the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
 END
 CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
@@ -667,8 +667,11 @@ TOOLTIP:RankingTroll_New
 "Only thing he can do is to hit things with a tree, shittalk and tell bad jokes. \n Effective against inferior things. \n Slowly EVOLVES into a stronger & smarter troll."
 END
 //---------------------------------------------------
-OBJECT:GarrisonTower_New
+CONTROLBAR:GarrisonTower_New
 "&Garrisonable Tower"
+END
+OBJECT:GarrisonTower_New
+"Garrisonable Tower"
 END
 TOOLTIP:GenericBattleTowerDesc_New
 "Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Well' \n\nStrong vs cavalry"
@@ -781,7 +784,7 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 4 \n Sharku and nearby wargs gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n\n Passive ability"
+"Requires Level 4 \n Nearby allies, including heroes gain: \n +25% Damage, +25% Armor, earn experience 50% faster\n and deceleration when crushing is halved. \n Category: 'Uncategorized' \n\n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
@@ -866,7 +869,7 @@ CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury (&T)"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 3 \n Targeted player wild units gain \n+35% Damage and +60% range \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 3 \n Targeted player wild units gain \n+35% Damage, +60% range and +30% speed \n Category: 'Uncategorized' \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
@@ -1584,7 +1587,7 @@ CONTROLBAR:ToolTipMightyRage_New
 END
 //-------------------------------------------------
 CONTROLBAR:TooltipHeal_New
-"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'Uncategorized' \n \nLeft click icon then left click on target area"
+"Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'SpellBook Heal' \n \nLeft click icon then left click on target area"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
