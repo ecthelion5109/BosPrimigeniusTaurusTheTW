@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.32 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.33 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1334,7 +1334,7 @@ CONTROLBAR:ToolTipAxeThrow_New
 "Powerful ranged attack with splash damage. \n Specially effective to cavalry and flyers. \n Causes meta-impact on the targets. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipSlayer_New
-"Requires Level 7 \n Gimli deals 150% damage, Double Speed, \n but loses -15% Structural Armor \n left click icon to activate"
+"Requires Level 7 \n Gimli doubles the damage and the speed. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
@@ -1627,7 +1627,7 @@ CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +10% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
+"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +15% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
