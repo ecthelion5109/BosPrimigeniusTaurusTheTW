@@ -8,7 +8,7 @@ CONTROLBAR:SpecialAbilityLurtzCarnage_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 5 \n Lurtz permanently gain +40 damage and a permanent +30% rate of fire boost. \n Passive ability"
+"Requires Level 5 \n Lurtz permanently gain +90 damage and a permanent +30% rate of fire boost. \n Passive ability"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership_New
@@ -98,7 +98,7 @@ CONTROLBAR:BlackRiderLeadershipDesc_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipSlayer_New
-"Requires Level 5 \n Gimli deals 300% damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli deals 200% damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
 END
 //--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
@@ -109,7 +109,7 @@ CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
 END
 CONTROLBAR:HaldirBoostDesc_New
-"Requires Level 3 \n Haldir gains +250 damage and a permanent +30% rate of fire boost. \n Passive ability"
+"Requires Level 3 \n Haldir gains +230 damage and a permanent +30% rate of fire boost. \n Passive ability"
 END
 //--------------------------------------------------------------
 CONTROLBAR:LegolasBoost_New
@@ -125,7 +125,7 @@ CONTROLBAR:ThranduilBoost_New
 // "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats can imply for Mirkwood, gaining a extraordinary +50% range boost and +200 damage. \n Passive ability"
+"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats can imply for Mirkwood, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //--------------------------------------------------------------
@@ -143,6 +143,9 @@ CONTROLBAR:ToolTipTrainArchers_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
 //--------------------------------------------------------------
+CONTROLBAR:ElvenWood_New
+"Elven Wood [&V]"
+END
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
 END
@@ -217,7 +220,7 @@ CONTROLBAR:TooltipSunflare_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:EnshroudingMist_New
-"Poiso&nous Mist"
+"Poisonous Mist (&V)"
 END
 CONTROLBAR:TooltipEnshroudingMist_New
 "Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n\n Left click icon and left click on target area"
@@ -403,6 +406,9 @@ CONTROLBAR:ToolTipCalltheHorde_New
 "Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies or pikemen orc to setup a wall of pikes against cavalry \n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------------------
+CONTROLBAR:CloudBreak_New
+"Cloud Break (&V)"
+End
 CONTROLBAR:ToolTipCloudBreak_New
 "Requires Level 7 \n Stuns nearby enemy units. \n Turns trolls into stones \n Gandalf cannot move during its duration \n\n Left click to activate"
 END
@@ -646,7 +652,7 @@ CONTROLBAR:ToolTipBoromirLeadership_New
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
-"Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 50% faster \n Simple leadership kind \n Category: Unique \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 25% faster \n Simple leadership kind \n Category: Unique \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership_New
