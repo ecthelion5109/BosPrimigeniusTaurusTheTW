@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.40 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.41 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -121,35 +121,44 @@ END
 TOOLTIP:FortressFireDrake_New
 "A source of warm love."
 END
+//--------------
+CONTROLBAR:DragonaLeadership_New
+"Inspiring Hot Lady"
+End
 CONTROLBAR:ToolTipDrakeLeadership_New
 "Requires Level 6 \n Player units near la dragona gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+END
+//--------------
+CONTROLBAR:SpecialAbilityFireDrakeInferno_New
+"Infe&rno"
 END
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
 "Requires Level 7 \n Breathes fire over a selected area \n Left click icon then left click on target area"
 END
+//--------------
 CONTROLBAR:GoblinKingSpawnFireDrakes_New
 "Call the kids [&B]"
-//
 END
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
-"Requires Level 9 \n Calls dis lady's blessings and delivers them to charge onto the enemy. \n Left click icon then left click on pathable location"
+"Requires Level 8 \n Calls dis lady's blessings and delivers them to charge onto the enemy. \n Left click icon then left click on pathable location"
 END
+//--------------
 CONTROLBAR:FireDrakePassiveBoost_New
 "Smaug's Niece"
 END
 CONTROLBAR:FireDrakePassiveBoostDesc_New
-"Requires Level 10 \n Cremona gains +150% damage. \n Passive ability"
+"Requires Level 9 \n Cremona gains +150% damage. \n Passive ability"
+END
+//--------------
+CONTROLBAR:SarumanDragonStrike_New
+"Dragon Strike (&V)"
+END
+CONTROLBAR:SarumanDragonStrikeDesc_New
+"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
 "Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
-END
-//---------------------------------------------------
-CONTROLBAR:SummonBalrogFire_New
-"Awake a Fire Demon (&B)"
-End
-CONTROLBAR:SummonBalrogFireDesc_New
-"Requires Level 10 \n Awakes a Fire Demon from the deeps of Moria. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
@@ -237,7 +246,7 @@ CONTROLBAR:ShelobToxicCumShot_New
 "Toxic Lady Juice (&V)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&C]"
@@ -304,12 +313,33 @@ End
 CONTROLBAR:ToolTipGoblinKingMount_New
 "Left click to switch between \n mounted and on foot"
 END
+//-----
+CONTROLBAR:GorkilsDebuff_New
+"Goblin King's Curse [&C]"
+END
+CONTROLBAR:GorkilsDebuffDesc_New
+"Requires Level 4 \n Can only use on foot. \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
+END
+//-----
+CONTROLBAR:GoblinsTrainAllies_New
+"King of the Goblins Blessing [&C]"
+END
+CONTROLBAR:GoblinsTrainAlliesDesc_New
+"Requires Level 6 \n Can only use on foot. \n Targeted units gain experience. \n Left click icon then left click on target units"
+END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
 "Toxic cum-shot (&V)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+END
+//---------------------
+CONTROLBAR:GorkilRoussingSpeech_New
+"Goblin Roussing Speech [&B]"
+END
+CONTROLBAR:GorkilRoussingSpeechDesc_New
+"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:AxeStormIsengard_New
@@ -411,12 +441,12 @@ Upgrade:FortressPoisonArrows_New
 "Poison arrows"
 END
 //---------------------------------------------------
-CONTROLBAR:GrimaEconomyPower_New
-"Employer leadership (&V)"
-END
-CONTROLBAR:GrimaEconomyPowerDesc_New
-"Requires Level 9 \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations. He convincingly explains that everyone could be benefited if the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
-END
+//	CONTROLBAR:GrimaToxicShit_New
+//	"Toxic shit-talking [&V]"
+//	END
+//	CONTROLBAR:GrimaToxicShitDesc_New
+//	"Requires Level 2 \n Grima fills the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+//	END
 CONTROLBAR:ToolTipVenomousWords09v2_New
 "Requires Level 4 \n The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 30 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Category: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
@@ -424,27 +454,36 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 4 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 200%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 200%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
 END
-CONTROLBAR:GrimaToxicShit_New
-"Toxic shit-talking [&V]"
+//-----
+CONTROLBAR:IsengardTrainAllies_New
+"Train the army [&C]"
 END
-CONTROLBAR:GrimaToxicShitDesc_New
-"Requires Level 2 \n Grima fills the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+CONTROLBAR:IsengardTrainAlliesDesc_New
+"Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
 END
+//-----
 CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
 "Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
-CONTROLBAR:GrimaLoneTower_New
-"Summon Lone Tower"
+//-----
+CONTROLBAR:GrimaEconomyPower_New
+"Employer leadership (&V)"
 END
-CONTROLBAR:GrimaLoneTowerDesc_New
-"Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n Left click icon then left click on pathable location"
+CONTROLBAR:GrimaEconomyPowerDesc_New
+"Requires Level 9 \n Another of the things Grima learned in Rohan was about disguising one's self interests with the idea of common good. \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations as result of the economy growing. He convincingly explains that everyone can be easily benefited once the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
 END
 //---------------------------------------------------
+CONTROLBAR:IsengardLoneTower_New
+"Summon Lone Tower"
+END
+CONTROLBAR:IsengardLoneTowerDesc_New
+"Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n Left click icon then left click on pathable location"
+END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitionsFortress_New
 "Arms defensive towers with Fire Arrows \n Upgrades Summoned Lone Towers."
 END
@@ -1021,15 +1060,25 @@ CONTROLBAR:SharkuManEater_New
 "Man Ea&ter"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
+"Requires Level 4 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
-CONTROLBAR:IsengardTrainAllies_New
-"Train the army [&C]"
+CONTROLBAR:SharkuWargRiderHowl_New
+"Ho&wl"
 END
-CONTROLBAR:IsengardTrainAlliesDesc_New
-"Requires Level 4 \n Targeted units gain experience \n Left click icon then left click on target units"
+CONTROLBAR:SharkuToolTipWargRiderHowl_New
+"Requires Level 5 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n Left click icon to activate"
 END
+//-----
+CONTROLBAR:SharkuStealMoney_New
+"Steal &Resources"
+END
+CONTROLBAR:SharkuStealMoneyDesc_New
+"Requires Level 6 \n Blindsided by unpaid child support payments and the guilt of abandoning his 12 kids, Sharku becomes another statistic employing hit-and-run robberies to fund his future, gaining resources with each hit. \n Each attack steals 100$ and Sharku gains +50% speed. \n Lasts 20 seconds. \n Left click to activate"
+//"Sharku steals resource every time he attacks a enemy. \n -And he's not precisely Robin Hood- \n Left click icon to activate"
+//"As the nigger hunts for his elusive crack rocks or food stamps, sharku also hunts for resources, gaining bank for each enemy hit"
+//"Sharku learns to loot resources from slain enemies, likewise as the nigger loots a 60 inch plasma screen tv during his civil rights protests."
+End
 //-----
 CONTROLBAR:SummonWargAllies_New
 "Summon Warg Allies (&V)"
@@ -1037,7 +1086,7 @@ End
 CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 8 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
-//-----
+//---------------------------------------------------
 CONTROLBAR:GimliSlayerAttack_New
 "Slayer Attack (&B)"
 End
@@ -1153,25 +1202,36 @@ END
 //	CONTROLBAR:AzogGoblinFuryDesc_New
 //	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 //	END
+CONTROLBAR:AzogScavenger_New
+"Scavenger"
+End
+CONTROLBAR:AzogScavengerDesc_New
+"Requires Level 4 \n Nearby player unit's kills earn extra resources. \n Left click to activate"
+END
 CONTROLBAR:AzogGoblinCharge_New
 "Goblin Charge (&W)"
 END
 CONTROLBAR:AzogGoblinChargeDesc_New
-"Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Left click icon then left click on target area"
+"Requires Level 7 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Left click icon then left click on target area"
 END
 CONTROLBAR:AzogsAzogTremor_New
-"Tremors (&V)"
+"Tremors (&B)"
 End
 CONTROLBAR:AzogsAzogTremorDesc_New
-"Requires Level 8 \n Causes a series of tremors on the selected area. \n Knocks down the enemies and \n slows them down. \n Left click icon then left click on target area"
+"Requires Level 9 \n Causes a series of tremors on the selected area. \n Knocks down the enemies and \n slows them down. \n Left click icon then left click on target area"
 END
-//---------------------------------------------------
-CONTROLBAR:AwakenWyrm_New
-"Summon the &Wyrms"
+CONTROLBAR:SummonBalrogFire_New
+"Awake a Fire Demon (&V)"
+End
+CONTROLBAR:SummonBalrogFireDesc_New
+"Requires Level 10 \n Awakes a Fire Demon from the deeps of Moria. \n Left click icon then left click on pathable location"
 END
-CONTROLBAR:TooltipAwakenWyrm_New
-"Requires Level 10 \n Summons three subterranean Wyrms under the caster's control \n Left click icon then left click on pathable location"
-END
+//	CONTROLBAR:AwakenWyrm_New
+//	"Summon the &Wyrms"
+//	END
+//	CONTROLBAR:TooltipAwakenWyrm_New
+//	"Requires Level 10 \n Summons three subterranean Wyrms under the caster's control \n Left click icon then left click on pathable location"
+//	END
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Cavalry near Eomer gain 50% Armor and earn experience 25% faster.\n Category: 'TaintLand' \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
@@ -1287,8 +1347,11 @@ END
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
 "Ray of Morgul [&T]"
 END
+CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye_New
+"Requires Level 3 \n A powerful ray of light that damages targeted units \n Left click icon then left click on target"
+END
 CONTROLBAR:MouthOfSauronDoubt_New
-"Rape [&C]" // Threaten to rape
+"Rape [&C]"
 END
 CONTROLBAR:ToolTipMouthOfSauronDoubt_New
 "Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
@@ -1361,13 +1424,6 @@ END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
-END
-//---------------------------------------------------
-CONTROLBAR:GorkilRoussingSpeech_New
-"Goblin Roussing Speech [&B]"
-END
-CONTROLBAR:GorkilRoussingSpeechDesc_New
-"Requires Level 7 \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Gorkil must be mounted to use ability \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:GloriousCharge_New
@@ -1581,7 +1637,7 @@ CONTROLBAR:DwarvenRiches_New
 "Tax Exemption (&B)"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
-"Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes -without any doubt- the exploitation of the national soil in hands of foreigners will be responsable and environment caring\n Left click icon then left click in the fortress." //BUNITO_ESSAY//
+"Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production +30%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes -without any doubt- the exploitation of the national soil in hands of foreigners will be responsable and environment caring\n Left click icon then left click in the fortress." //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:SummonDunedainAllies_New
@@ -1959,6 +2015,12 @@ CONTROLBAR:ToolTipFaramirLeadership_New
 END
 //--------------------------------------------------//
 
+CONTROLBAR:WargRiderHowl_New
+"Ho&wl"
+END
+CONTROLBAR:ToolTipWargRiderHowl_New
+"Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
+END
 CONTROLBAR:GothmogCorpseRain_New
 "Rain of Corpses (&V)"
 END
@@ -2012,12 +2074,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
 "Provides 35% damage and 25% experience to nearby troops \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-END
-CONTROLBAR:WargRiderHowl_New
-"Ho&wl"
-END
-CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
@@ -2187,12 +2243,6 @@ CONTROLBAR:RainOfFireSaruman_New
 END
 CONTROLBAR:RainOfFireDescSaruman_New
 "Requires Level 8 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
-END
-CONTROLBAR:SarumanDragonStrike_New
-"Dragon Strike (&V)"
-END
-CONTROLBAR:SarumanDragonStrikeDesc_New
-"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area"
 END
 //	CONTROLBAR:Devastation_New
 //	"Devastation (&Y)"
