@@ -810,6 +810,7 @@ End
 SCRIPT:GameStart5
 "All available units have any sort of utility, \n therefore there's not One manner to win this map"
 End
+//--------------------------------------------------------------//
 SCRIPT:RipCounters
 "Kill-counters won't work if there's a player of different team."
 End
@@ -878,6 +879,9 @@ SCRIPT:NextWaveAnticipador_LastWave
 End
 SCRIPT:GameStarts
 "The raid to the Cowlands begin in"
+End
+SCRIPT:AliveCreeps
+"Alive creeps"
 End
 SCRIPT:Wave
 "Wave"
