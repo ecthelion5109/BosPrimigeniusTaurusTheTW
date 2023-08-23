@@ -538,6 +538,13 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining_New
 "Increases this battalion to Level 2 and becomes able to shoot Dunedain Ice Arrows."
 END
 //---------------------------------------------------
+CONTROLBAR:ExplosiveBolts_New
+"Explosive Bolts"
+End
+CONTROLBAR:ExplosiveBoltsDesc_New
+"This batallion is equiped with Explosive Bolts. \n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage"
+End
+//---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2_New
 "Allows research of Fire Arrows"
  // Allows research of Forged Blades and Heavy Armor
