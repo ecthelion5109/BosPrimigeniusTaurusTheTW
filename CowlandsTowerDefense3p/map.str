@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 476 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 477 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -81,14 +81,22 @@ End
 
 //-----
 //------------------------------------------------------------
+UPGRADE:RohanMirkRider_New
+"Research MirkRider Ability (&T)"
+END
+UPGRADE:RohanMirkRiderDesc_New
+"Requires Level 2 Stable \n Allows Rohirrim Archers to use the MirkRider ability."
+End
+//-----------
 CONTROLBAR:RohanMirkRider_New
 "MirkRider Ability (&T)"
 END
 CONTROLBAR:RohanMirkRiderDesc_New
 "Temporary grants a boost of +30% range. \n Lasts 45 seconds. \n Left click to activate"
 END
+//-----------
 TOOLTIP:RohanMirkRider_New
-"MirkRider"
+"MirkRiders"
 END
 TOOLTIP:RohanMirkRiderDesc_New
 "This battallion has elite training and became a MirkRider. \n Gained +30% permanent range bonus. \n Left click to activate"
@@ -937,42 +945,42 @@ CONTROLBAR:ConstructTrollDrum_New
 "Build a troll drum (&B)"
 END
 //---------------------------------------------------
-TOOLTIP:LackGondorBasicTraining_New
+TOOLTIP:LackGondorEliteTraining_New
 "Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 2 and becomes able to shoot Dunedain Ice Arrows"
 END
-TOOLTIP:LackIsengardBasicTraining_New
+TOOLTIP:LackIsengardEliteTraining_New
 "Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyGondorFireArrows_New
 "Research &Fire Arrows" // different hotkey only.
 END
-CONTROLBAR:PurchaseTechnologyIsengardBasicTraining_New
+CONTROLBAR:PurchaseTechnologyIsengardEliteTraining_New
 "Research Explosive Bolts (&E)"
 END
-CONTROLBAR:PurchaseTechnologyElvenBasicTraining_New
+CONTROLBAR:PurchaseTechnologyElvenEliteTraining_New
 "Research Golden Arrows (&G)"
 END
-CONTROLBAR:PurchaseTechnologyGondorBasicTraining_New
+CONTROLBAR:PurchaseTechnologyGondorEliteTraining_New
 "Research Men Elite Training (&I)"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardEliteTraining_New
 "Requires Level 3 Armory and Science from SpellBook. \n Allows Crossbowmen to purchase the Explosive Bolts upgrade. \n The upgraded hordes become able to shoot Explosive Bolts permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyElvenEliteTraining_New
 "Requires Level 3 Eregion Forge and Science from Spellbook. \n Allows battalions to purchase the Golden Arrows upgrade. \n The upgraded hordes become able to shoot Golden Arrows permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyGondorEliteTraining_New
 "Requires Level 3 Blacksmith and Science from SpellBook. \n Allows Gondor Rangers to purchase the Dunedain Ice Arrows upgrade. \n Allows Rohirrim Archers to become MirkRiders permanently."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyMordorEliteTraining_New
 "Requires Level 3 Tavern and Science from SpellBook. \n Allows battalions of Haradrim Archer to purchase a Elite Training pack service. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 3."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyWildEliteTraining_New
 "Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins battalions to purchase a Elite Training pack service.\n The upgraded hordes become able to shoot Poison Arrows permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyDwarvenEliteTraining_New
 "Requires Level 3 Forge Works and Science from SpellBook. \n Allows battalions of Men of Dale to purchase a Elite Training service. \n The upgraded hordes become able to shoot Black Arrows permanently and get increased to Level 2"
 END
 //------------------------------------------------------------
@@ -983,19 +991,19 @@ CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
 "Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins and Riders hordes to purchase a Venom Sacks. \n Provides ilimitated Poison Arrows ammo."
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseUpgradeIsengardBasicTraining_New
+CONTROLBAR:PurchaseUpgradeIsengardEliteTraining_New
 "Purchase Explosive Bolts (&C)"
 END
-CONTROLBAR:PurchaseUpgradeGondorBasicTraining_New
+CONTROLBAR:PurchaseUpgradeGondorEliteTraining_New
 "Purchase Elite Training (&C)"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardEliteTraining_New
 "Increases this horde to Level 2, grants heavy armor and becomes able to shoot Explosive Bolts permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeGondorEliteTraining_New
 "Increases this battalion to Level 2 and becomes able to shoot Dunedain Ice Arrows."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeRohanEliteTraining_New
 "Increases this battalion to Level 5 and becomes able to shoot like a MirkRider permanently."
 END
 //---------------------------------------------------
@@ -1055,10 +1063,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
 "Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
 END
 //---------------------------------------------------
-TOOLTIP:LackWildBasicTraining_New
+TOOLTIP:LackWildEliteTraining_New
 "Research at Treasure Trove to enable this technique . \n When equipped, increases this horde to level 2, receives Heavy Armor and become able to shoot Poison Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeWildEliteTraining_New
 "Increases this horde to level 2, grants Heavy Armor, and becomes able to use Poison Arrows permanently."
 END
 //------------------------------------------------------------
@@ -1072,23 +1080,23 @@ TOOLTIP:LackVenomSacksTechnology_New
 "Research at Treasure Trove to enable this equipment . \n When equipped, archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
 END
 //---------------------------------------------------
-TOOLTIP:LackDwarvenBasicTraining_New
+TOOLTIP:LackDwarvenEliteTraining_New
 "Research at Forge Works to enable this technique . \n When equipped, increases this horde to level 2, receives Heavy Armor, and become able to use Poison Black permanently."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenTraining_New
 "Increases this horde to level 2, grants Heavy Armor and becomes able to shoot Black Arrows permanently."
 End
 //---------------------------------------------------
-TOOLTIP:LackMordorBasicTraining_New
+TOOLTIP:LackMordorEliteTraining_New
 "Research upgrade at Tavern to enable this technique \n When equipped, increases this horde to Level 3, receives Heavy Armor and becomes able to use Barbed Arrows permanently."
 END
-TOOLTIP:LackElderRacesBasicTraining_New
+TOOLTIP:LackElderRacesEliteTraining_New
 "Research upgrade at the EregionForge to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Golden Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeMordorEliteTraining_New
 "Increases this horde to level 3, grants Heavy Armor and becomes able to shoot Barbed Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeElderRacesBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeElderRacesEliteTraining_New
 "Increases this horde to level 2, grants Heavy Armor and becomes able to shoot Golden Arrows permanently."
 END
 //------------------------------------------------------------//
@@ -1106,26 +1114,26 @@ TOOLTIP:MordorPoisonedSpears_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
+CONTROLBAR:PurchaseTechnologyWildEliteTraining_New
 "Research Goblin Elite Training"
 END
-CONTROLBAR:PurchaseTechnologyMordorBasicTraining_New
+CONTROLBAR:PurchaseTechnologyMordorEliteTraining_New
 "Research Rhun Elite Trai&ning"
 END
-CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining_New
+CONTROLBAR:PurchaseTechnologyDwarvenEliteTraining_New
 "Research Dale Elite Trai&ning"
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining_New
+CONTROLBAR:PurchaseUpgradeDwarvenEliteTraining_New
 "Purchase Elite Trai&ning"
 END
-CONTROLBAR:PurchaseUpgradeMordorBasicTraining_New
+CONTROLBAR:PurchaseUpgradeMordorEliteTraining_New
 "Purchase Elite Trai&ning"
 END
-CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining_New
+CONTROLBAR:PurchaseUpgradeElderRacesEliteTraining_New
 "Purchase Golden Arrows (&N)"
 END
-CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
+CONTROLBAR:PurchaseUpgradeWildEliteTraining_New
 "Purchase E&lite Trai&ning"
 END
 //---------------------------------------------------
@@ -2395,7 +2403,7 @@ END
 UPGRADE:EliteTraining_New
 "Elite Training"
 END
-UPGRADE:IsengardBasicTraining_New
+UPGRADE:IsengardEliteTraining_New
 "Explosive Bolts"
 END
 Upgrade:FortressFireArrows_New
@@ -2407,7 +2415,7 @@ END
 Upgrade:LegolasTrainedAlliesUpgrade_New
 "Legolas Archery knowledge"
 END
-UPGRADE:IsengardBasicTraining_New
+UPGRADE:IsengardEliteTraining_New
 "Explosive Bolts"
 END
 //---------------------------------------------------
