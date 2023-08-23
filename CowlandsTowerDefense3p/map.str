@@ -1,4 +1,11 @@
 
+CONTROLBAR:TooltipScreechWitchKing_New
+"Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipHourOfTheWitchKing_New
+"Requires Level 6 \n Target Heroes in an AOE have their special ability timers reset to 60% used \n Left click icon then left click on area"
+END
 
 
 CONTROLBAR:TooltipElrondWhirlwind_New
@@ -23,10 +30,10 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower_New
 END
 
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n Left click to activate"
+"Requires Level 8 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n Left click to activate"
 END
 CONTROLBAR:RainOfMorgul
-"Ra&in Of Morgul"
+"Rain Of Morgul (&B)"
 END
 
 CONTROLBAR:RainOfMorgul_Desc
@@ -163,6 +170,9 @@ SCRIPT:Hint02
 End
 SCRIPT:Hint03
 "I think next wave can be dealt easily with towers..."
+End
+SCRIPT:Hint04
+"Trancos: \n Dunedains, let's adelantarnos. Hide in the entorno! Boromir, cover our back."
 End
 
 
@@ -505,7 +515,8 @@ END
 //---------------------------------------------------------------------//
 SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
-//Aight, there's no rest between waves. Only between different army groups
+//Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
+//Aight, there's just a cooldown each 3 waves
 "Thorin sucks, don't enable ring heroes if you are with him"
 End
 SCRIPT:GameStart2
@@ -570,6 +581,9 @@ SCRIPT:TestingMode
 End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
+End
+SCRIPT:4PlayersMode
+"4 Players mode Enabled"
 End
 SCRIPT:HARDCORE
 "You have setted up the HARD dificulty. You will be forced to play quick and precise now."
