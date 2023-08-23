@@ -81,6 +81,16 @@ End
 
 //------------------------------------------------------------
 //------------------------------------------------------------
+SCRIPT:SpeedMultiplierActivated
+"Speed Multiplier activated"
+END
+SCRIPT:SpeedMultiplierEnabled
+"Speed mult. set to 5x"
+END
+SCRIPT:SpeedMultiplierDisabled
+"Speed mult. set to 1x"
+END
+//------------------------------------------------------------
 CONTROLBAR:BlackOrcCheerTheHorde_New
 "Black Rage (&W)"
 END
