@@ -1468,10 +1468,10 @@ CONTROLBAR:SpecialAbilitySummonGamlingDesc_New
 "Requires Level 10 \n Calls to the battle Gamling, the king bodyguard. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:DunedainPoisonArrows_New
+CONTROLBAR:PassiveSpecialAbilityPoison_New
 "Poisoned Arrows"
 End
-CONTROLBAR:DunedainPoisonArrowsDesc_New
+CONTROLBAR:PassiveSpecialAbilityPoisonDesc_New
 "This batallion is equiped with Poisoned Arrows elaborated by hunters of the north. \n Causes damage over time \ Slows down the enemy"
 End
 //---------------------------------------------------
