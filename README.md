@@ -40,16 +40,37 @@ If so, this might not be the map for you.
 Remember, this map offers a unique and challenging gameplay experience, 
 making it perfect for those who enjoy a tougher and more strategic gaming environment.
 
-For more information and updates, feel free to explore the map or contact the developer.
 
 ---
-Downloads:
+
+### Credits
+
+##### to BFME2 modding community:
+- **BFME2 ROTWK 2.02** for the Blight ability.
+- **Shark & Gannicus** for gameplay inspiration from their "MADNESS" maps, where i also learned commandButton reuse trick and pathfinding inspiration.
+- **Silverbane** for teaching me the buttonimages trick to be ably to modify commandbutton and for his "Osgiliath" from which i took his OathBreaker wave for inspiration.
+- **BIG[BANG]** for teachin me the DamageSpeed & WeaponSpeed trick on ranged damage nuggets and for prompting me to rewrite my pathfinding scripts.
+- **Crusard** for his "Legends" map from which i learned the hiding subobjects trick.
+- **Thorin** for his ideas, such as Theoden's Massive Rohirrim Charge and for setting up a competitive community of "cowboys" in GameRanger.
+- **Guerrilla** for being annoying as shit and continously prompting me to remake pathfinding and hardcoded anti cheats.
+
+##### to the cow-players community:
+Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau, Sauron, Temptation, BlockBuster, Mithrandir, King, Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F and whoever actually ever played this map during its two and half years of develepment.
+
+
+
+---
+
+### Links
+
+
+##### Downloads:
 - [Download the latest version here](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/releases)
 
-Heaven Games:
+##### Heaven Games:
 - [Visit the Heaven Games entry](https://bfme2.heavengames.com/downloads/showfile.php?fileid=1315)
 
-Discord:
-- [Visit our Discord server](https://discord.gg/f2xc8nsaRs)
+##### Discord:
+- [Visit our Discord server, share your thoughts and ask your questions](https://discord.gg/f2xc8nsaRs)
 
 	
