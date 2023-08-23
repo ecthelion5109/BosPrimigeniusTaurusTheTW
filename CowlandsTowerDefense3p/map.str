@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: Build 2.50 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: Build 2.52 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -88,7 +88,8 @@ OBJECT:SignalFireDescription09v2
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
-"Build a Healing Morgul Pit" //Necromancer Monument (&W)"
+"Build a Healing Morgul Pit (&W)" 
+//Necromancer Monument (&W)
 END
 //---------------------------------------------------
 CONTROLBAR:RainOfFireSaruman_New
@@ -99,7 +100,7 @@ CONTROLBAR:RainOfFireDescSaruman_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger_New
-"Requires Level 7 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid poison on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid poison on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingMount_New
@@ -1959,6 +1960,13 @@ End
 SCRIPT:LOSE_TESTINGMODE
 "lel. \n You lost, but this is testing mode."
 End
+//---------------------------------------------------
+OBJECT:LadyCow
+"Pretty Lady"
+END
+TOOLTIP:LadyCow
+"Brings joy to Middle-Earth"
+END
 //---------------------------------------------------
 OBJECT:Estella
 "Estella, la vaquita"
