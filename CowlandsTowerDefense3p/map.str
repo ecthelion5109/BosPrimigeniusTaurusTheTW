@@ -126,6 +126,13 @@ CONTROLBAR:ThranduilBoostDesc_New
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //--------------------------------------------------------------
+CONTROLBAR:MenArcherHeroeBoost_New
+"Legendary ancestor"
+END
+CONTROLBAR:MenArcherHeroeBoostDesc_New
+"Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
+END
+//--------------------------------------------------------------
 CONTROLBAR:TrainArchers_New
 "Art of the Bow [&T]"
 END
@@ -808,6 +815,9 @@ SCRIPT:RipCounters
 End
 SCRIPT:Bug
 "A map without bugs is not a bfme2 map"
+End
+SCRIPT:UnitRemovedAdvertencia
+"A team has been removed. \n This occured because: \n\n A: Map hoster opened the Planning mode. \n B: A team left the map."
 End
 //--------------------------------------------------------------//
 SCRIPT:WIN
