@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.45 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.46 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -52,7 +52,7 @@ OBJECT:StealthDetectorSentryTowerDesc_New
 "Detects nearby enemy stealthed units in a radius of 450"
 END
 OBJECT:GenericWellDesc_New
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units gain experience +50% faster \n Category: Uncategorized"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster \n Category: Healer"
 End
 OBJECT:RohanElvenWarrior_New
 "Noldor Warriors"
@@ -84,14 +84,26 @@ END
 //------------------------------------------------------------//
 //-------------------------TOOLTIP.INI------------------------//
 //------------------------------------------------------------//
+
+
+
+
+//------------------------------------------------------------//
+TOOLTIP:ToolTipPurchasedUpgradeWagonHearth_New
+"Hearth Upgrade purchased: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster \n Category: Healer"
+END
+TOOLTIP:ToolTipBattleWagonUpgradeBannerCarrier_New
+"Banner Carrier Upgrade purchased: \n Nearby units gain +30% damage, +25% armor and gain experience +25% faster \n Category: Stacky weapon"
+END
+//------------------------------------------------------------//
 TOOLTIP:LackGondorFireArrows_New
-"Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage done by Arrows"
+"Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
 END
 TOOLTIP:LegolasTrainedAlliesUpgradeDesc_New
 "Superior Archer Specialization. \n This Horde rate of fire is +100% faster and pre-attack time is only 50%."
 END
 TOOLTIP:LackDwarvenFireArrows_New
-"Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage done by Arrows"
+"Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
 END
 //------------------------------FortressUpgradesTooltips----------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
@@ -781,7 +793,7 @@ CONTROLBAR:ToolTipArrowWind_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
-"Allies near the BattleWagon Banner gain +30% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+"Allies near the BattleWagon Banner gain +30% Damage, +25% armor and gain experience +25% faster \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
 End
 //-------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
