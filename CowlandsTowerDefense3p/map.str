@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.33 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.34 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -298,13 +298,6 @@ CONTROLBAR:ConstructMordorWell_New
 //Necromancer Monument (&W)
 END
 //---------------------------------------------------
-CONTROLBAR:RainOfFireSaruman_New
-"Meteorite (&B)"
-END
-CONTROLBAR:RainOfFireDescSaruman_New
-"Requires Level 8 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
-END
-//---------------------------------------------------
 CONTROLBAR:GoblinKingMount_New
 "Moun&t / Dismount"
 End
@@ -333,13 +326,6 @@ End
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 "Poisons targeted enemies causing damage over time. \n Left click to activate"
 End
-//---------------------------------------------------
-CONTROLBAR:Devastation_New
-"Devastation (&Y)"
-End
-CONTROLBAR:ToolTipDevastation_New
-"Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
-END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon_New
 "Provides support for the player units. \n Can be upgraded with several useful improvements"
@@ -1015,46 +1001,12 @@ CONTROLBAR:ToolTipSpeechCraft_New
 "Requires Level 4 \n Target units, including heroes, gain experience twice faster for 30 seconds. \n Category: "Unique" \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
-CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireballs [&C]"
-END
-CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 4 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
-// Throws a ball of energy
-END
-CONTROLBAR:ThunderBolt_New
-"Lightning S&torm"
-END
-CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 6 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
-END
-//---------------------------------------------------
-CONTROLBAR:SummonWatcher_New
-"Summon &Watcher"
-END
-CONTROLBAR:TooltipSummonWatcher_New
-"Requires Level 8 \n Summon the Watcher under your control"
-END
-CONTROLBAR:SarumanDragonStrike_New
-"Dragon Strike (&V)"
-END
-CONTROLBAR:SarumanDragonStrikeDesc_New
-"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area"
-END
-//---------------------------------------------------
 CONTROLBAR:GandalfTeleportDesc_New
 "Requires Level 7 \n Teleport allied units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
 End
 CONTROLBAR:GandalfTeleport_New
 "Teleport (&W)"
 End
-//---------------------------------------------------
-//	CONTROLBAR:SarumanTeleport_New
-//	"Send to Eat Shit (&W)" // 
-//	End
-//	CONTROLBAR:SarumanTeleportDesc_New
-//	"Requires Level 10 \n Teleport any non-heroe cavalry, infantry or machine unit from one location on the battlefield, to another. \n Left click icon then left click on pathable location"
-//	End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoost_New
 "Bad Boy"
@@ -1074,14 +1026,14 @@ CONTROLBAR:SharkuManEater_New
 "Man Eater (&C)"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 4 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
+"Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
 "Train the army [&B]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
-"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:SummonWargAllies_New
@@ -1334,7 +1286,7 @@ CONTROLBAR:ToolTipAxeThrow_New
 "Powerful ranged attack with splash damage. \n Specially effective to cavalry and flyers. \n Causes meta-impact on the targets. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipSlayer_New
-"Requires Level 7 \n Gimli doubles the damage and the speed. \n left click icon to activate"
+"Requires Level 5 \n Gimli doubles the damage and the speed. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
@@ -1529,11 +1481,11 @@ CONTROLBAR:WitchKingDarknessDesc_New
 "Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Darkness' \n left click icon to activate"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipHourOfTheWitchKing_New
-"Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slowing them down and humans, upon their death, will turn into ring wraiths.\n Requires to be dismounted \n Left click icon then left click on area"
+CONTROLBAR:MemoriesOfAngmar_New
+"Memories of Angmar (&B)"
 END
-CONTROLBAR:HourOfTheWitchKing_New
-"Memories of Angmar (&B)" // Hour of the Witch-king // Curse
+CONTROLBAR:MemoriesOfAngmarDesc_New
+"Requires Level 8 \n The Witch King recalls the fun he used to have \n when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slows them down \n and upon death they will turn into ring wraiths. \n The Witch King becomes euphoric, \n gaining +50% damage, +35% speed, +99% armor, \n and becoming resistant against knock-down. \n Requires to be dismounted \n Left click icon then left click on area"
 END
 //---------------------------------------------------
 CONTROLBAR:WitchKingRainsOfMorgul_New
@@ -2031,10 +1983,10 @@ CONTROLBAR:ToolTipFaramirLeadership_New
 END
 //--------------------------------------------------//
 
-CONTROLBAR:GothmogCorpsesRains_New
+CONTROLBAR:GothmogCorpseRain_New
 "Rain of Corpses (&V)"
 END
-CONTROLBAR:GothmogCorpsesRainsDesc_New
+CONTROLBAR:GothmogCorpseRainDesc_New
 "Requires Level 10 \n Calls down a barrage of corpses on the target area. \n Left click icon then left click on target location"
 END
 
@@ -2086,7 +2038,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
 "Provides 35% damage and 25% experience to nearby troops \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War_Chant' \n Gothmog has to be mounted. \n left click icon to activate"
+"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
@@ -2199,8 +2151,58 @@ TOOLTIP:StealthDragonDesc_New
 END
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Allies near Saruman gain +25% damage \n and earn experience 25% faster \n Always stacks \n Category: 'Statue' \n Passive ability"
+"Allies, including heroes and monsters, near Saruman gain +25% armor \n and earn experience 25% faster  \n Category: 'Armor_Inspiration' \n Passive ability"
 END
+//--------------------
+CONTROLBAR:HoraDelMago_New
+"Hora del Mago (&Y)"
+End
+CONTROLBAR:HoraDelMagoDesc_New
+"Requires Level 2 \n Saruman does some dance with suck-type FX's. \n Eenmies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
+END
+CONTROLBAR:SpecialAbilitySarumanFireball_New
+"Fireballs [&C]"
+END
+CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
+"Requires Level 4 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
+// Throws a ball of energy
+END
+CONTROLBAR:ThunderBolt_New
+"Lightning S&torm"
+END
+CONTROLBAR:ToolTipThunderBolt_New
+"Requires Level 6 \n Strikes a series of lightning strikes against the units in the target area. \n Left click icon then left click on target location"
+END
+CONTROLBAR:RainOfFireSaruman_New
+"Meteorites (&B)"
+END
+CONTROLBAR:RainOfFireDescSaruman_New
+"Requires Level 8 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+END
+CONTROLBAR:SarumanDragonStrike_New
+"Dragon Strike (&V)"
+END
+CONTROLBAR:SarumanDragonStrikeDesc_New
+"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area"
+END
+//	CONTROLBAR:Devastation_New
+//	"Devastation (&Y)"
+//	End
+//	CONTROLBAR:ToolTipDevastation_New
+//	"Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
+//	END
+//	CONTROLBAR:SummonWatcher_New
+//	"Summon &Watcher"
+//	END
+//	CONTROLBAR:TooltipSummonWatcher_New
+//	"Requires Level 8 \n Summon the Watcher under your control"
+//	END
+//	CONTROLBAR:SarumanTeleport_New
+//	"Send to Eat Shit (&W)" // 
+//	End
+//	CONTROLBAR:SarumanTeleportDesc_New
+//	"Requires Level 10 \n Teleport any non-heroe cavalry, infantry or machine unit from one location on the battlefield, to another. \n Left click icon then left click on pathable location"
+//	End
 //------------------------------FortressUpgradesTooltips----------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
 "Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well'"
