@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.92: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.93: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -92,9 +92,11 @@ TOOLTIP:DisplayDamage_SpiderRiderArcherUpgrade
 End
 TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 //"Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)" 
-"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)" 
+//"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)" 
+//"Damage per unit: \n PIERCE damage: 36 \n POISON damage: 72 (for 7 seconds)" 
 //0.7
 //1.0
+//1.2
 End
 //--------------------------Done---------------------
 TOOLTIP:DisplayDamage_RohirrimArcherBasic
@@ -178,8 +180,8 @@ TOOLTIP:DisplayDamage_DaleArcherUpgrade
 //x1.17
 End
 TOOLTIP:DisplayDamage_DaleArcherElite
-"Damage per unit: \n HERO damage: 55"
-//x0.55
+"Damage per unit: \n HERO damage: 35"
+//x0.55//x0.45
 End
 TOOLTIP:DisplayDamage_DaleArcherEliteSummoned
 "Damage per unit: \n HERO damage: 100"
@@ -845,7 +847,7 @@ CONTROLBAR:LegolasTrainArchers_New
 "Art of the Bow [&T]"
 END
 CONTROLBAR:LegolasTrainArchersDesc_New
-"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
+"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster permanently and earn experience. \n\n Left click icon then left click on target archers"
 END
 //---------------------------------------------------
 CONTROLBAR:MenWood_New
