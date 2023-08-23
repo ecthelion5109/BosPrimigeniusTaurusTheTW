@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 474 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 475 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -80,8 +80,14 @@ End
 
 
 //-----
-//-----
-//-----
+//------------------------------------------------------------
+CONTROLBAR:RohirrimArcherSpecialAbility_New
+"MirkRider Ability (&T)"
+END
+CONTROLBAR:RohirrimArcherSpecialAbilityDesc_New
+"Temporary grants a boost of +15% range. \n Left click to activate"
+END
+//------------------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonedDragonReposition_New
 "Reposition (&C)"
 End
@@ -746,19 +752,19 @@ TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 //1.2
 End
 //--------------------------Done---------------------
-//RohanRohirrimBow
-TOOLTIP:DisplayDamage_RohirrimArcherBasic
-"Damage per unit: \n CAVALRY_RANGED damage: 100"
-//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8"
-//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
-//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
-End
-TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
-"Damage per unit: \n CAVALRY_RANGED damage: 100 \n FLAME damage: 50"
-//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8 \n FLAME damage: 50"
-//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
-//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
-End
+//	//RohanRohirrimBow
+//	TOOLTIP:DisplayDamage_RohirrimArcherBasic
+//	"Damage per unit: \n CAVALRY_RANGED damage: 100"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
+//	End
+//	TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
+//	"Damage per unit: \n CAVALRY_RANGED damage: 100 \n FLAME damage: 50"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8 \n FLAME damage: 50"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
+//	End
 //---------------------------------------------
 TOOLTIP:DisplayDamage_RangerBasic
 "Damage per unit: \n PIERCE damage: 65"
