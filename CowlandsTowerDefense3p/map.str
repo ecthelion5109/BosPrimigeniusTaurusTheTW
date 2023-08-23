@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.57 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.58 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,7 +76,13 @@ End
 
 
 
-
+//---------------------------------------------------
+CONTROLBAR:SlayerArrow
+"Slayer Arrow [&R]"
+END
+CONTROLBAR:SlayerArrowDesc
+"Single ranged attack that causes high damage. \n Causes meta-impact \n Left click icon then left click on target"
+END
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorHaradrimArcherHorde_New
 "&Rhun Archers"
@@ -410,11 +416,12 @@ TOOLTIP:DisplayDamage_HaradrimArcherElite
 End
 //-------------------------done----------------------
 TOOLTIP:DisplayDamage_LancerBasic
-"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 20 \n SIEGE damage 7"
+"Damage per unit: \n SLASH damage: 60 \n SPECIALIST damage: 20"
+//"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 20 \n SIEGE damage 7"
 //"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17"
 End
 TOOLTIP:DisplayDamage_LancerUpgrade
-"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 20 \n SIEGE damage 7 \n POISON damage 15 (for 60 seconds)"
+"Damage per unit: \n SLASH damage: 60 \n SPECIALIST damage: 20 \n POISON damage 15 (for 60 seconds)"
 //"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
 End
 //--------------------------Done-----------------------
@@ -694,7 +701,7 @@ CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
 "Research Goblin Elite Training"
 END
 CONTROLBAR:PurchaseTechnologyMordorBasicTraining_New
-"Research Harad Elite Trai&ning"
+"Research Rhun Elite Trai&ning"
 END
 CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining_New
 "Research Dale Elite Trai&ning"
@@ -855,14 +862,14 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 3 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
+"Requires Level 4 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
 "&Cripple Strike"
 End
 CONTROLBAR:SharkuCrippleStrikeMeleeDesc_New
-"Requires Level 4 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
+"Requires Level 8 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWargAllies_New
@@ -1302,7 +1309,7 @@ CONTROLBAR:OathWave_New
 "Oathbreakers &Wave"
 END
 CONTROLBAR:OathWaveDesc_New
-"Requires Level 5 \n Summons a bunch of oathbreakers to kill units on it's walk. \n Left click icon then left click on target area"
+"Requires Level 5 \n Sends a bunch of oathbreakers onto the target. \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:Undermine_New
@@ -1321,7 +1328,7 @@ CONTROLBAR:AxeStormDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership_New
-"Allies near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
@@ -1727,7 +1734,7 @@ CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
@@ -1749,7 +1756,7 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
