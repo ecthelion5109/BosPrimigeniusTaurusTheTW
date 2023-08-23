@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 460 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 461 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -77,6 +77,15 @@ End
 
 
 
+//------------------------------------------------------------
+CONTROLBAR:KingsCurse_New
+"King's Curse [&B]"
+END
+CONTROLBAR:KingsCurseDesc_New
+//"Requires Level 10 \n The king of Gondor casts a curse on a target. \n A lightning strike will hit the ground and units upon death will turn into oahbreakers. \n Left click icon then left click on target units"
+"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Lightning strikes the ground and upon death, units turn into members of the Dead Army. \n Left click icon then left click on target units"
+//"Requires Level 10 \n The same way an idiot monarch can release you from your after-life curse after supposedly breaking some retarded oath that isn't even written, a idiot monarch can also arbitrarely curse you again with whatever an absolutist king can use as excuse. \n Left click icon then left click on target units"
+END
 //------------------------------------------------------------
 CONTROLBAR:MumakilCharge_New
 "Mumakil Charge"
@@ -2581,6 +2590,10 @@ End
 SCRIPT:Mustafa06
 "i gib u 100$ if u make ptch like 1.00"
 End
+//----------------------
+OBJECT:Cow
+"Happy cow"
+END
 //----------------------
 OBJECT:Carmela
 "Carmen, la vaca fuerte"
