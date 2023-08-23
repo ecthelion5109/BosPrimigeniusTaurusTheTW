@@ -52,7 +52,8 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.74 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.75 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1077,7 +1078,7 @@ TOOLTIP:GenericBattleTowerDesc_New
 END
 //-------------------------------------------------
 TOOLTIP:GenericLoneTowerDesc_New
-"Fires at nearby enemies. \n Can be garrisoned with archers for greater damage output. \n Contained archers gain +9% Range.\n Category: 'Uncategorized' \n Can receive different upgrades from the fortress. "
+"Fires at nearby enemies. \n Can be garrisoned with archers for greater damage output. \n Contained archers gain +9% Range.\n Category: 'LoneTower' \n Can receive different upgrades from the fortress. "
 End
 //-------------------------------------------------
 TOOLTIP:ToolTipBattleWagonHearthDesc_New
@@ -2444,8 +2445,9 @@ SCRIPT:GameStart1
 End
 SCRIPT:GameStart2
 //"Guerrilla cheats with double Farm. Block"
+"Win this map with Maka and \n you will gain respect among the cowmmunity."
 //"Win this map with Thorin and you will gain respect among the cowmmunity."
-"Always taking in consideration \n that Thorin Sucks, \n your goal is to survive 20 waves."
+//"Always taking in consideration \n that Thorin Sucks, \n your goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
 "The Ladies will show you the route of your enemies"
@@ -2479,9 +2481,11 @@ SCRIPT:CREDITS
 "...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map during its three years of develepment."
 End
 SCRIPT:LOSE
-";( cows not happy"
+//";( cows not happy"
 // 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
 //"lol. \nIs thorin playing here or what."
+//"lol. \nIs thorin playing here or what."
+"lol. \n Is maka playing here or what."
 End
 SCRIPT:LOSE_TESTINGMODE
 "lel. \n You lost, but this is testing mode."
