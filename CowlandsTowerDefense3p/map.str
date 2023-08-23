@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.96 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.97 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -425,10 +425,10 @@ CONTROLBAR:GrimaLandThingDesc_New
 "Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 CONTROLBAR:GrimaLoneTower_New
-"Summon Lone Tower (&U)"
+"Summon Lone Tower"
 END
 CONTROLBAR:GrimaLoneTowerDesc_New
-"Requires Level 9 \n Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n Left click icon then left click on pathable location"
+"Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonWatcher_New
@@ -1089,7 +1089,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 "Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
 END
 CONTROLBAR:LurtzSummonUrukGuard_New
-"Summon Uruk Guard [&B]"
+"Summon Uruk Guard [&V]"
 END
 CONTROLBAR:LurtzSummonUrukGuardDesc_New
 "Requires Level 10 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
@@ -1526,14 +1526,6 @@ CONTROLBAR:OathWaveDesc_New
 "Requires Level 5 \n Sends a bunch of oathbreakers onto the target. \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
-CONTROLBAR:Undermine_New
-"Open a &Bunker"
-END
-CONTROLBAR:TooltipUndermine_New
-"Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
-END
-// "with 10 contain slots  " not rlly
-//---------------------------------------------------
 CONTROLBAR:AxeStorm_New
 "Explosive Axes (&B)"
 END
@@ -1841,13 +1833,25 @@ END
 CONTROLBAR:ToolTipDwarvenGloinSlam_New
 "Requires Level 3 \n Powerful attack that causes high damage\n Left click icon then left click on target"
 END
-//-------------------------------------------------
 CONTROLBAR:GloinShakeFoundation_New
-"Summon an Earthquake [&V]"
+"Shake enemy boo&ty"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
+"Requires Level 5 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
+END
+CONTROLBAR:GloinEarthquake_New
+"Earthquake [&V]"
+END
+CONTROLBAR:GloinEarthquakeDesc_New
 "Requires Level 7 \n Creates a small earthquake by doing some shit with it's hammer \n Left click icon then left click on target"
 END
+CONTROLBAR:Undermine_New
+"Open a &Bunker"
+END
+CONTROLBAR:TooltipUndermine_New
+"Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+END
+// "with 10 contain slots  " not rlly
 //---------------------------------------------------
 CONTROLBAR:MordorFreeTrade_New
 "Free Trade"
@@ -1917,7 +1921,6 @@ CONTROLBAR:TooltipHeal_New
 "Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'HealBonus' \n \nLeft click icon then left click on target area"
 END
 //-------------------------------------------------
-//-------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
 "Summons the Eye of Sauron \n Any kind of unit affected gain \n +25% armor and earn experience 25% faster. \n Category: 'Armor_Inspiration' \n Left click icon then left click on target area"
 END
@@ -1944,6 +1947,9 @@ CONTROLBAR:TooltipElrondLeadership_New
 "Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
+CONTROLBAR:AragornAthelasDesc_New
+"Heals the bearby units. \n Grants a bonus of +25% rate of firen, \n and +30% speed. \n Does not affect allies. \n Left click to activate"
+END
 CONTROLBAR:ToolTipAragornLeadership_New
 "Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
