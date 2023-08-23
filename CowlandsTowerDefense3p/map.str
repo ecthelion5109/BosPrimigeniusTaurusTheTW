@@ -4,7 +4,7 @@ CONTROLBAR:TooltipScreechWitchKing_New
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
-"Requires Level 6 \n Target Heroes in an AOE have their special ability timers reset to 60% used \n Left click icon then left click on area"
+"Requires Level 6 \n Target Heroes in an AOE have their special ability timers reset \n Left click icon then left click on area"
 END
 
 
@@ -50,7 +50,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelWindRider_New
-"Requires Level 3 \n Glorfindel gains +40% speed and 50% Armor when mounted \n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n Left click to activate"
 END
 
 GUI:UNITDiscountNew
@@ -482,7 +482,7 @@ CONTROLBAR:TooltipElrondLeadership_New
 "Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster and move 20% faster \n Category: Unique \n \n Passive ability"
 END
 CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: Non stacky buff \n \n Passive ability"
