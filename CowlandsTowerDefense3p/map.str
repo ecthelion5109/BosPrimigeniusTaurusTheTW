@@ -1,11 +1,14 @@
 
 
 
+CONTROLBAR:TooltipElrondWhirlwind_New
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+End
 CONTROLBAR:CorrodeAllegiance_New
-"Convince communism is good [&C]"
+"Convince Communism is Good [&C]"
 END
 CONTROLBAR:ToolTipCorrodeAllegiance_New
-"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value \n Target hero joins the cause for 60 seconds \n Hero will return to his capitalists ways of living after the effect\n Left click icon then left click on target"
+"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
 END
 
 
@@ -27,7 +30,7 @@ CONTROLBAR:RainOfMorgul
 END
 
 CONTROLBAR:RainOfMorgul_Desc
-"Calls down a barrage of rocks from Morgul onto your enemies"
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies"
 END
 
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
@@ -339,7 +342,7 @@ CONTROLBAR:ConstructSoyTaxesUpgrade
 END
 
 CONTROLBAR:ConstructSoyTaxesUpgrade_Desc
-"The harvesting of soybeans over-erosions the terrain of our cowlands. The least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n\n Increases the fortress and market incomes by 1/3"
+"The harvesting of soybeans over-erosions the terrain of our cowlands. The least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n\n Increases the fortress and market incomes by +33.3%"
 END
 
 
@@ -382,7 +385,7 @@ CONTROLBAR:WildmenOfDunlandHouseDesc
 END
 
 CONTROLBAR:ToolTipBuildIronOreMercadoUpgrade
-"Reduces the cost of fortress and blacksmith upgrades by 1/3"
+"Reduces the cost of fortress and blacksmith upgrades by +33.3%"
 END
 
 
