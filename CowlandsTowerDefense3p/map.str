@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.56 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.57 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -466,7 +466,7 @@ CONTROLBAR:ToolTipShelobWebbing_New
 End
 //---------------------------------------------------
 CONTROLBAR:BlackRiderMorgulBlade_New
-"Morgul Spell [&C]"
+"Morgul Dagger [&C]"
 END
 CONTROLBAR:ToolTipBlackRiderMorgulBlade_New
 "Requires Level 4 \n Targeted enemy becomes crippled and takes poison damage over time. \n Upon death turns into a Ring Wraith. \n Left click icon then left click on target"
@@ -2674,17 +2674,26 @@ SCRIPT:BonusForWipingArmy300FINAL
 "Cows almost escaped. \n +300 to final score"
 End
 //--------------------------------------------------//
-SCRIPT:t_VictoryText00_A
-"Congratulations, you have won the cowmap without challenge. \n You are qualified to play the next level of difficulty."
-End
-SCRIPT:t_VictoryText00_B
-"Congratulations, you have won the cowmap fair and square. \n But you are not ready for the next level of difficulty."
-End
-SCRIPT:t_VictoryText00_C
-"Congratulations, you have won the cowmap. \n Your qualification was low but you can improve it"
-End
 SCRIPT:CowMapScore
 "CowMap score:"
+End
+SCRIPT:t_VictoryText00_A
+"Congratulations, you have won the cowmap without challenge."
+End
+SCRIPT:t_VictoryText00_A2
+"Qualification: *A* \n You are ready to play the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_B
+"Congratulations, you have won the cowmap fair and square."
+End
+SCRIPT:t_VictoryText00_B2
+"Qualification: *B* \n You are not ready for the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_C
+"Congratulations, you have luckily won the cowmap."
+End
+SCRIPT:t_VictoryText00_C2
+"Qualification: *C* \n You barely won by camping at top. You can still improve your strategy"
 End
 SCRIPT:t_VictoryText01
 "Special thanks to the beta-cow-players; \n Thorin, Arion, Guerrilla, FarmerLau, MusicDawn, \n Temptation, Fitton, Lovely, Gannicus, Sauron..."
