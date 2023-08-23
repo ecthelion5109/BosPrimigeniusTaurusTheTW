@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.06 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.08 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -142,7 +142,7 @@ CONTROLBAR:SummonBalrogFireDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
-"Awake a Ice Demon (&B)"
+"Awake a Ice Demon (&V)"
 End
 CONTROLBAR:SummonBalrogIceDesc_New
 "Requires Level 10  \n Awakes a Ice Demon from the deeps of what's left on Angmar. \n Can only use when dismounted \n Left click icon then left click on pathable location"
@@ -1085,7 +1085,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Lurtz performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Lurtz's self rate of fire is also improved. \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
@@ -1483,7 +1483,10 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 "Requires Level 7 \n Summons a group of Noldor Warriors from Lindon. \n Archers are equipped with Golden arrows \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipDarkness_New
+CONTROLBAR:WitchKingDarkness_New
+"Darkness (&B)"
+END
+CONTROLBAR:WitchKingDarknessDesc_New
 "Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Darkness' \n left click icon to activate"
 END
 //---------------------------------------------------
@@ -1491,11 +1494,11 @@ CONTROLBAR:ToolTipHourOfTheWitchKing_New
 "Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slowing them down and humans, upon their death, will turn into ring wraiths.\n Requires to be dismounted \n Left click icon then left click on area"
 END
 CONTROLBAR:HourOfTheWitchKing_New
-"Memories of A&ngmar" // Hour of the Witch-king // Curse
+"Memories of Angmar (&B)" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
 CONTROLBAR:RainsOfMorgul_New
-"Rains Of Morgul (&B)"
+"Rains Of Morgul (&V)"
 END
 CONTROLBAR:RainsOfMorgulDesc_New
 "Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n left click icon to activate"
