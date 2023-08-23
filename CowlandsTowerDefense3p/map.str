@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.73: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.74: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -19,6 +19,22 @@ End
 
 
 
+
+
+
+
+
+//---------------------------------------------------
+CONTROLBAR:ToolTipConstructWildMineShaft_New
+"Generates resources based on available terrain Provides access to the tunnel network \n Quantity available to build: 3"
+END
+//---------------------------------------------------
+CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
+"&Poison Arrows"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
+"Upgrades this Tower with Fire Arrows \n Increases damage done by Arrows"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
 "Requires researching the technique at the Treasure Trove. \n Increased this horde to level 2 and become able to shoot Poison Arrows permanently."
@@ -150,7 +166,7 @@ TOOLTIP:GenericWellDesc_New
 End
 //--------------------------------------------------//
 TOOLTIP:PoisonBattleTowerDesc_New
-"Defensive Poison Arrow Tower \n Poison damages over time and slows down the affected units \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
+"Defensive Arrow Tower \n Can be upgraded with Fire Arrows or Poison Arrows \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
