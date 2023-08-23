@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.93 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.94 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1099,35 +1099,35 @@ TOOLTIP:ToolTipGorkilTotemDesc_New
 "Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
 END
 //---------------------------------------------------
-CONTROLBAR:AzogChildsPrerequisite_New
-"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
-End
-CONTROLBAR:AzogChilds_New
-"Carlitos, Panchito y Miguelito"
-End
-CONTROLBAR:AzogChildsDesc_New
-"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
-End
-CONTROLBAR:AzogChildsPurchased_New
-"Wow La familia felix"
-End
-CONTROLBAR:AzogCallSomething_New
-"Call Something (&B)"
-End
-CONTROLBAR:AzogCallSomethingDesc_New
-"Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
-END
-CONTROLBAR:AzogGoblinFury_New
-"Goblin Fury (&T)"
-END
-CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
-END
-CONTROLBAR:GoblinCharge_New
+//	CONTROLBAR:AzogChildsPrerequisite_New
+//	"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
+//	End
+//	CONTROLBAR:AzogChilds_New
+//	"Carlitos, Panchito y Miguelito"
+//	End
+//	CONTROLBAR:AzogChildsDesc_New
+//	"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
+//	End
+//	CONTROLBAR:AzogChildsPurchased_New
+//	"Wow La familia felix"
+//	End
+//	CONTROLBAR:AzogCallSomething_New
+//	"Call Something (&B)"
+//	End
+//	CONTROLBAR:AzogCallSomethingDesc_New
+//	"Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
+//	END
+//	CONTROLBAR:AzogGoblinFury_New
+//	"Goblin Fury (&T)"
+//	END
+//	CONTROLBAR:AzogGoblinFuryDesc_New
+//	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
+//	END
+CONTROLBAR:AzogGoblinCharge_New
 "Goblin Charge (&W)"
 END
-CONTROLBAR:GoblinChargeDesc_New
-"Requires Level 7 \n Summon a wave of rageful wild animals that will crush anything on their pass. \n Left click icon then left click on target area"
+CONTROLBAR:AzogGoblinChargeDesc_New
+"Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Left click icon then left click on target area"
 END
 CONTROLBAR:AzogsAzogTremor_New
 "Tremors (&V)"
@@ -1973,7 +1973,7 @@ CONTROLBAR:ToolTipLurtzLeadership_New
 "Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War_Chant' \n Passive ability"
 END
 CONTROLBAR:AzogLeadershipDesc_New
-"Requires Level 5 \n Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
+"Requires Level 2 \n Allies near Azog gain \n +35% Damage.r \n Category: 'War_Chant' \n Passive ability"
 End
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
 "Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
