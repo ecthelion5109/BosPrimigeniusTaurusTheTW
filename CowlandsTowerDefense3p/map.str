@@ -75,6 +75,15 @@ End
 
 
 
+
+
+//---------------------------------------------------
+CONTROLBAR:PurchaseDwarvenBallistaUpgrade_New
+"Install anti-&dragons device"
+END
+CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
+"Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
+END
 //---------------------------------------------------
 CONTROLBAR:UpgradeWildmenHallLevel2_New
 "Upgrad&e Wildmen Hall to Level 2"
@@ -137,18 +146,18 @@ CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
 END
 //---------------------
-CONTROLBAR:ShelobFreezeingScrech_New
-"Freezeing Sc&reech" 
+CONTROLBAR:ShelobFreezeingScreech_New
+"F&reezeing Screech" 
 END
-CONTROLBAR:TooltipShelobFreezeingScrech_New
-"Requires Level 5 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
+CONTROLBAR:TooltipShelobFreezeingScreech_New
+"Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 //---------------------
 CONTROLBAR:ShelobToxicCumShot_New
-"&Toxic Lady Juice"
+"Toxic Lady Juice (&V)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 4 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
@@ -232,14 +241,14 @@ CONTROLBAR:RainOfFireDescSaruman_New
 END
 //---------------------------------------------------
 CONTROLBAR:GoblinKingMount_New
-"Mount / Dismount [&M]"
+"Moun&t / Dismount"
 End
 CONTROLBAR:ToolTipGoblinKingMount_New
 "Left click to switch between \n mounted and on foot"
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"&Toxic cum-shot"
+"Toxic cum-shot (&V)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
 "Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
@@ -1042,7 +1051,7 @@ CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury (&T)"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 3 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
+"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
@@ -1560,7 +1569,7 @@ CONTROLBAR:EowynRestoreDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWoundingArrow_New
-"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n Left click icon then left click on target"
+"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact and reduces the target's speed by -20% \n Efective against monsters of any kind \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHawkStrike_New
