@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.06: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 2.07: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -63,40 +63,32 @@ End
 
 
 
-CONTROLBAR:Taint_New
-"Tainted Land"
-End
-CONTROLBAR:ToolTipTaint_New
-"Taints an area of terrain \n enemys get crazy \n Left click icon then left click on target area"
+//---------------------------------------------------
+CONTROLBAR:GrimaToxicShit_New
+"Toxic shit-talking [&V]"
 END
-
-
-
-//------------------IsengardTowerNotPassiveUpgradeIcons---------------//
-//	;	CONTROLBAR:PurchaseUpgradeIsengardFortressIronPlating_New
-//	;	"Iron Plating"
-//	;	END
-//	;	CONTROLBAR:IsengardLoneTowerArmorUpgradeIcon
-//	;	"Requires researching the upgrade at fortress. \n\n Tower gains 50% armor."
-//	;	END
-//	;CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations_New
-//	;"Excavations"
-//	;END
-//	;CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations_New
-//	;"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds \n Nearby units gain experience 50% faster \n\n Category: 'Healer' "
-//	;END
-//	;CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions_New
-//	;"Orcfire Munitions"
-//	;END
-//	;CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitions_New
-//	;"Requires researching the upgrade at fortress. \n Arms the tower with Fire Arrows"
-//	;END
-//	;CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows_New
-//	;"Murder of Crows"
-//	;END
-//	CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows_New
-//	"Requires researching the upgrade at fortress. \n Increases the vision range of the nearby units by +10%"
-//	END
+CONTROLBAR:GrimaToxicShitDesc_New
+"Requires Level 4 \n Grima fulls the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+END
+CONTROLBAR:GrimaLandThing_New
+"Alienating Land (&B)" // Tainted Land
+End
+CONTROLBAR:GrimaLandThingDesc_New
+"Requires Level 7 \n Taints an area of terrain \n Enemies inside are randomly damaged and debuffed. \n Weak heart enemies are frightened.\n Left click icon then left click on target area"
+END
+CONTROLBAR:GrimaLoneTower_New
+"Summon Lone Tower (&C)"
+END
+CONTROLBAR:GrimaLoneTowerDesc_New
+"Requires Level 9 \n Summons a Lone Tower with different upgrades available. \n Requires respective fortress technology upgrades \n\n Left click icon then left click on pathable location"
+END
+//---------------------------------------------------
+CONTROLBAR:SummonWatcher_New
+"Summon &Watcher"
+END
+CONTROLBAR:TooltipSummonWatcher_New
+"Requires Level 8 \n Summon the Watcher under your control"
+END
 //--------------------IsengardTowerPassiveUpgradeIcons--------------------//
 CONTROLBAR:PurchaseUpgradeIsengardFortressIronPlating_New
 "Iron Plating"
@@ -654,23 +646,41 @@ OBJECT:GenericTowerDesc_New
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
 End
 //---------------------------------------------------
+CONTROLBAR:ThunderBolt_New
+"Thunderbolt [&T]"
+END
 CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 8 \n Strikes powerful lightning bolts against targeted enemy \n Left click icon then left click on target"
+"Requires Level 3 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
 END
 //---------------------------------------------------
-CONTROLBAR:GandalfTeleport_New
-"Teleport (&W)"
-End
-CONTROLBAR:SarumanTeleport_New
-"Send to Eat Shit (&W)" // OR TO GULAG XD
-End
+CONTROLBAR:SpeechCraft_New
+"Speech Craft [&C]"
+END
+CONTROLBAR:ToolTipSpeechCraft_New
+"Requires Level 5 \n Give targeted units experience \n Left click icon then left click on target units"
+END
+//---------------------------------------------------
+CONTROLBAR:SpecialAbilitySarumanFireball_New
+"Fireball [&V]"
+END
+CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
+"Requires Level 7 \n Spells a rain of fireballs. \n Left click icon then left click on target"
+// Throws a ball of energy
+END
 //---------------------------------------------------
 CONTROLBAR:GandalfTeleportDesc_New
 "Requires Level 7 \n Teleport allied units from one location on the battlefield to anywhere on the map \n Left click icon then left click on pathable location"
 End
-CONTROLBAR:SarumanTeleportDesc_New
-"Requires Level 10 \n Teleport any non-heroe cavalry, infantry or machine unit from one location on the battlefield, to another. \n Left click icon then left click on pathable location"
+CONTROLBAR:GandalfTeleport_New
+"Teleport (&W)"
 End
+//---------------------------------------------------
+//	CONTROLBAR:SarumanTeleport_New
+//	"Send to Eat Shit (&W)" // 
+//	End
+//	CONTROLBAR:SarumanTeleportDesc_New
+//	"Requires Level 10 \n Teleport any non-heroe cavalry, infantry or machine unit from one location on the battlefield, to another. \n Left click icon then left click on pathable location"
+//	End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoostDesc_New
 "Requires Level 3\n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n\n Passive ability"
@@ -856,9 +866,6 @@ END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardBerserker_New
 "Requires Level 3 Uruk Pit \n Strong vs. Infantry \n Can detonate mines"
-END
-CONTROLBAR:ToolTipBuildIsengardUrukHai_New
-"Requires Level 2 Uruk Pit \n Strong vs. Pikemen\n and Resource Buildings"
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
