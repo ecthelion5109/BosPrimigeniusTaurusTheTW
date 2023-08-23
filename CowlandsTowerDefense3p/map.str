@@ -2,7 +2,12 @@
 
 
 
- 
+CONTROLBAR:BrandToolTip
+"Principito Brand"
+End
+CONTROLBAR:BrandToolTipHeroMode
+"Brand, the sniper"
+End
  
  
  
@@ -119,7 +124,7 @@ CONTROLBAR:ToolTipOutlawLeadership_New
 END
 
 CONTROLBAR:Blight_New
-"&Blight"
+"Rape the Land (&B)" // Blight
 End
 CONTROLBAR:BlightDesc_New
 "Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Left click icon then left click on target area"
@@ -139,7 +144,7 @@ CONTROLBAR:TooltipEnshroudingMist_New
 "Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n\n Left click icon and left click on target area"
 END
 CONTROLBAR:ElrondRestoration_New
-"Restore" //E&venstar
+"Restore (&B)" //E&venstar
 END
 CONTROLBAR:ToolTipElrondRestoration_New
 "Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
@@ -289,7 +294,7 @@ END
 CONTROLBAR:ThrowSpear_New
 "Spear Throw [&T]"
 END
-CONTROLBAR:SpearDesc_New // EomerSpear
+CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
 "Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs. \n\n Left click icon then left click on target"
 END
 
@@ -451,11 +456,11 @@ END
 
 // ------------Map--------------- //
 Map:CowlandsTowerDefense3p
-"Cowlands: The Tower War" //Tower War: The Cow Lands [3p]
+"Bos Primigenius Taurus: The TW" // Cowlands: The Tower War //Tower War: The Cow Lands [3p]
 End
 //\n Players need to be in same team to get Kill Counter working.
  Map:CowlandsTowerDefense3p/Desc
-"Made for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
 End
 
 
