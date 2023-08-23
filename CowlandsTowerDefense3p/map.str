@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.89 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.90 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -345,6 +345,9 @@ CONTROLBAR:ToolTipSpecialAbilityBalrogBreathBlue_New
 ///Requires Level 5 \n 
 END
 //------------------------RedBalrog-----------------------
+CONTROLBAR:SpecialAbilityIgniteRed_New
+"&Ignite"
+END
 CONTROLBAR:ToolTipSpecialAbilityIgniteRed_New
 "The Balrog gains +100% damage, +50% armor and +15% speed. \n Left click to activate"
 END
@@ -1001,7 +1004,7 @@ End
 //	End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoostDesc_New
-"Requires Level 3\n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n Passive ability"
+"Requires Level 2 \n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n Passive ability"
 END
 CONTROLBAR:SharkuBoost_New
 "Bad Boy"
@@ -1699,7 +1702,10 @@ END
 CONTROLBAR:AzogHotkey_New
 "&Azog of Moria"
 END
-CONTROLBAR:BalrogHotkey_New
+CONTROLBAR:RedBalrogHotkey_New
+"&Balrog, the Durin's Bane"
+End
+CONTROLBAR:BlueBalrogHotkey_New
 "Iced &Balrog" //Durin's Bane, the 
 End
 CONTROLBAR:BrandHotkey_New
