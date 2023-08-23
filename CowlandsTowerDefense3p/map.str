@@ -3,25 +3,29 @@
 
 
  
+CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
+"Ray of Morgul [&T]"
+END
 CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
 END
 CONTROLBAR:HaldirBoostDesc_New
-"Requires Level 5 \n Haldir gains a permanent bonus of \n +300% damage and +30% rate of fire. \n Passive ability"
+"Requires Level 3 \n Haldir gains +250 damage and a permanent +30% rate of fire boost. \n Passive ability"
 END
 
 CONTROLBAR:LegolasBoost_New
 "Expert Archer"
 END
 CONTROLBAR:LegolasBoostDesc_New
-"Requires Level 5 \n Legolas gains a permanent bonus of \n +150% rate of fire and +15% range. \n Passive ability"
+////"Requires Level 5 \n Legolas gains a permanent bonus of +50 damage and +15% range. \n Passive ability"
+"Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire and +15% range. \n Passive ability"
 END
 
 CONTROLBAR:ThranduilBoost_New
 "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Thranduil gains a permanent bonus  of \n +50% range and +100% damage. \n Passive ability"
+"Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 
 
@@ -29,7 +33,7 @@ CONTROLBAR:TrainArchers_New
 "Art of the Bow [&T]"
 END
 CONTROLBAR:ToolTipTrainArchers_New
-"Requires Level 7 \n Legolas decides to share his knowledge with Lorien and Mirkwood archers. \n Targeted archer batallion learns to shoot arrows 50% faster and earn 2 experience ranks. \n Left click icon then left click on target archers"
+"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Left click icon then left click on target archers"
 END
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
@@ -278,7 +282,7 @@ CONTROLBAR:ToolTipHawkStrike_New
 "Double-arrow attack \n Effective against cavalry and monsters\n Left click icon then left click on target"
 END
 
-CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
+CONTROLBAR:EomerThrowSpear_New // EomerSpear
 "Powerful ranged attack \n Effective against units and heroes \n Extreme damage against monsters \n\n Left click icon then left click on target"
 END
 
@@ -375,7 +379,7 @@ CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 END
 
 CONTROLBAR:GondorDamrodHotkey_New
-"Principe Brand,\n Segnor de Dale"
+"Principe Bran&d,\n Segnor de Dale"
 END
 
 
@@ -423,7 +427,7 @@ END
 
 
 CONTROLBAR:ToolTipElvenGifts_New
-"Requires Level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore gain +200% damage \n Passive power"
+"Requires Level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore deal 200% damage \n Passive power"
 END
 
 CONTROLBAR:ToolTipPersonalFlood_New
@@ -610,7 +614,7 @@ CONTROLBAR:LegolasLeadership_New
 "Prince of Mirkwood Leadership"
 End
 CONTROLBAR:LegolasLeadershipDesc_New
-"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +25% faster \n Category: Unique \n \nPassive ability"
+"Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +35% faster \n Category: Unique \n \nPassive ability"
 End
 
 CONTROLBAR:GamlingLeadershipDesc_New
