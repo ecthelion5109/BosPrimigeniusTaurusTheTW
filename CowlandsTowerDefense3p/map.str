@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.70: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.71: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -20,6 +20,17 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:RingWraithMode_New
+"Worst Nightmare"
+END
+CONTROLBAR:RingWraithModeDesc_New
+"Requires Level 10 \n Turns into a ring wraith, dealing supernatural damage. \n Effective against any kind of heroe. \n Heroes upon death become into ring wraiths aswell."
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityFellbeastWingBlast_New
+"Requires Level 5 \n Shoots a shockwave of force below the nazgul, causing meta damage to enemies. \n Left click icon then left click on target area"
+END
 //---------------------------------------------------
 OBJECT:EliteDaleArcher_New
 "Archer of Dale"
@@ -724,7 +735,7 @@ CONTROLBAR:BrandHotkey_New
 "Principe Bran&d,\n Segnor de Dale"
 END
 CONTROLBAR:GothmogHotkey_New
-"&Gothmog, The Elephant Man"
+"Gothmog, The &Ilustrated Orc" // Elephant
 END
 OBJECT:BrandToolTip_New
 "Principe Brand"
@@ -973,7 +984,7 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n Sauron is probabbly the best leader of the Middle-Earth and Gothmog represents him in the battlefield. \n **INSERT ESSAY HERE** \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n\n Passive ability"
+"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Metaphysics and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player Orcs and Haradrims near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
