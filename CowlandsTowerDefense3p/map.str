@@ -170,7 +170,7 @@ CONTROLBAR:Roar_New
 "&Whiplash"
 End
 CONTROLBAR:TooltipRoar_New
-"Beat the drums and make Terence Fletcher proud. \n Provides +20% range and fear inmunity to player infantry for the duration of the music. \n Left click to activate"
+"Beat the drums and make Terence Fletcher proud. \n Provides +35% RANGE and fear inmunity to player infantry for the duration of the music. \n Category: 'Farsight' \n Left click to activate"
 End
 CONTROLBAR:DrummerTrollTrainAllies_New
 "&Train Allies"
@@ -747,7 +747,7 @@ CONTROLBAR:UpgradeTowerArmorUpgradeIcon_New
 END
 //------
 CONTROLBAR:UpgradeTowerRangeBonusUpgradeIconDesc_New
-"Increases the vision range of the nearby units by +10%. \n Conflicts with local Excavations Upgrade" \n Category: 'Farsight' "
+"Increases the vision range of the nearby units by +18%. \n Conflicts with local Excavations Upgrade" \n Category: 'Farsight' "
 END
 CONTROLBAR:UpgradeTowerHealBonusUpgradeDescIcon_New
 "Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well' \n Conflicts with local Murder of Crows Upgrade"
