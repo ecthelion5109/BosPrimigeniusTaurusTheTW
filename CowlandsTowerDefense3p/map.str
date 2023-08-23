@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.66 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.68 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -75,6 +75,13 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:GandalfMaiarLight_New
+"Light of Maiars (&C)"
+END
+CONTROLBAR:GandalfMaiarLightDesc_New
+"Requires Level 8 \n Calls down a barrage of magic projectiles onto your enemies \n Left click icon then left click on target area"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
 "Requires Level 2 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
@@ -104,7 +111,7 @@ CONTROLBAR:ToolTipCaptainofGondorBoromir_New
 END
 //---------------------------------------------------
 CONTROLBAR:ShelobPermanentStinger_New
-"Poisonous Stinger"
+"Venenous Stinger"
 END
 CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
@@ -114,7 +121,7 @@ CONTROLBAR:ShelobFreezeingScrech_New
 "Freezeing Sc&reech" 
 END
 CONTROLBAR:TooltipShelobFreezeingScrech_New
-"Requires Level 6 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
+"Requires Level 5 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 //---------------------
 CONTROLBAR:ShelobToxicCumShot_New
@@ -993,7 +1000,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Goblin player units, -including heroes- \n near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------//
 OBJECT:ToolTipGorkilTotem_New
@@ -1310,11 +1317,11 @@ CONTROLBAR:HourOfTheWitchKing_New
 "Memories of A&ngmar" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
-CONTROLBAR:RainOfMorgul_Desc
-"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n left click icon to activate"
-END
-CONTROLBAR:RainOfMorgul
+CONTROLBAR:RainOfMorgul_New
 "Rains Of Morg&ul"
+END
+CONTROLBAR:RainOfMorgulDesc_New
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:OutlawLeadership_New
@@ -1500,7 +1507,7 @@ CONTROLBAR:EomerSpear_New
 "Spear Throw [&T]"
 END
 CONTROLBAR:EomerSpearDesc_New
-"Powerful ranged attack \n Effective against units and heroes. \n Bonus against Mounted units and Orcs.\n Left click icon then left click on target"
+"Powerful ranged attack \n Effective against units and heroes. \n Bonus against Mounted units and Orcs. \n In level 10 Eomer becomes able to shoot 3 spears at same time. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynSmite_New
@@ -1581,7 +1588,7 @@ CONTROLBAR:AzogHotkey_New
 "&Azog of Moria"
 END
 CONTROLBAR:BalrogHotkey_New
-"&Balrog" //Durin's Bane, the 
+"Iced &Balrog" //Durin's Bane, the 
 End
 CONTROLBAR:BrandHotkey_New
 "Principe &Brand,\n Segnor de Dale"
