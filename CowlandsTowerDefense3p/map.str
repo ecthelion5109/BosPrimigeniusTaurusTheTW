@@ -189,8 +189,9 @@ CONTROLBAR:Undermine_New
 "Open a T&unnel"
 END
 CONTROLBAR:TooltipUndermine_New
-"Requires Level 9 \n Opens up a Bunker entry gate with 10 contain slots anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+"Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
 END
+// "with 10 contain slots  " not rlly
 //--------------------------------------------------------------
 CONTROLBAR:AxeStorm_New
 "Explosive A&xes"
@@ -493,7 +494,7 @@ CONTROLBAR:ConstructStealthDetectorSentryTower
 "Build a stealth detector tower"
 END
 CONTROLBAR:ToolTipStealthDetectorSentryTower
-"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 550"
+"Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 500"
 END
 //------------------------------------------------------------
 CONTROLBAR:WildmenOfDunlandHouse
