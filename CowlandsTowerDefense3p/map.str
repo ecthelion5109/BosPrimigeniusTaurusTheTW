@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.21 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.22 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,7 +76,14 @@ End
 
 
 
-
+	
+//---------------------------------------------------
+CONTROLBAR:SpecialAbilityWildmanPillage_New
+"Pillage"
+End
+CONTROLBAR:ToolTipSpecialAbilityWildmanPillage_New
+"The Wildmen steal resources whenever dealing damage to enemy heroes \n Passive ability"
+End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorTrollCage_New
 "Build &Troll Cage"
@@ -1061,25 +1068,23 @@ CONTROLBAR:SharkuManEater_New
 "Man Ea&ter"
 END
 CONTROLBAR:ToolTipSharkuManEater_New
-"Requires Level 6 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Left click icon then left click on target enemy"
+"Requires Level 4 \n Grabs a target enemy, eats what's tasty and throws the targey away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +50% Damage, +50% armor and +20% speed. \n Left click icon then left click on target enemy"
 END
 CONTROLBAR:ToolTipGBloodHunt_New
-"Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability" //'Unique SPELL' en realidad est esto pero i lie.
+"Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability" //'Unique SPELL' en realidad est esto pero i lie.
 END
 //Requires Level 3 \n 
-//---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
 "Cripple Strike (&B)"
 End
 CONTROLBAR:SharkuCrippleStrikeMeleeDesc_New
-"Requires Level 8 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
+"Requires Level 6 \n Deals good damage to an enemy hero and roots them in place for a medium duration"
 END
-//---------------------------------------------------
 CONTROLBAR:SummonWargAllies_New
 "Summon Warg Allies (&V)"
 End
 CONTROLBAR:SummonWargAlliesDesc_New
-"Requires Level 10 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
+"Requires Level 8 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGenericPillage_New
