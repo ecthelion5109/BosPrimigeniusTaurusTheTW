@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Version 1.46 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War \n Version 1.47 \n Made with a lot of love for patch 1.09.\n Playable for 3 and 2 players.\n *Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard coming soon\n If you forget to team up, other players will be allied but kill-counters won't work\n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -139,11 +139,23 @@ GUI:UPGRADE_DISCOUNT_New
 "Upgrade Bonus \n\n -%d%%"
 END
 //------------------------------------------------------------//
-//-------------------------BUTTON.INI-------------------------//
+//----------------------CONTROLBAR.INI------------------------//
 //------------------------------------------------------------//
-CONTROLBAR:TooltipAragornAthelas_New
-"Heal nearby units \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Same as spellbook heal \n Left click to activate"
+
+
+
+
+//---------------------------------------------------
+CONTROLBAR:OathWave_New
+"Oathbreakers Wave[&R]"
 END
+CONTROLBAR:OathWaveDesc_New
+"Requires Level 5 \n Summons a bunch of oathbreakers to kill units on it's walk. \n Left click icon then left click on target area"
+END
+//---------------------------------------------------
+//	CONTROLBAR:TooltipAragornAthelas_New
+//	"Heal nearby units \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: Same as spellbook heal \n Left click to activate"
+//	END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n Nearvy units gain experience 50% faster \n Category:Healer"
@@ -434,6 +446,9 @@ END
 CONTROLBAR:TooltipLoneTower_New
 "Requires Level 5 \n Summons a defensive tower with 3 garrisonable slots available. \n Provides leadership, healing & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
 END
+CONTROLBAR:TooltipLoneTowerMen_New
+"Requires Level 9 \n Summons a defensive tower. \n Provides leadership, healing, experience & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
+END
 //---------------------------------------------------
 CONTROLBAR:Undermine_New
 "Open a &Bunker"
@@ -558,7 +573,7 @@ CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
-"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n *EXTREME* bonus against Aragorn and Arwen. \n Left click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n \n Crazy bitch: Deals *EXTREME* damage against other women and all the men she likes. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:Disguise_New
@@ -871,7 +886,7 @@ CONTROLBAR:TooltipElrondLeadership_New
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 4 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
+"Requires Level 3 \n Player's Gondor and Rohan units near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipEomerLeadership_New
