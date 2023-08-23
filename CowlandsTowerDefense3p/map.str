@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.65 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.66 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,6 +76,13 @@ End
 
 
 
+//------------------------------------------------------------
+CONTROLBAR:GoblinArcherBuff_New
+"Cucumba? Banana!"
+End
+CONTROLBAR:GoblinArcherBuffDesc_New
+"The archers double its fire rate... or something"
+End
 //------------------------------------------------------------
 CONTROLBAR:InnSummonDwarvenMenOfDale_New
 "&Summon Elite Men of Dale"
@@ -289,7 +296,7 @@ CONTROLBAR:ShelobToxicCumShot_New
 "Toxic Lady Juice (&V)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&C]"
@@ -351,11 +358,6 @@ OBJECT:SignalFireDescription09v2
 "Capture it to decrease recharge times for unused spellbooks. \n Reduces special abilities reload time. \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -20% reduction of spells and abilities"
 End
 //---------------------------------------------------
-CONTROLBAR:ConstructMordorWell_New
-"Build a healing Morgul pit (&W)" 
-//Necromancer Monument (&W)
-END
-//---------------------------------------------------
 CONTROLBAR:GoblinKingBattleFrenzy_New
 "Battle Frenzy"
 End
@@ -382,7 +384,7 @@ CONTROLBAR:ToolTipGoblinKingMount_New
 END
 //-----
 CONTROLBAR:GorkilsDebuff_New
-"Goblin King's Curse [&B]"
+"Goblin King's &Curse"
 END
 CONTROLBAR:GorkilsDebuffDesc_New
 "Requires Level 4 \n Can only use on foot. \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
@@ -392,14 +394,14 @@ CONTROLBAR:GoblinsTrainAllies_New
 "King of the Goblins Blessing [&V]"
 END
 CONTROLBAR:GoblinsTrainAlliesDesc_New
-"Requires Level 6 \n Can only use on foot. \n Targeted units gain experience. \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience. \n Left click icon then left click on target units"
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
 "Toxic cum-shot (&V)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
@@ -418,10 +420,10 @@ END
 //Requires Level 2 \n 
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades_New
-"Poisoned Axes (&J)"
+"Use Poisoned projec&tiles"
 End
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
-"Poisons targeted enemies causing damage over time. \n Left click to activate"
+"Projectiles are empoison in order to slow down enemies and cause light damage over time. \n Left click to activate"
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon_New
@@ -816,6 +818,13 @@ CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
 "Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
+CONTROLBAR:ConstructMordorWell_New
+"Build a Morgul healing pit (&W)" 
+//Necromancer Monument (&W)
+END
+OBJECT:MordorWell_New
+"Morgul healing pit" 
+END
 CONTROLBAR:ConstructTrollDrum_New
 "Build a troll drum (&W)"
 END
