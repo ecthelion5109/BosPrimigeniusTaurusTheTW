@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 227) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 228) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -97,7 +97,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades_New
 "Poisoned Axes (&J)"
 End
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
-"Requires Level 3 \n Poisons targeted enemies causing damage over time. \n Left click to activate"
+"Requires Level 2 \n Poisons targeted enemies causing damage over time. \n Left click to activate"
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
@@ -893,7 +893,7 @@ CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury (&T)"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 3 \n Targeted player wild units gain \n+35% Damage, +60% range and +30% speed \n Category: 'Uncategorized' \n Enemy units are debuffed \n Left click icon then left click on target units"
+"Requires Level 3 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:WildWave_New
@@ -1130,7 +1130,7 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n left click icon to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
@@ -1607,7 +1607,7 @@ End
 //End
 //-------------------------------------------------
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'Uncategorized' \n Enemy units are debuffed \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //-------------------------------------------------
 CONTROLBAR:TooltipHeal_New
@@ -1890,10 +1890,10 @@ SCRIPT:2PlayersMode
 "2 Players mode Enabled"
 End
 SCRIPT:2PlayersMode_Easy
-"2 Players mode Enabled in Milkless-Cow mode mode"
+"2 Players mode Enabled. \n EASY MODE BEEN ENABLED. \n Good luck"
 End
 SCRIPT:2PlayersMode_Hard
-"2 Players mode Enabled in Hard-Core mode mode"
+"2 Players mode Enabled. \n HARDCORE MODE HAS BEEN ENABLED. \n Good luck"
 End
 SCRIPT:4PlayersMode
 "4 Players mode Enabled"
