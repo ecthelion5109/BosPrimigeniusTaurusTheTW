@@ -246,10 +246,6 @@ CONTROLBAR:ToggleSpiderRiderWeapons_New
 "Alternate &Weapon"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipLurtzPillage_New
-"Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
-END
-//---------------------------------------------------
 CONTROLBAR:ConstructIsengardUpgradeTower_New
 "Tower of Upgrades (&W)"
 END
@@ -416,10 +412,10 @@ TOOLTIP:DisplayDamage_CrossbowElite
 End
 //-------------------------done---------------------
 TOOLTIP:DisplayDamage_SpiderRiderArcherBasic
-"Damage per unit: \n CAVALRY_RANGED damage: 90"
+"Damage per unit: \n CAVALRY_RANGED damage: 150"
 End
 TOOLTIP:DisplayDamage_SpiderRiderArcherUpgrade
-"Damage per unit: \n CAVALRY_RANGED damage: 90 \n FLAME damage: 30"
+"Damage per unit: \n CAVALRY_RANGED damage: 150 \n FLAME damage: 45"
 End
 TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 "Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)" 
@@ -952,22 +948,22 @@ CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 10 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipGenericPillage_New
+"Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
+END
+//---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 4 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
-//---------------------------------------------------
 CONTROLBAR:LurtzBoost_New
 "Uruk Bane"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +200 damage. \n Passive ability"
 END
-//---------------------------------------------------
-//---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 "Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
 END
-//---------------------------------------------------
 CONTROLBAR:LurtzSummonUrukGuard_New
 "Summon Uruk Guard [&B]"
 END
@@ -1440,13 +1436,17 @@ CONTROLBAR:TooltipElrondWhirlwind_New
 "Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
-CONTROLBAR:CorrodeAllegiance_New
-"Prove the Communism is Good [&C]"
+CONTROLBAR:MouthOfSauronSpecialWeapon_New
+"Good luck [&C]"
 END
+CONTROLBAR:MouthOfSauronSpecialWeaponDesc_New
+"Requires Level 10 \n Mouth of Sauron wishes good look to his enemies. \n Left click icon then left click on target"
+END
+//---------------------------------------------------
+// Prove Communism is Good [&C]
+// Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero is kill because Si.
+//---------------------------------------------------
 // Convince Communism is Good [&C]
-CONTROLBAR:ToolTipCorrodeAllegiance_New
-"Requires Level 10 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero is kill because Si.\n Left click icon then left click on target"
-END
 // Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect
 //---------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelWindRider_New
@@ -1975,13 +1975,13 @@ GUI:UPGRADE_DISCOUNT_New
 END
 //--------------------------------------------------//
 SCRIPT:BonusForWipingArmy_Green
-"Epic Rape win: \n +900 extra resources"
+"Epic Rape win: \n +1200 extra resources"
 End
 SCRIPT:BonusForWipingArmy_Yellow
-"Normal Win: \n +600 extra resources"
+"Standard Win: \n +600 extra resources"
 End
 SCRIPT:BonusForWipingArmy_Red
-"Sad win: +300 resources only"
+"Barely won: \n +300 resources only"
 End
 //WhoCares....
 //SCRIPT:MoneyReductionAdvertence
