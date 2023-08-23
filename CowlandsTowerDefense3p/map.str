@@ -2644,7 +2644,7 @@ SCRIPT:WIN
 "Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
 End
 SCRIPT:CREDITS
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map during its three years of develepment."
+"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map for more than 3 years of develepment."
 End
 SCRIPT:LOSE
 ";( cows not happy"
