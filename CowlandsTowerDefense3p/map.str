@@ -1,35 +1,26 @@
 // AFTER 4 LEVELS OF EXPERIENCE, ELROND RESIGNS HIMSELF TO GRAB A FUCKIN BOW AND HELP HIS MEN. 
 
 
-
-CONTROLBAR:BrandToolTip_New
-"Principito Brand"
-End
-CONTROLBAR:BrandToolTipHeroMode_New
-"Brand, the sniper"
-End
- 
- 
- 
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipBlackRiderLeadership_New
 "Requires Level 4 \n Allies near the Nazgul gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
 END
- 
- 
- 
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipSlayer_New
 "Requires Level 5 \n Gimli deals 300% damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
 END
+//--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye_New
 "Ray of Morgul [&T]"
 END
+//--------------------------------------------------------------
 CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
 END
 CONTROLBAR:HaldirBoostDesc_New
 "Requires Level 3 \n Haldir gains +250 damage and a permanent +30% rate of fire boost. \n Passive ability"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:LegolasBoost_New
 "Expert Archer"
 END
@@ -37,38 +28,33 @@ CONTROLBAR:LegolasBoostDesc_New
 ////"Requires Level 5 \n Legolas gains a permanent bonus of +50 damage and +15% range. \n Passive ability"
 "Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire and +15% range. \n Passive ability"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ThranduilBoost_New
 "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
 "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:TrainArchers_New
 "Art of the Bow [&T]"
 END
 CONTROLBAR:ToolTipTrainArchers_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
+//--------------------------------------------------------------
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied units & structures gain armor against magic and wind \n Left click icon then left click on target area"
 END
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
-
-CONTROLBAR:Disguise_New
-"Lady of the Kitchen"
-END
-CONTROLBAR:ToolTipDisguise_New
-"We forgive Eowyn for her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster. \n Passive ability"
-END
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipGloriousCharge_New
 "Requires Level 7 \n Theoden and men gain +999% armor, +100% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:Flood_New
 "Forth, and fear no darkness [&B]"
 END
@@ -76,450 +62,359 @@ END
 "Requires Level 10 \n Por la muerte y la gloria \n Left click icon then left click on target area"
 //"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:CAH_ArrowBonus_Level1_New
 "Golden Arrows"
 End
 CONTROLBAR:ToolTipCAH_ArrowBonus_Level1_New
 "This batallion is equiped with Golden Arrows from Lindon. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of magic damage"
 End
-
-
+//--------------------------------------------------------------
 CONTROLBAR:SummonElvenAllies_New
 "Summon Noldor Allies [&V]"
 End
-
 CONTROLBAR:ToolTipSummonElvenAllies_New
 "Requires Level 10 \n Summons a group of Noldor Warriors \n Left click icon then left click on pathable location"
 END
-
-
-
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
 "Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Requires to be mounted in a Fellbeast \n Left click to activate"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
 "Requires Level 8 \n The Witch King recalls the fun he had when he raped Arnor over and over. \n Use as closer possible to your enemies \n Requires to be dismounted \n \n Left click icon then left click on area"
 END
 CONTROLBAR:HourOfTheWitchKing_New
 "Memories of A&ngmar" // Hour of the Witch-king
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:RainOfMorgul_Desc
 "Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n Left click to activate"
 END
 CONTROLBAR:RainOfMorgul
 "Rains Of Morg&ul"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:OutlawLeadership_New
 "Outlaw Leadership"
 END
 CONTROLBAR:ToolTipOutlawLeadership_New
 "Requires Level 6 \n Nearby player units earn resources per kill \n Passive ability"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:Blight_New
 "Rape the Land (&B)" // Blight
 End
 CONTROLBAR:BlightDesc_New
 "Requires Level 10 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Left click icon then left click on target area"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:Sunflare_New
 "Moonlight [&B]"
 END
-
 CONTROLBAR:TooltipSunflare_New
 "Requires Level 10 \n In honor to the Piano Sonata 4, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
 END
+//--------------------------------------------------------------
 CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
 END
 CONTROLBAR:TooltipEnshroudingMist_New
 "Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n\n Left click icon and left click on target area"
 END
-CONTROLBAR:ElrondRestoration_New
-"Restore (&B)" //E&venstar
+//--------------------------------------------------------------
+CONTROLBAR:ArwenRestore_New
+"Evenstar Restoration (&B)"
 END
-CONTROLBAR:ToolTipElrondRestoration_New
+CONTROLBAR:ArwenRestoreDesc_New
 "Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
 END
+//--------------------------------------------------------------
+CONTROLBAR:EowynRestore_New
+"Shitty Soup Renovation (&B)"
+END
+CONTROLBAR:EowynRestoreDesc_New
+"Requires Level 10 \n The lady of the kitchen does not decide to cook for the men voluntarily. \n She's told to do her job and feed the Guardians of the Fatherland. \n Special ability timers from feeded player units reload immediately \n Left click icon and left click on target allies"
+END
+//--------------------------------------------------------------
+CONTROLBAR:Disguise_New
+"Inspiring Shield Maiden"
+END
+CONTROLBAR:ToolTipDisguise_New
+"Requires Level 4 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n \n Passive ability."
+END
+//We forgive Eowyn for the taste of her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster.
+//--------------------------------------------------------------
 CONTROLBAR:SummonRohanAllies_New
 "Summon Rohan Al&lies"
 End
 CONTROLBAR:ToolTipSummonRohanAllies_New
 "Requires Level 10 \n Summons a group of Rohirrim \n Left click icon then left click on pathable location"
 END
+//--------------------------------------------------------------
 CONTROLBAR:LoneTower_New
 "Sum&mon Lone Tower"
 END
 CONTROLBAR:TooltipLoneTower_New
-"Requires Level 5 \n Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
+"Requires Level 5 \n Summons a defensive tower with 3 garrisonable slots available. \n Provides leadership, healing & respawn for allied units \n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
 END
+//--------------------------------------------------------------
 CONTROLBAR:Undermine_New
 "Open a T&unnel"
 END
 CONTROLBAR:TooltipUndermine_New
-"Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+"Requires Level 9 \n Opens up a Bunker entry gate with 10 contain slots anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
 END
+//--------------------------------------------------------------
 CONTROLBAR:AxeStorm_New
 "Explosive A&xes"
 END
 CONTROLBAR:AxeStormDesc_New
 "Requires Level 10 \n Launch a continuous volley of explosive axes \n Left click icon then left click on target area"
 END
+//--------------------------------------------------------------
 CONTROLBAR:DainStubbornPride_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipDainStubbornPride_New
 "Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves \n All nearby dwarves gain +15% speed, +10% damage and become resistent to fear or terror \n Always stack \n Passive ability"
 END
- CONTROLBAR:DwarvenRiches_New
+//--------------------------------------------------------------
+CONTROLBAR:DwarvenRiches_New
 "Tax Exem&ption"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
 "Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production an +25%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes without doubting the exploitation of the soil in hands of foreigners will be responsable and environment caring\n\n Left click icon then left click in the fortress."
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:SummonDunedainAllies_New
 "Call Dunedain Allies [&V]"
 End
-
 CONTROLBAR:ToolTipSummonDunedainAllies_New
 "Requires Level 7 \n Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location" 
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:LightningSword_New
 "Shock of Lucidi&ty"
 END
 CONTROLBAR:ToolTipLightningSword_New
 "Requires Level 2 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:Euthanasia_New
 "Euthanasia"
 END
-
 CONTROLBAR:EuthanasiaDesc_New
 "Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
 END
- 
-
+//--------------------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
 "Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
 END
- 
+//--------------------------------------------------------------
 CONTROLBAR:TooltipElrondWhirlwind_New
 "Requires Level 7 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
+//--------------------------------------------------------------
 CONTROLBAR:CorrodeAllegiance_New
 "Convince Communism is Good [&C]"
 END
 CONTROLBAR:ToolTipCorrodeAllegiance_New
 "Requires Level 8 \n Summons the spirit of Marx and demonstrates the existence of the surplus value. \n Target hero joins the cause for 60 seconds. \n Hero will return to his capitalists ways of living after the effect.\n Left click icon then left click on target"
 END
-
-
+//--------------------------------------------------------------
 GUI:CuriousIdiotBonus
 "Curious idiot bonus: \n   -40%% Production\n  -20%% Experience"
 END
-
-
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardBattleTower_New
 "Defensive arrow tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster\n Category: Healer \n\nStrong vs cavalry"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
 "&Upgrade this tower"
 END
-
 CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
 "Adds one more garrisonable slot"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 3 \n Glorfindel gains +60% speed and 75% Armor when mounted \n Left click to activate"
 END
-
+//--------------------------------------------------------------
 GUI:UNITDiscount_New
 "Local units \n discount: -%d%%"
 END
-
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_WithTower_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Adds a defensive tower"
 END
-
 CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33%"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance_New
 "Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target" // \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail_New
 "Allows battalions and Demolishers to purchase the Mithril Mail upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, Dain Royal Guard receives it for free and gain Knock-Back and Fear immunity"
 END
-
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
 "Allows battalions to purchase the Heavy Armor upgrade. When equipped, significantly reduces the amount of damage taken \n Once purchased, the Osgiliath veterans receive Heavy Armors and gain Knock-Back and Fear immunity."
 END
-
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades_New
 "Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons and Thrown Axes\n Once purchased, Dain Royal Guard receives Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
-
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades_New
 "Allows battalions to purchase the Forged Blades upgrade. When equipped, increases the damage done by Melee Weapons. \n Once purchased, the Osgiliath Veterans receive Forged Blades and gain a Meele and Crush-Revenge damage increment"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
 "Generates resources\n Provides access to the tunnel network \n Quantity available to build: 6"
 END
-
+//--------------------------------------------------------------
+CONTROLBAR:EomerSpear_New
+"Spear Throw [&T]"
+END
+CONTROLBAR:EomerSpearDesc_New
+"Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs.\n\n Left click icon then left click on target"
+END
+//--------------------------------------------------------------
 CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
 "Powerful ranged attack \n Effective against units \n Bonus against Monsters and Heroes \n\n Left click icon then left click on target"
 END
-
-CONTROLBAR:ThrowSpear_New
-"Spear Throw [&T]"
-END
-CONTROLBAR:ToolTipThrowSpear_New // EomerSpear
-"Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs. \n\n Left click icon then left click on target"
-END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipWoundingArrow_New
 "Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n\n Left click icon then left click on target"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipHawkStrike_New
 "Double-arrow attack \n Effective against cavalry and monsters\n Left click icon then left click on target"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:CalltheHorde_New
 "Call the Hordes (&V)"
 End
-
 CONTROLBAR:ToolTipCalltheHorde_New
 "Requires Level 8 \n Summons several hordes of orcs fighters to slow down the path of your enemies \n Left click icon then left click on pathable location"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak_New
 "Requires Level 7 \n Stuns nearby enemy units. \n Turns trolls into stones \n Gandalf cannot move during its duration \n\n Left click to activate"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework_New
 "Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Pre-requisite for anti-stealth towers \n Upgrades summoned Lone Towers"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework_New
 "Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult \n Pre-requisite for anti-stealth towers \n\n Upgrades summoned Lone Towers"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery_New
 "Increases Fortress armor \n Pre-requisite for anti-stealth towers \n Pre-requisite to the Gorgoroth Spire"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEncasingVines_New
 "Increases Fortress and Wall armor \n Pre-requisite to Eagles's Nest \n Pre-requisite for anti-stealth towers"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloak_New
 "Becomes invisible when not attacking \n Left click to activate"
 END
-
-SCRIPT:BonusForWipingArmy
-"Bonus for wiping off the last remains of this army"
-End
-SCRIPT:MoneyReductionAdvertence
-"We are beginning to run out of gold incomes..."
-End
-SCRIPT:LastIncome
-"This are your last gold incomes, good luck with the cows"
-End
-
-SCRIPT:NextWaveAnticipador
-"Next wave in..."
-End
-
-SCRIPT:NextWaveAnticipador_NewGroup
-"An army of new enemies arrive in..."
-End
-
-SCRIPT:NextWaveAnticipador_LastWave
-"A curious last wave arrives in"
-End
-
-SCRIPT:SurvivedToLastWave
-"Congratulations, you have survived untill the last wave..."
-End
-
-SCRIPT:Hint01
-"Elfos of Mirkwood!\n Put on your cloaks!"
-End
-SCRIPT:Hint02
-"We might need anti stealth towers soon..."
-End
-SCRIPT:Hint03
-"I think next wave can be dealt easily with towers..."
-End
-SCRIPT:Hint04
-"Trancos: \n Dunedains, let's adelantarnos.\n Hide in the entorno! Boromir, cover our back."
-End
-SCRIPT:Hint05
-"Have you ever heard the legend of the Invisible Berserkers?"
-End
-SCRIPT:Hint06
-"If Isengard design has TWO dragons from a spellbook,\n you think dragons cannot be invisible?"
-End
-SCRIPT:Hint07
-"The progeny of Glaurung, that magical chad from the First Age life fucker of Hurin sons, has arrived to our cowlands seeking for delicious milk"
-End
-SCRIPT:Hint08
-"Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent, if a Dragon comes, heroes kill. If ladies moo, life be good".
-End
-CONTROLBAR:MordorGothmogHotkey_New
-"&Gothmog, The Elephant Man"
-END
-
-CONTROLBAR:SpecialPowerDeadlySniper_New
-"Black Arrow Sniper [&V]"
-END
-
-CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
-"Requires Level 8 \n Temporarily grants an increase to damage and range"
-END
-
+//-------------------------------objects-----------------------
 CONTROLBAR:GondorDamrodHotkey_New
 "Principe Bran&d,\n Segnor de Dale"
 END
-
-
+CONTROLBAR:MordorGothmogHotkey_New
+"&Gothmog, The Elephant Man"
+END
+CONTROLBAR:BrandToolTip_New
+"Principito Brand"
+End
+CONTROLBAR:BrandToolTipHeroMode_New
+"Brand, the sniper"
+End
+//--------------------------------------------------------------
+CONTROLBAR:SpecialPowerDeadlySniper_New
+"Black Arrow Sniper [&V]"
+END
+CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
+"Requires Level 8 \n Temporarily grants an increase to damage and range"
+END
+//--------------------------------------------------------------
 CONTROLBAR:DaleArcherAllies_New
 "Summon Dale Elite [&C]"
 END
 CONTROLBAR:DaleArcherAlliesDesc_New
 "Requires Level 10 \n Summons two batallions of Men of Dale elite archers \n Left click icon then left click on pathable location"
 END
-
-
-
+//--------------------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonGamling_New
 "Summon Gamling [&C]"
 END
 CONTROLBAR:SpecialAbilitySummonGamlingDesc_New
 "Requires Level 10 \n Calls to the battle Gamling, the king bodyguard. \n Left click icon then left click on pathable location"
 END
-
-
+//--------------------------------------------------------------
 CONTROLBAR:BlackArrows_New
 "Black Arrows"
 End
 CONTROLBAR:ToolTipBlackArrows_New
 "This batallion is equiped with Black Arrows from Dale. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage"
 End
+//--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityCallTheLevas_New
 "&Call the Levas"
 END
 CONTROLBAR:SpecialAbilityCallTheLevasDesc_New
 "Arms the East Fold refugees and calls them to battle. \n Left click to activate."
 END
-
-
-
+//--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityOsgiliathVeterans_New
 "&Call the Osgiliath Veterans"
 END
 CONTROLBAR:ToolTipSpecialAbilityOsgiliathVeterans_New
 "Requires Level 10 \n Calls to the battle experienced soldiers from Osgiliath. \n Left click icon then left click on pathable location"
 END
-
-
-
-
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipElvenGifts_New
 "Requires Level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore deal 200% damage \n Passive power"
 END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipPersonalFlood_New
 "Requires Level 7 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click to activate" 
 END
-
-// ------------Map--------------- //
-Map:CowlandsTowerDefense3p
-"Bos Primigenius Taurus: The TW" // Cowlands: The Tower War //Tower War: The Cow Lands [3p]
-End
-//\n Players need to be in same team to get Kill Counter working.
- Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
-End
-
-
-
-CONTROLBAR:Cow 
-"Cow"
-END
-
+//--------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseElvenEagle_New
 "Summons a Giant Eagle which will NOT be under your control, but at least it will guard your fortress"
 END
-
-
-CONTROLBAR:PurchaseSpiderVenomSacks_New
-"Purchase &Poisoned Spears"
-END
-CONTROLBAR:PurchaseTechnologySpiderVenomSacks_New
+//------------------------------------------------------------
+CONTROLBAR:PurchaseTechnologyPoisonedSpears_New
 "Research &Poisoned Spears"
 END
-CONTROLBAR:ToolTipPurchaseSpiderVenomSacks_New
-"Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -30%"
-END
 CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
-"Allows hordes to purchase the \nPoisoned Spears upgrade \n When equipped, causes damage over time to poisoned enemies \n Slows down the speed of the enemy \n\nEffective vs. heros"
+"Allows hordes to purchase the Poisoned Spears upgrade \n When equipped, lances cause damage over time and slows down the enemy"
 END
-
-
-
-
-
+//--------------------------------------------------------
+CONTROLBAR:PurchaseUpgradePoisonedSpears_New
+"Purchase &Poisoned Spears"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeSpiderVenomSacks_New
+"Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -15%"
+END
+//------------------------------------------------------------
 CONTROLBAR:MouthOfSauronDoubt_New
 "Rape [&C]" // Threaten to rape
 END
-
 CONTROLBAR:ToolTipMouthOfSauronDoubt_New
 "Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n\n Left click icon then left click on target units \n Does not stack with another debuff"
 END
-
+//------------------------------------------------------------
 CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
-
-//---------------------------New damage stacky leadership
-
-
-
-
-
-CONTROLBAR:FaramirIsAlsoARangerBoy
-"Ithilien's campaign veteran"
-END
-CONTROLBAR:GothmogLeadership
-"Brainless Orc Euphoria"
-END
-
-
+//------------------------------------------------------------
 CONTROLBAR:NewConstructElvenFarm
 // context: Build Gondor Farm
 "Build a Elven &Farm"
@@ -528,233 +423,194 @@ CONTROLBAR:NewTooltipForElvenFarmDesc
 // context: Build Gondor Farm
 "Generates resources based on available terrain \n Can train Lothlorien Warriors \n Quantity available to build: 1"
 END
-
-
+//------------------------------------------------------------
 CONTROLBAR:GloinSlam_New
 "Slam [&R]"
 END
-
 CONTROLBAR:ToolTipDwarvenGloinSlam_New
 "Requires Level 3 \n Powerful attack that causes high damage\n Left click icon then left click on target"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:GloinShakeFoundation_New
 "Summon an Earthquake [&T]"
 END
-
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
 "Requires Level 7 \n Creates a small earthquake by doing some shit with it's hammer \n \n Left click icon then left click on target"
 END
-
-
-
-
-
+//------------------------------------------------------------
 CONTROLBAR:ConstructSoyTaxesUpgrade
 "Soy &Taxes"
 END
-
 CONTROLBAR:ConstructSoyTaxesUpgrade_Desc
 "The harvesting of soybeans over-erosions the terrain of our cowlands. \n Least thing we can actually do is to charge taxes to the export of soybeans to these motherfucker oligarchs \n Besides, great part of the soybeans production is addressed to the industry of feed-loot's fodder, which we DO NOT LIKE. \n\n Increases the fortress and market incomes by +33.3%"
 END
-
-
+//------------------------------------------------------------
 CONTROLBAR:ToolTipConstructMenStoneMakerOfMinasTirith
 "Reduces the cost of defences and strengthens towers"
 END
-
 CONTROLBAR:ConstructMenStoneMakerOfMinasTirith
 "Build Minas &Tirith's Stoneworker"
 END
-
-
+//------------------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgradeUpdated
 "Upgrade Battle Towers"
 END
-
 CONTROLBAR:ToolTipBuildGarrisonUpgradeUpdated
 "Equips all your sentry towers with fire arrows"
 END
-
-
+//------------------------------------------------------------
 CONTROLBAR:ConstructRohanStableNoHotkey
 "Build Rohan Stable (&k)"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower
 "Build a stealth detector tower"
 END
-
 CONTROLBAR:ToolTipStealthDetectorSentryTower
 "Requires Fortress Armor Stonework technology \n \n Will reveal any invisible in a radius of 550"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:WildmenOfDunlandHouse
 "Wildmen of D&unland hall"
 END
-
 CONTROLBAR:WildmenOfDunlandHouseDesc
 "Trains wildmen from Dunland:\n Axe throwers and torch throwers"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
 "Reduces the cost of all upgrades by -50%"
 END
- CONTROLBAR:ToolTipConstructMenMarketPlace_New
+//------------------------------------------------------------
+CONTROLBAR:ToolTipConstructMenMarketPlace_New
 "Provides resources \n Researches economic upgrades \n Quantity available to build: 1"
 END
+//------------------------------------------------------------
  CONTROLBAR:HordeWildMenOfDunlandAxes
 "Dunland axe throwers (&B)"
 END
-
 CONTROLBAR:ToolTipBuildIsengardWildmanAxesHorde_New
 "Effective against pikemen, archers and weak heros"
 END
-
-
-
-
-//------------------------LEADERSHIP DESCRIPTIONS------------------//
-
-
-
+//------------------------------------------------------------
 CONTROLBAR:ToolTipArrowWind_New
 "Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier_New
 "Allies near the BattleWagon Banner gain +30% Damage \n Category: Stacky weapon \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
 End
+//------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
 "Allies near the Drummer Troll gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 5 \n Player units near Undomiel gain +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 End
+//------------------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
 "Prince of Mirkwood Leadership"
 End
 CONTROLBAR:LegolasLeadershipDesc_New
 "Requires Level 4 \n Lorien and Mirkwood archers near Legolas gain +25% Silverthorn damage and gain experience +35% faster \n Category: Unique \n \nPassive ability"
 End
-
+//------------------------------------------------------------
 CONTROLBAR:GamlingLeadershipDesc_New
 "Allies near Gamling gain 100% fear inmunity and +30% Damage, +25% armor \n Category: Stacky weapon \n \nPassive ability"
 End
+//------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 4 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: Unique \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
+//------------------------------------------------------------
 CONTROLBAR:TooltipHeal_New
 "Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers & +30 speed on the target allies \n Category: Unique \n \nLeft click icon then left click on target area"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership_New
 "Requires Level 4 \n Allies near Haldir gain +35% Damage \n Category: Non stacky leadership \n\n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership_New
 "Requires Level 5 \n Allies near Boromir gain +35% Damage \n Category: Non stacky leadership\n \n Passive ability"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron_New
 "Summons the Eye of Sauron \n Allies gain +25% Damage, 25% armor \n and earn experience 50% faster \n Simple leadership kind \n Category: Unique \n Left click icon then left click on target area"
 END
-
+//------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership_New
 "Allies near Theoden gain +50% Damage \n and earn experience 25% faster \n Category: Non stacky leadership \n \n Passive ability"
 END
-
-CONTROLBAR:HearthWellDescription_New
+//------------------------------------------------------------
+CONTROLBAR:HearthWellDescription_New // Wells
 "Heals nearby allies \n Replenish units from hordes each 10 seconds. \n All nearby units will gain experience 50% faster.\n Category: Healer"
 END
-
-OBJECT:ElvenHeroicStatueDescription_New
+//------------------------------------------------------------
+OBJECT:ElvenHeroicStatueDescription_New // Statues
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: Stacky leadership" // \n Reduces the cost of heroes // not anymore.
 End
-CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeFortressBanners_New // fortressBanner
 "Allies near the fortress gain \n +35% Damage, +50% armor and +50% experience \n Category: Non stacky leadership \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+END
+//------------------------------------------------------------
+CONTROLBAR:FaramirIsAlsoARangerBoy
+"Ithilien's campaign veteran"
 END
 CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 "Requires Level 3 \nGondor Archers and Rangers near faramir gain \n +15% range, \n +10% run speed \n Category: Unique \n \n Passive ability "
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipDamrodLeadership_New
 "Requires Level 6 \n Men of Dale near the Prince of Dale gain \n +15% range and +10% run speed \n Category: Unique \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipDainLeadership_New
 "Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
 "Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipAragornLeadership_New
 "Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n earn experience 50% faster and move 20% faster \n Category: Unique \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Cavalry near Eomer gain 50% Armor \n Category: Non stacky buff \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
 "Requires Level 7 \n Nearby allies become healed \n Allies near the cast area gain +50% Damage and +33% armor \n Category: Non stacky buff \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipGimliLeadership_New
 "Allies near Gimli gain \n +50% armor \n Category: Non stacky buff \n \n Passive ability"
 END
 CONTROLBAR:ToolTipFaramirLeadership_New
 "Requires Level 6 \n Allies near Faramir gain \n +50% Armor\n Category: Non stacky buff \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
 "Targeted allies gain +40% Damage, & +10% speed \n Category: Non stacky leadership \n\n Left click icon then left click on target units"
 End
+//---------------------------------------------------------------------//
+CONTROLBAR:GothmogLeadership
+"Brainless Orc Euphoria"
+END
 CONTROLBAR:ToolTipGothmogLeadershipNew
 "Requires Level 2 \n Allies near Gothmog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: Stacky hero \n \n Passive ability"
 END
+//---------------------------------------------------------------------//
 CONTROLBAR:TooltipRallyingCall_New
 "Targeted allies gain +50% Damage \n Category: Non stacky leadership \n \n Left click icon then left click on target units"
 END
-CONTROLBAR:ToolTipElvenGifts_New
-"Requires Level 2 \n Nearby allied heroes gain 300% damage \n \n Passive ability"
-END
-
-
-
 //---------------------------------------------------------------------//
-SCRIPT:GameStart1
-////"Don't let bad bois access to the tunnel network!!"
-//Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
-//Aight, there's just a cooldown each 3 waves
-"Thorin sucks, don't enable ring heroes if you are with him"
-End
-SCRIPT:GameStart2
-"Each wave grants money and some commandpoints \n Each 4 waves there's a break."
-End
-SCRIPT:GameStarts
-"K then, teh raid of teh Cowlands shall begin"
-End
-//shits i use now
-
-SCRIPT:Wave
-"Wave"
-End
-
-SCRIPT:player1kills
-"Northern player killed"
-End
-
-SCRIPT:player2kills
-"Southern player killed"
-End
-
-SCRIPT:player3kills
-"Eastern player killed"
-End
-
-SCRIPT:JUGARDOR4KILL
-"Player4 killed"
-End
-SCRIPT:JUGARDOR5KILL
-"Player5 killed"
-End
-
-
 //CONTROLBAR:LightningTower
 //"Lightning Tower"
 //End
@@ -779,21 +635,69 @@ End
 ////CONTROLBAR:FreezeArrowTowerDesc
 ////"Build a tower whose overpowered projectiles will slow down by a 50% it's targets"
 ////END
-//
-SCRIPT:GameTimeMinutes
-"Minutes in game"
+ ////CONTROLBAR:DebuffTower
+////"Debuff tower"
+////END
+////CONTROLBAR:TooltipDebuffTower
+////"Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses"
+//END
+		//---------------------------------------------------------------------//
+		//--------------------------scripts.ini--------------------------------//
+		//---------------------------------------------------------------------//
+SCRIPT:BonusForWipingArmy
+"Bonus for wiping off the last remains of this army"
 End
-SCRIPT:GameTimeSeconds
-"Seconds in game"
+SCRIPT:MoneyReductionAdvertence
+"We are beginning to run out of gold incomes..."
 End
-SCRIPT:TestingMode
-"Testing mode Enabled"
+SCRIPT:LastIncome
+"This are your last gold incomes, good luck with the cows"
+End
+SCRIPT:SurvivedToLastWave
+"Congratulations, you have survived untill the last wave..."
+End
+SCRIPT:Hint01
+"Elfos of Mirkwood!\n Put on your cloaks!"
+End
+SCRIPT:Hint02
+"We might need anti stealth towers soon..."
+End
+SCRIPT:Hint03
+"I think next wave can be dealt easily with towers..."
+End
+SCRIPT:Hint04
+"Trancos: \n Dunedains, let's adelantarnos.\n Hide in the entorno! Boromir, cover our back."
+End
+SCRIPT:Hint05
+"Have you ever heard the legend of the Invisible Berserkers?"
+End
+SCRIPT:Hint06
+"If Isengard design has TWO dragons from a spellbook,\n you think dragons cannot be invisible?"
+End
+SCRIPT:Hint07
+"The progeny of Glaurung, that magical chad from the First Age life fucker of Hurin sons, has arrived to our cowlands seeking for delicious milk"
+End
+SCRIPT:Hint08
+"Cow Bibble. 8, Letter to the farmers 1:5-9;\n Milkless cow is no cow, milking shall not be done without consent, if a Dragon comes, heroes kill. If ladies moo, life be good".
+End
+SCRIPT:GameStart1
+////"Don't let bad bois access to the tunnel network!!"
+//Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
+//Aight, there's just a cooldown each 3 waves
+"Thorin sucks, don't enable ring heroes if you are with him"
+End
+SCRIPT:GameStart2
+"Each wave grants money and some commandpoints \n Each 4 waves there's a break."
 End
 SCRIPT:RipCounters
 "Kill-counters won't work if there's a player of different team."
 End
 SCRIPT:Bug
 "A map without bugs is not a bfme2 map"
+End
+//-----------------------------flags--------------------------//
+SCRIPT:TestingMode
+"Testing mode Enabled"
 End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
@@ -804,10 +708,7 @@ End
 SCRIPT:HARDCORE
 "Hard mode enabled \n You will have to think where to put your shit and be as efficient possible."
 End
-SCRIPT:LOSE
-"Enemies have entered the tunnel system and poisoned the \n water supplies of the cows of this lands :/ \n\n Is thorin playing here or wat"
-End
-//"lol. \nIs thorin playing here or what."
+//--------------------------------------------------------------//
 SCRIPT:MOO_01
 "Moo... im just a cow, don't kill me"
 End
@@ -820,23 +721,65 @@ End
 SCRIPT:MOO_04
 "Stella: \n She's not really a cow, she's a balrog or some demon shit. \n \n \nKill her and i will get you 8000 of gold."
 End
-SCRIPT:LOSE_TESTINGMODE
-"lel. \n You lost, but this is testing mode."
-End
 SCRIPT:INTERACTIVE_LOSE
 "what the fuck man... why did you do that? never trust a cow"
 End
-//
-//
-SCRIPT:CONTADOR_DE_SPAWNS
-"Contador de spawns"
+//--------------------------------------------------------------//
+SCRIPT:LOSE_TESTINGMODE
+"lel. \n You lost, but this is testing mode."
 End
 SCRIPT:WIN
 "WP"
 End
-//CONTROLBAR:DebuffTower
-//"Debuff tower"
-//END
-//CONTROLBAR:TooltipDebuffTower
-//"Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses"
-//END
+SCRIPT:LOSE
+"Enemies have entered the tunnel system and poisoned the \n water supplies of the cows of this lands :/ \n\n Is thorin playing here or wat"
+//"lol. \nIs thorin playing here or what."
+End
+//-----------------------------Counters---------------------------------//
+SCRIPT:NextWaveAnticipador
+"Next wave in..."
+End
+SCRIPT:NextWaveAnticipador_NewGroup
+"An army of new enemies arrive in..."
+End
+SCRIPT:NextWaveAnticipador_LastWave
+"A curious last wave arrives in"
+End
+SCRIPT:GameStarts
+"K then, teh raid of teh Cowlands shall begin"
+End
+SCRIPT:Wave
+"Wave"
+End
+SCRIPT:player1kills
+"Northern player killed"
+End
+SCRIPT:player2kills
+"Southern player killed"
+End
+SCRIPT:player3kills
+"Eastern player killed"
+End
+SCRIPT:JUGARDOR4KILL
+"Player4 killed"
+End
+SCRIPT:JUGARDOR5KILL
+"Player5 killed"
+End
+SCRIPT:GameTimeMinutes
+"Minutes in game"
+End
+SCRIPT:GameTimeSeconds
+"Seconds in game"
+End
+SCRIPT:CONTADOR_DE_SPAWNS
+"Contador de spawns"
+End
+//--------------------------------------------------------------
+Map:CowlandsTowerDefense3p
+"Bos Primigenius Taurus: The TW" // Cowlands: The Tower War //Tower War: The Cow Lands [3p]
+End
+//\n Players need to be in same team to get Kill Counter working.
+Map:CowlandsTowerDefense3p/Desc
+"This is Bos Primigenius Taurus: The Tower War \n Made with a lot of love for version 1.09. Playable for 3 and 2 players. \n Factions available: Dwarf, Men, Elves & Mordor, yet you can go random. \n Ring heroes enables hard mode. \n If you forget to team up, other players will be allied but kill-counters won't work\n Thorin sucks."
+End
