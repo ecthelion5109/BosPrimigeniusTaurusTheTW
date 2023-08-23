@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 504 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 505 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -450,7 +450,7 @@ CONTROLBAR:DreadVisage_New
 "Dread Visage"
 END
 CONTROLBAR:ToolTipDreadVisage09v2_New
-"Requires Level 6 \n Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
+"Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
 End
 CONTROLBAR:ScreechBlackRider_New
 "Deafening Screech [&B]"
@@ -1864,7 +1864,7 @@ CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted *player* units earn resources from kills, \n earning 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -2188,8 +2188,8 @@ CONTROLBAR:ToolTipArrowWind_New
 "Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
 //-------------------------------------------------
-CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain \n +50% armor and earn experience 25% faster \n Category: 'TaintLand' \n \nPassive ability"
+CONTROLBAR:DescriptionConstructMordorDrummerTrolls_New
+"Player hordes near the Drummer Troll move \n +15% faster \n Category: 'Unique' \n \nPassive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
