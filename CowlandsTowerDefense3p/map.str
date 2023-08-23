@@ -11,7 +11,7 @@ CONTROLBAR:TooltipCowSuicide
 END
 
 CONTROLBAR:TooltipCowSuicide_Desc
-"Requires a human playing God \n \n This cow is sick and needs to be put to sleep inmediatly."
+"Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
 END
 
 
@@ -213,7 +213,7 @@ CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 END
 
 CONTROLBAR:GondorDamrodHotkey_New
-"Prince Brand, Ca&ptain of Dale"
+"Principe Brand, Se&ñor de Dale"
 END
 
 
@@ -261,7 +261,7 @@ END
 
 
 CONTROLBAR:ToolTipElvenGifts_New
-"Requires level 2 \n Heroes gain +200% damage \n Passive power"
+"Requires level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore gain +200% damage \n Passive power"
 END
 
 CONTROLBAR:ToolTipDainStubbornPride_New
@@ -601,6 +601,12 @@ End
 SCRIPT:TestingMode
 "Testing mode Enabled"
 End
+SCRIPT:RipCounters
+"These observers have caused death counters to don't fuckin count. Good job"
+End
+SCRIPT:Bug
+"A map without bugs is not a bfme2 map"
+End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
 End
@@ -608,11 +614,12 @@ SCRIPT:4PlayersMode
 "4 Players mode Enabled"
 End
 SCRIPT:HARDCORE
-"You have setted up the HARD dificulty. You will be forced to play quick and precise now."
+"Hard mode enabled \n You will have to think where to put your shit and be as efficient possible."
 End
 SCRIPT:LOSE
-"lol. \nIs thorin playing here or what."
+"Enemies have entered the tunnel system and poisoned \n the water supplies of the cows of this lands \n\n Is thorin playing here? \n You should get rid of him to success"
 End
+//"lol. \nIs thorin playing here or what."
 SCRIPT:MOO_01
 "Moo... im just a cow, don't kill me"
 End
