@@ -2,7 +2,12 @@
 
 
 
-
+CONTROLBAR:SummonRohanAllies_New
+"Summon Rohan Allies"
+End
+CONTROLBAR:ToolTipSummonRohanAllies_New
+"Requires Level 10 \n Summons a group of Rohirrim \n Left click icon then left click on pathable location"
+END
 CONTROLBAR:LoneTower_New
 "Sum&mon Lone Tower"
 END
@@ -31,7 +36,7 @@ END
 "Tax Exem&ption"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
-"Requires Level 7 \n Dain understands the positive effects the mine-shafts have in the unemployment rates. \n Targeted mine will receive a tax exemption therefore raise its production 400% \n The King mistakenly believes the capital benefits shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish\n\n Left click icon then left click on target resource structure."
+"Requires Level 8 \n Dain understands the positive effects the mine-shafts have in the unemployment rates. \n Targeted mine will receive a tax exemption therefore raise its production to 250% \n The King mistakenly believes the capital benefits shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish\n\n Left click icon then left click on target resource structure."
 END
 
 CONTROLBAR:SummonDunedainAllies_New
@@ -256,7 +261,7 @@ CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 END
 
 CONTROLBAR:GondorDamrodHotkey_New
-"Principe Brand, Se&ñor de Dale"
+"Principe Brand,\n Segnor de Dale"
 END
 
 
