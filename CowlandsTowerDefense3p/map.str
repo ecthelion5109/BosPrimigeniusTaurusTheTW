@@ -2591,15 +2591,51 @@ GUI:UPGRADE_DISCOUNT_New
 "Upgrade Bonus \n -%d%%"
 END
 //--------------------------------------------------//
-SCRIPT:BonusForWipingArmy_Green
-"Epic Rape win: \n +1200 extra resources"
+SCRIPT:BonusForWipingArmy1600
+"Overkill win: \n +1600 extra resources"
 End
-SCRIPT:BonusForWipingArmy_Yellow
-"Standard Win: \n +600 extra resources"
+SCRIPT:BonusForWipingArmy1200
+"HighSkilled Win: \n +1200 extra resources"
 End
-SCRIPT:BonusForWipingArmy_Red
+SCRIPT:BonusForWipingArmy900
+"Nice Win: \n +900 extra resources"
+End
+SCRIPT:BonusForWipingArmy600
+"Basic win: \n +600 resources only"
+End
+SCRIPT:BonusForWipingArmy300
 "You took too long: \n +300 resources only"
 End
+//--------------------------------------------------//
+SCRIPT:BonusForWipingArmy1600FINAL
+"Congratulations. Cows were overkilled"
+End
+SCRIPT:BonusForWipingArmy1200FINAL
+"Congratulations. Cows were destroyed with high skill"
+End
+SCRIPT:BonusForWipingArmy900FINAL
+"Congratulations. Cows were destroyed in a nice way"
+End
+SCRIPT:BonusForWipingArmy600FINAL
+"Congratulations, but cows were destroyed in a standard way"
+End
+SCRIPT:BonusForWipingArmy300FINAL
+"Congratulations, but Cows were barely destroyed"
+End
+//--------------------------------------------------//
+SCRIPT:BonusForWipingArmy1600FINALTOTAL
+"Cowmap team qualification: \n Excellent"
+End
+SCRIPT:BonusForWipingArmy900FINALTOTAL
+"Cowmap team qualification: \n Regular"
+End
+SCRIPT:BonusForWipingArmy300FINALTOTAL
+"Cowmap team qualification: \n Mediocre"
+End
+SCRIPT:CowMapScore
+"CowMap score:"
+End
+//--------------------------------------------------//
 //WhoCares....
 //SCRIPT:MoneyReductionAdvertence
 //"We are beginning to run out of gold incomes..."
