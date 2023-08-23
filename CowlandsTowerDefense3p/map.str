@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.52 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.53 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,7 +76,34 @@ End
 
 
 
-	
+//------------------------------------------------------------
+CONTROLBAR:InnSummonDwarvenMenOfDale_New
+"&Summon Elite Men of Dale"
+END
+CONTROLBAR:InnSummonDwarvenMenOfDaleDesc_New
+"Summons a batallion of Elite Archers from Dale. \n Archers come equipped with Black Arrows."
+END
+//-----------
+CONTROLBAR:InnSummonDunedainArcher_New
+"&Summon Elite Dunedain Rangers"
+END
+CONTROLBAR:InnSummonDunedainArcherDesc_New
+"Summons a batallion of Dunedain Rangers. \n Archers come equipped with Ice Arrows."
+END
+//-----------
+CONTROLBAR:InnSummonHaradrimArcher_New
+"&Summon Elite Harad Archers"
+END
+CONTROLBAR:InnSummonHaradrimArcherDesc_New
+"Summons a batallion of Elite Archers from Harad. \n Archers come equipped with Barbed Arrows."
+END
+//-----------
+CONTROLBAR:InnSummonNoldorArcher_New
+"&Summon Elite Noldor Archers"
+END
+CONTROLBAR:InnSummonNoldorArcherDesc_New
+"Summons a batallion of Noldor Archers. \n Archers come equipped with Golden Arrows."
+END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision_New
 "Spy on the enemy forces\n\n Gives a temporary +20% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
@@ -1114,6 +1141,12 @@ CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 8 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
+CONTROLBAR:GimliUniqueLeadership_New
+"Dwarven superiority" //Stubborn Pride
+END
+CONTROLBAR:ToolTipGimliUniqueLeadership_New
+"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves, including gimli, gain \n +15% speed, +15% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
+END
 CONTROLBAR:GimliSlayerAttack_New
 "Slayer Attack (&B)"
 End
@@ -1406,13 +1439,6 @@ CONTROLBAR:ThranduilBoostDesc_New
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:BrandBoost_New
-"Legendary Ancestor"
-END
-CONTROLBAR:BrandBoostDesc_New
-"Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
-END
-//---------------------------------------------------
 CONTROLBAR:LegolasTrainArchers_New
 "Art of the Bow [&T]"
 END
@@ -1630,19 +1656,14 @@ END
 CONTROLBAR:ToolTipDainLeadership_New
 "Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
 END
-//---------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 4 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
+"Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
-//---------------------------------------------------
-CONTROLBAR:DainStubbornPride_New
-"Dwarven superiority" //Stubborn Pride
-END
-CONTROLBAR:ToolTipDainStubbornPride_New
-"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves gain \n +15% speed, +15% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
+CONTROLBAR:ToolTipMightyRage_New
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -1820,20 +1841,6 @@ TOOLTIP:AzogDesc_New
 "The mighty goblin from Moria"
 END
 //---------------------------------------------------
-CONTROLBAR:SpecialPowerDeadlySniper_New
-"Black Sniper [&V]"
-END
-CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
-"Requires Level 8 \n Temporarily grants an increase to damage and range. \n Left click to activate"
-END
-//---------------------------------------------------
-CONTROLBAR:DaleArcherAllies_New
-"Summon Dale Elite [&B]"
-END
-CONTROLBAR:DaleArcherAlliesDesc_New
-"Requires Level 10 \n Summons two batallions of Elite Archers from Dale. \n Archers are equipped with Black Arrows. \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonGamling_New
 "Summon Gamling [&C]"
 END
@@ -1974,10 +1981,6 @@ End
 //"Allies near Gamling gain \n 100% fear inmunity, +30% Damage and +25% armor \n Category: 'Uncategorized' \n \nPassive ability"
 //End
 //-------------------------------------------------
-CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 6 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
-END
-//-------------------------------------------------
 CONTROLBAR:TooltipHeal_New
 "Heals allied units \n Replaces 2 dead men per battalion \n Grants a bonus of +25% fire rate on archers (not Throwers or crossbowmen) \n and +30 speed on the target allies \n Category: 'HealBonus' \n \nLeft click icon then left click on target area"
 END
@@ -1995,6 +1998,24 @@ CONTROLBAR:BrandLeadership_New
 End
 CONTROLBAR:BrandLeadershipDesc_New
 "Requires Level 2 \n Player Men of Dale near the Prince of Dale gain \n +35% rate of fire and +10% speed \n Category: 'Uncategorized' \n Passive ability"
+END
+CONTROLBAR:BrandBoost_New
+"Legendary Ancestor"
+END
+CONTROLBAR:BrandBoostDesc_New
+"Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
+END
+CONTROLBAR:SpecialPowerDeadlySniper_New
+"Black Sniper [&V]"
+END
+CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
+"Requires Level 8 \n Temporarily grants an increase to damage and range. \n Left click to activate"
+END
+CONTROLBAR:DaleArcherAllies_New
+"Summon Dale Elite [&B]"
+END
+CONTROLBAR:DaleArcherAlliesDesc_New
+"Requires Level 10 \n Summons two batallions of Elite Archers from Dale. \n Archers are equipped with Black Arrows. \n Left click icon then left click on pathable location"
 END
 //-------------------------------------------------
 CONTROLBAR:FaramirIsAlsoARangerBoy
