@@ -12,7 +12,12 @@
 
 
 
-
+CONTROLBAR:FaramirKnightRanger_New
+"Knight/Ranger Toggle [&R]"
+END
+CONTROLBAR:ToolTipFaramirMount_New
+"Left click to switch between \n mounted and on foot"
+END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
 "Requires Level 6 \n Nearby units temporally gain +65% damage. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
@@ -104,7 +109,7 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Requires to be mounted in a Fellbeast \n Left click to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Category: Unique \n \n Left click to activate"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
@@ -720,6 +725,9 @@ End
 SCRIPT:GameStart2
 "Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
 End
+SCRIPT:GameStart2_Cows
+"The Ladies will show you the route of your enemies"
+End
 SCRIPT:GameStart3
 "Each wave leaves Resources and increases\n your Command Points Limit"
 End
@@ -793,7 +801,7 @@ SCRIPT:NextWaveAnticipador_LastWave
 "A curious last wave arrives in"
 End
 SCRIPT:GameStarts
-"teh raid of teh Cowlands shall begin"
+"The raid to the Cowlands begin in"
 End
 SCRIPT:Wave
 "Wave"
