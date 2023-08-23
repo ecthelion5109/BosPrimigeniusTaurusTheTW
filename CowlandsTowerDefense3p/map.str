@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 463 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 465 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -329,11 +329,11 @@ END
 CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
-CONTROLBAR:ShelobToxicCumShot_New
-"Venom Shoot (&C)"
+CONTROLBAR:ShelobPoisonedDart_New
+"Poisoned Dart (&C)"
 END
-CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
+CONTROLBAR:ShelobPoisonedDartDesc_New
+"Requires Level 6 \n Shoots a dart with a highly concentrated amount of liquid on the target. \n Causes high damage in area and paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&B]"
@@ -342,10 +342,10 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"Webbing Shoot (&V)"
+"Rain of spider-webs (&V)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
-"Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
+"Requires Level 10 \n Shelob fires a storm of spider-webs loaded with eggs. \n Enemy units are crippled and spider-eggs will be created on the bodies of the dead. \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
 CONTROLBAR:BlackRiderMorgulBlade_New
@@ -434,18 +434,18 @@ CONTROLBAR:GoblinsTrainAlliesDesc_New
 "Requires Level 6 \n Targeted units gain experience. \n Left click icon then left click on target units"
 END
 //---------------------
-CONTROLBAR:GorkilToxicCumShot_New
-"Venom Shoot (&C)"
+CONTROLBAR:GorkilPoisonedDart_New
+"Poisoned Dart (&C)"
 END
-CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 4 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+CONTROLBAR:GorkilPoisonedDartDesc_New
+"Requires Level 4 \n Can only use when mounted \n Shoots a dart with a highly concentrated amount of liquid on a target. \n Causes damage in area and paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
-"Day of the Goblin! [&B]"
+"Rousing Speech [&B]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
-"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n The Goblin King boosts nearby player goblins. \n Provides +999% armor, +50% damage, \n inmunity to deceleration when trampling, resistance to knockback \n and, finally, inmunity to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------
 CONTROLBAR:GorkilSummonMarauders_New
@@ -1002,7 +1002,7 @@ CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
-"Poison Arrows (&T)"
+"Poison Arrows (&B)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
 "Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
