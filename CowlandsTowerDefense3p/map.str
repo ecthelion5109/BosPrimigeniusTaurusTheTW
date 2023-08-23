@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.78 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.79 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -306,7 +306,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressPoisonArrows_New
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityBalrogBreath_New
-"Cold B&reathe"
+"Cold Breathe (&V)"
 END
 CONTROLBAR:ToolTipSpecialAbilityBalrogBreath_New
 "Requires Level 5 \n Breathes ice fire like that dead dragon from Warcraft 3, freezeing and shit. \n Does it twice cuz he's got energy. \n Left click icon then left click on target area" 
@@ -758,7 +758,7 @@ CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
@@ -937,7 +937,7 @@ CONTROLBAR:SpeechCraft_New
 "Speech Craft [&C]"
 END
 CONTROLBAR:ToolTipSpeechCraft_New
-"Requires Level 2 \n Give targeted units experience \n Left click icon then left click on target units"
+"Requires Level 4 \n Give targeted units experience \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySarumanFireball_New
@@ -1553,7 +1553,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 //---------------------------------------------------
 CONTROLBAR:EomerSpear_New
