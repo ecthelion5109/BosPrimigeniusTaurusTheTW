@@ -1,15 +1,22 @@
-# Bos Primigenius Taurus: The Tower War
-## The Battle for The Middle Earth II - "Bos Primigenius Taurus: The Tower War"
+# Bos Primigenius Taurus: The TW
+## One of the most complete TW in The Battle for The Middle Earth II history.
 
 Are you looking for a relaxing and casual gameplay experience? 
-Do you want to team up with friends and win maps together? 
-Maybe you're interested in managing heroes and having them level up over time? 
+Do you like teaming up with your friends and winning Tower War maps together? 
+Maybe you're interested in managing heroes and having them level up over time in one place? 
 If so, this might not be the map for you.
 
 ---
 
 ### About the Map
-- **Version**: Bos Primigenius Taurus Build 5.72
+- **Name**: Bos Primigenius Taurus: The TW
+- **Gametype**: TowerWar/TowerDefense
+- **Factions**: All factions are playable
+- **New heroes**: Yes
+- **New abilities**: Yes
+- **Difficult levels**: Easy, Normal and Hardcore.
+- **Waves**: 20
+- **Requirements**: The Battle for the Middle Earth II (2006) in version 1.09v2 or 1.09v3.
 - **Compatibility**: Designed for BFME2 version 1.09
 - **Development**: Developed by Ecthelion over a span of 5 years since 2018
 
