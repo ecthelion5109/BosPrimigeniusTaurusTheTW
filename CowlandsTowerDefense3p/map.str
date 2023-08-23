@@ -50,7 +50,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.81: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.82: Now compatible with beta build 11.1. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -69,6 +69,19 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ToolTipBuildIsengardArmoryLevel2_New
+"Allows research of Fire Arrows"
+ // Allows research of Forged Blades and Heavy Armor
+End
+CONTROLBAR:ToolTipBuildIsengardArmoryLevel3_New
+"Allows research of Nothing interesting yet" 
+//Allows research of Fire Arrows
+End
+//---------------------------------------------------
+TOOLTIP:LackIsengardFireArrowsTech_New
+"Requires Level 2 Armory"
+END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade_New
 "Level 2: Allows research of the Fire Arrows Upgrade"
@@ -251,7 +264,7 @@ CONTROLBAR:LoneTowerArmorUpgradeIcon_New
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower_New
-"Build a Stealth &Detector Tower"
+"Build a Stealth Detector Tower(&J)"
 END
 CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
 "Requires Fortress Armor Stonework technology \n\n Will reveal any invisible in a radius of 450"
