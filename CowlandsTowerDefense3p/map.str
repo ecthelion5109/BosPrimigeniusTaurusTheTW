@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.68 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.70 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -75,6 +75,13 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:RitualistSacrifice_New
+"Sacrifice a Berserker (&T)"
+END
+CONTROLBAR:RitualistSacrificeDesc_New
+"Lurtz performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Lurtz's self rate of fire is also improved. \n Left click icon, then left click on the target berserker"
+END
 //---------------------------------------------------
 CONTROLBAR:GandalfMaiarLight_New
 "Light of Maiars (&C)"
@@ -609,7 +616,8 @@ CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
-"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
+"Level 2: Allows recruiting Berserkers. \n +10% Faster Build Speed"
+//"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructTrollDrum_New
@@ -1105,7 +1113,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardBerserker_New
-"Requires Level 3 Uruk Pit \n Strong vs. Infantry \n Can detonate mines"
+"Requires Level 2 Uruk Pit \n Strong vs. Infantry \n Can detonate mines"
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
