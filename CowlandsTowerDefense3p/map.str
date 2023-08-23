@@ -7,7 +7,7 @@ Map:CowlandsTowerDefense3p
 End
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.57: New skin, new faction! \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon. \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.58: New skin, new faction! \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon. \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //---------------------------------------------------
 
@@ -291,7 +291,7 @@ CONTROLBAR:MenWood_New
 "Fanatic pseudo-ecologist [&B]"
 END
 CONTROLBAR:MenWoodDesc_New
-"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n\n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage. \n Left click icon then left click on target area"
+"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n\n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage. \n Allies near the trees gain 99% armor, including Structures. \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ElvenWood_New
@@ -954,6 +954,9 @@ End
 OBJECT:RohanElvenWarrior_New
 "Noldor Warriors"
 END
+OBJECT:RohanElvenWarriors_New
+"Noldor Warriors"
+END
 OBJECT:MaleCow_New
 "Rider of the apocowlipsis"
 END
@@ -1111,7 +1114,8 @@ SCRIPT:Bug
 "A map without bugs is not a bfme2 map"
 End
 SCRIPT:UnitRemovedAdvertencia
-"A team has been removed. \n This occured because: \n\n A: Map hoster opened the Planning mode. \n B: A team left the map."
+"A team has been removed. \n This occured because it has left the map."
+//"A team has been removed. \n This occured because: \n\n A: Map hoster opened the Planning mode. \n B: A team left the map.
 End
 //-------------------------------------------//
 SCRIPT:WIN
