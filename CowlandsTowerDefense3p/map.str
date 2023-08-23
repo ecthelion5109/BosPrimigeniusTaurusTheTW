@@ -260,13 +260,6 @@ TOOLTIP:WildmenBuildingHouseDesc_New
 "Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
 End
 //---------------------------------------------------
-CONTROLBAR:IceArrows_New
-"Dunedain Ice Arrows"
-End
-CONTROLBAR:IceArrowsDesc_New
-"This batallion is equiped with Ice Arrows. \n Slows down the enemy \n Deals high amounts of HERO damage"
-End
-//---------------------------------------------------
 OBJECT:HordeDwarvenAxeThrower_New
 "Dunland Axe Thrower Horde"
 END
@@ -538,13 +531,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining_New
 "Increases this battalion to Level 2 and becomes able to shoot Dunedain Ice Arrows."
 END
 //---------------------------------------------------
-CONTROLBAR:ExplosiveBolts_New
-"Explosive Bolts"
-End
-CONTROLBAR:ExplosiveBoltsDesc_New
-"This batallion is equiped with Explosive Bolts. \n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage"
-End
-//---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2_New
 "Allows research of Fire Arrows"
  // Allows research of Forged Blades and Heavy Armor
@@ -601,9 +587,6 @@ CONTROLBAR:ToolTipConstructWildMineShaft_New
 "Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 //---------------------------------------------------
-CONTROLBAR:PoisonArrows_New
-"Poison Arrows (&T)"
-End
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
 "Poison Arrows (&T)"
 END
@@ -676,13 +659,6 @@ CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining_New
 END
 CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
 "Purchase E&lite Trai&ning"
-END
-//---------------------------------------------------
-CONTROLBAR:MordorBarbedArrowsPassive_New
-"Barbed Arrows"
-End
-CONTROLBAR:MordorBarbedArrowsPassiveDesc_New
-"This batallion is equiped with Barbed Arrows. \n Adds splash damage and metaimpact. \n Deals high amounts of ranged heroe damage."
 END
 //---------------------------------------------------
 CONTROLBAR:RingWraithMode_New
@@ -1134,12 +1110,83 @@ END
 //"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:GoldenArrowsPassive_New
-"Golden Arrows"
+CONTROLBAR:MenIceArrowsActive_New
+"Dunedain Ice Arrow Sho&t"
 End
-CONTROLBAR:GoldenArrowsPassiveDesc_New
+CONTROLBAR:MenIceArrowsActiveDesc_New
+"This batallion is equiped with Ice Arrows. \n Slows down the enemy \n Deals high amounts of HERO damage"
+End
+CONTROLBAR:MenIceArrowsPassive_New
+"Dunedain Ice Arrows"
+End
+CONTROLBAR:MenIceArrowsPassiveDesc_New
+"This batallion is equiped with Ice Arrows. \n Slows down the enemy \n Deals high amounts of HERO damage"
+End
+//----------------------------
+CONTROLBAR:ElvenGoldenArrowsActive_New
+"Golden Arrow Sho&t"
+End
+CONTROLBAR:ElvenGoldenArrowsActiveDesc_New
+"Requires Level 2\n Causes meta impact and high amounts of FLAME and HERO_RANGED damage in area \n Left click icon then left click on target"
+End
+CONTROLBAR:ElvenGoldenArrowsPassive_New
+"Golden Arrow"
+End
+CONTROLBAR:ElvenGoldenArrowsPassiveDesc_New
 "This batallion is equiped with Golden Arrows from Lindon. \n Deals high amounts of FLAME and HERO_RANGED damage in area"
 End
+//----------------------------
+CONTROLBAR:DwarvenBlackArrowsActive_New
+"Black Arrow Sho&t"
+End
+CONTROLBAR:DwarvenBlackArrowsActiveDesc_New
+"This batallion is equiped with Black Arrows from Dale. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage"
+End
+CONTROLBAR:DwarvenBlackArrowsPassive_New
+"Black Arrows"
+End
+CONTROLBAR:DwarvenBlackArrowsPassiveDesc_New
+"This batallion is equiped with Black Arrows from Dale. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage"
+End
+//----------------------------
+CONTROLBAR:GoblinPoisonArrowsActive_New
+"Poison Arrow Sho&t"
+End
+CONTROLBAR:GoblinPoisonArrowsActiveDesc_New
+"Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
+End
+CONTROLBAR:GoblinPoisonArrowsPassive_New
+"Poison Arrows (&T)"
+End
+CONTROLBAR:GoblinPoisonArrowsPassiveDesc_New
+"Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
+End
+//----------------------------
+CONTROLBAR:IsengardExplosiveBoltsActive_New
+"Explosive Bolt Sho&t"
+End
+CONTROLBAR:IsengardExplosiveBoltsActiveDesc_New
+"This batallion is equiped with Explosive Bolts. \n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage"
+End
+CONTROLBAR:IsengardExplosiveBoltsPassive_New
+"Explosive Bolts"
+End
+CONTROLBAR:IsengardExplosiveBoltsPassiveDesc_New
+"This batallion is equiped with Explosive Bolts. \n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage"
+End
+//---------------------------
+CONTROLBAR:MordorBarbedArrowsActive_New
+"Barbed Arrow Sho&t"
+End
+CONTROLBAR:MordorBarbedArrowsActiveDesc_New
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
+End
+CONTROLBAR:MordorBarbedArrowsPassive_New
+"Barbed Arrows"
+End
+CONTROLBAR:MordorBarbedArrowsPassiveDesc_New
+"This batallion is equiped with Barbed Arrows. \n Adds splash damage and metaimpact. \n Deals high amounts of ranged heroe damage."
+END
 //---------------------------------------------------
 CONTROLBAR:SummonElvenAllies_New
 "Summon Noldor Allies [&V]"
@@ -1473,13 +1520,6 @@ CONTROLBAR:PassiveSpecialAbilityPoison_New
 End
 CONTROLBAR:PassiveSpecialAbilityPoisonDesc_New
 "This batallion is equiped with Poisoned Arrows elaborated by hunters of the north. \n Causes damage over time \ Slows down the enemy"
-End
-//---------------------------------------------------
-CONTROLBAR:BlackArrows_New
-"Black Arrows"
-End
-CONTROLBAR:ToolTipBlackArrows_New
-"This batallion is equiped with Black Arrows from Dale. \n Causes fear to certain units \n Bonus against Monsters \n Deals a high amount of hero damage"
 End
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityCallTheLevas_New
