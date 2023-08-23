@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.64: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.65: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -55,7 +55,7 @@ CONTROLBAR:ConstructMenStoneMaker_New
 "Build Stoneworker (&F)" // Minas Tirith's
 END
 TOOLTIP:GondorStoneWorkerDesc_New
-"Researches Men of the West structural upgrades. \n Reduces the Cost of Structures.\n  1 Stoneworker: 33%.\n 2 Stoneworkers: 50%. \n 3 Stoneworkers: 75%."
+"Researches Men of the West structural upgrades. \n Reduces the Cost of Structures.\n  1 Stoneworker: -33.3%.\n 2 Stoneworkers: -50%. \n 3 Stoneworkers: -66.6%."
 END
 //--------------------------------------------------//
 TOOLTIP:GenericHeroicStatueDesc_New
@@ -130,7 +130,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 5 \n Lurtz gains +100% Damage and +10% Armor \n Can only use with sword equipped \n Left click icon to activate"
+"Requires Level 5 \n Lurtz gains +100% Damage and +10% Armor \n Improves fire rate \n Left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership_New
@@ -382,7 +382,7 @@ CONTROLBAR:LegolasTrainArchers_New
 "Art of the Bow [&B]"
 END
 CONTROLBAR:LegolasTrainArchersDesc_New
-"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 100% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
+"Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster and earn 2 experience ranks. \n Has effect only once per batallion. \n Applicable once per horde \n\n Left click icon then left click on target archers"
 END
 //---------------------------------------------------
 CONTROLBAR:MenWood_New
@@ -1126,11 +1126,12 @@ SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
 //Aight, there's just a cooldown each 3 waves
-//"Thorin sucks, don't enable ring heroes if you are with him"
-"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
+"Thorin sucks, enable ring heroes to play easy mode if you are with him"
+//"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Win this map with Thorin and you will gain respect among the cowmmunity."
+"Guerrilla cheats with double Farm. Block"
+//"Win this map with Thorin and you will gain respect among the cowmmunity."
 ///"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
