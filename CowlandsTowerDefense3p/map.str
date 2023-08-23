@@ -45,13 +45,14 @@
 	
 //-------------------------------------------------------------------------------//
 Map:CowlandsTowerDefense3p
-"On the Milky Road TW" 
+"Bos Primigenius Taurus: The TW" 
+	// On the Milky Road TW
 	// Bos Primigenius Taurus: The TW
 	// Cowlands: The Tower War 
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.91: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.92: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -97,11 +98,13 @@ TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 End
 //--------------------------Done---------------------
 TOOLTIP:DisplayDamage_RohirrimArcherBasic
-"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
+"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
+//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
 //already x1.9
 End
 TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
-"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
+"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
+//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
 End
 //-------------------------Done+--------------------
 TOOLTIP:DisplayDamage_RangerBasic
@@ -111,7 +114,8 @@ TOOLTIP:DisplayDamage_RangerUpgrade
 "Damage per unit: \n PIERCE damage: 90 \n FLAME damage 18"
 End
 TOOLTIP:DisplayDamage_RangerElite
-"Damage per unit: \n HERO_RANGED damage: 50"
+"Damage per unit: \n PIERCE damage: 90 \n HERO_RANGED damage: 10"
+//"Damage per unit: \n HERO_RANGED damage: 50"
 End
 TOOLTIP:DisplayDamage_RangerElitePoison
 "Damage per unit: \n PIERCE damage: 66 \n POISON damage: 13.2 (for 7 seconds)"  
@@ -143,21 +147,27 @@ TOOLTIP:DisplayDamage_HaradrimArcherUpgrade
 "Damage per unit: \n PIERCE damage: 64 \n FLAME damage 64"
 End
 TOOLTIP:DisplayDamage_HaradrimArcherElite
-"Damage per unit: \n PIERCE damage: 64 \n HERO_RANGED damage 20"
+"Damage per unit: \n PIERCE damage: 32 \n HERO_RANGED damage 10"
+// x 0.5
+//"Damage per unit: \n PIERCE damage: 64 \n HERO_RANGED damage 20"
 End
 //-------------------------done----------------------
 TOOLTIP:DisplayDamage_LancerBasic
-"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17"
+"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 20 \n SIEGE damage 7"
+//"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17"
 End
 TOOLTIP:DisplayDamage_LancerUpgrade
-"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
+"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 20 \n SIEGE damage 7 \n POISON damage 15 (for 60 seconds)"
+//"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
 End
 //--------------------------Done-----------------------
 TOOLTIP:DisplayDamage_AxeThrowerBasic
-"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 15"
+"Damage per unit: \n SLASH damage: 30 \n SIEGE damage 10"
+//"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 15"
 End
 TOOLTIP:DisplayDamage_AxeThrowerUpgrade
-"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 15"
+"Damage per unit: \n SLASH damage: 48 \n SIEGE damage 10"
+//"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 15"
 End
 //--------------------------Done-------------------
 TOOLTIP:DisplayDamage_DaleArcherBasic
