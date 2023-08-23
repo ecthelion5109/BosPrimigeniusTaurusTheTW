@@ -7,7 +7,7 @@ End
 
 ///Stoicism
 Map:CowlandsTowerDefense3p/Desc
-"Made for version 1.09. \n Playable for 3 and 2 players. \n No need to team up and any spot variation is playable. \n All factions are supposed to be playable"
+"Made for version 1.09. \n Playable for 3 and 2 players. \n No need to team up and any spot variation is playable. \n All factions are supposed to be playable\n Thorin noob"
 End
 
 
@@ -289,7 +289,7 @@ End
 //------------Win---Lose-----------;;
 
 SCRIPT:LOSE
-"Noobs."
+"Noobs. I bet it's thorins fault"
 End
 
 SCRIPT:WIN
