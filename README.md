@@ -68,7 +68,6 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 ### Links
 
 #### Downloads:
-- [Download the latest version here](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/releases)
 
 #### Heaven Games:
 - [Visit the Heaven Games entry](https://bfme2.heavengames.com/downloads/showfile.php?fileid=1315)
@@ -76,4 +75,15 @@ making it perfect for those who enjoy a tougher and more strategic gaming enviro
 #### Discord:
 - [Visit our Discord server, share your thoughts and ask your questions](https://discord.gg/f2xc8nsaRs)
 
-	
+
+---
+
+### Installation
+
+If you already have BFME2 version 1.09v3, you will have the latest version available in the official map list. 
+If not, follow these steps:
+
+1. [Go to the releases section](https://github.com/ecthelion5109/BosPrimigeniusTaurusTheTW/releases)
+2. Find the newest "CowlandsTowerDefense3p" .rar file available and click it to start downloading.
+3. Get the "CowlandsTowerDefense3p" .rar from your downloads folder and extract it on C:\Users\%your_user%\AppData\Roaming\My Battle for Middle-earth II Files\maps
+4. Open the game and it will show up.
