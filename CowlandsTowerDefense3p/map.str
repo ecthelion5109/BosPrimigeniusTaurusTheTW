@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.70 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.71 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -90,7 +90,7 @@ CONTROLBAR:UpgradeWildmenHallLevel3Desc_New
 End
 //---------------------------------------------------
 CONTROLBAR:RitualistSacrifice_New
-"Sacrifice a Berserker (&T)"
+"Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
 "Lurtz performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Lurtz's self rate of fire is also improved. \n Left click icon, then left click on the target berserker"
@@ -159,7 +159,7 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 END
 //---------------------
 CONTROLBAR:ShelobWebbing_New
-"Ungoliant's mad fruitfulness!"
+"&Ungoliant's mad fruitfulness!"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
@@ -182,13 +182,6 @@ CONTROLBAR:ScreechBlackRider_New
 END
 CONTROLBAR:TooltipScreechBlackRider_New
 "Requires Level 10 \n Burst the eardrums of the enemy, causing high dosis of damage. \n Fear prevails over rationality and units temporaly lose their way. \n Left click to activate"
-END
-//---------------------------------------------------
-CONTROLBAR:SlayerArrow
-"Slayer Arrow [&R]"
-END
-CONTROLBAR:SlayerArrowDesc
-"Single ranged attack that causes high damage. \n Causes meta-impact \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorHaradrimArcherHorde_New
@@ -989,11 +982,17 @@ CONTROLBAR:ToolTipGenericPillage_New
 "Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
 END
 //---------------------------------------------------
+CONTROLBAR:LurtzBaneStrike_New
+"Bane S&trike"
+END
+CONTROLBAR:LurtzBaneStrikeDesc_New
+"Requires Level 3 \n Single ranged attack that causes high damage. \n Causes meta-impact \n Left click icon then left click on target"
+END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 4 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
 CONTROLBAR:LurtzBoost_New
-"Uruk Bane"
+"Saruman's Favorite Uruk"
 END
 CONTROLBAR:LurtzBoostDesc_New
 "Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +200 damage. \n Passive ability"
