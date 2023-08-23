@@ -8,7 +8,7 @@ End
 //\n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 //\n Players need to be in same team to get Kill Counter working.
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.65: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
+"Version 1.66: Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks."
 End
 //------------------------------------------------------------//
 //------------------------------------------------------------//
@@ -21,6 +21,14 @@ End
 
 
 
+//---------------------------------------------------
+TOOLTIP:GenericBattleTowerDesc_New
+"Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Healer' \n\nStrong vs cavalry"
+END
+//-------------------------------------------------
+TOOLTIP:GenericLoneTowerDesc_New
+"Fires at nearby enemies. \n Can be garrisoned with archers for greater damage output. \n Contained archers gain +9% Range.\n Category: 'Uncategorized' \n Can receive different upgrades from the fortress. "
+End
 //-------------------------------------------------
 TOOLTIP:ToolTipBattleWagonHearthDesc_New
 "Hearth: \n Nearby units are healed \n Replenish units from hordes. \n Nearby units earn experience +50% faster. \n Category: 'Healer'"
@@ -69,10 +77,6 @@ End
 TOOLTIP:PoisonBattleTowerDesc_New
 "Defensive Poison Arrow Tower \n Poison damages over time and slows down the affected units \n\n Can be garrisoned with archers to increase damage output\n Contained archers gain experience +50% faster.\n Category: 'Healer'"
 End
-//---------------------------------------------------
-TOOLTIP:GenericBattleTowerDesc_New
-"Defensive Arrow Tower \n Can be garrisoned with archers for greater damage output \n Contained archers gain experience +50% faster.\n Category: 'Healer' \n\nStrong vs cavalry"
-END
 //---------------------------------------------------
 CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
 "&Upgrade this tower"
@@ -318,7 +322,7 @@ CONTROLBAR:ToolTipFaramirMount_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWargRiderHowl_New
-"Requires Level 6 \n Nearby units temporarily gain +70% damage. \n Category: 'War Chant' \n\n Gothmog has to be mounted. \n left click icon to activate"
+"Requires Level 6 \n Nearby units temporarily gain +80% damage. \n Category: 'War Chant' \n\n Gothmog has to be mounted. \n left click icon to activate"
 END
 CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
