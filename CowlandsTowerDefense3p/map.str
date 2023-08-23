@@ -1,11 +1,41 @@
-CONTROLBAR:RohanFlagTowertest_new
-"Comela guerrilla"
-END
 
-CONTROLBAR:RohanFlagTowertes543t_new
-"Habia una vez un canguro loco"
-END
 
+
+
+
+//--------------------------------------------------------------
+CONTROLBAR:TooltipScreechWitchKing_New
+"Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
+END
+//--------------------------------------------------------------
+CONTROLBAR:ToolTipWitchKingDreadVisage_New
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
+End
+//--------------------------------------------------------------
+OBJECT:MaleCow_New
+"Rider of the apocowlipsis"
+END
+OBJECT:MaleCowDesc_New
+"Behold"
+END
+OBJECT:Azog_New
+"Azog"
+END
+OBJECT:AzogDesc_New
+"The mighty goblin from Moria"
+END
+OBJECT:LeadingDragon_New
+"Mother of dragons!"
+END
+OBJECT:LeadingDragonDesc_New
+"Proved leadership to nearby dragons"
+END
+OBJECT:StealthDragon_New
+"Stealth dragon"
+END
+OBJECT:StealthDragonDesc_New
+"Invisible for average humans."
+END
 //--------------------------------------------------------------
 CONTROLBAR:SpecialAbilityLurtzCarnage_New
 "Carnage"
@@ -113,7 +143,7 @@ CONTROLBAR:HaldirBoost_New
 "Lorien Ranger Specialization"
 END
 CONTROLBAR:HaldirBoostDesc_New
-"Requires Level 3 \n Haldir gains +230 damage and a permanent +30% rate of fire boost. \n Passive ability"
+"Requires Level 3 \n Haldir gains +200 damage and a permanent +30% rate of fire boost. \n Passive ability"
 END
 //--------------------------------------------------------------
 CONTROLBAR:LegolasBoost_New
@@ -121,7 +151,8 @@ CONTROLBAR:LegolasBoost_New
 END
 CONTROLBAR:LegolasBoostDesc_New
 ////"Requires Level 5 \n Legolas gains a permanent bonus of +50 damage and +15% range. \n Passive ability"
-"Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire and +15% range. \n Passive ability"
+////  and +15% range. 
+"Requires Level 5 \n Legolas gains a permanent bonus of +250% rate of fire. \n Passive ability"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ThranduilBoost_New
@@ -129,7 +160,7 @@ CONTROLBAR:ThranduilBoost_New
 // "Mirkwood Ranger Specialization"
 END
 CONTROLBAR:ThranduilBoostDesc_New
-"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats can imply for Mirkwood, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
+"Requires Level 5 \n Then Thranduil will embrace the goodnesses a dictatorship with neo-aristocratic proletariats from Mirkwood, gaining a extraordinary +50% range boost and +150 damage. \n Passive ability"
 // "Requires Level 5 \n Thranduil gains a permanent +50% range boost and +200 damage. \n Passive ability"
 END
 //--------------------------------------------------------------
@@ -301,10 +332,6 @@ CONTROLBAR:EuthanasiaDesc_New
 "Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
 END
 //--------------------------------------------------------------
-CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
-END
-//--------------------------------------------------------------
 CONTROLBAR:TooltipElrondWhirlwind_New
 "Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
@@ -353,7 +380,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail_New
 "Allows battalions and Demolishers to purchase the Mithril Mail upgrade. \nWhen equipped, significantly reduces the amount of damage taken \n Once purchased, Dain Royal Guard receives it for free and gain Knock-Back and Fear immunity"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor_New
-"Allows battalions to purchase the Heavy Armor upgrade. \nWhen equipped, significantly reduces the amount of damage taken \n Once purchased, the Osgiliath veterans receive Heavy Armors and gain Knock-Back and Fear immunity."
+"Allows battalions to purchase the Heavy Armor upgrade. \nWhen equipped, significantly reduces the amount of damage taken \n\n Once purchased, the Osgiliath veterans receive Heavy Armor and gain Knock-Back and Fear immunity. \n Once purchased, Rohirrim receive Heavy Armor for free gaining a significative taken damage reduction"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades_New
 "Allows battalions to purchase the Forged Blades upgrade. \nWhen equipped, increases the damage done by Melee Weapons and Thrown Axes\n Once purchased, Dain Royal Guard receives Forged Blades and gain a Meele and Crush-Revenge damage increment"
@@ -395,7 +422,7 @@ CONTROLBAR:ShieldMaiden_New
 "Shield Charge [&V]"
 END
 CONTROLBAR:ToolTipShieldMaiden_New
-"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +15% speed. \n Left click to activate"
+"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n Left click to activate"
 END
 //--------------------------------------------------------------
 CONTROLBAR:EowynRestore_New
