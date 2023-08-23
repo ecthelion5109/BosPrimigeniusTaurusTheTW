@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.14 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.15 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -1227,7 +1227,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n left click icon to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 12 seconds. \n Category: 'Unique' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
@@ -2121,6 +2121,9 @@ UPGRADE:IsengardBasicTraining_New
 "Explosive Bolts"
 END
 //---------------------------------------------------
+OBJECT:RetardedFireDrake_New
+"Retarded Fire Drake"
+END
 OBJECT:DwarvenCaptain_New
 "Iron Hills Captain"
 END
@@ -2392,10 +2395,10 @@ End
 SCRIPT:CONTADOR_DE_SPAWNS
 "Contador de spawns"
 End
-runsub
+SCRIPT:BUILDER_FOUND
 "Builder found on road."
 End
-wtfspeak
+SCRIPT:BUILDER_TELEPORTED
 "Builder teleported from the road."
 End
 //---------------------------------------------------
