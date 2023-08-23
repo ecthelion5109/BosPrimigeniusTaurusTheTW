@@ -42,13 +42,6 @@ CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 
-CONTROLBAR:EowynSmite_New
-"Smite [&T]"
-END
-CONTROLBAR:EowynSmiteDesc_New
-"Powerful ranged attack \n Effective against heroes \n Specialy powerful vs Fellbeasts \n\n Left click icon then left click on target"
-END
-
 CONTROLBAR:Disguise_New
 "Lady of the Kitchen"
 END
@@ -125,7 +118,7 @@ CONTROLBAR:Sunflare_New
 END
 
 CONTROLBAR:TooltipSunflare_New
-"Requires Level 10 \n Calls a beam of canalized moonlight energy to scorch the cowlands \n Left click icon then left click on target area"
+"Requires Level 10 \n In honor to the Piano Sonata Nº14, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
 END
 CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
@@ -274,16 +267,26 @@ CONTROLBAR:TooltipConstructDwarvenMineShaft_New
 "Generates resources\n Provides access to the tunnel network \n Quantity available to build: 6"
 END
 
+CONTROLBAR:EowynSmite_New
+"Smite [&T]"
+END
+CONTROLBAR:EowynSmiteDesc_New
+"Powerful ranged attack \n Effective against units \n Bonus against Monsters and Heroes \n\n Left click icon then left click on target"
+END
+
+CONTROLBAR:ThrowSpear_New
+"Spear Throw [&T]"
+END
+CONTROLBAR:ThrowSpearDesc_New // EomerSpear
+"Powerful ranged attack \n Effective against units and heroes \n Bonus against Mounted units and Orcs. \n\n Left click icon then left click on target"
+END
+
  CONTROLBAR:ToolTipWoundingArrow_New
 "Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n\n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipHawkStrike_New
 "Double-arrow attack \n Effective against cavalry and monsters\n Left click icon then left click on target"
-END
-
-CONTROLBAR:EomerThrowSpear_New // EomerSpear
-"Powerful ranged attack \n Effective against units and heroes \n Extreme damage against monsters \n\n Left click icon then left click on target"
 END
 
 CONTROLBAR:CalltheHorde_New
