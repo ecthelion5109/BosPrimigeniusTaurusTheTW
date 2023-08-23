@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"This is Bos Primigenius Taurus: The Tower War. (Build 223) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
+"This is Bos Primigenius Taurus: The Tower War. (Build 224) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -78,6 +78,10 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ToolTipLurtzPillage
+"Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
+END
 //---------------------------------------------------
 OBJECT:ConstructIsengardUpgradeTower_New
 "Tower of Upgrades"
@@ -406,7 +410,7 @@ CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructTrollDrum_New
-"Bu&ild a Troll Drum"
+"Build a Troll Drum (&W)"
 END
 //---------------------------------------------------
 //	CONTROLBAR:TooltipLumbermillUnpackMordor_New
@@ -808,7 +812,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain on the map for a period of time. \n Goblins & Spider Riders near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'" \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Goblin player units, -including heroes- \n near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Damage Inspiration'" \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------//
 OBJECT:ToolTipGorkilTotem_New
