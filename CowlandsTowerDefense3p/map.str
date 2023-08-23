@@ -190,8 +190,10 @@ CONTROLBAR:KingsCurse_New
 "King's Curse [&B]"
 END
 CONTROLBAR:KingsCurseDesc_New
-"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
+"Requires Level 10 \n If Aragorn, a self-proclaimed King of Gondor, has the skills to lift the curses from the oathbreakers, who says he can't cast new ones? \If a justification is required for the credibility of the masses, he can always recur to another supposedly broken oath that wasn't ever written, again. \n\n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
 END
+
+//decide to cast new ones based on whatever excuses he may invent
 //------------------------------------------------------------
 CONTROLBAR:MumakilCharge_New
 "Mumakil Charge"
@@ -2608,19 +2610,19 @@ SCRIPT:BonusForWipingArmy300
 End
 //--------------------------------------------------//
 SCRIPT:BonusForWipingArmy1600FINAL
-"Congratulations. Cows were overkilled"
+"Congratulations. Cows were mercilessly slaughtered. \n +1600 to final score"
 End
 SCRIPT:BonusForWipingArmy1200FINAL
-"Congratulations. Cows were destroyed with high skill"
+"Congratulations. Cows were put down with ease. \n +1200 to final score"
 End
 SCRIPT:BonusForWipingArmy900FINAL
-"Congratulations. Cows were destroyed in a nice way"
+"Congratulations. Cows ranks were devastated. \n +900 to final score"
 End
 SCRIPT:BonusForWipingArmy600FINAL
-"Congratulations, but cows were destroyed in a standard way"
+"Congratulations, but cows were defeated. \n +600 to final score"
 End
 SCRIPT:BonusForWipingArmy300FINAL
-"Congratulations, but Cows were barely destroyed"
+"Congratulations, but Cows almost escaped. \n +300 to final score"
 End
 //--------------------------------------------------//
 SCRIPT:BonusForWipingArmy1600FINALTOTAL
@@ -2634,6 +2636,22 @@ SCRIPT:BonusForWipingArmy300FINALTOTAL
 End
 SCRIPT:CowMapScore
 "CowMap score:"
+End
+SCRIPT:t_VictoryText01
+"You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
+End
+SCRIPT:t_VictoryText02
+"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually played this map since its first build in January 1st of 2018."
+End
+SCRIPT:LOSE
+";( cows not happy"
+// 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
+//"lol. \nIs thorin playing here or what."
+//"lol. \nIs thorin playing here or what."
+//"lol. \n Is maka playing here or what."
+End
+SCRIPT:LOSE_TESTINGMODE
+"lel. \n You lost, but this is testing mode."
 End
 //--------------------------------------------------//
 //WhoCares....
@@ -2708,23 +2726,6 @@ End
 SCRIPT:UnitRemovedAdvertencia
 "A team has been removed. \n This occured because it has left the map."
 //"A team has been removed. \n This occured because: \n A: Map hoster opened the Planning mode. \n B: A team left the map.
-End
-//-------------------------------------------//
-SCRIPT:WIN
-"Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
-End
-SCRIPT:CREDITS
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map for more than 3 years of develepment."
-End
-SCRIPT:LOSE
-";( cows not happy"
-// 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
-//"lol. \nIs thorin playing here or what."
-//"lol. \nIs thorin playing here or what."
-//"lol. \n Is maka playing here or what."
-End
-SCRIPT:LOSE_TESTINGMODE
-"lel. \n You lost, but this is testing mode."
 End
 //---------------------------------------------------
 OBJECT:LadyCow
