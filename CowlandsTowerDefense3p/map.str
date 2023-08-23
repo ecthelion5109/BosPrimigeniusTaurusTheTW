@@ -51,7 +51,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.87: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.89: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -95,6 +95,9 @@ END
 TOOLTIP:LackLevel3BlacksmithAndScience_New
 "Requires Level 3 Blacksmith and Science from SpellBook."
 END
+TOOLTIP:LackLevel3EregionForgeAndScience_New
+"Requires Level 3 Eregion Forge and Science from Spellbook."
+END
 //---------------------------------------------------
 CONTROLBAR:EliteTrainingScience_New
 "Elite Training"
@@ -136,11 +139,17 @@ END
 CONTROLBAR:PurchaseTechnologyIsengardBasicTraining_New
 "Research Explosive Bolts (&N)"
 END
+CONTROLBAR:PurchaseTechnologyElvenBasicTraining_New
+"Research Golden Arrows (&N)"
+END
 CONTROLBAR:PurchaseTechnologyGondorBasicTraining_New
-"Research &Red Arrows from Gondor"
+"Research Red Arrows from Gondor (&R)"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining_New
 "Allows Crossbowmen to purchase the Explosive Bolts upgrade and increase them to Level 2"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining_New
+"Allows battalions to purchase the Golden Arrows upgrade and increase them to Level 2."
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining_New
 "Allows Gondor Rangers to purchase the Red Arrows upgrade, dealing special damage and being increased to Level 2"
@@ -240,8 +249,14 @@ End
 TOOLTIP:LackMordorBasicTraining_New
 "Research upgrade at Tavern to enable this technique \n When equipped, increases this horde to Level 3, receives Heavy Armor and becomes able to use Barbed Arrows permanently."
 END
+TOOLTIP:LackElderRacesBasicTraining_New
+"Research upgrade at the EregionForge to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Golden Arrows permanently."
+END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining_New
 "Increases this horde to level 3, grants Heavy Armor and becomes able to shoot Barbed Arrows permanently."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElderRacesBasicTraining_New
+"Increases this horde to level 2, grants Heavy Armor and becomes able to shoot Golden Arrows permanently."
 END
 //------------------------------------------------------------//
 TOOLTIP:LackGondorFireArrows_New
@@ -290,6 +305,9 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining_New
 END
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining_New
 "Purchase Elite Trai&ning"
+END
+CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining_New
+"Purchase Golden Arrows (&N)"
 END
 CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
 "Purchase E&lite Trai&ning"
