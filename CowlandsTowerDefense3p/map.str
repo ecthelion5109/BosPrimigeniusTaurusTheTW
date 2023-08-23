@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 480 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 481 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -1314,7 +1314,7 @@ CONTROLBAR:GimliSlayerAttack_New
 "Slayer Attack (&B)"
 End
 CONTROLBAR:GimliSlayerAttackDesc_New
-"Requires Level 10 \n GIMLI DANCES WITH HIS AXE AND PERFORMS FUCKING INSANE DAMAGE ON THE TARGET, ROOTING EM IN PLACE FOR A DECENT DURATION"
+"Requires Level 10 \n Gimli targets an alive unit and will attack it untill he can't breath. \n The target is paralyzed at every hit. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGenericPillage_New
@@ -2088,36 +2088,41 @@ CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
-CONTROLBAR:GloinShakeFoundation_New
-"Crack the Ground (&R)"
-END
-CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
-"Requires Level 2 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
-END
 CONTROLBAR:GloinSlam_New
-"Slam [&T]"
+"Slam [&R]"
 END
 CONTROLBAR:ToolTipDwarvenGloinSlam_New
-"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
+"Powerful attack that causes high damage\n Left click icon then left click on target"
 END
+//------------
+CONTROLBAR:GloinShakeFoundation_New
+"Crack the Ground (&T)"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
+"Requires Level 4 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
+END
+//------------
 CONTROLBAR:Undermine_New
 "Open a Bunker (&C)"
 END
 CONTROLBAR:TooltipUndermine_New
-"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+"Requires Level 6 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
 END
+//------------
 CONTROLBAR:GloinEarthquake_New
 "Earthquake [&B]"
 END
 CONTROLBAR:GloinEarthquakeDesc_New
 "Requires Level 9 \n Creates a small earthquake by doing some shit with it's hammer \n Left click icon then left click on target"
 END
+//------------
 CONTROLBAR:GloinSmash_New
 "Shatter Hammer [&V]"
 END
 CONTROLBAR:ToolTipGloinSmash_New
 "Requires Level 8 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
 END
+//------------
 CONTROLBAR:DwarvenCharge_New
 "Guardian Charge (&B)"
 END
