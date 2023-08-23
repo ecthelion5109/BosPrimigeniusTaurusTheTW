@@ -51,7 +51,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 1.90: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 1.91: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -59,101 +59,147 @@ End
 //--------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------//
 
-//	ME FALTA CROSSBOW
-//	ME FALTA DUNEDAIN
-//	ME FALTA DALE ELITE
-//	ME FALTA GOB ARCHER
-//-------------------------------------------------
+
+//------------------------Done+-----------------------
+TOOLTIP:DisplayDamage_GoblinArcherBasic
+"Damage per unit: \n PIERCE damage: 26"
+End
+TOOLTIP:DisplayDamage_GoblinArcherUpgrade
+"Damage per unit: \n PIERCE damage: 26 \n FLAME damage: 25"
+End
+TOOLTIP:DisplayDamage_GoblinArcherElite
+"Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)" 
+//"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)" 
+//x0.7
+End
+//--------------------------Done+--------------------
+TOOLTIP:DisplayDamage_CrossbowBasic
+"Damage per unit: \n PIERCE damage: 60"
+End
+TOOLTIP:DisplayDamage_CrossbowUpgrade
+"Damage per unit: \n PIERCE damage: 60 \n FLAME damage: 60"
+End
+TOOLTIP:DisplayDamage_CrossbowElite
+"Damage per unit: \n PIERCE damage: 15 \n SIEGE damage: 25"
+End
+//-------------------------done---------------------
 TOOLTIP:DisplayDamage_SpiderRiderArcherBasic
 "Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10"
 End
-TOOLTIP:DisplayDamage_SpiderRiderArcherFire
+TOOLTIP:DisplayDamage_SpiderRiderArcherUpgrade
 "Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10 \n FLAME damage: 30"
 End
-//-------------------------------------------------
+TOOLTIP:DisplayDamage_SpiderRiderArcherElite
+//"Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)" 
+"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)" 
+//0.7
+//1.0
+End
+//--------------------------Done---------------------
 TOOLTIP:DisplayDamage_RohirrimArcherBasic
 "Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
+//already x1.9
 End
-TOOLTIP:DisplayDamage_RohirrimArcherFire
+TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
 "Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
 End
-//-------------------------------------------------
+//-------------------------Done+--------------------
 TOOLTIP:DisplayDamage_RangerBasic
 "Damage per unit: \n PIERCE damage: 65"
 End
-TOOLTIP:DisplayDamage_RangerFire
+TOOLTIP:DisplayDamage_RangerUpgrade
 "Damage per unit: \n PIERCE damage: 90 \n FLAME damage 18"
 End
-TOOLTIP:DisplayDamage_RangerRedArrow
+TOOLTIP:DisplayDamage_RangerElite
 "Damage per unit: \n HERO_RANGED damage: 50"
 End
-//-------------------------------------------------
+TOOLTIP:DisplayDamage_RangerElitePoison
+"Damage per unit: \n PIERCE damage: 66 \n POISON damage: 13.2 (for 7 seconds)"  
+// x2.2
+//"Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)"
+// x0.7
+//"Damage per unit: \n PIERCE damage: 30 \n POISON damage: 6 (for 7 seconds)"
+// x1
+End
+//----------------------------Done+---------------------
 TOOLTIP:DisplayDamage_GondorArcherBasic
 "Damage per unit: \n PIERCE damage: 30"
 End
-TOOLTIP:DisplayDamage_GondorArcherFire
+TOOLTIP:DisplayDamage_GondorArcherUpgrade
 "Damage per unit: \n PIERCE damage: 30 \n FLAME damage 30"
 End
-//-------------------------------------------------
+//----------------------Done--------------------------
 TOOLTIP:DisplayDamage_OrcArcherBasic
 "Damage per unit: \n PIERCE damage: 25"
 End
-TOOLTIP:DisplayDamage_OrcArcherFire
+TOOLTIP:DisplayDamage_OrcArcherUpgrade
 "Damage per unit: \n PIERCE damage: 25 \n FLAME damage 30"
 End
-//-------------------------------------------------
+//------------------------Done----------------------
 TOOLTIP:DisplayDamage_HaradrimArcherBasic
 "Damage per unit: \n PIERCE damage: 64"
 End
-TOOLTIP:DisplayDamage_HaradrimArcherFire
+TOOLTIP:DisplayDamage_HaradrimArcherUpgrade
 "Damage per unit: \n PIERCE damage: 64 \n FLAME damage 64"
 End
-TOOLTIP:DisplayDamage_HaradrimArcherBarbed
+TOOLTIP:DisplayDamage_HaradrimArcherElite
 "Damage per unit: \n PIERCE damage: 64 \n HERO_RANGED damage 20"
 End
-//-------------------------------------------------
+//-------------------------done----------------------
 TOOLTIP:DisplayDamage_LancerBasic
 "Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17"
 End
-TOOLTIP:DisplayDamage_LancerPoison
+TOOLTIP:DisplayDamage_LancerUpgrade
 "Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
 End
-//-------------------------------------------------
+//--------------------------Done-----------------------
 TOOLTIP:DisplayDamage_AxeThrowerBasic
 "Damage per unit: \n SLASH damage: 24 \n SIEGE damage 15"
 End
-TOOLTIP:DisplayDamage_AxeThrowerForged
+TOOLTIP:DisplayDamage_AxeThrowerUpgrade
 "Damage per unit: \n SLASH damage: 42 \n SIEGE damage 15"
 End
-//-------------------------------------------------
+//--------------------------Done-------------------
 TOOLTIP:DisplayDamage_DaleArcherBasic
 "Damage per unit: \n PIERCE damage: 52"
 End
-TOOLTIP:DisplayDamage_DaleArcherFlame
-"Damage per unit: \n PIERCE damage: 52 \n FLAME damage: 50"
+TOOLTIP:DisplayDamage_DaleArcherUpgrade
+"Damage per unit: \n PIERCE damage: 61 \n FLAME damage: 58"
+//x1.17
 End
-//-------------------------------------------------
+TOOLTIP:DisplayDamage_DaleArcherElite
+"Damage per unit: \n HERO damage: 55"
+//x0.55
+End
+TOOLTIP:DisplayDamage_DaleArcherEliteSummoned
+"Damage per unit: \n HERO damage: 100"
+End
+//---------------------------Done-------------------
 TOOLTIP:DisplayDamage_LorienArcherBasic
 "Damage per unit: \n PIERCE damage: 40"
 End
-TOOLTIP:DisplayDamage_LorienArcherMagic
+TOOLTIP:DisplayDamage_LorienArcherUpgrade
 "Damage per unit: \n PIERCE damage: 40 \n MAGIC damage: 20"
 End
-//-------------------------------------------------
+//------------------------done---------------------
 TOOLTIP:DisplayDamage_ElvenWarriorBasic
 "Damage per unit: \n PIERCE damage: 50"
 End
-TOOLTIP:DisplayDamage_ElvenWarriorFlame
-"Damage per unit: \n PIERCE damage: 50 \n FLAME damage: 20"
+TOOLTIP:DisplayDamage_ElvenWarriorUpgrade
+"Damage per unit: \n PIERCE damage: 50 \n FLAME damage: 50"
 End
-TOOLTIP:DisplayDamage_ElvenWarriorGolden
+TOOLTIP:DisplayDamage_ElvenWarriorElite
 "Damage per unit: \n PIERCE damage: 50 \n FLAME damage: 20 \n HERO_RANGED damage: 10"
 End
-//-------------------------------------------------
+TOOLTIP:DisplayDamage_ElvenWarriorEliteSummoned
+"Damage per unit: \n PIERCE damage: 117 \n FLAME damage: 47 \n HERO_RANGED damage: 23"
+//x2.35
+End
+//---------------------------done-----------------
 TOOLTIP:DisplayDamage_MirkwoodArcherBasic
 "Damage per unit: \n PIERCE damage: 60"
 End
-TOOLTIP:DisplayDamage_MirkwoodArcherMagic
+TOOLTIP:DisplayDamage_MirkwoodArcherUpgrade
 "Damage per unit: \n PIERCE damage: 60 \n MAGIC damage: 24"
 End
 //-------------------------------------------------
