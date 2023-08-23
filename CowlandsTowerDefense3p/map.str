@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.95 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.96 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,6 +77,25 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:TrollCageIcon01_New
+"Cave Trolls unlock"
+End
+CONTROLBAR:TrollCageIcon02_New
+"Mountain Trolls unlock"
+End
+CONTROLBAR:TrollCageIcon03_New
+"Attack Trolls unlock"
+End
+CONTROLBAR:TrollCageIcon01Desc_New
+"Requires Level 1 Troll Cages \n Gothmog becomes able to summon 1 Cave Troll"
+End
+CONTROLBAR:TrollCageIcon02Desc_New
+"Requires Level 2 Troll Cages \n Gothmog becomes able to summon 2 Mountain Trolls \n capable of gain experience untill they convert into Attack Trolls."
+End
+CONTROLBAR:TrollCageIcon03Desc_New
+"Requires Level 3 Troll Cages \n Gothmog becomes able to summon 3 Attack Trolls"
+End
 //---------------------------------------------------
 CONTROLBAR:FortressFireDrakeHotkey_New
 "Cremona, la dragoncita <3"
@@ -108,7 +127,7 @@ CONTROLBAR:FireDrakePassiveBoostDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
-"Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of Drogoth and Fire Drake."
+"Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogFire_New
@@ -1668,13 +1687,6 @@ CONTROLBAR:ToolTipHawkStrike_New
 "Double-arrow attack \n Effective against cavalry and monsters\n Left click icon then left click on target"
 END
 //---------------------------------------------------
-CONTROLBAR:CalltheHorde_New
-"Call the Hordes (&B)"
-End
-CONTROLBAR:ToolTipCalltheHorde_New
-"Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies or pikemen orc to setup a wall of pikes against cavalry \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
 CONTROLBAR:CloudBreak_New
 "Cloud Break (&V)"
 End
@@ -1952,6 +1964,13 @@ CONTROLBAR:GothmogLeadership_New
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
 "Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:CalltheHorde_New
+"Call the Hordes (&B)"
+End
+CONTROLBAR:ToolTipCalltheHorde_New
+"Requires Level 10 \n Summons four hordes of mordor orcs \n to defend the road against your enemies. \n \n Summon troll system: \n Troll cage level 1 implies 1 cave troll. \n Troll cage level 2 implies 2 mountain trolls. \n Troll cage level 3 implies 3 attack trolls. \n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
