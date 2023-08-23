@@ -1377,11 +1377,11 @@ CONTROLBAR:HourOfTheWitchKing_New
 "Memories of A&ngmar" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
-CONTROLBAR:RainOfMorgul_New
-"Rains Of Morg&ul"
+CONTROLBAR:RainsOfMorgul_New
+"Rains Of Morgul (&B)"
 END
-CONTROLBAR:RainOfMorgulDesc_New
-"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n left click icon to activate"
+CONTROLBAR:RainsOfMorgulDesc_New
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:OutlawLeadership_New
@@ -1392,7 +1392,7 @@ CONTROLBAR:ToolTipOutlawLeadership_New
 END
 //---------------------------------------------------
 CONTROLBAR:Blight_New
-"Rape the Land (&B)" // Blight
+"Rape the Land (&V)" // Blight
 End
 CONTROLBAR:BlightDesc_New
 "Requires Level 8 \n Enemy units in the affected area receive damage over time, \n get their speed reduced by -20%, \n and upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
