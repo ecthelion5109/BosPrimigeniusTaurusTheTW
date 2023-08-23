@@ -33,18 +33,18 @@ CONTROLBAR:ToolTipTaint_New
 END
 
 CONTROLBAR:Sunflare_New
-"S&unflare"
+"Moonlight [&B]"
 END
 
 CONTROLBAR:TooltipSunflare_New
-"Requires Level 10 \n Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"Requires Level 10 \n Calls a beam of canalized moonlight energy to scorch the cowlands \n Left click icon then left click on target area"
 END
 CONTROLBAR:Flood_New
 "Flo&od"
 END
 
 CONTROLBAR:TooltipFlood_New
-"Requires Level 10 \n Summons a powerful Flood anywhere on the cowlands to crush enemy units \n Left click icon then left click on target area"
+"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
 CONTROLBAR:EnshroudingMist_New
 "Poiso&nous Mist"
@@ -117,16 +117,14 @@ END
 CONTROLBAR:TooltipCowSuicide_Desc
 "Requires a human playing God \n \n This cow is sick and needs to be put to sleep immediately."
 END
-
-
+ 
 
 CONTROLBAR:TooltipScreechWitchKing_New
 "Requires Level 4 \n Causes enemy units to flee in terror \n Left click to activate"
 END
-
-
+ 
 CONTROLBAR:TooltipElrondWhirlwind_New
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+"Requires Level 7 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 CONTROLBAR:CorrodeAllegiance_New
 "Convince Communism is Good [&C]"
