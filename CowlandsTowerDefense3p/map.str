@@ -1,5 +1,5 @@
 //-------------------------------------------------------------------------------//
-//-----------------------#Bunitos 2018-2022 map.STR, si!#-----------------------------//
+//-----------------------#Bunitos 2018 map.STR, si!#-----------------------------//
 //-------------------------------------------------------------------------------//
 
 	//-----,lc'---------------------.'loc,.---------------------------------//
@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 517 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 520 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -80,16 +80,6 @@ End
 
 
 //------------------------------------------------------------
-//------------------------------------------------------------
-SCRIPT:SpeedMultiplierActivated
-"Speed Multiplier activated"
-END
-SCRIPT:SpeedMultiplierEnabled
-"Speed mult. set to 5x"
-END
-SCRIPT:SpeedMultiplierDisabled
-"Speed mult. set to 1x"
-END
 //------------------------------------------------------------
 CONTROLBAR:BlackOrcCheerTheHorde_New
 "Black Rage (&W)"
@@ -1290,13 +1280,6 @@ CONTROLBAR:GandalfTeleportDesc_New
 End
 CONTROLBAR:GandalfTeleport_New
 "Teleport (&W)"
-End
-//---------------------------------------------------
-OBJECT:MagicTeleportStatue_New
-"Pig Teleport (&W)"
-End
-TOOLTIP:MagicTeleportStatue_New
-"Teleport nearby units to anywhere on the map \n Left click icon on pathable location"
 End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoost_New
@@ -2658,25 +2641,6 @@ End
 SCRIPT:GameStart5
 "All available units have any sort of utility \n therefore there's not One manner to win this map"
 End
-//--------------------------------------------------//
-SCRIPT:PigGameStart1
-"This is Sus Scrofa Scrofa: The TW \n If it makes you lag, you re' doing it right."
-End
-SCRIPT:PigGameStart2
-"The objetive is to defend the \n pigs in the center of the map. \n Lose your pigs; lose your life."
-End
-SCRIPT:PigGameStart3
-"Waves are divided in armies. \n Each army has a boss at its 5th wave."
-End
-SCRIPT:PigGameStart4
-"You will be completly responsable for \n your own money and commandpoints."
-End
-SCRIPT:PigGameStart5
-"All available units have any sort of utility \n therefore there's not One manner to win this map"
-End
-SCRIPT:PigGameStart6
-"Good luck. \n Thorin sucks."
-End
 //-------------------------------------------//
 SCRIPT:RipCounters
 "Kill-counters won't work when \n there's a player of different team."
@@ -2712,64 +2676,6 @@ END
 TOOLTIP:LadyCow
 "Brings joy to Middle-Earth"
 END
-//---------------------------------------------------
-OBJECT:Napoleon_New
-"Napoleon"
-END
-TOOLTIP:Napoleon_New
-"Enables Hard Mode."
-END
-OBJECT:Chorizo_New
-"Chorizo"
-END
-TOOLTIP:Chorizo_New
-"Enables Easy Mode."
-END
-//-----------------
-OBJECT:Enzo_New
-"Enzo"
-END
-TOOLTIP:Enzo_New
-"Provides Andy ranting quotes"
-END
-//---------------------------------------------------
-SCRIPT:Andy01
-"ok im doen with ypou motherfucker you r cheater 5000000000000%"
-End
-SCRIPT:Andy02
-"fuck youuu cheater cunt idk what you spam  but my all hero stuck fking cunt "
-End
-SCRIPT:Andy03
-"u was unkillable"
-End
-SCRIPT:Andy04
-"im only cant kill your heroes everythign have 80000 and 50% speed boost like fking heroic mod"
-End
-SCRIPT:Andy05
-"i lost 5 hero they not moving gRAZT enjoy last king time  i played with u "
-End
-SCRIPT:Andy06
-"400% allways with heroes your heroes unkillable mines die 5 sec cant run away cant control enjoy"
-End
-//---------------------------------------------------
-SCRIPT:Mustafa01
-"i like ur pitch but i want some more blanced"
-End
-SCRIPT:Mustafa02
-"for exmpl"
-End
-SCRIPT:Mustafa03
-"mos of suron must to be when he atk gob farms or drw farms like grofndal army die if I took it out"
-End
-SCRIPT:Mustafa04
-"or mype..."
-End
-SCRIPT:Mustafa05
-"mos of suoron he need to make Red Beam more strong army like mordor cant kill heros mos only way "
-End
-SCRIPT:Mustafa06
-"i gib u 100$ if u make ptch like 1.00"
-End
 //---------------------------------------------------
 OBJECT:Estella
 "Estella, la vaquita"
@@ -2866,9 +2772,6 @@ End
 SCRIPT:GameStarts
 "The raid to the Cowlands begin in"
 End
-SCRIPT:PigGameStarts
-"The raid to the Piglands begin in"
-End
 SCRIPT:AliveCreeps
 "Alive creeps"
 End
@@ -2890,17 +2793,8 @@ End
 SCRIPT:JUGARDOR4KILL
 "Player4 killed"
 End
-SCRIPT:Pigplayer1kills
-"South-West player killed"
-End
-SCRIPT:Pigplayer2kills
-"North-West player killed"
-End
-SCRIPT:Pigplayer3kills
-"North-Eastern player killed"
-End
-SCRIPT:Pigplayer4kills
-"South-Eastern player killed"
+SCRIPT:JUGARDOR5KILL
+"Player5 killed"
 End
 SCRIPT:GameTimeMinutes
 "Minutes in game"
