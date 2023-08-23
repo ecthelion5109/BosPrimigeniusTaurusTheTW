@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.68 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.69 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,24 +76,6 @@ End
 
 
 
-//------------------------------------------------------------
-CONTROLBAR:PurchaseSpiderVenomSacks_New
-"Purchase &Venom Sacs"
-END
-
-CONTROLBAR:ToolTipPurchaseSpiderVenomSacks_New
-"Upgrades this horde with Venom Sacs \n Inflicts poison to enemies causing damage over time"
-END
-TOOLTIP:LackVenomSacksTechnology_New
-"Research upgrade at Spider Pit to enable this equipment \n When equipped, inflicts poison to enemies causing damage over time"
-END
-//------------------------------------------------------------
-CONTROLBAR:PurchaseTechnologySpiderVenomSacks_New
-"Research &Venom Sacs"
-END
-CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
-"Allows hordes to purchase the \nVenom Sacs upgrade \n When equipped, causes damage over time to poisoned enemies\n\nStrong vs. cavalry"
-END
 //------------------------------------------------------------
 UPGRADE:GoblinArcherBuff_New
 "Goblin Purification"
@@ -426,7 +408,7 @@ CONTROLBAR:GoblinsTrainAlliesDesc_New
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"Toxic cum-shot (&V)"
+"Toxic cum-shot (&C)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
 "Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
@@ -437,6 +419,13 @@ CONTROLBAR:GorkilRoussingSpeech_New
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
 "Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n left click icon to activate"
+END
+//---------------------
+CONTROLBAR:GorkilSummonMarauders_New
+"Call from the Deeps [&V]"
+END
+CONTROLBAR:GorkilSummonMaraudersDesc_New
+"Requires Level 10 \n Gorkil awakes a bunch of monstrous marauders half-trolls from the deeps of the Middle-Earth where goblins manage to have sex with trolls. \n Opens a crack and deals damage in the target location."
 END
 //---------------------------------------------------
 CONTROLBAR:AxeStormIsengard_New
@@ -844,7 +833,8 @@ CONTROLBAR:EliteTrainingScienceDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
-"Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
+"Level 2: Allows researching Purification upgrade. \n +10% Faster Build Speed"
+//"Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
@@ -895,6 +885,13 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining_New
 END
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining_New
 "Requires Level 3 Forge Works and Science from SpellBook. \n Allows battalions of Men of Dale to purchase a Elite Training service. \n The upgraded hordes become able to shoot Black Arrows permanently and get increased to Level 2"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseTechnologySpiderVenomSacks_New
+"Research &Venom Sacs"
+END
+CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
+"Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins and Riders hordes to purchase a Venom Sacks. \n Provides ilimitated Poison Arrows ammo."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining_New
@@ -975,6 +972,16 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
 "Increases this horde to level 2, grants Heavy Armor, and becomes able to use Poison Arrows permanently."
 END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseSpiderVenomSacks_New
+"Purchase &Venom Sacs"
+END
+CONTROLBAR:ToolTipPurchaseSpiderVenomSacks_New
+"Upgrades this horde with Venom Sacs \n Archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
+END
+TOOLTIP:LackVenomSacksTechnology_New
+"Research at Treasure Trove to enable this equipment . \n When equipped, archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
+END
 //---------------------------------------------------
 TOOLTIP:LackDwarvenBasicTraining_New
 "Research at Forge Works to enable this technique . \n When equipped, increases this horde to level 2, receives Heavy Armor, and become able to use Poison Black permanently."
@@ -1006,11 +1013,8 @@ TOOLTIP:LackDwarvenFireArrows_New
 "Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
 END
 //------------------------------------------------------------------------
-TOOLTIP:WildVenomSacs_New
+TOOLTIP:MordorPoisonedSpears_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
-END
-TOOLTIP:LackVenomSacksTechnology_New
-"Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
@@ -2266,7 +2270,7 @@ END
 Upgrade:FortressFireArrows_New
 "Battle Tower Fire Arrows"
 END
-Upgrade:WildVenomSacs_New
+Upgrade:MordorPoisonedSpears_New
 "Poisoned Spears"
 END
 Upgrade:LegolasTrainedAlliesUpgrade_New
