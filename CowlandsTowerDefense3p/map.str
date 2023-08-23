@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.84 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.85 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -92,13 +92,6 @@ End
 
 CONTROLBAR:SummonBalrogIceDesc_New
 "Requires Level 10  \n Awakes a Ice Demon from the deeps of what's left on Angmar. \n Can only use when dismounted \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
-CONTROLBAR:VenomousWords_New
-"False Encou&ragement"
-END
-CONTROLBAR:ToolTipVenomousWords_New
-"Requires Level 2 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are halved while their speed is doubled. \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructIsengardLumberMill_New
@@ -146,7 +139,7 @@ CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
 "Requires Level 3 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
-"Requires Level 5 \n Sends five fireball at selected area \n Left click icon then left click on target location"
+"Requires Level 5 \n Sends five fireball at selected area. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
 END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
@@ -172,28 +165,24 @@ END
 CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
 END
-//---------------------
 CONTROLBAR:ShelobFreezeingScreech_New
 "F&reezeing Screech" 
 END
 CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
-//---------------------
 CONTROLBAR:ShelobToxicCumShot_New
 "Toxic Lady Juice (&V)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
-//---------------------
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
-//---------------------
 CONTROLBAR:ShelobWebbing_New
 "&Ungoliant's mad fruitfulness!"
 End
@@ -226,19 +215,6 @@ End
 OBJECT:HordeMordorHaradrimArcher_New
 "Rhun Archers"
 END
-//---------------------------------------------------
-CONTROLBAR:AzogChildsPrerequisite_New
-"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
-End
-CONTROLBAR:AzogChilds_New
-"Carlitos, Panchito y Miguelito"
-End
-CONTROLBAR:AzogChildsDesc_New
-"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
-End
-CONTROLBAR:AzogChildsPurchased_New
-"Wow La familia felix"
-End
 //---------------------------------------------------
 OBJECT:InnTavern_New
 "Cowlands Inn"
@@ -278,7 +254,7 @@ CONTROLBAR:GorkilToxicCumShot_New
 "Toxic cum-shot (&V)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:AxeStormIsengard_New
@@ -335,7 +311,7 @@ CONTROLBAR:SpecialAbilityIgniteBlue_New
 "Ancient demon mode (&I)"
 END
 CONTROLBAR:ToolTipSpecialAbilityIgniteBlue_New
-"The demon gains double Damage and +50% armor \n Left click to activate"
+"The demon gains +100% damage, \n +50% armor and +15% speed. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilityFireWhipBlue_New
 "Freezeing &Whip"
@@ -349,6 +325,10 @@ END
 CONTROLBAR:ToolTipSpecialAbilityBalrogBreathBlue_New
 "Breathes ice fire like that dead dragon from Warcraft 3, freezeing and shit. \n Does it twice cuz he's got energy. \n Left click icon then left click on target area" 
 ///Requires Level 5 \n 
+END
+//------------------------RedBalrog-----------------------
+CONTROLBAR:ToolTipSpecialAbilityIgniteRed_New
+"The Balrog gains +100% damage, +50% armor and +15% speed. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:FueltheFires_New
@@ -380,6 +360,12 @@ Upgrade:FortressPoisonArrows_New
 "Poison arrows"
 END
 //---------------------------------------------------
+CONTROLBAR:VenomousWords_New
+"False Encou&ragement"
+END
+CONTROLBAR:ToolTipVenomousWords_New
+"Requires Level 2 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, speed is increased to 200%. \n Lasts two minutes. \n Left click icon then left click on target units"
+END
 CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
 END
@@ -1071,7 +1057,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
+"Requires Level 3 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
@@ -1085,21 +1071,30 @@ TOOLTIP:ToolTipGorkilTotemDesc_New
 "Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
 END
 //---------------------------------------------------
+CONTROLBAR:AzogChildsPrerequisite_New
+"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
+End
+CONTROLBAR:AzogChilds_New
+"Carlitos, Panchito y Miguelito"
+End
+CONTROLBAR:AzogChildsDesc_New
+"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
+End
+CONTROLBAR:AzogChildsPurchased_New
+"Wow La familia felix"
+End
 CONTROLBAR:AzogCallSomething_New
 "Call Something (&B)"
 End
 CONTROLBAR:AzogCallSomethingDesc_New
 "Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
 END
-//---------------------------------------------------
-//---------------------------------------------------
 CONTROLBAR:AzogGoblinFury_New
 "Goblin Fury (&T)"
 END
 CONTROLBAR:AzogGoblinFuryDesc_New
 "Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
-//---------------------------------------------------
 CONTROLBAR:GoblinCharge_New
 "Goblin Charge (&W)"
 END
@@ -1368,7 +1363,7 @@ CONTROLBAR:IsengardExplosiveBoltsActive_New
 "Explosive Bolt Sho&t"
 End
 CONTROLBAR:IsengardExplosiveBoltsActiveDesc_New
-"Requires Level 5\n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage \n Left click icon then left click on target"
+"Requires Level 4\n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage \n Left click icon then left click on target"
 End
 CONTROLBAR:IsengardExplosiveBoltsPassive_New
 "Explosive Bolts"
