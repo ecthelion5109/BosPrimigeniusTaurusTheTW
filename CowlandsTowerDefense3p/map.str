@@ -1,4 +1,20 @@
 
+
+
+
+
+CONTROLBAR:LoneTower_New
+"Sum&mon Lone Tower"
+END
+CONTROLBAR:TooltipLoneTower_New
+"Requires Level 5 \n Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
+END
+CONTROLBAR:Undermine_New
+"Open a T&unnel"
+END
+CONTROLBAR:TooltipUndermine_New
+"Requires Level 9 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+END
 CONTROLBAR:AxeStorm_New
 "A&xe Storm"
 END
@@ -11,15 +27,7 @@ END
 CONTROLBAR:ToolTipDainStubbornPride_New
 "Requires Level 5 \n Dain reminds nearby dwarves about their superiority to Elves \n All nearby dwarves gain +15% speed, +15% damage and become resistent to fear or terror \n Always stack \n Passive ability"
 END
- 
-CONTROLBAR:LoneTower_New
-"Sum&mon Lone Tower"
-END
-CONTROLBAR:TooltipLoneTower_New
-"Requires Level 9 \n Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
-END
-
-CONTROLBAR:DwarvenRiches_New
+ CONTROLBAR:DwarvenRiches_New
 "Tax Exem&ption"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
