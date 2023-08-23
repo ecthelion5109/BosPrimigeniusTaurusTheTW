@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 538 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 541 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -2610,39 +2610,40 @@ SCRIPT:BonusForWipingArmy300
 End
 //--------------------------------------------------//
 SCRIPT:BonusForWipingArmy1600FINAL
-"Congratulations. Cows were mercilessly slaughtered. \n +1600 to final score"
+"Cows were mercilessly slaughtered. \n +1600 to final score"
 End
 SCRIPT:BonusForWipingArmy1200FINAL
-"Congratulations. Cows were put down with ease. \n +1200 to final score"
+"Cows were put down with ease. \n +1200 to final score"
 End
 SCRIPT:BonusForWipingArmy900FINAL
-"Congratulations. Cows ranks were devastated. \n +900 to final score"
+"Cows ranks were devastated. \n +900 to final score"
 End
 SCRIPT:BonusForWipingArmy600FINAL
-"Congratulations, but cows were defeated. \n +600 to final score"
+"Cows were defeated. \n +600 to final score"
 End
 SCRIPT:BonusForWipingArmy300FINAL
-"Congratulations, but Cows almost escaped. \n +300 to final score"
+"Cows almost escaped. \n +300 to final score"
 End
 //--------------------------------------------------//
-SCRIPT:BonusForWipingArmy1600FINALTOTAL
-"Cowmap team qualification: \n Excellent"
+SCRIPT:t_VictoryText00_A
+"Congratulations, you have won the cowmap without challenge. \n You are qualified to play the next level of difficulty."
 End
-SCRIPT:BonusForWipingArmy900FINALTOTAL
-"Cowmap team qualification: \n Regular"
+SCRIPT:t_VictoryText00_B
+"Congratulations, you have won the cowmap fair and square. \n But you are not ready for the next level of difficulty."
 End
-SCRIPT:BonusForWipingArmy300FINALTOTAL
-"Cowmap team qualification: \n Mediocre"
+SCRIPT:t_VictoryText00_C
+"Congratulations, you have won the cowmap. \n Your qualification was low but you can improve it"
 End
 SCRIPT:CowMapScore
 "CowMap score:"
 End
 SCRIPT:t_VictoryText01
-"You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
+"Special thanks to the beta-cow-players; \n Thorin, Arion, Guerrilla, FarmerLau, MusicDawn, \n Temptation, Fitton, Lovely, Gannicus, Sauron..."
 End
 SCRIPT:t_VictoryText02
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually played this map since its first build in January 1st of 2018."
+"... Fluffy Orc, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire, BlockBuster \n and whoever actually played this map since its first build in January 1st of 2018."
 End
+//--------------------------------------------------//
 SCRIPT:LOSE
 ";( cows not happy"
 // 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
