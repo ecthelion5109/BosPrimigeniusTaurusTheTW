@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.98 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.99 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -77,6 +77,10 @@ End
 
 
 
+//---------------------------------------------------
+CONTROLBAR:ConstructMordorTrollCage_New
+"Build &Troll Cage"
+END
 //---------------------------------------------------
 CONTROLBAR:TrollCageIcon01_New
 "Cave Trolls unlock"
@@ -1838,16 +1842,16 @@ CONTROLBAR:ConstructElvenFarmDesc_New
 END
 //-------------------------------------------------
 CONTROLBAR:GloinSlam_New
-"Slam [&R]"
+"Slam [&T]"
 END
 CONTROLBAR:ToolTipDwarvenGloinSlam_New
-"Requires Level 3 \n Powerful attack that causes high damage\n Left click icon then left click on target"
+"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
 END
 CONTROLBAR:GloinShakeFoundation_New
-"Shake enemy boo&ty"
+"Shake enemy booty [&R]"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
-"Requires Level 5 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
+"Requires Level 2 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
 END
 CONTROLBAR:GloinEarthquake_New
 "Earthquake [&V]"
