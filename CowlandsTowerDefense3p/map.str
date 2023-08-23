@@ -261,7 +261,7 @@ END
 
 
 CONTROLBAR:ToolTipElvenGifts_New
-"Requires level 2 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, therefore gain +200% damage \n Passive power"
+"Requires level 2 \n Heroes gain +200% damage \n Passive power"
 END
 
 CONTROLBAR:ToolTipDainStubbornPride_New
@@ -617,7 +617,7 @@ SCRIPT:HARDCORE
 "Hard mode enabled \n You will have to think where to put your shit and be as efficient possible."
 End
 SCRIPT:LOSE
-"Enemies have entered the tunnel system and poisoned \n the water supplies of the cows of this lands \n\n Is thorin playing here? \n You should get rid of him to success"
+"Enemies have entered the tunnel system and poisoned \n the water supplies of the cows of this lands :( \n\n\n Is thorin playing here? \n You should get rid of him to success"
 End
 //"lol. \nIs thorin playing here or what."
 SCRIPT:MOO_01
