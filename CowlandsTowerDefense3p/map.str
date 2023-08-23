@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.63 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.64 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -296,7 +296,7 @@ CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
-"Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 CONTROLBAR:GrimaLoneTower_New
 "Summon Lone Tower (&U)"
@@ -545,7 +545,8 @@ TOOLTIP:DisplayDamage_MirkwoodArcherBasic
 "Damage per unit: \n PIERCE damage: 60"
 End
 TOOLTIP:DisplayDamage_MirkwoodArcherUpgrade
-"Damage per unit: \n PIERCE damage: 60 \n MAGIC damage: 24"
+"Damage per unit: \n PIERCE damage: 60 \n MAGIC damage: 42"
+//"Damage per unit: \n PIERCE damage: 60 \n MAGIC damage: 24"
 End
 //---------------------------LONETOWER PASSIVE ICONS----------------------
 CONTROLBAR:LoneTowerLeadershipUpgradeIconDesc_New
@@ -739,7 +740,7 @@ TOOLTIP:LackGondorFireArrows_New
 "Research upgrade at Blacksmith to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
 END
 TOOLTIP:LegolasTrainedAlliesUpgradeDesc_New
-"Superior Archer Specialization. \n This Horde rate of fire is +100% faster and pre-attack time is only 50%."
+"Superior Archer Specialization. \n This Horde rate of fire is +50% faster and pre-attack time is -25%%."
 END
 TOOLTIP:LackDwarvenFireArrows_New
 "Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
@@ -1165,14 +1166,14 @@ CONTROLBAR:MenWood_New
 "Fanatic pseudo-ecologist [&B]"
 END
 CONTROLBAR:MenWoodDesc_New
-"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
+"Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:ElvenWood_New
 "Elven Wood [&B]"
 END
 CONTROLBAR:TooltipElvenWood_New
-"Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied STRUCTURES health points are triplicated whilst its during. \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
@@ -1305,7 +1306,7 @@ CONTROLBAR:Blight_New
 "Rape the Land (&B)" // Blight
 End
 CONTROLBAR:BlightDesc_New
-"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES gain 50% armor. \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are triplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
@@ -2091,6 +2092,12 @@ End
 //-----------------------------flags--------------------------//
 SCRIPT:TestingMode
 "Testing mode Enabled"
+End
+SCRIPT:30Fps
+"30 Fps enabled"
+End
+SCRIPT:90Fps
+"90 Fps enabled"
 End
 SCRIPT:2PlayersMode
 "2 Players mode Enabled"
