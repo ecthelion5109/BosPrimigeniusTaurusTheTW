@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.64 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.65 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -202,13 +202,6 @@ CONTROLBAR:SarumanDragonStrike_New
 END
 CONTROLBAR:SarumanDragonStrikeDesc_New
 "Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the target location \n Left click icon then left click on target area"
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
-"Nearby allied units gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
-END
-CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest_New
-"Nearby allied units gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%."
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
@@ -561,14 +554,8 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitionsFortress_New
 "Arms defensive towers with Fire Arrows \n Upgrades Summoned Lone Towers."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavationsFortress_New
-"Heals nearby Allies. \n Replenish units from hordes each 10 seconds.\n Reduces the cost of Isengard structures and walls by -15%. \n Nearby units gain experience 50% faster \n Category: 'Well' \n Upgrades Summoned Lone Towers."
-END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlatingFortress_New
 "Increases Fortress and Wall armor \n Pre-requisite to Wizard's Tower \n Upgrades Summoned Lone Towers."
-END
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrowsFortress_New
-"Increases the vision range of the nearby units by +10% \n Category: 'Farsight' \n Upgrades Summoned Lone Towers."
 END
 //--------------------UpgradeTowerIcons--------------------//
 CONTROLBAR:UpgradeTowerRangeBonusUpgradeIcon_New
@@ -1235,14 +1222,6 @@ CONTROLBAR:LurtzSummonUrukGuardDesc_New
 "Requires Level 10 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
-"The Fortress gains a vision bonus and can detect stealthed units \n Player units in the map gain +15% speed \n Category: 'Bat Cloud'"
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
-"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Well'"
-END
-//---------------------------------------------------
 //	CONTROLBAR:AzogChildsPrerequisite_New
 //	"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
 //	End
@@ -1314,6 +1293,15 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs_New
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress \n Nearby units gain experience 50% faster \n Category: 'Well' \n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavationsFortress_New
+"Heals nearby Allies. \n Replenish units from hordes each 10 seconds.\n Reduces the cost of Isengard structures and walls by -15%. \n Nearby units gain experience 50% faster \n Category: 'Well' \n Upgrades Summoned Lone Towers."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat_New
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
+"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units\n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructGarrisonUpgrade_New
@@ -2095,6 +2083,20 @@ End
 CONTROLBAR:TooltipRallyingCall_New
 "Targeted allies gain +50% Damage \n Category: 'War_Chant' \n Left click icon then left click on target units"
 END
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud_New
+"Increases the vision range of the nearby units by +10%. \n Category: 'Farsight' "
+END
+TOOLTIP:ToolTipPurchaseUpgradeFortressRange_New
+"Increases the vision range of the nearby units by +10% \n Category: 'Farsight' \n Upgrades Summoned Lone Towers."
+END
+TOOLTIP:IsengardToolTipPurchasedBothBannerAndHeal_New
+"Murder of Crows purchased: Nearby allied units gain +10% range. \n Category: 'Farsight' \n Excavations purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster\n Category: 'Well'"
+END
+TOOLTIP:FortressAllThreeUpgradesPurchasedToolTip_New
+"Dragon Nest upgrade purchased: \n Nearby allied units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Bat Cloud purchased: Nearby allied units gain +10% range. \n Category: 'Farsight' \n Razors purchased: \n Nearby units gain experience 50% faster\n Category: 'Well'"
+END
+//--------------------------------------------------//
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners_New
 "Banner upgrade purchased: Nearby allied units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant'"
 END
@@ -2110,15 +2112,23 @@ END
 CONTROLBAR:AzogLeadershipDesc_New
 "Requires Level 2 \n Allies near Azog gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High-tier Hero \n Passive ability"
 End
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
+"Allies near the Fortress gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%. \n Reduces hero recruit time by 10%. \n Reduces the cost of builders by 20%."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest_New
+"Allies near the Fortress gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%. \n Reduces hero recruit time by 10%. \n Reduces the cost of builders by 20%."
+END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
+"Allies near the Fortress gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%. \n Reduces hero recruit time by 10%. \n Reduces the cost of builders by 20%.\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners_New
-"Allies near Fortress gain \n +35% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
+"Allies near the Fortress gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%. \n Reduces hero recruit time by 10%. \n Reduces the cost of builders by 20%.\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres_New
-"Provides 35% damage and 25% experience to nearby troops \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near the Fortress gain +35% Damage \n and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of heroes by 10%. \n Reduces hero recruit time by 10%. \n Reduces the cost of builders by 20%."
 END
+//-------------------------------------------------
 CONTROLBAR:BlackRiderLeadershipDesc_New
 "Requires Level 2 \n Allies near the Nazgul gain +35% Damage \n Category: 'War_Chant' \n Passive ability"
 END
