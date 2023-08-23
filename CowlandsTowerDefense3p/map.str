@@ -5,6 +5,13 @@
 
 
 //--------------------------------------------------------------
+CONTROLBAR:ToolTipWargRiderHowl_New
+"Requires Level 6 \n Nearby units temporally gain +100% damage and earn experience 50% faster. \n Category: Non stacky leadership \n\n Gothmog has to be mounted. \n Left click to activate"
+END
+CONTROLBAR:GenericMountTooltip_New
+"Requires Level 3 \n Left click to switch between \n mounted and on foot"
+END
+//--------------------------------------------------------------
 CONTROLBAR:ElrondToggle_New
 "Toggle Weapon (&R)"
 END
@@ -245,7 +252,7 @@ CONTROLBAR:ConstructBattleTowerLevel2Upgrade_New
 "&Upgrade this tower"
 END
 CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
-"Adds one more garrisonable slot"
+"Adds one more garrisonable slot \n Loses current Silverthorn/Fire arrow upgrade"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelWindRider_New
@@ -309,7 +316,7 @@ CONTROLBAR:CalltheHorde_New
 "Call the Hordes (&V)"
 End
 CONTROLBAR:ToolTipCalltheHorde_New
-"Requires Level 8 \n Summons several hordes of orcs fighters to slow down the path of your enemies \n Left click icon then left click on pathable location"
+"Requires Level 10 \n Summons several hordes of orcs fighters to slow down the path of your enemies \n Left click icon then left click on pathable location"
 END
 //--------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak_New
