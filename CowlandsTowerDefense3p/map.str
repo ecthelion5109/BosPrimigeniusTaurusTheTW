@@ -1200,7 +1200,7 @@ CONTROLBAR:PurchaseTechnologyMordorEliteTraining_New
 "Research Rhun Elite Trai&ning"
 END
 CONTROLBAR:PurchaseTechnologyDwarvenEliteTraining_New
-"Research Dale Elite Trai&ning"
+"Research &Dale Elite Training"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeDwarvenEliteTraining_New
